@@ -314,7 +314,7 @@ This is the **null matrix**, which violates the constraint $\beta^2 = 1$. Hence,
 
 ## 4×4 Matrix Solution to the Dirac Equation
 
-So there is, once again, a violation of the constraints. It would be natural for someone to give up by now but not this guys. Matter of fact, he doubled down. Literally. He went one step further and imagined the matrices $\alpha$ to be $4 \times 4$ matrices, posed as block forms made of $2 \times 2$ matrices.
+So there is, once again, a violation of the constraints. It would be natural for someone to give up by now but not this guys. Matter of fact, he doubled down. Literally. He went one step further and imagined the matrices $\alpha$ to be $4 \times 4$ matrices, posed as block forms made of $2 \times 2$ matrices. 
 
 The form is as follows:
 
@@ -345,63 +345,49 @@ $$
 \end{bmatrix}
 $$
 
-The beauty of this formalism lies in the fact that all the previous constraints are still satisfied.  
-The only difference is that instead of $2 \times 2$ matrices of scalars, we now use $4 \times 4$ matrices made from $2 \times 2$ matrix blocks.
-
----
-
-## Verifying Anticommutation Constraints
----
+The beauty of this formalism lies in the fact that all the previous constraints are still satisfied. The only difference is that instead of $2 \times 2$ matrices of scalars, we now use $4 \times 4$ matrices made from $2 \times 2$ matrix blocks.
 Let’s test the anticommutation relation between $\alpha_x$ and $\alpha_y$:
+
 
 $$
 \alpha_x \alpha_y + \alpha_y \alpha_x =
 \begin{bmatrix}
 \sigma_x \sigma_y + \sigma_y \sigma_x & 0 \\
 0 & \sigma_x \sigma_y + \sigma_y \sigma_x
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
-0_{2\times2} & 0_{2\times2} \\
-0_{2\times2} & 0_{2\times2}
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
 \end{bmatrix}
-= 0_{4\times4}
 $$
 
 Now for $\alpha_x^2$:
 
-$$
-\alpha_x^2 = 
+$$\alpha_x^2 =
 \begin{bmatrix}
 \sigma_x^2 & 0 \\
 0 & \sigma_x^2
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
-\mathbb{I}_{2\times2} & 0 \\
-0 & \mathbb{I}_{2\times2}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
 \end{bmatrix}
-= \mathbb{I}_{4\times4}
 $$
 
-The same applies for $\alpha_y^2$ and $\alpha_z^2$, satisfying:
-
+The same applies to $\alpha_y^2$ and $\alpha_z^2$, confirming:
 - $\alpha_i \alpha_j + \alpha_j \alpha_i = 0$ for $i \ne j$
 - $\alpha_i^2 = \mathbb{I}$
 
----
 
-## Extending to $\beta$ (4×4 Matrix)
 
 Let $\beta$ be:
 
 $$
 \beta =
-\begin{bmatrix}
-\mathbb{I}_{2\times2} & 0 \\
-0 & -\mathbb{I}_{2\times2}
-\end{bmatrix}
-=
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -410,25 +396,40 @@ $$
 \end{bmatrix}
 $$
 
-This choice satisfies the crucial condition:
+This satisfies:
 
 $$
-\beta^2 = 
+\beta^2 =
 \begin{bmatrix}
-\mathbb{I}_{2\times2} & 0 \\
-0 & -\mathbb{I}_{2\times2}
-\end{bmatrix}^2 =
-\begin{bmatrix}
-\mathbb{I}_{2\times2} & 0 \\
-0 & \mathbb{I}_{2\times2}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
 \end{bmatrix}
-= \mathbb{I}_{4\times4}
+= \mathbb{I}_{4 \times 4}
 $$
 
-Now check the anticommutation relation between $\alpha_x$ and $\beta$:
+Now check the anticommutation between $\alpha_x$ and $\beta$:
 
 $$
 \alpha_x \beta + \beta \alpha_x =
+\begin{bmatrix}
+0 & \sigma_x \\
+\sigma_x & 0
+\end{bmatrix}
+\begin{bmatrix}
+\mathbb{I} & 0 \\
+0 & -\mathbb{I}
+\end{bmatrix}
++
+\begin{bmatrix}
+\mathbb{I} & 0 \\
+0 & -\mathbb{I}
+\end{bmatrix}
+\begin{bmatrix}
+0 & \sigma_x \\
+\sigma_x & 0
+\end{bmatrix}=
 \begin{bmatrix}
 0 & -\sigma_x \\
 \sigma_x & 0
@@ -437,57 +438,152 @@ $$
 \begin{bmatrix}
 0 & \sigma_x \\
 -\sigma_x & 0
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
-0_{2\times2} & 0_{2\times2} \\
-0_{2\times2} & 0_{2\times2}
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
 \end{bmatrix}
-= 0_{4\times4}
 $$
 
-Thus, this construction **satisfies all of Dirac's constraints**, confirming that **$4 \times 4$ matrices are the minimal representation** necessary to maintain compatibility with both quantum mechanics and special relativity.
+Hence, all of Dirac's constraints are satisfied. This confirms that $4 \times 4$ matrices are the minimal representation that preserves both Lorentz invariance and compatibility with quantum mechanics.
 
 
 
 
+Let $\beta$ be:
 
+$$
+\beta =
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & -1 & 0 \\
+0 & 0 & 0 & -1
+\end{bmatrix}
+$$
 
-## Final Dirac Equation
+This choice satisfies the condition:
 
-Return to:
+$$
+\beta^2 =
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
 
-`$E\psi = (\alpha_x p_x + \alpha_y p_y + \alpha_z p_z)c \psi + \beta mc^2 \psi$`
+Now check the anticommutation relation between $\alpha_x$ and $\beta$:
 
-Promote to operators:
+$$
+\alpha_x \beta + \beta \alpha_x =
+\begin{bmatrix}
+0 & \sigma_x \\
+\sigma_x & 0
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 \\
+0 & -1
+\end{bmatrix}
++
+\begin{bmatrix}
+1 & 0 \\
+0 & -1
+\end{bmatrix}
+\begin{bmatrix}
+0 & \sigma_x \\
+\sigma_x & 0
+\end{bmatrix}=
+\begin{bmatrix}
+0 & -\sigma_x \\
+\sigma_x & 0
+\end{bmatrix}
++
+\begin{bmatrix}
+0 & \sigma_x \\
+-\sigma_x & 0
+\end{bmatrix}=
+\begin{bmatrix}
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{bmatrix}
+$$
 
-`$i\hbar \frac{\partial \psi}{\partial t} = -i\hbar c (\alpha_x \frac{\partial}{\partial x} + \alpha_y \frac{\partial}{\partial y} + \alpha_z \frac{\partial}{\partial z}) \psi + \beta mc^2 \psi$`
+Thus, this construction satisfies all of Dirac’s constraints, confirming that $4 \times 4$ matrices are the minimal representation necessary to maintain compatibility with both quantum mechanics and special relativity. This derivation was long, but it involved the most simple matrix algebra that I hope you were able follow.
+
+## Operator Form of the Dirac Equation
+
+Now that we have attained equations that satisfy all constraints simultaneously, let's go back to the earlier form of the energy equation.
+
+Energy was written as a linear combination of momentum. Now apply the momentum and energy operators to a wavefunction $\psi$ so
+
+$$
+E \psi = (\alpha_x p_x + \alpha_y p_y + \alpha_z p_z)c \psi + \beta m c^2 \psi
+$$
+
+becomes:
+
+$$
+i\hbar \frac{\partial \psi}{\partial t} = -i\hbar c \left( \alpha_x \frac{\partial \psi}{\partial x} + \alpha_y \frac{\partial \psi}{\partial y} + \alpha_z \frac{\partial \psi}{\partial z} \right) + \beta m c^2 \psi
+$$
 
 ---
 
-## Covariant Form of Dirac Equation
+## Covariant Form of the Dirac Equation
 
-Define gamma matrices:
+We have obtained the time-dependent Dirac equation, but this form is not readily found in textbooks. To simplify, we assume **natural units** where $\hbar = c = 1$.
 
-`$ \gamma^0 = \beta, \quad \gamma^i = \beta \alpha_i \ (i = 1,2,3) $`
+Defining the gamma matrices as:
 
-Define:
+$$
+\gamma^0 = \beta, \quad \gamma^i = \beta \alpha_i \quad (i = x, y, z)
+$$
 
-`$ \partial_\mu = \left( \frac{\partial}{\partial t}, -\nabla \right), \quad \gamma^\mu = (\gamma^0, \gamma^1, \gamma^2, \gamma^3) $`
+Also defining the spacetime 4-gradient (which is a fancy way of saying that we are account for all dimensions, the 3 of space and 1 of time):
 
-Then the compact covariant form becomes:
+$$
+\partial_\mu = \left( \frac{1}{c} \frac{\partial}{\partial t}, -\nabla \right), \quad
+\text{and } \gamma^\mu = (\gamma^0, \gamma^1, \gamma^2, \gamma^3)
+$$
 
-**(21)**  
-`$ \boxed{(i\hbar \gamma^\mu \partial_\mu - mc)\psi = 0} $`
+This allows us to write the Dirac equation more compactly:
 
----
+$$
+\left( i\hbar \sum_{\mu = 0}^3 \gamma^\mu \partial_\mu - m c \right) \psi = 0
+$$
 
-Let me know if you'd like this exported as a file (`.md`) or embedded directly into your blog structure.
+Using the **Einstein summation convention**, we drop the summation symbol:
+
+$$
+\boxed{(i\hbar \gamma^\mu \partial_\mu - m c)\psi = 0}
+$$
+
+which gives us the Dirac equation in its most minimal and elegant form. This equation solved everything as it was relativistically correct and therefore computes the energy levels of the Hyfrogen atom better than the Schrodinger equation. It introduces no negative probability density anomalies and remarkably also predicts spin states and anti-particles. Since the derivative is a 4-vector so must be the wavefunction. Its four components allows for the elegant inclusion of both the spin states of, both, the particle and its anti-particle counterpart. .I can go on with details since this is just the beginning of particle physics, but lets leave the Dirac wavefunction for another blog. This remains, to date, the most complete equation in all of quantum mechanics. Remarkably, the equation remains obscure to many due to the mathematical complexity involved. This elegant formalism allows interpretation of negative energy solutions as antiparticles, which were later explained by **Richard Feynman** as normal particles traveling **back in time**. BUT, the shortcomings never end...
 
 
+## The Strong Force Problem
+
+The Dirac equation still fails to account for the **strong interaction**, the binding force at the core of the atomic nucleus. This challenge lies at the heart of **nuclear physics**. The difficulty is embedded in the **fine-structure constant**:
+
+$$
+\alpha = \frac{\alpha_{\text{EM}}}{\alpha_{\text{SF}}} = \frac{e^2}{4\pi \epsilon_0 \hbar c} \approx \frac{1}{137}
+$$
+
+At low energies, the strong force coupling becomes dangerously close to 1. This presents a major issue for **perturbative methods**, which expand physical quantities as power series in the coupling constant.
+
+The general perturbative series looks like:
+
+$$
+A(\alpha) = \sum_{i=0}^n \alpha^i A^{(i)} = A^{(0)} + \alpha A^{(1)} + \alpha^2 A^{(2)} + \cdots + \alpha^n A^{(n)}
+$$
+When $\alpha \geq 1$, the series diverges, rendering all of our known analytical treatments as useless. So the next time you are part of nuclear physics lecture, know that every single potential and equation that invloves the strong nuclear force is an approximation that fits experiments and has not be analytically derived. 
+And who knows, maybe if you can figure out a way to solve problems the same way Dirac did, you might be able to figure this out. At that point, you would have a realistic shot of being nominated as a Noble Prize laureate. 
+
+Thank you for making it this far, and as always, keep on physicsing. 
 
 
-
-
-
-Ask ChatGPT
