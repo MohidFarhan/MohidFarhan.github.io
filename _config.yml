@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Mohid Farhan"
   avatar : "/assets/images/profile.jpg"  # Optional: upload a profile image there
-  bio    : "Physics undergrad | Cosmology and Quantum junkie | Blogging the dark universe, one post at a time."
+  bio    : "Physics undergrad | Cosmology and Quantum junkie | Blogging the dark universe."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
