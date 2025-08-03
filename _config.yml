@@ -67,27 +67,25 @@ footer:
       url: "mailto:mohidf35@gmail.com"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
+      use_math: true
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-      mathjax: true  
 
-  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
+      use_math: true
       layout: single
       author_profile: true
-      mathjax: true 
 
 category_archive:
   type: liquid
