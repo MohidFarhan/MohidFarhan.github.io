@@ -18,16 +18,16 @@ Welcome to this blog series where the objective is to spread science and make di
 The well-known Schrödinger equation is given by:
 
 $$
-i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r}, t) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r}, t) \right] \psi(\mathbf{r}, t)
+i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r}, t) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r}, t) \right] \psi(\mathbf{r}, t)-----------(1)
 $$  
------------(1)
+
 
 This equation is a cornerstone of Quantum Mechanics. It provides accurate predictions for many atomic and molecular systems. In essence, it is an energy conservation equation which states the total energy operator  of a particle is the sum of its kinetic energy operator and potential energy operator. The first term on the left hand side arises from the time-dependent Schrödinger equation which captures the evolution of the state. It is a first-order partial differential equation, which means that once the wavefunction \\( \psi(\mathbf{r}, t) \\) is known, we can determine the evolution of the particle , with time-independent potential, using:
 
 $$
-\psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}
+\psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}-----------(2)
 $$  
------------(2)
+
 
 The probability density associated with the wavefunction is given by:
 
