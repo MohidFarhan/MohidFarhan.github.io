@@ -2,7 +2,7 @@
 title: "Limitations of the Schrödinger Equation and the Birth of Particle Physics"
 date: 2025-08-02
 categories: [Cosmology, Relativistic Quantum Mechanics, Particle Physics, Relativity]
-mathjax: true
+use_math: true
 layout: single
 author_profile: true
 read_time: true
