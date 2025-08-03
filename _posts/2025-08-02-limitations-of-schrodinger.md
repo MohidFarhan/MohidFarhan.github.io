@@ -10,7 +10,10 @@ comments: true
 share: true
 related: true
 ---
+
 {% raw %}
+
+
 ## Introduction
 
 Welcome to this blog series where the objective is to spread science and make difficult concepts digestible. The content of this blog is for an audience familiar with basic Quantum Mechanics and concepts of matrices. I will show you that with such basic tools, one can track all the way back to the founding equation of particle physics which governs our universe. However, be advised, this blog series is not for the faint-hearted. You must take on the math
