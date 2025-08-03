@@ -9,6 +9,7 @@ read_time: true
 comments: true
 share: true
 related: true
+excerpt: "Why the Schrödinger equation fails to describe relativistic particles — and how the Dirac equation saves the day."
 ---
 
 ## Introduction
