@@ -410,10 +410,10 @@ i & 0 & 0 & 0
 $$
 
 $$
-\alpha_z = =\begin{pmatrix}
+\alpha_z = \begin{pmatrix}
 0 & \sigma_z \\
 \sigma_z & 0
-\end{pmatrix}\begin{bmatrix}
+\end{pmatrix} = \begin{bmatrix}
 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & -1 \\
 1 & 0 & 0 & 0 \\
