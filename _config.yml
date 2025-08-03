@@ -23,6 +23,7 @@ paginate_path: /page:num/
 
 include:
   - _pages
+  - _includes/head/custom.html
 
 # Plugins (used by GitHub Pages)
 plugins:
