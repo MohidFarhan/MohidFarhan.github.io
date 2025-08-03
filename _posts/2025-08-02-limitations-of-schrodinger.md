@@ -17,47 +17,80 @@ Welcome to this blog series where the objective is to spread science and make di
 
 The well-known Schrödinger equation is given by:
 
-$i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r}, t) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r}, t) \right] \psi(\mathbf{r}, t)$ &nbsp; -----------(1)
+\\[
+i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r}, t) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r}, t) \right] \psi(\mathbf{r}, t)
+\\]  
+-----------(1)
 
-This equation is a cornerstone of Quantum Mechanics. It provides accurate predictions for many atomic and molecular systems. In essence, it is an energy conservation equation which states the total energy operator  of a particle is the sum of its kinetic energy operator and potential energy operator. The first term on the left hand side arises from the time-dependent Schrödinger equation which captures the evolution of the state. It is a first-order partial differential equation, which means that once the wavefunction $\psi(\mathbf{r}, t)$ is known, we can determine the evolution of the particle , with time-independent potential, using:
+This equation is a cornerstone of Quantum Mechanics. It provides accurate predictions for many atomic and molecular systems. In essence, it is an energy conservation equation which states the total energy operator  of a particle is the sum of its kinetic energy operator and potential energy operator. The first term on the left hand side arises from the time-dependent Schrödinger equation which captures the evolution of the state. It is a first-order partial differential equation, which means that once the wavefunction \\( \psi(\mathbf{r}, t) \\) is known, we can determine the evolution of the particle , with time-independent potential, using:
 
-$\psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}$ &nbsp; -----------(2)
+\\[
+\psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}
+\\]  
+-----------(2)
 
 The probability density associated with the wavefunction is given by:
 
-$\rho(\mathbf{r}, t) = |\psi(\mathbf{r}, t)|^2$ &nbsp; -----------(3)
+\\[
+\rho(\mathbf{r}, t) = |\psi(\mathbf{r}, t)|^2
+\\]  
+-----------(3)
 
 ## The Continuity Equation for the Schrödinger Equation
 
-Let's do a simple analysis of this equation using the continuity equation. If you are familiar with electromagnetic theory, this equation governs how the movement of charge density ($\rho$) influences the divergence of current density (j). In EMT, this equation is responsible for the conservation of charge. 
+Let's do a simple analysis of this equation using the continuity equation. If you are familiar with electromagnetic theory, this equation governs how the movement of charge density (\\( \rho \\)) influences the divergence of current density (j). In EMT, this equation is responsible for the conservation of charge. 
 
- $\frac{d}{dt}\int\rho(\mathbf{r},t)d^3x=-\int j(\mathbf{r},t)dS $
+\\[
+\frac{d}{dt}\int\rho(\mathbf{r},t)d^3x=-\int j(\mathbf{r},t)dS
+\\]
 
- Using the Gauss Divergence theorem:
- 
- $\frac{d}{dt}\int\rho(\mathbf{r},t)d^3x=-\int \nabla.j(\mathbf{r},t)d^3x$
+Using the Gauss Divergence theorem:
 
- Integrating over finite or closed volume yields the continuity equation.
- 
- $\frac{d\rho}{dt}+\nabla.j=0$
+\\[
+\frac{d}{dt}\int\rho(\mathbf{r},t)d^3x=-\int \nabla \cdot j(\mathbf{r},t)\, d^3x
+\\]
 
- Remarkably, the same treatment can be applied to the Schrodinger equation and conserve another crucial quantity. We begin with the time-dependent Schrödinger equation:
+Integrating over finite or closed volume yields the continuity equation:
 
-$i\hbar \frac{\partial \psi}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi$ &nbsp; -----------(4)
+\\[
+\frac{d\rho}{dt}+\nabla \cdot j=0
+\\]
 
-and taking the complex conjugate of both sides, we get:
+Remarkably, the same treatment can be applied to the Schrödinger equation and conserve another crucial quantity. We begin with the time-dependent Schrödinger equation:
 
-$-i\hbar \frac{\partial \psi^\star}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi^\star$ &nbsp; -----------(5)
+\\[
+i\hbar \frac{\partial \psi}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi
+\\]  
+-----------(4)
 
-Now multiply Eq. (4) by $\psi^\star$ and Eq. (5) by $\psi$:
+And taking the complex conjugate of both sides, we get:
 
-$\psi^\star i\hbar \frac{\partial \psi}{\partial t} = \psi^\star \left( -\frac{\hbar^2}{2m} \nabla^2 \psi + V\psi \right)$ &nbsp; -----------(6)
+\\[
+-i\hbar \frac{\partial \psi^\star}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi^\star
+\\]  
+-----------(5)
 
-$\psi (-i\hbar) \frac{\partial \psi^\star}{\partial t} = \psi \left( -\frac{\hbar^2}{2m} \nabla^2 \psi^\star + V\psi^\star \right)$ &nbsp; -----------(7)
+Now multiply Eq. (4) by \\( \psi^\star \\) and Eq. (5) by \\( \psi \\):
+
+\\[
+\psi^\star i\hbar \frac{\partial \psi}{\partial t} = \psi^\star \left( -\frac{\hbar^2}{2m} \nabla^2 \psi + V\psi \right)
+\\]  
+-----------(6)
+
+\\[
+\psi (-i\hbar) \frac{\partial \psi^\star}{\partial t} = \psi \left( -\frac{\hbar^2}{2m} \nabla^2 \psi^\star + V\psi^\star \right)
+\\]  
+-----------(7)
 
 Subtracting the two equations:
 
-$i\hbar \left( \psi^\star \frac{\partial \psi}{\partial t} + \psi \frac{\partial \psi^\star}{\partial t} \right) = -\frac{\hbar^2}{2m} \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right)$ &nbsp; -----------(8)
+\\[
+i\hbar \left( \psi^\star \frac{\partial \psi}{\partial t} + \psi \frac{\partial \psi^\star}{\partial t} \right) = -\frac{\hbar^2}{2m} \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right)
+\\]  
+-----------(8)
+
+...
+
 
 Note that the terms containing the potential V cancel out. We now take $i\hbar$ on the other side, and subtract both terms:
 
