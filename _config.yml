@@ -1,11 +1,11 @@
-title: Mohid Farhan | Exploring the Physics of the Universe
+title: "Mohid Farhan | Exploring the Physics of the Universe"
 email: mohidf35@gmail.com
 description: "A physics blog exploring quantum mechanics, relativity, and the universe's hidden structure. Created by Mohid Farhan."
 github_username: MohidFarhan
 minimal_mistakes_skin: default
 search: true
 
-# Enable MathJax globally
+# Math support
 mathjax: true
 
 # Build settings
@@ -15,15 +15,16 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
+timezone: Asia/Karachi
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: Asia/Karachi
 
 include:
   - _pages
 
+# Plugins (used by GitHub Pages)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -53,6 +54,7 @@ footer:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:mohidf35@gmail.com"
 
+# Defaults for posts and pages
 defaults:
   - scope:
       path: ""
@@ -74,6 +76,7 @@ defaults:
       use_math: true
       author_profile: true
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -81,6 +84,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
 
 
 
