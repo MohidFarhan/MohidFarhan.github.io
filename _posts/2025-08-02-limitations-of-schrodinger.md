@@ -33,8 +33,7 @@ The probability density associated with the wavefunction is given by:
 
 $$
 \rho(\mathbf{r}, t) = |\psi(\mathbf{r}, t)|^2
-$$  
------------(3)
+$$&nbsp; -----------(3)
 
 ## The Continuity Equation for the Schrödinger Equation
 
@@ -60,34 +59,29 @@ Remarkably, the same treatment can be applied to the Schrödinger equation and c
 
 $$
 i\hbar \frac{\partial \psi}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi
-$$  
------------(4)
+$$&nbsp; -----------(4)
 
 And taking the complex conjugate of both sides, we get:
 
 $$
 -i\hbar \frac{\partial \psi^\star}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi^\star
-$$  
------------(5)
+$$&nbsp; -----------(5)
 
 Now multiply Eq. (4) by \\( \psi^\star \\) and Eq. (5) by \\( \psi \\):
 
 $$
 \psi^\star i\hbar \frac{\partial \psi}{\partial t} = \psi^\star \left( -\frac{\hbar^2}{2m} \nabla^2 \psi + V\psi \right)
-$$  
------------(6)
+$$&nbsp; -----------(6)
 
 $$
 \psi (-i\hbar) \frac{\partial \psi^\star}{\partial t} = \psi \left( -\frac{\hbar^2}{2m} \nabla^2 \psi^\star + V\psi^\star \right)
-$$  
---------(7)
+$$&nbsp; --------(7)
 
 Subtracting the two equations:
 
 $$
 i\hbar \left( \psi^\star \frac{\partial \psi}{\partial t} + \psi \frac{\partial \psi^\star}{\partial t} \right) = -\frac{\hbar^2}{2m} \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right)
-$$  
------------(8)
+$$&nbsp; -----------(8)
 
 Note that the terms containing the potential V cancel out. We now take $$i\hbar$$ on the other side, and subtract both terms:
 
