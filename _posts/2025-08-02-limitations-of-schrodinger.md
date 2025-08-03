@@ -26,7 +26,7 @@ This equation is a cornerstone of Quantum Mechanics. It provides accurate predic
 
 $$
 \psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}
-$$&nbsp; -----------(9)
+$$&nbsp; -----------(2)
 
 
 The probability density associated with the wavefunction is given by:
@@ -80,7 +80,7 @@ $$
 $$
 \psi (-i\hbar) \frac{\partial \psi^\star}{\partial t} = \psi \left( -\frac{\hbar^2}{2m} \nabla^2 \psi^\star + V\psi^\star \right)
 $$  
------------(7)
+--------(7)
 
 Subtracting the two equations:
 
@@ -89,30 +89,39 @@ i\hbar \left( \psi^\star \frac{\partial \psi}{\partial t} + \psi \frac{\partial 
 $$  
 -----------(8)
 
-...
-
-
 Note that the terms containing the potential V cancel out. We now take $$i\hbar$$ on the other side, and subtract both terms:
 
-$$\frac{\partial}{\partial t} (\psi^\star \psi) - \nabla \cdot \left[ \frac{-i\hbar}{2m} \left( \psi^\star \nabla \psi - \psi \nabla \psi^\star \right) \right] = 0$$ &nbsp; ----------($$8^*$$)
+$$
+\frac{\partial}{\partial t} (\psi^\star \psi) - \nabla \cdot \left[ \frac{-i\hbar}{2m} \left( \psi^\star \nabla \psi - \psi \nabla \psi^\star \right) \right] = 0
+$$ ----------(8b)
 
 Recognizing the first term on the left-hand side as the time derivative of the probability density:
 
-$$\frac{\partial}{\partial t} (\psi^\star \psi) = \frac{\partial \rho}{\partial t}$$ &nbsp; -----------(9)
+$$
+\frac{\partial}{\partial t} (\psi^\star \psi) = \frac{\partial \rho}{\partial t}
+$$ &nbsp; -----------(9)
 
 The second left-hand side term becomes the divergence of current density j:
 
-$$\nabla \cdot \left( \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star) \right)$$ &nbsp; -----------(10)
+$$
+\nabla \cdot \left( \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star) \right)
+$$ &nbsp; -----------(10)
 
 Substituting (9) and (10) into ($$8^*$$), we obtain the continuity equation:
 
-$$\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0$$ &nbsp; -----------(11)
+$$
+\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0
+$$ &nbsp; -----------(11)
 
 Where:
 
-$$\rho = \psi^\star \psi$$ &nbsp; -----------(12)
+$$
+\rho = \psi^\star \psi
+$$ &nbsp; -----------(12)
 
-$$\mathbf{j} = \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star)$$ &nbsp; -----------(13)
+$$
+\mathbf{j} = \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star)
+$$ &nbsp; -----------(13)
 
 In this case, we find that the equation that was used to conserve charge in a seemingly unrelated context of EMT also applies to Quantum Mechanics to conserve probability. An important takeaway here is the fact that probability density is always positive. This is the beauty of physics, where all different scenarios are fundamentally governed by conservation mechanisms. Such mechanisms will be extensively discussed in future blogs.
 
@@ -122,62 +131,93 @@ For the Schrodinger equation, the positive probability density is a physically v
 
 We begin with the relativistic energy-momentum relation:
 
-$$E^2 = p^2c^2 + m^2c^4$$   -----------(14)
+$$
+E^2 = p^2c^2 + m^2c^4
+$$   -----------(14)
 
 Now we promote energy and momentum to operators in quantum mechanics:
 
-$$E \rightarrow i\hbar \frac{\partial}{\partial t}, \quad \mathbf{p} \rightarrow -i\hbar \nabla$$   -----------(15)
+$$
+E \rightarrow i\hbar \frac{\partial}{\partial t}, \quad \mathbf{p} \rightarrow -i\hbar \nabla
+$$   -----------(15)
 
 Applying the operators in (15) and a wavefunction $$\psi$$ onto (14), we get:
 
-$$(i\hbar \frac{\partial}{\partial t})^2 \psi = \left[ (-i\hbar \nabla)^2 c^2 + m^2 c^4 \right] \psi$$   
+$$
+(i\hbar \frac{\partial}{\partial t})^2 \psi = \left[ (-i\hbar \nabla)^2 c^2 + m^2 c^4 \right] \psi
+$$   
 
 This simplifies to:
 
-$$- \hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left[ -\hbar^2 c^2 \nabla^2 + m^2 c^4 \right] \psi$$   
+$$
+-\hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left[ -\hbar^2 c^2 \nabla^2 + m^2 c^4 \right] \psi
+$$   
 
 Rearranging terms gives:
 
-$$\frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi + \left( \frac{m^2 c^4}{\hbar^2} \right) \psi = 0$$ --------(16) 
+$$
+\frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi + \left( \frac{m^2 c^4}{\hbar^2} \right) \psi = 0
+$$ --------(16) 
 
 This is the Klein-Gordon equation in its expanded form.
 
 We can now write it in a more compact and relativistically manifest form:
 
-$$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0$$  
+$$
+\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0
+$$  
 
 This equation, developed by Oskar Klein and Walter Gordon, is Lorentz invariant and thus compatible with special relativity. However, in doing so, we have introduced other glaring issues. First of all, it is second-order in time, meaning that the wavefunction $$\psi(\mathbf{r}, t)$$ alone is not sufficient to determine the system's evolution. This violates a fundamental postulate of quantum mechanics, which states that the dynamics of a system can be determined if its wavefunction is known. But here, especially for a relativistically relevant case, we require complete information about the wavefunction and its first order derivative to determine dynamics. Also, this equation does not mention spin or predict antiparticles, painting an incomplete picture. Among its flaws is the failure to accurately reproduce the energy levels of hydrogen and the fine-structure constant. It might, at this point, appear that I have personal issues with this equation though I assure you that is not the case. And unfortunately its problems do not stop here either, as deriving the continuity equation from the Klein-Gordon equation reveals another critical discrepancy.
 
 ## Continuity Equation for Klein-Gordon
 The procedure that was applied on the Schrodinger equation will be repeated here but all important steps will be displayed so its easier to follow. The Klein-Gordon equation is:
 
-$$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0$$
+$$
+\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0
+$$
 
 Its complex conjugate is:
 
-$$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi^\star = 0$$
+$$
+\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi^\star = 0
+$$
 
 Now multiply Eq. (1) by $$\psi^\star$$ and Eq. (2) by $$\psi$$, and subtract the two:
 
-$$\psi^\star \frac{\partial^2 \psi}{\partial t^2} - \psi \frac{\partial^2 \psi^\star}{\partial t^2} - c^2 \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right) = 0$$  
+$$
+\psi^\star \frac{\partial^2 \psi}{\partial t^2} - \psi \frac{\partial^2 \psi^\star}{\partial t^2} - c^2 \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right) = 0
+$$  
 
 Using the product rule identities, this becomes:
 
-$$\frac{\partial}{\partial t} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right) + c^2 \nabla \cdot \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right) = 0$$   
+$$
+\frac{\partial}{\partial t} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right) + c^2 \nabla \cdot \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right) = 0
+$$   
 
 To make the dimensions consistent with the continuity equation, we define the probability density and current as:
 
-$$\rho = \frac{i\hbar}{2mc^2} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right)$$   
+$$
+\rho = \frac{i\hbar}{2mc^2} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right)
+$$   
 
-$$\mathbf{j} = \frac{i\hbar}{2m} \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right)$$   
+$$
+\mathbf{j} = \frac{i\hbar}{2m} \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right)
+$$   
 
 We now obtain the continuity equation in the usual form:
 
-$$\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0$$  
+$$
+\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0
+$$  
 
 This looks familiar — but there's a problem. The expression for $$\rho$$ can be negative if the second term in Eq. (5) dominates the first. That is:
 
-$$\rho < 0$$ if $$|\psi \frac{\partial \psi^\star}{\partial t}| > |\psi^\star \frac{\partial \psi}{\partial t}|$$  
+$$
+\rho < 0
+$$ if 
+$$
+|\psi \frac{\partial \psi^\star}{\partial t}| > |\psi^\star \frac{\partial \psi}{\partial t}|
+$$  
 
 This is the case when a plane-wave solution of $$\psi$$ is applied. Note that this is an oversimplification, since the deep rooted cause of negative probability density were the negative energy solutions. Since both the causes lead to the same result, i.e. negative probabilities, I stuck to the simpler solution. One can see from (14) that negative energy solutions are not only allowed but necessary, and this equation fails to make sense of such solutions. Moreover, negative probability desnity violates the probabilistic interpretation of quantum mechanics, because probability density must always be non-negative. So, in trying to make our equation relativistically correct, we have introduced a fatal flaw: the Klein-Gordon equation allows negative probabilities. And not to mention all the other red-flags that we associated with this equation but a negative probability density is considered blasphemy in quantum mechanics. 
 
@@ -208,7 +248,9 @@ $$
 In order for this expression to reduce to the relativistic energy relation $$E^2 = p^2 c^2 + m^2 c^4$$, a number of constraints must be satisfied, as the last 6 terms must vanish.
 Dirac imposed the following constraints:
 
-$$ \alpha_x^2 = \alpha_y^2 = \alpha_z^2 = 1 $$, $$ \beta^2 = 1 $$
+$$ \alpha_x^2 = \alpha_y^2 = \alpha_z^2 = 1 $$
+
+$$ \beta^2 = 1 $$
 
 $$ \alpha_i \alpha_j + \alpha_j \alpha_i = 0 $$ 
 
