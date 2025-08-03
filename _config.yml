@@ -1,4 +1,3 @@
-
 title: Mohid Farhan | Exploring the Physics of the Universe
 email: mohidf35@gmail.com
 description: "A physics blog exploring quantum mechanics, relativity, and the universe's hidden structure. Created by Mohid Farhan."
@@ -7,35 +6,24 @@ minimal_mistakes_skin: default
 search: true
 
 # Enable MathJax globally
-mathjax:
-  enable: true
-  config: "TeX-AMS-MML_HTMLorMML"
+mathjax: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
 timezone: Asia/Karachi
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -45,9 +33,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mohid Farhan"
-  avatar : "/assets/images/photo.jpg"  # Optional: upload a profile image there
-  bio    : "Physics undergrad | Cosmology and Quantum junkie | Blogging the dark universe."
+  name: "Mohid Farhan"
+  avatar: "/assets/images/photo.jpg"
+  bio: "Physics undergrad | Cosmology and Quantum junkie | Blogging the dark universe."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -55,7 +43,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:mohidf35@gmail.com"
-
 
 footer:
   links:
@@ -71,8 +58,8 @@ defaults:
       path: ""
       type: posts
     values:
-      use_math: true
       layout: single
+      use_math: true
       author_profile: true
       read_time: true
       comments: true
@@ -83,8 +70,8 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      use_math: true
       layout: single
+      use_math: true
       author_profile: true
 
 category_archive:
@@ -94,6 +81,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
 
 
 
