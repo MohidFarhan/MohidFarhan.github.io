@@ -18,15 +18,15 @@ Welcome to this blog series where the objective is to spread science and make di
 The well-known Schrödinger equation is given by:
 
 $$
-i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r}, t) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r}, t) \right] \psi(\mathbf{r}, t)-----------(1)
-$$  
+i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r}, t) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r}, t) \right] \psi(\mathbf{r}, t)
+$$&nbsp; -----------(1)  
 
 
 This equation is a cornerstone of Quantum Mechanics. It provides accurate predictions for many atomic and molecular systems. In essence, it is an energy conservation equation which states the total energy operator  of a particle is the sum of its kinetic energy operator and potential energy operator. The first term on the left hand side arises from the time-dependent Schrödinger equation which captures the evolution of the state. It is a first-order partial differential equation, which means that once the wavefunction \\( \psi(\mathbf{r}, t) \\) is known, we can determine the evolution of the particle , with time-independent potential, using:
 
 $$
-\psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}-----------(2)
-$$  
+\psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}
+$$&nbsp; -----------(9)
 
 
 The probability density associated with the wavefunction is given by:
@@ -92,27 +92,27 @@ $$
 ...
 
 
-Note that the terms containing the potential V cancel out. We now take $i\hbar$ on the other side, and subtract both terms:
+Note that the terms containing the potential V cancel out. We now take $$i\hbar$$ on the other side, and subtract both terms:
 
-$\frac{\partial}{\partial t} (\psi^\star \psi) - \nabla \cdot \left[ \frac{-i\hbar}{2m} \left( \psi^\star \nabla \psi - \psi \nabla \psi^\star \right) \right] = 0$ &nbsp; ----------($8^*$)
+$$\frac{\partial}{\partial t} (\psi^\star \psi) - \nabla \cdot \left[ \frac{-i\hbar}{2m} \left( \psi^\star \nabla \psi - \psi \nabla \psi^\star \right) \right] = 0$$ &nbsp; ----------($$8^*$$)
 
 Recognizing the first term on the left-hand side as the time derivative of the probability density:
 
-$\frac{\partial}{\partial t} (\psi^\star \psi) = \frac{\partial \rho}{\partial t}$ &nbsp; -----------(9)
+$$\frac{\partial}{\partial t} (\psi^\star \psi) = \frac{\partial \rho}{\partial t}$$ &nbsp; -----------(9)
 
 The second left-hand side term becomes the divergence of current density j:
 
-$\nabla \cdot \left( \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star) \right)$ &nbsp; -----------(10)
+$$\nabla \cdot \left( \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star) \right)$$ &nbsp; -----------(10)
 
-Substituting (9) and (10) into ($8^*$), we obtain the continuity equation:
+Substituting (9) and (10) into ($$8^*$$), we obtain the continuity equation:
 
-$\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0$ &nbsp; -----------(11)
+$$\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0$$ &nbsp; -----------(11)
 
 Where:
 
-$\rho = \psi^\star \psi$ &nbsp; -----------(12)
+$$\rho = \psi^\star \psi$$ &nbsp; -----------(12)
 
-$\mathbf{j} = \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star)$ &nbsp; -----------(13)
+$$\mathbf{j} = \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star)$$ &nbsp; -----------(13)
 
 In this case, we find that the equation that was used to conserve charge in a seemingly unrelated context of EMT also applies to Quantum Mechanics to conserve probability. An important takeaway here is the fact that probability density is always positive. This is the beauty of physics, where all different scenarios are fundamentally governed by conservation mechanisms. Such mechanisms will be extensively discussed in future blogs.
 
@@ -122,64 +122,64 @@ For the Schrodinger equation, the positive probability density is a physically v
 
 We begin with the relativistic energy-momentum relation:
 
-$E^2 = p^2c^2 + m^2c^4$   -----------(14)
+$$E^2 = p^2c^2 + m^2c^4$$   -----------(14)
 
 Now we promote energy and momentum to operators in quantum mechanics:
 
-$E \rightarrow i\hbar \frac{\partial}{\partial t}, \quad \mathbf{p} \rightarrow -i\hbar \nabla$   -----------(15)
+$$E \rightarrow i\hbar \frac{\partial}{\partial t}, \quad \mathbf{p} \rightarrow -i\hbar \nabla$$   -----------(15)
 
-Applying the operators in (15) and a wavefunction $\psi$ onto (14), we get:
+Applying the operators in (15) and a wavefunction $$\psi$$ onto (14), we get:
 
-$(i\hbar \frac{\partial}{\partial t})^2 \psi = \left[ (-i\hbar \nabla)^2 c^2 + m^2 c^4 \right] \psi$   
+$$(i\hbar \frac{\partial}{\partial t})^2 \psi = \left[ (-i\hbar \nabla)^2 c^2 + m^2 c^4 \right] \psi$$   
 
 This simplifies to:
 
-$- \hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left[ -\hbar^2 c^2 \nabla^2 + m^2 c^4 \right] \psi$   
+$$- \hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left[ -\hbar^2 c^2 \nabla^2 + m^2 c^4 \right] \psi$$   
 
 Rearranging terms gives:
 
-$\frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi + \left( \frac{m^2 c^4}{\hbar^2} \right) \psi = 0$ --------(16) 
+$$\frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi + \left( \frac{m^2 c^4}{\hbar^2} \right) \psi = 0$$ --------(16) 
 
 This is the Klein-Gordon equation in its expanded form.
 
 We can now write it in a more compact and relativistically manifest form:
 
-$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0$  
+$$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0$$  
 
-This equation, developed by Oskar Klein and Walter Gordon, is Lorentz invariant and thus compatible with special relativity. However, in doing so, we have introduced other glaring issues. First of all, it is second-order in time, meaning that the wavefunction $\psi(\mathbf{r}, t)$ alone is not sufficient to determine the system's evolution. This violates a fundamental postulate of quantum mechanics, which states that the dynamics of a system can be determined if its wavefunction is known. But here, especially for a relativistically relevant case, we require complete information about the wavefunction and its first order derivative to determine dynamics. Also, this equation does not mention spin or predict antiparticles, painting an incomplete picture. Among its flaws is the failure to accurately reproduce the energy levels of hydrogen and the fine-structure constant. It might, at this point, appear that I have personal issues with this equation though I assure you that is not the case. And unfortunately its problems do not stop here either, as deriving the continuity equation from the Klein-Gordon equation reveals another critical discrepancy.
+This equation, developed by Oskar Klein and Walter Gordon, is Lorentz invariant and thus compatible with special relativity. However, in doing so, we have introduced other glaring issues. First of all, it is second-order in time, meaning that the wavefunction $$\psi(\mathbf{r}, t)$$ alone is not sufficient to determine the system's evolution. This violates a fundamental postulate of quantum mechanics, which states that the dynamics of a system can be determined if its wavefunction is known. But here, especially for a relativistically relevant case, we require complete information about the wavefunction and its first order derivative to determine dynamics. Also, this equation does not mention spin or predict antiparticles, painting an incomplete picture. Among its flaws is the failure to accurately reproduce the energy levels of hydrogen and the fine-structure constant. It might, at this point, appear that I have personal issues with this equation though I assure you that is not the case. And unfortunately its problems do not stop here either, as deriving the continuity equation from the Klein-Gordon equation reveals another critical discrepancy.
 
 ## Continuity Equation for Klein-Gordon
 The procedure that was applied on the Schrodinger equation will be repeated here but all important steps will be displayed so its easier to follow. The Klein-Gordon equation is:
 
-$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0$
+$$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0$$
 
 Its complex conjugate is:
 
-$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi^\star = 0$
+$$\left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi^\star = 0$$
 
-Now multiply Eq. (1) by $\psi^\star$ and Eq. (2) by $\psi$, and subtract the two:
+Now multiply Eq. (1) by $$\psi^\star$$ and Eq. (2) by $$\psi$$, and subtract the two:
 
-$\psi^\star \frac{\partial^2 \psi}{\partial t^2} - \psi \frac{\partial^2 \psi^\star}{\partial t^2} - c^2 \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right) = 0$  
+$$\psi^\star \frac{\partial^2 \psi}{\partial t^2} - \psi \frac{\partial^2 \psi^\star}{\partial t^2} - c^2 \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right) = 0$$  
 
 Using the product rule identities, this becomes:
 
-$\frac{\partial}{\partial t} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right) + c^2 \nabla \cdot \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right) = 0$   
+$$\frac{\partial}{\partial t} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right) + c^2 \nabla \cdot \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right) = 0$$   
 
 To make the dimensions consistent with the continuity equation, we define the probability density and current as:
 
-$\rho = \frac{i\hbar}{2mc^2} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right)$   
+$$\rho = \frac{i\hbar}{2mc^2} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right)$$   
 
-$\mathbf{j} = \frac{i\hbar}{2m} \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right)$   
+$$\mathbf{j} = \frac{i\hbar}{2m} \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right)$$   
 
 We now obtain the continuity equation in the usual form:
 
-$\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0$  
+$$\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0$$  
 
-This looks familiar — but there's a problem. The expression for $\rho$ can be negative if the second term in Eq. (5) dominates the first. That is:
+This looks familiar — but there's a problem. The expression for $$\rho$$ can be negative if the second term in Eq. (5) dominates the first. That is:
 
-$\rho < 0$ if $|\psi \frac{\partial \psi^\star}{\partial t}| > |\psi^\star \frac{\partial \psi}{\partial t}|$  
+$$\rho < 0$$ if $$|\psi \frac{\partial \psi^\star}{\partial t}| > |\psi^\star \frac{\partial \psi}{\partial t}|$$  
 
-This is the case when a plane-wave solution of $\psi$ is applied. Note that this is an oversimplification, since the deep rooted cause of negative probability density were the negative energy solutions. Since both the causes lead to the same result, i.e. negative probabilities, I stuck to the simpler solution. One can see from (14) that negative energy solutions are not only allowed but necessary, and this equation fails to make sense of such solutions. Moreover, negative probability desnity violates the probabilistic interpretation of quantum mechanics, because probability density must always be non-negative. So, in trying to make our equation relativistically correct, we have introduced a fatal flaw: the Klein-Gordon equation allows negative probabilities. And not to mention all the other red-flags that we associated with this equation but a negative probability density is considered blasphemy in quantum mechanics. 
+This is the case when a plane-wave solution of $$\psi$$ is applied. Note that this is an oversimplification, since the deep rooted cause of negative probability density were the negative energy solutions. Since both the causes lead to the same result, i.e. negative probabilities, I stuck to the simpler solution. One can see from (14) that negative energy solutions are not only allowed but necessary, and this equation fails to make sense of such solutions. Moreover, negative probability desnity violates the probabilistic interpretation of quantum mechanics, because probability density must always be non-negative. So, in trying to make our equation relativistically correct, we have introduced a fatal flaw: the Klein-Gordon equation allows negative probabilities. And not to mention all the other red-flags that we associated with this equation but a negative probability density is considered blasphemy in quantum mechanics. 
 
 What now?
 ---
@@ -205,7 +205,7 @@ E^2 &= \alpha_x^2 p_x^2 c^2 + \alpha_y^2 p_y^2 c^2 + \alpha_z^2 p_z^2 c^2 + \bet
 $$
 
 
-In order for this expression to reduce to the relativistic energy relation $E^2 = p^2 c^2 + m^2 c^4$, a number of constraints must be satisfied, as the last 6 terms must vanish.
+In order for this expression to reduce to the relativistic energy relation $$E^2 = p^2 c^2 + m^2 c^4$$, a number of constraints must be satisfied, as the last 6 terms must vanish.
 Dirac imposed the following constraints:
 
 $$ \alpha_x^2 = \alpha_y^2 = \alpha_z^2 = 1 $$, $$ \beta^2 = 1 $$
@@ -232,13 +232,13 @@ There began the race to find a quantity that would satisfy (17)-(20) simultaneou
 
 ### Why Scalars Won’t Work
 
-Assume $\alpha$ is a scalar. Then (17) implies:
+Assume $$\alpha$$ is a scalar. Then (17) implies:
 
 $$
 \alpha_i \alpha_j = -\alpha_j \alpha_i
 $$
 
-This can only be true if either $\alpha_i = 0$ or $\alpha_j = 0$, which contradicts (19). So $\alpha$ cannot be a scalar.
+This can only be true if either $$\alpha_i = 0$$ or $$\alpha_j = 0$$, which contradicts (19). So $$\alpha$$ cannot be a scalar.
 
 ### The Pauli Matrix Attempt
 
@@ -268,7 +268,7 @@ i & 0
 \end{bmatrix}
 $$
 
-Assume a general $2 \times 2$ matrix for $\beta$:
+Assume a general $$2 \times 2$$ matrix for $$\beta$$:
 
 $$
 \beta = \begin{bmatrix}
@@ -277,7 +277,7 @@ c & d
 \end{bmatrix}
 $$
 
-Applying the anti-commutation relation with $\sigma_x$:
+Applying the anti-commutation relation with $$\sigma_x$$:
 
 $$
 \sigma_x \beta + \beta \sigma_x =
@@ -293,7 +293,7 @@ $$
 c = -b, \quad d = -a
 $$
 
-So $\beta$ becomes:
+So $$\beta$$ becomes:
 
 $$
 \beta = \begin{bmatrix}
@@ -302,7 +302,7 @@ a & b \\
 \end{bmatrix}
 $$
 
-Now test this against $\sigma_y$:
+Now test this against $$\sigma_y$$:
 
 $$
 \sigma_y \beta + \beta \sigma_y =
@@ -321,7 +321,7 @@ a & 0 \\
 \end{bmatrix}
 $$
 
-Now test this $\beta$ against $\sigma_z$:
+Now test this $$\beta$$ against $$\sigma_z$$:
 
 $$
 \sigma_z \beta + \beta \sigma_z =
@@ -340,11 +340,11 @@ $$
 \end{bmatrix}
 $$
 
-This is the **null matrix**, which violates the constraint $\beta^2 = 1$. Hence, **no $2 \times 2$ matrix can satisfy all of Dirac's anticommutation relations**. A higher-dimensional structure is necessary.
+This is the **null matrix**, which violates the constraint $$\beta^2 = 1$$. Hence, **no $$2 \times 2$$ matrix can satisfy all of Dirac's anticommutation relations**. A higher-dimensional structure is necessary.
 
 ## 4×4 Matrix Solution to the Dirac Equation
 
-So there is, once again, a violation of the constraints. It would be natural for someone to give up by now but not this guy. Matter of fact, he doubled down...Literally. He went one step further and imagined the matrices $\alpha$ to be $4 \times 4$ matrices, posed as block forms made of $2 \times 2$ matrices. 
+So there is, once again, a violation of the constraints. It would be natural for someone to give up by now but not this guy. Matter of fact, he doubled down...Literally. He went one step further and imagined the matrices $$\alpha$$ to be $$4 \times 4$$ matrices, posed as block forms made of $$2 \times 2$$ matrices. 
 
 The form is as follows:
 
@@ -385,8 +385,8 @@ $$
 \end{bmatrix}
 $$
 
-The beauty of this formalism lies in the fact that all the previous constraints are still satisfied. The only difference is that instead of $2 \times 2$ matrices of scalars, we now use $4 \times 4$ matrices made from $2 \times 2$ matrix blocks.
-Let’s test the anticommutation relation between $\alpha_x$ and $\alpha_y$:
+The beauty of this formalism lies in the fact that all the previous constraints are still satisfied. The only difference is that instead of $$2 \times 2$$ matrices of scalars, we now use $$4 \times 4$$ matrices made from $$2 \times 2$$ matrix blocks.
+Let’s test the anticommutation relation between $$\alpha_x$$ and $$\alpha_y$$:
 
 
 $$
@@ -403,7 +403,7 @@ $$
 \end{bmatrix}
 $$
 
-Now for $\alpha_x^2$:
+Now for $$\alpha_x^2$$:
 
 $$\alpha_x^2 =
 \begin{bmatrix}
@@ -418,11 +418,11 @@ $$\alpha_x^2 =
 \end{bmatrix}
 $$
 
-The same applies to $\alpha_y^2$ and $\alpha_z^2$, confirming:
-- $\alpha_i \alpha_j + \alpha_j \alpha_i = 0$ for $i \ne j$
-- $\alpha_i^2 = \mathbb{I}$
+The same applies to $$\alpha_y^2$$ and $$\alpha_z^2$$, confirming:
+- $$\alpha_i \alpha_j + \alpha_j \alpha_i = 0$$ for $$i \ne j$$
+- $$\alpha_i^2 = \mathbb{I}$$
 
-Let $\beta$ be:
+Let $$\beta$$ be:
 
 $$
 \beta =
@@ -447,7 +447,7 @@ $$
 = \mathbb{I}_{4 \times 4}
 $$
 
-Now check the anticommutation between $\alpha_x$ and $\beta$:
+Now check the anticommutation between $$\alpha_x$$ and $$\beta$$:
 
 $$
 \alpha_x \beta + \beta \alpha_x =
@@ -486,7 +486,7 @@ $$
 $$
 
 
-Let $\beta$ be:
+Let $$\beta$$ be:
 
 $$
 \beta =
@@ -510,7 +510,7 @@ $$
 \end{bmatrix}
 $$
 
-Now check the anticommutation relation between $\alpha_x$ and $\beta$:
+Now check the anticommutation relation between $$\alpha_x$$ and $$\beta$$:
 
 $$
 \alpha_x \beta + \beta \alpha_x =
@@ -548,11 +548,11 @@ $$
 \end{bmatrix}
 $$
 
-Thus, this construction satisfies all of Dirac’s constraints, confirming that $4 \times 4$ matrices are the minimal representation necessary to maintain compatibility with both quantum mechanics and special relativity. This derivation was long, but it involved the most simple matrix algebra that I hope you were able to follow. You must note that other matrices of the same dimensions also satisfy all constraints but we followed Dirac's exact journey.
+Thus, this construction satisfies all of Dirac’s constraints, confirming that $$4 \times 4$$ matrices are the minimal representation necessary to maintain compatibility with both quantum mechanics and special relativity. This derivation was long, but it involved the most simple matrix algebra that I hope you were able to follow. You must note that other matrices of the same dimensions also satisfy all constraints but we followed Dirac's exact journey.
 
 ## Operator Form of the Dirac Equation
 
-Now that we have attained equations that satisfy all constraints simultaneously, let's go back to the earlier form of the energy equation. Energy was written as a linear combination of momentum. Now apply the momentum and energy operators to a wavefunction $\psi$ so
+Now that we have attained equations that satisfy all constraints simultaneously, let's go back to the earlier form of the energy equation. Energy was written as a linear combination of momentum. Now apply the momentum and energy operators to a wavefunction $$\psi$$ so
 
 $$
 E \psi = (\alpha_x p_x + \alpha_y p_y + \alpha_z p_z)c \psi + \beta m c^2 \psi
@@ -568,7 +568,7 @@ $$
 
 ## Covariant Form of the Dirac Equation
 
-We have obtained the time-dependent Dirac equation, but this form is not readily found in textbooks. To simplify, we assume **natural units** where $\hbar = c = 1$.
+We have obtained the time-dependent Dirac equation, but this form is not readily found in textbooks. To simplify, we assume **natural units** where $$\hbar = c = 1$$.
 
 Defining the gamma matrices as:
 
@@ -613,7 +613,7 @@ $$
 A(\alpha) = \sum_{i=0}^n \alpha^i A^{(i)} = A^{(0)} + \alpha A^{(1)} + \alpha^2 A^{(2)} + \cdots + \alpha^n A^{(n)}
 $$
 
-When $\alpha \geq 1$, the series diverges, rendering all of our known analytical treatments as useless. So the next time you are part of a nuclear physics lecture, know that every single potential and equation that involves the strong nuclear force is an approximation that fits experiments and has not be analytically derived. 
+When $$\alpha \geq 1$$, the series diverges, rendering all of our known analytical treatments as useless. So the next time you are part of a nuclear physics lecture, know that every single potential and equation that involves the strong nuclear force is an approximation that fits experiments and has not be analytically derived. 
 And who knows, maybe if you can figure out a way to solve problems the same way Dirac did, you might be able to figure this out. At that point, you would have a realistic shot of being nominated as a Nobel Prize laureate. 
 
 Thank you for making it this far, and as always, keep on physicsing. 
