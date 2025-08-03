@@ -1,0 +1,15 @@
+---
+title: "Jekyll Test Post"
+date: 2025-08-03
+categories: [Testing]
+use_math: true
+layout: single
+---
+
+This post is a **test**.
+
+Math test:
+
+$$
+E = mc^2
+$$
