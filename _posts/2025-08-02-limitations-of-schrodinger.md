@@ -101,7 +101,7 @@ $$
 \nabla \cdot \left( \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star) \right)
 $$ &nbsp; -----------(10)
 
-Substituting (9) and (10) into ($$8^*$$), we obtain the continuity equation:
+Substituting (9) and (10) into (8b), we obtain the continuity equation:
 
 $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0
@@ -176,7 +176,7 @@ $$
 \left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi^\star = 0
 $$
 
-Now multiply Eq. (1) by $$\psi^\star$$ and Eq. (2) by $$\psi$$, and subtract the two:
+Now multiply the former equation with $$\psi^\star$$ and the latter with $$\psi$$, and subtract the results:
 
 $$
 \psi^\star \frac{\partial^2 \psi}{\partial t^2} - \psi \frac{\partial^2 \psi^\star}{\partial t^2} - c^2 \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right) = 0
@@ -204,7 +204,7 @@ $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0
 $$  
 
-This looks familiar — but there's a problem. The expression for $$\rho$$ can be negative if the second term in Eq. (5) dominates the first. That is:
+This looks familiar — but there's a problem. The expression for $$\rho$$ yields a negative if the second term dominates the first. That is:
 
 $$
 \rho < 0
