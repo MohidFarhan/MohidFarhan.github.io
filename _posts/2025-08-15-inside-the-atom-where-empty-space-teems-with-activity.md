@@ -8,6 +8,8 @@ layout: single
 author_profile: true
 read_time: true
 comments: true
+excerpt: "A subtle shift in hydrogen’s energy levels cracked open the door to quantum field theory — revealing the dynamic, buzzing vacuum inside every atom."
+
 
 ---
 
@@ -24,7 +26,7 @@ Our understanding of the atom was a hot topic for physicists in the early 1900s,
 Now that we objectively know that most of the atom is empty space, lets make estimations to quantify this emptiness. The Rutherford model predicts the radius of the atom to be of the order $$r_a \approx 10^{-10}m$$ and of the nucleus to be $$r_n \approx 10^{-15}m$$. Comparing the ratios of their volumes gives:
 
 $$
-\frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 m\approx 10^{15}m
+\frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 \approx 10^{15}
 $$
 
 This tell us that the atom is almost completely empty. To  give you an idea of the magnitude of this ratio, its like if the atom was the size of a football field, the nucleus would be a cherry placed in its center. Now, let's dive into the deep end. If I claimed that there is no such thing as empty space, that what is actually going on in that space?
