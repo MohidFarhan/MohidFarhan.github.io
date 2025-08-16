@@ -6,21 +6,7 @@ use_math: true
 layout: single
 author_profile: true
 read_time: true
-comments: true
-share: true
-related: true
-excerpt: "A subtle shift in hydrogen’s energy levels cracked open the door to quantum field theory which revealed the dynamic, buzzing vacuum inside every atom."
----
-
-## Introduction
-Today we set out to unravel one of the most counterintuitive facts in all of physics: that *empty space is not empty at all*. What we casually refer to as “nothing” is, in reality, a restless arena of quantum activity and fluctuations. These are not just speculative ideas born in abstract theory but have very real and measurable consequences. One of those consequences is the subject of this post, and as we work our way into it you will see that even a simple hydrogen atom becomes a window into the deepest layers of reality. You will need knowledge on introductory Modern Physics and Quantum Mechanics.
-
-   Our understanding of the atom was a hot topic for physicists in the early 1900s, with J.J Thompsons famous "fruitcake" model, where the atom was assumed to be a smooth and filled sphere of positive charge, with clumps of negative charges embedded in it. In 1911, Earnest Rutherford devised the most accurate atomic model known to man, backed by an experiment, where a minority of alpha particles were observed to scatter off at large angles when targeted at a thin foil of gold. This showed that an atom was mostly empty space with a lot of its mass being concentrated at the center, leading to such dramatic scattering. This center with positive charge is known as a nucleus, with much lighter negative electrons orbiting around it. 
-
-## The Empty Space Inside the Atom
-
-  Now that we objectively know that most of the atom is empty space, let's make estimations to quantify this emptiness. The Rutherford model predicts the radius of the atom to be of the order $$r_a \approx 10^{-10}m$$ and of the nucleus to be $$r_n \approx 10^{-15}m$$. Comparing the ratio of their volumes:
-  
+comments: true$
 $$
 \frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 m\approx 10^{15}m
 $$
@@ -31,13 +17,13 @@ To understand this, we will view the atom from the lens of Quantum Field Thoery 
 
 ## The Behaviour of the Electrons
 
-   In the classical treatment of the atom, the electrons should spiral into the nucleus while radiating energy and ultimately the atom should collapse in picoseconds assuming that it is purely a particle. However, in the quantum mechanical treatment, it is assumed to be a wave, in the sense that all of its information is inscribed in its wavefunction $\psi$, which can be computed by solving the Schrodinger equation:
+   In the classical treatment of the atom, the electrons should spiral into the nucleus while radiating energy and ultimately the atom should collapse in picoseconds assuming that it is purely a particle. However, in the quantum mechanical treatment, it is assumed to be a wave, in the sense that all of its information is inscribed in its wavefunction $$\psi$$, which can be computed by solving the Schrodinger equation:
    
 $$
 \left[-\frac{\hbar^2}{2m} \nabla^2 - \frac{e^2}{4\pi \varepsilon_0 r} \right] \psi = E \psi
 $$
 
-This $$\psi$$ acts like a probability that is distributed throughout empty space, which do not locate the electron exactly, but rather give the probability of where we are likely to find it. As it turns out, the resulting $\psi$ leads to discrete energy levels which keep the atom stable, and the electrons energy constant, with different energies corresponding to different shells. While all this points to the fact that empty space is not truly empty due to a probability being smeared all across it, the real game-changer is the addition of special relativity and relativistic quantum mechanics. 
+This $$\psi$$ acts like a probability that is distributed throughout empty space, which do not locate the electron exactly, but rather give the probability of where we are likely to find it. As it turns out, the resulting $$\psi$$ leads to discrete energy levels which keep the atom stable, and the electrons energy constant, with different energies corresponding to different shells. While all this points to the fact that empty space is not truly empty due to a probability being smeared all across it, the real game-changer is the addition of special relativity and relativistic quantum mechanics. 
 
 ## Particles in a Contracting Box
 
@@ -142,7 +128,7 @@ We now observe, from the QFT perspective,  that every mode trembles with its own
 
 ## The Lamb Shift
 
-This subtle change in the electrons probability distribution leads to a shift in its energy levels, in what is referred to as "The Lamb Shift". If you bear with me a little longer, we can get into how we can quantify it for our Hydrogen atom. Let's first study the shift caused by one mode, with spatial wave-vector k and frequency $\omega_k$, on an electron. The force experienced by the electron due to an electric field is given by:
+This subtle change in the electrons probability distribution leads to a shift in its energy levels, in what is referred to as "The Lamb Shift". If you bear with me a little longer, we can get into how we can quantify it for our Hydrogen atom. Let's first study the shift caused by one mode, with spatial wave-vector k and frequency $$\omega_k$$, on an electron. The force experienced by the electron due to an electric field is given by:
 
 $$
 F=m_ea=e\epsilon
@@ -166,7 +152,7 @@ $$
 \tau=\frac{\pi}{\omega_k}=\frac{\pi}{ck}
 $$
 
-The displacement ($s_k$) caused due to a mode is given by:
+The displacement ($$s_k$$) caused due to a mode is given by:
 
 $$
 s_k=\frac{a_k\tau^2}{2}
@@ -194,7 +180,7 @@ $$
 d^3k=4\pi k^2dk
 $$
 
-We can now sub in $d^3k$ and $s_k$ to give us an integral in terms of k.
+We can now substitute in $$d^3k$$ and $$s_k$$ to give us an integral in terms of k.
 
 $$
 s^2=\frac{a^3}{(2\pi)^3}\int_k \left( \frac{e\pi^2}{2m_e c^2 k^{3/2}} \left( \frac{\hbar c}{\varepsilon_0 a^3} \right)^{1/2} \right)^2 4\pi k^2dk 
@@ -212,7 +198,7 @@ $$
 k_{UV}=\frac{1}{\lambda_c}, \quad k_{IR}=\frac{1}{a_0}
 $$
 
-where $$\lambda_c=\frac{\hbar}{mc}$$ is the Compton wave length which we derived earlier and $a_0$ is the Bohr radius. 
+where $$\lambda_c=\frac{\hbar}{mc}$$ is the Compton wave length which we derived earlier and $$a_0$$ is the Bohr radius. 
 
 Which gives us the integral:
 
@@ -254,7 +240,7 @@ $$
 V(r+s)=V(r)+s\frac{e^2}{4\pi \epsilon_0r^2}+...
 $$
 
-The second term on the left hand side is the energy due to the perturbation, and is, precisely, what we are looking for. So letting $r=a_0$ (the most probable value of r) gives us:
+The second term on the left hand side is the energy due to the perturbation, and is precisely what we are looking for. So letting $$r=a_0$$ (the most probable value of r for the ground state Hydrogen atom) gives us:
 
 $$
 \Delta E=s\frac{e^2}{4\pi \epsilon_0a_0^2}
@@ -264,7 +250,7 @@ $$
 \Delta E=\frac{s^2}{3a_0}\frac{e^2}{4\pi \epsilon_0a_0^2}=\frac{e^2s^2}{12\pi \epsilon_0a_0^3}
 $$
 
-Using the $s^2$ relation derived earlier gives:
+Using the $$s^2$$ relation derived earlier gives:
 
 $$
 \Delta E=\frac{e^2}{12\pi \epsilon_0a_0^3}\frac{\pi^2\hbar e^2}{8m^2\epsilon_0c^3}In\left(\frac{1}{\alpha}\right)\approx5 \times10^{-5} eV
