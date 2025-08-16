@@ -5,9 +5,9 @@ var store = [{
         "url": "/cosmology/relativistic%20quantum%20mechanics/particle%20physics/relativity/limitations-of-schrodinger/",
         "teaser": null
       },{
-        "title": "Inside the Atom: Where ‘Empty Space’ Teems with Activity",
-        "excerpt":"Introduction Today we set out to unravel one of the most counterintuitive facts in all of physics: that empty space is not empty at all. What we casually refer to as “nothing” is, in reality, a restless arena of quantum activity and fluctuations. These are not just speculative ideas born...","categories": ["Quantum Field Theory","Relativistic Quantum Mechanics","Particle Physics","Atomic and Molecular Physics"],
+        "title": "Inside The Atom Where Empty Space Teems With Activity",
+        "excerpt":"title: “Inside the Atom: Where ‘Empty Space’ Teems with Activity” date: 2025-08-16 categories: [Quantum Field Theory, Relativistic Quantum Mechanics, Particle Physics, Atomic and Molecular Physics] use_math: true layout: single author_profile: true read_time: true comments: true$ \\(\\frac{\\frac{4 \\pi (r_a)^3}{3}}{\\frac{4 \\pi (r_n)^3}{3}}=\\frac{r_a^3}{r_n^3} \\approx (\\frac{10^{-10}}{10^{-15}})^3 m\\approx 10^{15}m\\) This tell us that the atom...","categories": [],
         "tags": [],
-        "url": "/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/",
+        "url": "/inside-the-atom-where-empty-space-teems-with-activity/",
         "teaser": null
       }]

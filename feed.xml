@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-16T07:40:09+05:00</updated><id>/feed.xml</id><title type="html">Mohid Farhan | Exploring the Physics of the Universe</title><subtitle>A physics blog exploring quantum mechanics, relativity, and the universe&apos;s hidden structure. Created by Mohid Farhan.</subtitle><author><name>Mohid Farhan</name></author><entry><title type="html">Inside the Atom: Where ‘Empty Space’ Teems with Activity</title><link href="/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/" rel="alternate" type="text/html" title="Inside the Atom: Where ‘Empty Space’ Teems with Activity" /><published>2025-08-16T00:00:00+05:00</published><updated>2025-08-16T00:00:00+05:00</updated><id>/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity</id><content type="html" xml:base="/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/"><![CDATA[<h2 id="introduction">Introduction</h2>
-<p>Today we set out to unravel one of the most counterintuitive facts in all of physics: that <em>empty space is not empty at all</em>. What we casually refer to as “nothing” is, in reality, a restless arena of quantum activity and fluctuations. These are not just speculative ideas born in abstract theory but have very real and measurable consequences. One of those consequences is the subject of this post, and as we work our way into it you will see that even a simple hydrogen atom becomes a window into the deepest layers of reality. You will need knowledge on introductory Modern Physics and Quantum Mechanics.</p>
-
-<p>Our understanding of the atom was a hot topic for physicists in the early 1900s, with J.J Thompsons famous “fruitcake” model, where the atom was assumed to be a smooth and filled sphere of positive charge, with clumps of negative charges embedded in it. In 1911, Earnest Rutherford devised the most accurate atomic model known to man, backed by an experiment, where a minority of alpha particles were observed to scatter off at large angles when targeted at a thin foil of gold. This showed that an atom was mostly empty space with a lot of its mass being concentrated at the center, leading to such dramatic scattering. This center with positive charge is known as a nucleus, with much lighter negative electrons orbiting around it.</p>
-
-<h2 id="the-empty-space-inside-the-atom">The Empty Space Inside the Atom</h2>
-
-<p>Now that we objectively know that most of the atom is empty space, let’s make estimations to quantify this emptiness. The Rutherford model predicts the radius of the atom to be of the order \(r_a \approx 10^{-10}m\) and of the nucleus to be \(r_n \approx 10^{-15}m\). Comparing the ratio of their volumes:</p>
-
-\[\frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 m\approx 10^{15}m\]
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-16T07:50:57+05:00</updated><id>/feed.xml</id><title type="html">Mohid Farhan | Exploring the Physics of the Universe</title><subtitle>A physics blog exploring quantum mechanics, relativity, and the universe&apos;s hidden structure. Created by Mohid Farhan.</subtitle><author><name>Mohid Farhan</name></author><entry><title type="html">Inside The Atom Where Empty Space Teems With Activity</title><link href="/inside-the-atom-where-empty-space-teems-with-activity/" rel="alternate" type="text/html" title="Inside The Atom Where Empty Space Teems With Activity" /><published>2025-08-15T00:00:00+05:00</published><updated>2025-08-15T00:00:00+05:00</updated><id>/inside-the-atom-where-empty-space-teems-with-activity</id><content type="html" xml:base="/inside-the-atom-where-empty-space-teems-with-activity/"><![CDATA[<hr />
+<p>title: “Inside the Atom: Where ‘Empty Space’ Teems with Activity”
+date: 2025-08-16
+categories: [Quantum Field Theory, Relativistic Quantum Mechanics, Particle Physics, Atomic and Molecular Physics]
+use_math: true
+layout: single
+author_profile: true
+read_time: true
+comments: true$
+\(\frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 m\approx 10^{15}m\)</p>
 
 <p>This tell us that the atom is almost completely empty. To  give you an idea of the magnitude of this ratio, its like if the atom was the size of a football field, the nucleus would be a cherry placed in its center. Now, let’s dive into the deep end. If I claimed that there is no such thing as empty space, that what is actually going on in that space?</p>
 
@@ -15,11 +15,11 @@
 
 <h2 id="the-behaviour-of-the-electrons">The Behaviour of the Electrons</h2>
 
-<p>In the classical treatment of the atom, the electrons should spiral into the nucleus while radiating energy and ultimately the atom should collapse in picoseconds assuming that it is purely a particle. However, in the quantum mechanical treatment, it is assumed to be a wave, in the sense that all of its information is inscribed in its wavefunction $\psi$, which can be computed by solving the Schrodinger equation:</p>
+<p>In the classical treatment of the atom, the electrons should spiral into the nucleus while radiating energy and ultimately the atom should collapse in picoseconds assuming that it is purely a particle. However, in the quantum mechanical treatment, it is assumed to be a wave, in the sense that all of its information is inscribed in its wavefunction \(\psi\), which can be computed by solving the Schrodinger equation:</p>
 
 \[\left[-\frac{\hbar^2}{2m} \nabla^2 - \frac{e^2}{4\pi \varepsilon_0 r} \right] \psi = E \psi\]
 
-<p>This \(\psi\) acts like a probability that is distributed throughout empty space, which do not locate the electron exactly, but rather give the probability of where we are likely to find it. As it turns out, the resulting $\psi$ leads to discrete energy levels which keep the atom stable, and the electrons energy constant, with different energies corresponding to different shells. While all this points to the fact that empty space is not truly empty due to a probability being smeared all across it, the real game-changer is the addition of special relativity and relativistic quantum mechanics.</p>
+<p>This \(\psi\) acts like a probability that is distributed throughout empty space, which do not locate the electron exactly, but rather give the probability of where we are likely to find it. As it turns out, the resulting \(\psi\) leads to discrete energy levels which keep the atom stable, and the electrons energy constant, with different energies corresponding to different shells. While all this points to the fact that empty space is not truly empty due to a probability being smeared all across it, the real game-changer is the addition of special relativity and relativistic quantum mechanics.</p>
 
 <h2 id="particles-in-a-contracting-box">Particles in a Contracting Box</h2>
 
@@ -92,7 +92,7 @@
 
 <h2 id="the-lamb-shift">The Lamb Shift</h2>
 
-<p>This subtle change in the electrons probability distribution leads to a shift in its energy levels, in what is referred to as “The Lamb Shift”. If you bear with me a little longer, we can get into how we can quantify it for our Hydrogen atom. Let’s first study the shift caused by one mode, with spatial wave-vector k and frequency $\omega_k$, on an electron. The force experienced by the electron due to an electric field is given by:</p>
+<p>This subtle change in the electrons probability distribution leads to a shift in its energy levels, in what is referred to as “The Lamb Shift”. If you bear with me a little longer, we can get into how we can quantify it for our Hydrogen atom. Let’s first study the shift caused by one mode, with spatial wave-vector k and frequency \(\omega_k\), on an electron. The force experienced by the electron due to an electric field is given by:</p>
 
 \[F=m_ea=e\epsilon\]
 
@@ -108,7 +108,7 @@
 
 \[\tau=\frac{\pi}{\omega_k}=\frac{\pi}{ck}\]
 
-<p>The displacement ($s_k$) caused due to a mode is given by:</p>
+<p>The displacement (\(s_k\)) caused due to a mode is given by:</p>
 
 \[s_k=\frac{a_k\tau^2}{2}\]
 
@@ -126,7 +126,7 @@
 
 \[d^3k=4\pi k^2dk\]
 
-<p>We can now sub in $d^3k$ and $s_k$ to give us an integral in terms of k.</p>
+<p>We can now substitute in \(d^3k\) and \(s_k\) to give us an integral in terms of k.</p>
 
 \[s^2=\frac{a^3}{(2\pi)^3}\int_k \left( \frac{e\pi^2}{2m_e c^2 k^{3/2}} \left( \frac{\hbar c}{\varepsilon_0 a^3} \right)^{1/2} \right)^2 4\pi k^2dk\]
 
@@ -138,7 +138,7 @@
 
 \[k_{UV}=\frac{1}{\lambda_c}, \quad k_{IR}=\frac{1}{a_0}\]
 
-<p>where \(\lambda_c=\frac{\hbar}{mc}\) is the Compton wave length which we derived earlier and $a_0$ is the Bohr radius.</p>
+<p>where \(\lambda_c=\frac{\hbar}{mc}\) is the Compton wave length which we derived earlier and \(a_0\) is the Bohr radius.</p>
 
 <p>Which gives us the integral:</p>
 
@@ -166,19 +166,19 @@
 
 \[V(r+s)=V(r)+s\frac{e^2}{4\pi \epsilon_0r^2}+...\]
 
-<p>The second term on the left hand side is the energy due to the perturbation, and is, precisely, what we are looking for. So letting $r=a_0$ (the most probable value of r) gives us:</p>
+<p>The second term on the left hand side is the energy due to the perturbation, and is precisely what we are looking for. So letting \(r=a_0\) (the most probable value of r for the ground state Hydrogen atom) gives us:</p>
 
 \[\Delta E=s\frac{e^2}{4\pi \epsilon_0a_0^2}\]
 
 \[\Delta E=\frac{s^2}{3a_0}\frac{e^2}{4\pi \epsilon_0a_0^2}=\frac{e^2s^2}{12\pi \epsilon_0a_0^3}\]
 
-<p>Using the $s^2$ relation derived earlier gives:</p>
+<p>Using the \(s^2\) relation derived earlier gives:</p>
 
 \[\Delta E=\frac{e^2}{12\pi \epsilon_0a_0^3}\frac{\pi^2\hbar e^2}{8m^2\epsilon_0c^3}In\left(\frac{1}{\alpha}\right)\approx5 \times10^{-5} eV\]
 
 <p>Note that every single quantity in this expression is a known constant, and so plucking in all the constants gives you a reasonable order-of-magnitude value the change in energy due to empty space not being actually empty. Although this energy is a million times smaller than the ground energy of of Hydrogen which was stated earlier, it is a measurable change which acts a undeniable and irreputable proof that the vacuum is far from empty: it always jitters and its fingerprints are real and measurable. So we just proved by both theory and experiment, that even empty space, when quantized to a small enough scale, gives rise to fluctuations. If you constrain something to a small enough volume, the Heisenberg Uncertainty Principle allows it to acquire enough energy to produce particle-anti particle pairs.</p>
 
-<p>I hope you learned something new from today’s blog, and I will be back soon with another interesting topic.</p>]]></content><author><name>Mohid Farhan</name></author><category term="Quantum Field Theory" /><category term="Relativistic Quantum Mechanics" /><category term="Particle Physics" /><category term="Atomic and Molecular Physics" /><summary type="html"><![CDATA[A subtle shift in hydrogen’s energy levels cracked open the door to quantum field theory which revealed the dynamic, buzzing vacuum inside every atom.]]></summary></entry><entry><title type="html">Limitations of the Schrödinger Equation and the Birth of Particle Physics</title><link href="/cosmology/relativistic%20quantum%20mechanics/particle%20physics/relativity/limitations-of-schrodinger/" rel="alternate" type="text/html" title="Limitations of the Schrödinger Equation and the Birth of Particle Physics" /><published>2025-08-02T00:00:00+05:00</published><updated>2025-08-02T00:00:00+05:00</updated><id>/cosmology/relativistic%20quantum%20mechanics/particle%20physics/relativity/limitations-of-schrodinger</id><content type="html" xml:base="/cosmology/relativistic%20quantum%20mechanics/particle%20physics/relativity/limitations-of-schrodinger/"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>I hope you learned something new from today’s blog, and I will be back soon with another interesting topic.</p>]]></content><author><name>Mohid Farhan</name></author><summary type="html"><![CDATA[title: “Inside the Atom: Where ‘Empty Space’ Teems with Activity” date: 2025-08-16 categories: [Quantum Field Theory, Relativistic Quantum Mechanics, Particle Physics, Atomic and Molecular Physics] use_math: true layout: single author_profile: true read_time: true comments: true$ \(\frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 m\approx 10^{15}m\)]]></summary></entry><entry><title type="html">Limitations of the Schrödinger Equation and the Birth of Particle Physics</title><link href="/cosmology/relativistic%20quantum%20mechanics/particle%20physics/relativity/limitations-of-schrodinger/" rel="alternate" type="text/html" title="Limitations of the Schrödinger Equation and the Birth of Particle Physics" /><published>2025-08-02T00:00:00+05:00</published><updated>2025-08-02T00:00:00+05:00</updated><id>/cosmology/relativistic%20quantum%20mechanics/particle%20physics/relativity/limitations-of-schrodinger</id><content type="html" xml:base="/cosmology/relativistic%20quantum%20mechanics/particle%20physics/relativity/limitations-of-schrodinger/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Welcome to this blog series where the objective is to spread science and make difficult concepts digestible. The content of this blog is for an audience familiar with basic Quantum Mechanics and concepts of matrices. I will show you that with such basic tools, one can track all the way back to the founding equation of particle physics which governs our universe. However, be advised, this blog series is not for the faint-hearted. You must take on the math</p>
 
