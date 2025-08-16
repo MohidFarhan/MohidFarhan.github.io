@@ -17,6 +17,5 @@ Today we set out to unravel one of the most counterintuitive facts in all of phy
 
    Our understanding of the atom was a hot topic for physicists in the early 1900s, with J.J Thompsons famous "fruitcake" model, where the atom was assumed to be a smooth and filled sphere of positive charge, with clumps of negative charges embedded in it. In 1911, Earnest Rutherford devised the most accurate atomic model known to man, backed by an experiment, where a minority of alpha particles were observed to scatter off at large angles when targeted at a thin foil of gold. This showed that an atom was mostly empty space with a lot of its mass being concentrated at the center, leading to such dramatic scattering. This center with positive charge is known as a nucleus, with much lighter negative electrons orbiting around it. 
 
-  Now that we objectively know that most of the atom is empty space, lets make estimations to quantify this emptiness. 
-    \item The Rutherford model predicts the radius of the atom to be of the order $$r_a \approx 10^{-10}m$$ and of the nucleus to be $$r_n \approx 10^{-15}m$$.
+  Now that we objectively know that most of the atom is empty space, lets make estimations to quantify this emptiness. The Rutherford model predicts the radius of the atom to be of the order $$r_a \approx 10^{-10}m$$ and of the nucleus to be $$r_n \approx 10^{-15}m$$.
 
