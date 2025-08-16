@@ -8,7 +8,7 @@ layout: single
 author_profile: true
 read_time: true
 comments: true
-excerpt: "A subtle shift in hydrogen’s energy levels cracked open the door to quantum field theory — revealing the dynamic, buzzing vacuum inside every atom."
+excerpt: "A subtle shift in hydrogen’s energy levels cracked open the door to quantum field theory which revealed the dynamic, buzzing vacuum inside every atom."
 
 
 ---
