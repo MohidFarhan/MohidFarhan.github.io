@@ -70,10 +70,12 @@ So this means that if I were to constrain anything within $$10^{-13}m$$, which i
 <!-- Animation of vacuum fluctuations -->
 <p align="center">
   <img src="/assets/images/Adobe Express - AtomicVacuumFluctuations.gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Figure: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
+  <br><em>Figure 1: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
 </p>
 
-It becomes apparent that this length is bigger than the radius of the nucleus but smaller then that of the atom, hence making the "empty" space inside the atom an ideal environment for effects to occur. So, we have seen that in the case of an atom, the electron can be confined to a region where the quantum mechanical picture becomes fuzzy. Beyond this, ordinary quantum mechanics breaks down, and we require another way to understand the atom. This is where Quantum Field Theory (QFT) can play a part, but do not be overwhelmed by the fancy name...it is a lot more simple than it sounds. In the QFT interpretation, fields are fundamental, not particles. Particles are simply localized excitation in fields that permeate through space. Using QFT allows us to study the atom from a field perspective, which aids in making sense of the situation. In order to detect the consequences of the restless empty space on atomic energies, we need to determine a consequence of these quantum effects. To detect QFT's effects, we first need to establish what happens without them. 
+It becomes apparent that $$10^{-13}m$$ is bigger than the radius of the nucleus but smaller then that of the atom, hence making the "empty" space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). 
+
+ So, we have seen that in the case of an atom, the electron can be confined to a region where the quantum mechanical picture becomes fuzzy. Beyond this, ordinary quantum mechanics breaks down, and we require another way to understand the atom. This is where Quantum Field Theory (QFT) can play a part, but do not be overwhelmed by the fancy name...it is a lot more simple than it sounds. In the QFT interpretation, fields are fundamental, not particles. Particles are simply localized excitation in fields that permeate through space. Using QFT allows us to study the atom from a field perspective, which aids in making sense of the situation. In order to detect the consequences of the restless empty space on atomic energies, we need to determine a consequence of these quantum effects. To detect QFT's effects, we first need to establish what happens without them. 
 
 
 
