@@ -1,4 +1,5 @@
 ---
+
 title: "Inside the Atom: Where ‘Empty Space’ Teems with Activity"
 date: 2025-08-16
 categories: [Quantum Field Theory, Relativistic Quantum Mechanics, Particle Physics, Atomic and Molecular Physics]
@@ -7,6 +8,21 @@ layout: single
 author_profile: true
 read_time: true
 comments: true
+
+---
+
+## Introduction
+
+Today we will unravel the fact that in physics, there is no such thing as empty space. What we like to call "empty" is teeming with activity and fluctuations at the quantum scales. This is not just theory, but has measurable consequences, all of which we will get into as we go forward, so enjoy the adventure. You will need a grasp of basic Quantum Mechanics, Electromagnetic Thoery and a bit of Atomic and Moledular Physics to go with that. 
+
+Our understanding of the atom was a hot topic for physicists in the early 1900s, with J.J Thompsons famous "fruitcake" model, where the atom was assumed to be a smooth and filled sphere of positive charge, with clumps of negative charges embeeded in it.  In 1911, Earnest Rutherford devised the most accurate atomic model known to man, backed by an experiment, where a minority of alpha particles were observed to scatter off at large angles when targeted at a thin foil of gold. This showed that an atom was mostly empty space with a lot of its mass being concentrated at the center, leading to such dramatic scattering. This center with positive charge is known as a nucleus, with negative electrons orbiting around it.
+
+ 
+
+## The Empty Space in an Atom
+
+Now that we objectively know that most of the atom is empty space, lets make estimations to quantify this emptiness. The Rutherford model predicts the radius of the atom to be of the order $$r_a \approx 10^{-10}m$$ and of the nucleus to be $$r_n \approx 10^{-15}m$$. Comparing the ratios of their volumes gives:
+
 $$
 \frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 m\approx 10^{15}m
 $$
