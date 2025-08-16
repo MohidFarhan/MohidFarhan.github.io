@@ -6,7 +6,7 @@ use_math: true
 layout: single
 author_profile: true
 read_time: true
-comments: true$
+comments: true
 $$
 \frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 m\approx 10^{15}m
 $$
