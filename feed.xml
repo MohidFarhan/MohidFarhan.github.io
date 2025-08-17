@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-17T16:21:29+05:00</updated><id>/feed.xml</id><title type="html">Mohid Farhan | Exploring the Physics of the Universe</title><subtitle>A physics blog exploring quantum mechanics, relativity, and the universe&apos;s hidden structure. Created by Mohid Farhan.</subtitle><author><name>Mohid Farhan</name></author><entry><title type="html">Inside the Atom: Where ‘Empty Space’ Teems with Activity</title><link href="/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/" rel="alternate" type="text/html" title="Inside the Atom: Where ‘Empty Space’ Teems with Activity" /><published>2025-08-16T00:00:00+05:00</published><updated>2025-08-16T00:00:00+05:00</updated><id>/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity</id><content type="html" xml:base="/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-08-17T16:37:34+05:00</updated><id>/feed.xml</id><title type="html">Mohid Farhan | Exploring the Physics of the Universe</title><subtitle>A physics blog exploring quantum mechanics, relativity, and the universe&apos;s hidden structure. Created by Mohid Farhan.</subtitle><author><name>Mohid Farhan</name></author><entry><title type="html">Inside the Atom: Where ‘Empty Space’ Teems with Activity</title><link href="/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/" rel="alternate" type="text/html" title="Inside the Atom: Where ‘Empty Space’ Teems with Activity" /><published>2025-08-16T00:00:00+05:00</published><updated>2025-08-16T00:00:00+05:00</updated><id>/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity</id><content type="html" xml:base="/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Today we will unravel the fact that in physics, there is no such thing as empty space. What we like to call “empty” is teeming with activity and fluctuations at the quantum scales. This is not just theory, but has measurable consequences, all of which we will get into as we go forward, so enjoy the adventure. You will need a grasp of basic Quantum Mechanics, Electromagnetic Theory and a bit of Atomic and Molecular Physics to go with that.</p>
 
@@ -41,7 +41,7 @@
 <!-- Animation of vacuum fluctuations -->
 <p align="center">
   <img src="/assets/images/Adobe Express - AtomicVacuumFluctuations.gif" width="500" alt="Vacuum fluctuations inside the atom" />
-  <br /><em>Figure 1: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
+  <br /><em>Simulation 1: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
 </p>
 
 <p>It becomes apparent that \(10^{-13}m\) is bigger than the radius of the nucleus but smaller then that of the atom, hence, making the “empty” space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). It is now easy to visualize that the idea of a constant number of particles breaks down, and therefore the pure Quantum Mechanical picture becomes blurry. To incorporate and account for the creation and annhilation of particles, we need a deeper theory which treat the number of particles as variables, unlike Quantum Mechanics. This is where Quantum Field Theory (QFT) shines. The name of this theory is actually very self explanatory. In the QFT, quantized fields are fundamental, not particles. Particles are just localized excitations within that field. The perpective shift from pure particles (classical mechanics), to waves (quantum mechanics) to, now, fields (QFT) proves fruitful in explaning the whole picture as I will show you shortly.</p>
@@ -78,7 +78,9 @@
 
 <p>To find the equilibrium (minimum) energy, differentiate with respect to \(\Delta x\) and set it to zero. For the untrained reader, this might seem like an operation that came out of nowhere, and let’s try to make it make sense. All particles (or waves or fields depending upon which side you are on) in the universe have the same mission: to achieve stability. Every single particle like to lose energy and settle comfortably to the lowest energy possible and not an ounce more than that. In this case, that particle so happens to be the electron, and it is no different. It wants to orbit the nucleus such that its energy is minimized. The best way to that is to plot the energy as a function of \(\Delta x\) and look for the value of \(\Delta x\) where the energy is at its minimum. This would be the distnce from the nucleus that the electron would be most comfortable in being and, therefore, you are most likely to find the electron at this distance.</p>
 
-<p><img src="/assets/images/HAGS.png" alt="The Energy as a Function of $$\Delta x$$" /></p>
+<p><img src="/assets/images/HAGS.png" alt="Figure 1" /></p>
+
+<p><strong>Figure 1</strong>: The energy as a function of distance for the hydrogen atom.</p>
 
 \[\frac{dE}{d (\Delta x)} = - \frac{\hbar^2}{m_e (\Delta x)^3} + \frac{e^2}{4 \pi \varepsilon_0 (\Delta x)^2} = 0.\]
 
@@ -132,7 +134,9 @@ The minimum energy of a quantum harmonic oscillator is, unlike classical oscilla
 \[E \approx \frac{(\Delta p)^2}{2m} + \frac{1}{2} m \omega^2 (\Delta x)^2
 = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2.\]
 
-<p><img src="/assets/images/QHOGS.png" alt="Ground state energy of QHO" /></p>
+<p><img src="/assets/images/QHOGS.png" alt="Figure 2" /></p>
+
+<p><strong>Figure 2</strong>: The energy as a function of distance for the quantum harmonic oscillator.</p>
 
 <p>This gives the total energy as a function of \(\Delta x\). To find the minimum, differentiate with respect to \(\Delta x\) and set the derivative to zero:</p>
 
@@ -147,11 +151,11 @@ The minimum energy of a quantum harmonic oscillator is, unlike classical oscilla
 \[E_{\min} = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2
 = \frac{\hbar^2}{8 m} \cdot \frac{2 m \omega}{\hbar} + \frac{1}{2} m \omega^2 \cdot \frac{\hbar}{2 m \omega} = \frac{1}{2} \hbar \omega.\]
 
-<p>Thus, the <strong>ground-state energy of the quantum harmonic oscillator</strong> is</p>
+<p>Thus, the ground-state energy of the quantum harmonic oscillator is</p>
 
-\[\boxed{E_0 = \frac{1}{2} \hbar \omega}.\]
+\[E_0 = \frac{1}{2} \hbar \omega.\]
 
-<p>This non-zero energy is called the <strong>zero-point energy</strong>, reflecting the fact that even in its lowest-energy state, the oscillator still exhibits quantum fluctuations. Now, the picture start to become clear from a theoretical point of view.</p>
+<p>This non-zero energy is called the zero-point energy, reflecting the fact that even in its lowest-energy state, the oscillator still exhibits quantum fluctuations. This seemingly innocent characteristic has a profound consequences since it gives rise to vacuum fluctuations. Now, the picture start to become clear from a theoretical point of view.</p>
 
 <p>So we can see that by incorporating QFT, these modes that make up the vacuum give rise to vacuum energy, due to quantum fluctuations. This bold prediction is made possible by the QFT treatment. Analyzing the effect due to one mode, we combine the previous 2 equations to get:</p>
 
