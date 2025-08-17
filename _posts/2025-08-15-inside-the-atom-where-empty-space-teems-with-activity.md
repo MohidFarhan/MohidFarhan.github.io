@@ -70,7 +70,7 @@ So this means that if I were to constrain anything within $$10^{-13}m$$, which i
 <!-- Animation of vacuum fluctuations -->
 <p align="center">
   <img src="/assets/images/Adobe Express - AtomicVacuumFluctuations.gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Figure 1: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
+  <br><em>Simulation 1: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
 </p>
 
 It becomes apparent that $$10^{-13}m$$ is bigger than the radius of the nucleus but smaller then that of the atom, hence, making the "empty" space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). It is now easy to visualize that the idea of a constant number of particles breaks down, and therefore the pure Quantum Mechanical picture becomes blurry. To incorporate and account for the creation and annhilation of particles, we need a deeper theory which treat the number of particles as variables, unlike Quantum Mechanics. This is where Quantum Field Theory (QFT) shines. The name of this theory is actually very self explanatory. In the QFT, quantized fields are fundamental, not particles. Particles are just localized excitations within that field. The perpective shift from pure particles (classical mechanics), to waves (quantum mechanics) to, now, fields (QFT) proves fruitful in explaning the whole picture as I will show you shortly.
@@ -120,7 +120,10 @@ $$
 
 To find the equilibrium (minimum) energy, differentiate with respect to $$\Delta x$$ and set it to zero. For the untrained reader, this might seem like an operation that came out of nowhere, and let's try to make it make sense. All particles (or waves or fields depending upon which side you are on) in the universe have the same mission: to achieve stability. Every single particle like to lose energy and settle comfortably to the lowest energy possible and not an ounce more than that. In this case, that particle so happens to be the electron, and it is no different. It wants to orbit the nucleus such that its energy is minimized. The best way to that is to plot the energy as a function of $$\Delta x$$ and look for the value of $$\Delta x$$ where the energy is at its minimum. This would be the distnce from the nucleus that the electron would be most comfortable in being and, therefore, you are most likely to find the electron at this distance.
 
-![The Energy as a Function of $$\Delta x$$](/assets/images/HAGS.png)
+![Figure 1](/assets/images/HAGS.png)
+
+**Figure 1**: The energy as a function of distance for the hydrogen atom.
+
 
 $$
 \frac{dE}{d (\Delta x)} = - \frac{\hbar^2}{m_e (\Delta x)^3} + \frac{e^2}{4 \pi \varepsilon_0 (\Delta x)^2} = 0.
@@ -196,7 +199,10 @@ E \approx \frac{(\Delta p)^2}{2m} + \frac{1}{2} m \omega^2 (\Delta x)^2
 = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2.
 $$
 
-![Ground state energy of QHO](/assets/images/QHOGS.png)
+![Figure 2](/assets/images/QHOGS.png)
+
+**Figure 2**: The energy as a function of distance for the quantum harmonic oscillator.
+
 
 
 This gives the total energy as a function of $$\Delta x$$. To find the minimum, differentiate with respect to $$\Delta x$$ and set the derivative to zero:
@@ -218,13 +224,13 @@ E_{\min} = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^
 = \frac{\hbar^2}{8 m} \cdot \frac{2 m \omega}{\hbar} + \frac{1}{2} m \omega^2 \cdot \frac{\hbar}{2 m \omega} = \frac{1}{2} \hbar \omega.
 $$
 
-Thus, the **ground-state energy of the quantum harmonic oscillator** is
+Thus, the ground-state energy of the quantum harmonic oscillator is
 
 $$
-\boxed{E_0 = \frac{1}{2} \hbar \omega}.
+E_0 = \frac{1}{2} \hbar \omega.
 $$
 
-This non-zero energy is called the **zero-point energy**, reflecting the fact that even in its lowest-energy state, the oscillator still exhibits quantum fluctuations. Now, the picture start to become clear from a theoretical point of view.
+This non-zero energy is called the zero-point energy, reflecting the fact that even in its lowest-energy state, the oscillator still exhibits quantum fluctuations. This seemingly innocent characteristic has a profound consequences since it gives rise to vacuum fluctuations. Now, the picture start to become clear from a theoretical point of view.
 
 So we can see that by incorporating QFT, these modes that make up the vacuum give rise to vacuum energy, due to quantum fluctuations. This bold prediction is made possible by the QFT treatment. Analyzing the effect due to one mode, we combine the previous 2 equations to get: 
 
