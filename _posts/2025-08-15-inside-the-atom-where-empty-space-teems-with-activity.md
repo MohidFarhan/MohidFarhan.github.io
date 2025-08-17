@@ -156,7 +156,7 @@ $$
 
 ![Figure 2](/assets/images/allowedphi.png)
 
-**Figure 2**: The only allowed wavefunctions for a particle confined to a box
+**Figure 2**: The only allowed wavefunctions for a particle confined to a box (reprinted from Modern Physics: International Edition).
 
 
 The edges (where probability disappears) are called modes, which have distinct spatial and temporal frequencies. n is an integer value and L is the length of the constraining box. The wavenumber k (spatial frequency) is given by $$k=\frac{2 \pi}{\lambda}$$, which results in: 
