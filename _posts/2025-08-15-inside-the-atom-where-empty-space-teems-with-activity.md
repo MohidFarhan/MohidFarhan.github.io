@@ -73,21 +73,78 @@ So this means that if I were to constrain anything within $$10^{-13}m$$, which i
   <br><em>Figure 1: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
 </p>
 
-It becomes apparent that $$10^{-13}m$$ is bigger than the radius of the nucleus but smaller then that of the atom, hence, making the "empty" space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). 
-
- So, we have seen that in the case of an atom, the electron can be confined to a region where the quantum mechanical picture becomes fuzzy. Beyond this, ordinary quantum mechanics breaks down, and we require another way to understand the atom. This is where Quantum Field Theory (QFT) can play a part, but do not be overwhelmed by the fancy name...it is a lot more simple than it sounds. In the QFT interpretation, fields are fundamental, not particles. Particles are simply localized excitation in fields that permeate through space. Using QFT allows us to study the atom from a field perspective, which aids in making sense of the situation. In order to detect the consequences of the restless empty space on atomic energies, we need to determine a consequence of these quantum effects. To detect QFT's effects, we first need to establish what happens without them. 
-
+It becomes apparent that $$10^{-13}m$$ is bigger than the radius of the nucleus but smaller then that of the atom, hence, making the "empty" space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). It is now easy to visualize that the idea of a constant number of particles breaks down, and therefore the pure Quantum Mechanical picture becomes blurry. To incorporate and account for the creation and annhilation of particles, we need a deeper theory which treat the number of particles as variables, unlike Quantum Mechanics. This is where Quantum Field Theory (QFT) shines. The name of this theory is actually very self explanatory. In the QFT, quantized fields are fundamental, not particles. Particles are just localized excitations within that field. The perpective shift from pure particles (classical mechanics), to waves (quantum mechanics) to, now, fields (QFT) proves fruitful in explaning the whole picture as I will show you shortly.
 
 
 ## The Picture Without QFT
 
-Let's pick the simplest case here: the ground state Hydrogen atom, with an electron orbiting a proton. The well known ground state energy of the Hydrogen atom is given by solving the Schrodinger equation mentioned earlier , and turns out to be:
+Before diving head-first into QFT, Let's pick a benchmark first, and treat it without QFT. We pick the simplest case here: the ground state Hydrogen atom, with an electron orbiting a proton. We can estimate the ground state energy of the hydrogen atom using the Heisenberg uncertainty principle. 
+
+The total energy of the electron is approximately the sum of its kinetic and potential energies:
 
 $$
-E = -\frac{1}{2} \cdot \frac{m_e e^4}{(4\pi \varepsilon_0)^2 \hbar^2}=-13.6 eV
+E \approx K + U
 $$
 
-The full derivation of this is the topic for another blog, but for now, trust me on this. Note that this is the picture without QFT, since the Schrodinger equation is non-relativistic, as explained in the first blog of this series. For the confined particle, if we take the assumption that $$\psi$$ vanishes at the edges, the allowed wavelengths are given by: 
+where the kinetic energy $$K$$ is given by
+
+$$
+K = \frac{(\Delta p)^2}{2 m_e}
+$$
+
+and the potential energy $$U$$ is the Coulomb potential:
+
+$$
+U = - \frac{e^2}{4 \pi \varepsilon_0 \Delta x}.
+$$
+
+Here, $$\Delta x$$ is the characteristic size of the electron's orbit (or its position uncertainty), and $$\Delta p$$ is the momentum uncertainty.  
+
+From the Heisenberg uncertainty principle:
+
+$$
+\Delta x \, \Delta p \gtrsim \frac{\hbar}{2} \quad \implies \quad \Delta p = \frac{\hbar}{\Delta x}.
+$$
+
+Substituting $$\Delta p$$ into the kinetic energy gives:
+
+$$
+K = \frac{\hbar^2}{2 m_e (\Delta x)^2}.
+$$
+
+Thus, the total energy as a function of $$\Delta x$$ is:
+
+$$
+E(\Delta x) = \frac{\hbar^2}{2 m_e (\Delta x)^2} - \frac{e^2}{4 \pi \varepsilon_0 \Delta x}.
+$$
+
+To find the equilibrium (minimum) energy, differentiate with respect to $$\Delta x$$ and set it to zero. For the untrained reader, this might seem like an operation that came out of nowhere, and let's try to make it make sense. All particles (or waves or fields depending upon which side you are on) in the universe have the same mission: to achieve stability. Every single particle like to lose energy and settle comfortably to the lowest energy possible and not an ounce more than that. In this case, that particle so happens to be the electron, and it is no different. It wants to orbit the nucleus such that its energy is minimized. The best way to that is to plot the energy as a function of $$\Delta x$$ and look for the value of $$\Delta x$$ where the energy is at its minimum. This would be the distnce from the nucleus that the electron would be most comfortable in being and, therefore, you are most likely to find the electron at this distance.
+
+![The Energy as a Function of $$\Delta x$$](/assets/images/HAGS.png)
+
+$$
+\frac{dE}{d (\Delta x)} = - \frac{\hbar^2}{m_e (\Delta x)^3} + \frac{e^2}{4 \pi \varepsilon_0 (\Delta x)^2} = 0.
+$$
+
+Solving for $$\Delta x$$:
+
+$$
+\frac{\hbar^2}{m_e (\Delta x)^3} = \frac{e^2}{4 \pi \varepsilon_0 (\Delta x)^2} 
+\quad \implies \quad 
+\Delta x = \frac{4 \pi \varepsilon_0 \hbar^2}{m_e e^2}.
+$$
+
+This reproduces the famous Bohr Radius, so thats a great sign that our working is not only correct, but also makes perfect sense. Finally, substituting this value of $$\Delta x$$ back into the total energy expression:
+
+$$
+E_1 = - \frac{m_e e^4}{2 (4 \pi \varepsilon_0)^2 \hbar^2} \approx -13.6~\mathrm{eV}.
+$$
+
+This reproduces the exact ground state energy of the hydrogen atom. 
+
+
+
+For the confined particle, if we take the assumption that $$\psi$$ vanishes at the edges, the allowed wavelengths are given by: 
 
 $$
 \lambda_n=\frac{2L}{n}
@@ -112,10 +169,62 @@ $$
 $$
 
 ## The QFT Treatment
-To understand what’s happening in that ‘empty’ space, we need to shift our view from waves to fields, and this is where QFT shines. In QFT, each mode is treated as a quantum harmonic oscillator and the minimum energy in such a case is, unlike classical oscillators, non zero due to the Heisenberg Uncertainty Principle. The minimum energy of each mode is given by: 
+
+Quantum Field Theory pictures a field as infinite coupled modes, each acting as harmonic oscillators. 
+The minimum energy of a quantum harmonic oscillator is, unlike classical oscillators, non zero due to the Heisenberg Uncertainty Principle. Why am I blaming HUP for this? Well, picture this...
+
+A classical oscillator (like a pendulum) can sit at zero kinteic energy. As a matter of fact, that is exactly what happens if you don't keep on applying a force to it since it loses energy to the environment. BUT, why can't a quantum harmonic oscillator do the same? Thats because if its stationary, we know its position with certainty, and its momentum with certainty (zero). And since, HUP must be obeyed by the particles at the quantum scale, this can not happen. So when, $$\Delta x$$ becomes small, the uncertainties in momentum are a source of maintaining a minimum energy, and vice vera. Hopefully, that makes sense intuitively. Now, let's have it make sense mathematically. 
+
+Consider a one-dimensional quantum harmonic oscillator with mass $$m$$ and angular frequency $$\omega$$. Its Hamiltonian is:
+
 $$
-E_{min}=\frac{\hbar\omega}{2}
+\hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2} m \omega^2 \hat{x}^2,
 $$
+
+where $$\hat{p} = -i\hbar \frac{d}{dx}$$ is the momentum operator, and the potential term (second term on the right hand side) arises from $$E=\frac{1}{2} k x^2$$ where spring constant k takes the form $$k=m \omega^2$$
+
+To find the ground-state energy, we look for the state that minimizes the total energy. Using the Heisenberg uncertainty principle:
+
+$$
+\Delta x \, \Delta p \ge \frac{\hbar}{2},
+$$
+
+we estimate the kinetic and potential contributions in terms of $$\Delta x$$:
+
+$$
+E \approx \frac{(\Delta p)^2}{2m} + \frac{1}{2} m \omega^2 (\Delta x)^2
+= \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2.
+$$
+
+![Ground state energy of QHO](/assets/images/QHOGS.png)
+
+
+This gives the total energy as a function of $$\Delta x$$. To find the minimum, differentiate with respect to $$\Delta x$$ and set the derivative to zero:
+
+$$
+\frac{dE}{d(\Delta x)} = -\frac{\hbar^2}{4 m (\Delta x)^3} + m \omega^2 (\Delta x) = 0.
+$$
+
+Solving for $$\Delta x$$:
+
+$$
+(\Delta x)^4 = \frac{\hbar^2}{4 m^2 \omega^2} \implies \Delta x = \sqrt{\frac{\hbar}{2 m \omega}}.
+$$
+
+Substituting back into the energy expression:
+
+$$
+E_{\min} = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2
+= \frac{\hbar^2}{8 m} \cdot \frac{2 m \omega}{\hbar} + \frac{1}{2} m \omega^2 \cdot \frac{\hbar}{2 m \omega} = \frac{1}{2} \hbar \omega.
+$$
+
+Thus, the **ground-state energy of the quantum harmonic oscillator** is
+
+$$
+\boxed{E_0 = \frac{1}{2} \hbar \omega}.
+$$
+
+This non-zero energy is called the **zero-point energy**, reflecting the fact that even in its lowest-energy state, the oscillator still exhibits quantum fluctuations. Now, the picture start to become clear from a theoretical point of view.
 
 So we can see that by incorporating QFT, these modes that make up the vacuum give rise to vacuum energy, due to quantum fluctuations. This bold prediction is made possible by the QFT treatment. Analyzing the effect due to one mode, we combine the previous 2 equations to get: 
 
