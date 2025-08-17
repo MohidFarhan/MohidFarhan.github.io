@@ -296,17 +296,17 @@
   <br /><em>Simulation 1: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
 </p>
 
-<p>It becomes apparent that \(10^{-13}m\) is bigger than the radius of the nucleus but smaller then that of the atom, hence, making the “empty” space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). It is now easy to visualize that the idea of a constant number of particles breaks down, and therefore the pure Quantum Mechanical picture becomes blurry. To incorporate and account for the creation and annhilation of particles, we need a deeper theory which treat the number of particles as variables, unlike Quantum Mechanics. This is where Quantum Field Theory (QFT) shines. The name of this theory is actually very self explanatory. In the QFT, quantized fields are fundamental, not particles. Particles are just localized excitations within that field. The perpective shift from pure particles (classical mechanics), to waves (quantum mechanics) to, now, fields (QFT) proves fruitful in explaning the whole picture as I will show you shortly.</p>
+<p>It becomes apparent that \(10^{-13}m\) is bigger than the radius of the nucleus but smaller than that of the atom, hence, making the “empty” space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). It is now easy to visualize that the idea of a constant number of particles breaks down, and therefore the pure Quantum Mechanical picture becomes blurry. To incorporate and account for the creation and annhilation of particles, we need a deeper theory which treat the number of particles as variables, unlike quantum mechanics. This is where Quantum Field Theory (QFT) shines. The name of this theory is actually very self explanatory. In the QFT, quantized fields are fundamental, not particles. Particles are just localized excitations within that field. The perpective shift from pure particles (classical mechanics), to waves (quantum mechanics) to, now, fields (QFT) proves fruitful in explaining the whole picture as I will show you shortly.</p>
 
 <h2 id="the-picture-without-qft">The Picture Without QFT</h2>
 
-<p>Before diving head-first into QFT, Let’s pick a benchmark first, and treat it without QFT. We pick the simplest case here: the ground state Hydrogen atom, with an electron orbiting a proton. We can estimate the ground state energy of the hydrogen atom using the Heisenberg uncertainty principle.</p>
+<p>Before diving head-first into QFT, Let’s pick a benchmark first, and treat it without QFT. We pick the simplest case here: the ground-state Hydrogen atom, with an electron orbiting a proton. We can estimate the ground-state energy of the hydrogen atom using the Heisenberg uncertainty principle.</p>
 
 <p>The total energy of the electron is approximately the sum of its kinetic and potential energies:</p>
 
 \[E \approx K + U\]
 
-<p>where the kinetic energy \(K\) is given by</p>
+<p>I say approximately here since this is thhe non-relativistic treatment and has it’s shortcomings as we discussed in the previous blog. Here the kinetic energy \(K\) is given by</p>
 
 \[K = \frac{(\Delta p)^2}{2 m_e}\]
 
@@ -346,15 +346,17 @@
 
 \[E_1 = - \frac{m_e e^4}{2 (4 \pi \varepsilon_0)^2 \hbar^2} \approx -13.6~\mathrm{eV}.\]
 
-<p>This reproduces the exact ground state energy of the hydrogen atom.</p>
+<p>This reproduces the exact ground-state energy of the hydrogen atom.</p>
 
 <p>For the confined particle, if we take the assumption that \(\psi\) vanishes at the edges, the allowed wavelengths are given by:</p>
 
 \[\lambda_n=\frac{2L}{n}\]
 
-<p><img src="/assets/images/allowedphi.png" alt="Figure 2" /></p>
-
-<p><strong>Figure 2</strong>: The only allowed wavefunctions for a particle confined to a box (reprinted from Modern Physics: International Edition).</p>
+<!-- Animation of the Allowed Wavefunctions -->
+<p align="center">
+  <img src="/assets/images/Adobe Express - PIAB.gif" width="500" alt="Vacuum fluctuations inside the atom" />
+  <br /><em>Simulation 2: A dynamic visualization of the allowed wavefunctions that disappear at boundaries resulting in modes</em>
+</p>
 
 <p>The edges (where probability disappears) are called modes, which have distinct spatial and temporal frequencies. n is an integer value and L is the length of the constraining box. The wavenumber k (spatial frequency) is given by \(k=\frac{2 \pi}{\lambda}\), which results in:</p>
 
@@ -375,7 +377,7 @@
 <!-- Animation of the QFT Interpretation -->
 <p align="center">
   <img src="/assets/images/Adobe Express - QFTPlaneCoupled (1).gif" width="500" alt="Vacuum fluctuations inside the atom" />
-  <br /><em>Simulation 2: A visualization of a quantized fields comprised of coupled modes acting as harmonic oscillators</em>
+  <br /><em>Simulation 3: A visualization of a quantized fields comprised of coupled modes acting as harmonic oscillators</em>
 </p>
 
 <p>One can think of the simulation above as a dynamic 3D extension of figure 2. The minimum energy of a quantum harmonic oscillator is, unlike classical oscillators, non zero due to the Heisenberg Uncertainty Principle. Why am I blaming HUP for this? Well, picture this…</p>
@@ -397,9 +399,9 @@
 \[E \approx \frac{(\Delta p)^2}{2m} + \frac{1}{2} m \omega^2 (\Delta x)^2
 = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2.\]
 
-<p><img src="/assets/images/QHOGS.png" alt="Figure 3" /></p>
+<p><img src="/assets/images/QHOGS.png" alt="Figure 2" /></p>
 
-<p><strong>Figure 3</strong>: The energy as a function of distance for the quantum harmonic oscillator.</p>
+<p><strong>Figure 2</strong>: The energy as a function of distance for the quantum harmonic oscillator.</p>
 
 <p>This gives the total energy as a function of \(\Delta x\). To find the minimum, differentiate with respect to \(\Delta x\) and set the derivative to zero:</p>
 
@@ -522,7 +524,7 @@
 
 \[V(r+s)=V(r)+s\frac{e^2}{4\pi \epsilon_0r^2}+...\]
 
-<p>The second term on the left hand side is the energy due to the perturbation, and is precisely what we are looking for. So letting \(r=a_0\) (the most probable value of r for the ground state Hydrogen atom) gives us:</p>
+<p>The second term on the left hand side is the energy due to the perturbation, and is precisely what we are looking for. So letting \(r=a_0\) (the most probable value of r for the ground-state Hydrogen atom) gives us:</p>
 
 \[\Delta E=s\frac{e^2}{4\pi \epsilon_0a_0^2}\]
 
@@ -532,7 +534,7 @@
 
 \[\Delta E=\frac{e^2}{12\pi \epsilon_0a_0^3}\frac{\pi^2\hbar e^2}{8m^2\epsilon_0c^3}In\left(\frac{1}{\alpha}\right)\approx5 \times10^{-5} eV\]
 
-<p>Note that every single quantity in this expression is a known constant, and so plucking in all the constants gives you a reasonable order-of-magnitude value the change in energy due to empty space not being actually empty. Although this energy is a million times smaller than the ground energy of Hydrogen which was stated earlier, it is a measurable change which acts a undeniable and irrefutable proof that the vacuum is far from empty: it always jitters and its fingerprints are real and measurable. So we just proved by both theory and experiment, that even empty space when quantized to a small enough scale, gives rise to fluctuations. If you constrain something to a small enough volume, the Heisenberg Uncertainty Principle allows it to acquire enough energy to produce particle-anti particle pairs.</p>
+<p>Note that every single quantity in this expression is a known constant, and so plucking in all the constants gives you a reasonable order-of-magnitude value the change in energy due to empty space not being actually empty. Although this energy is a million times smaller than the ground-state energy of Hydrogen which was stated earlier, it is a measurable change which acts as undeniable and irrefutable proof that the vacuum is far from empty: it always jitters and its fingerprints are real and measurable. So we just proved by both theory and experiment, that even empty space when quantized to a small enough scale, gives rise to fluctuations. If you constrain something to a small enough volume, the Heisenberg Uncertainty Principle allows it to acquire enough energy to produce particle-anti particle pairs.</p>
 
 <p>I hope you learned something new from today’s blog, and I will be back soon with another interesting topic which is now, almost a century long mystery.</p>
 
