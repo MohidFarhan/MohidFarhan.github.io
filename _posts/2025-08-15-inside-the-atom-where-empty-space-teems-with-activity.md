@@ -153,6 +153,12 @@ $$
 \lambda_n=\frac{2L}{n}
 $$
 
+
+![Figure 2](/assets/images/allowedphi.png)
+
+**Figure 2**: The only allowed wavefunctions for a particle confined to a box
+
+
 The edges (where probability disappears) are called modes, which have distinct spatial and temporal frequencies. n is an integer value and L is the length of the constraining box. The wavenumber k (spatial frequency) is given by $$k=\frac{2 \pi}{\lambda}$$, which results in: 
 
 $$
@@ -174,7 +180,15 @@ $$
 ## The QFT Treatment
 
 Quantum Field Theory pictures a field as infinite coupled modes, each acting as harmonic oscillators. 
-The minimum energy of a quantum harmonic oscillator is, unlike classical oscillators, non zero due to the Heisenberg Uncertainty Principle. Why am I blaming HUP for this? Well, picture this...
+
+<!-- Animation of the QFT Interpretation -->
+<p align="center">
+  <img src="/assets/images/Adobe Express - QFTPlaneCoupled (1).gif" width="500" alt="Vacuum fluctuations inside the atom"/>
+  <br><em>Simulation 2: A visualization of a quantized fields comprised of coupled modes acting as harmonic oscillators</em>
+</p>
+
+
+One can think of the simulation above as a dynamic 3D extension of figure 2. The minimum energy of a quantum harmonic oscillator is, unlike classical oscillators, non zero due to the Heisenberg Uncertainty Principle. Why am I blaming HUP for this? Well, picture this...
 
 A classical oscillator (like a pendulum) can sit at zero kinteic energy. As a matter of fact, that is exactly what happens if you don't keep on applying a force to it since it loses energy to the environment. BUT, why can't a quantum harmonic oscillator do the same? Thats because if its stationary, we know its position with certainty, and its momentum with certainty (zero). And since, HUP must be obeyed by the particles at the quantum scale, this can not happen. So when, $$\Delta x$$ becomes small, the uncertainties in momentum are a source of maintaining a minimum energy, and vice vera. Hopefully, that makes sense intuitively. Now, let's have it make sense mathematically. 
 
@@ -199,9 +213,9 @@ E \approx \frac{(\Delta p)^2}{2m} + \frac{1}{2} m \omega^2 (\Delta x)^2
 = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2.
 $$
 
-![Figure 2](/assets/images/QHOGS.png)
+![Figure 3](/assets/images/QHOGS.png)
 
-**Figure 2**: The energy as a function of distance for the quantum harmonic oscillator.
+**Figure 3**: The energy as a function of distance for the quantum harmonic oscillator.
 
 
 
