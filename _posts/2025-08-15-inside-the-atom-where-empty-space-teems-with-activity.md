@@ -86,7 +86,7 @@ $$
 E \approx K + U
 $$
 
-I say approximately here since this is thhe non-relativistic treatment and has it's shortcomings as we discussed in the previous blog. Here the kinetic energy $$K$$ is given by
+I say approximately here since this is the non-relativistic treatment and has it's shortcomings as we discussed in the previous blog. Here the kinetic energy $$K$$ is given by
 
 $$
 K = \frac{(\Delta p)^2}{2 m_e}
@@ -161,7 +161,7 @@ $$
 </p>
 
 
-The edges (where probability disappears) are called modes, which have distinct spatial and temporal frequencies. n is an integer value and L is the length of the constraining box. The wavenumber k (spatial frequency) is given by $$k=\frac{2 \pi}{\lambda}$$, which results in: 
+The edges (where probability disappears) are called nodes, which have distinct spatial and temporal frequencies. n is an integer value and L is the length of the constraining box. The wavenumber k (spatial frequency) is given by $$k=\frac{2 \pi}{\lambda}$$, which results in: 
 
 $$
 k=\frac{\pi n}{L}
