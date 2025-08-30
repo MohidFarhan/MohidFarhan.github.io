@@ -33,7 +33,7 @@ The answer is surprisingly simple. You capture the star on your telescope. Then 
 The idea is to leverage the distance traveled by the Earth, in order to attain a large enough angle such that it is measurable. After 6 months, the Earth is on the other side of the Sun, implying that the "distance between our eyes" is 2 Astronomical Units (AU) in-between the stellar snapshots, where AU is the distance between the Earth and the Sun. This makes sense in the diagram shown below.
 
 Consider a nearby star observed from Earth at two opposite points in its orbit around the Sun, six months apart. The baseline of this observation is the diameter of Earth's orbit, which is 2 AU, giving a right triangle with a baseline of 1 AU, distance to the star (d), and Parallax angle (p), measured in arcseconds which is about
-$\frac{1}{3600}$ of a degree.
+$ \frac{1}{3600} $ of a degree.
 
 ![Figure 1](/assets/images/ParallaxDiagram_ManimCE_v0.19.0.png)
 
@@ -42,7 +42,7 @@ $\frac{1}{3600}$ of a degree.
 Using basic trigonometry:
 
 $$
-\tan p = \frac{1~\text{AU}}{d}
+\tan p = \frac{1}{d}
 $$
 
 For very small angles (which parallax angles always are), we can use the small-angle approximation:
@@ -69,7 +69,7 @@ $$
 d~(\text{parsecs}) = \frac{1}{p~(\text{arcsec})}
 $$
 
-where 1 pc = 206265 AU, and 1 arcsecond $=\frac{1}{3600}$ of a degree.
+where 1 pc = 206265 AU, and 1 arcsecond is $ \frac{1}{3600} $ of a degree.
 
 This proves to be a simple yet elegant method of determining stellar distances. By measuring the shift angle in arcseconds, we can immediately obtain a reasonable estimate of its distance from us.
 
