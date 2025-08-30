@@ -8,7 +8,7 @@ layout: single
 author_profile: true
 read_time: true
 comments: true
-excerpt: "How do we measure something we can’t touch? From the tiny wiggle of a nearby star against the night sky to the stretching fabric of space itself, astronomers have built a cosmic ruler that spans billions of light-years. Each step extends our reach deeper into the universe. We will dive into how we use asimple combination of eyepieces, lenses and gratings to peek into the edge of the universe."
+excerpt: "How do we measure something we can’t touch? From the tiny wiggle of a nearby star against the night sky to the stretching fabric of space itself, astronomers have built a cosmic ruler that spans billions of light-years. Each step extends our reach deeper into the universe. We will dive into how we use a simple combination of eyepieces, lenses and gratings to peek into the edge of the universe."
 
 
 ---
@@ -16,24 +16,24 @@ excerpt: "How do we measure something we can’t touch? From the tiny wiggle of 
 ## Introduction
 
 Have you ever come across an enormous number with the words "light years" next to it? If yes, then naturally, one must wonder how we got to this number.
-Are these distances even real or do scientists make them up and pull them out of nowhere? I mean, who will question them anyway? Let's answer these questions.
+Are these distances even real, or do scientists make them up and pull them out of nowhere? I mean, who will question them anyway? Let's answer these questions.
 
 Today, we will take a deep dive into the ingenious methodology of determining cosmological distances.
 We will start with methods of determining nearby objects and then progressively move to the farther objects, until we reach the edge of our universe.
-To develop an understanding of astrophysics and cosmology, understanding the methods of determining large distances is pivotal, so bear with me.
+To develop an understanding of astrophysics and cosmology, it is pivotal to understand the methods of determining large distances, so bear with me.
 
 ## The Stellar Parallax
 
 I want you to hold your thumb inches away from your eyes. Close your right eye while keeping the left one open and vice versa. Notice something?
 You may have found that your thumb shifts position relative to the background. This is not because your thumb magically moved when you switched eyes, but has more to do with angles and how your brain perceives depth. By measuring the angle of the shift and knowing the distance between your eyes, you can determine how far away your thumb is. And all you need is basic trigonometry.
 Why did I make you do this random task? That's because scientists also do the same random task to determine stellar distances, but on a much larger scale.
-Unfortunately, your eyes are too close for this method to work on distant stars since the "shift" angle is too small and impossible to measure. Then how can we use this method?
+Unfortunately, your eyes are too close for this method to work on distant stars, since the "shift" angle is too small and impossible to measure. Then how can we use this method?
 
 The answer is surprisingly simple. You capture the star on your telescope. Then wait six months before doing the same again, having your telescope in the same location for maximum accuracy.
 The idea is to leverage the distance traveled by the Earth, in order to attain a large enough angle such that it is measurable. After 6 months, the Earth is on the other side of the Sun, implying that the "distance between our eyes" is 2 Astronomical Units (AU) in-between the stellar snapshots, where AU is the distance between the Earth and the Sun. This makes sense in the diagram shown below.
 
 Consider a nearby star observed from Earth at two opposite points in its orbit around the Sun, six months apart. The baseline of this observation is the diameter of Earth's orbit, which is $2~\text{AU}$, giving a right triangle with a baseline of $1~\text{AU}$, distance to the star $(d)$, and Parallax angle $(p)$, measured in arcseconds
-($\frac{1}{3600}$ of degree.)
+($\frac{1}{3600}$ of a degree.)
 
 ![Figure 1](/assets/images/ParallaxDiagram_ManimCE_v0.19.0.png)
 
@@ -81,7 +81,7 @@ Stellar parallax yields very accurate results for determining distances of solar
 
 If we see a star 30,000 LY from us, we are seeing the star as it was 30,000 years ago, because light that left it 30,000 years ago is only reaching us at that point. Conversely, if aliens inhabiting near the stars pointed their telescopes to us, assuming a powerful enough zoom, they would see humans painting mammoths on cave walls and walking on glaciers resulting from the latest ice age.
 
-This is already an insane distance BUT our galaxy, the Milky Way, is 100,000 LY in diameter. We can barely determine the distances of one-third of the contents of our own galaxy, let alone other galaxies. This realization humbled us quickly and made us push to find another method that was successful at the larger scales.
+This is already an insane distance BUT our galaxy, the Milky Way, is 100,000 LY in diameter. We can barely determine the distances of one-third of the contents of our own galaxy, let alone those of other galaxies. This realization humbled us quickly and made us push to find another method that was successful at the larger scales.
 
 ## Spectroscopic Parallax - A misleading name
 
@@ -102,7 +102,7 @@ $$
 d = 10^{\frac{m - M + 5}{5}} \quad \text{(in parsecs)}
 $$
 
-The derivation of this formula, as well as how it can used, is in the appendix. For now, all you need to know is that the formula leverages the fact that the larger the deficit in the apparent and absolute magnitude of a star, the greater the distance. If the apparent magnitude is equal to the absolute magnitude, the distance is 10 pc by definition. If the apparent magnitude is much smaller than the absolute magnitude, then the star appears dim but is intrinsically bright, meaning that it must be much farther than 10 pc, and vice versa, if the star appears bright but is actually dim, it must be much closer than 10 pc.
+The derivation of this formula, as well as how it can be used, is in the appendix. For now, all you need to know is that the formula leverages the fact that the larger the deficit in the apparent and absolute magnitude of a star, the greater the distance. If the apparent magnitude is equal to the absolute magnitude, the distance is 10 pc by definition. If the apparent magnitude is much smaller than the absolute magnitude, then the star appears dim although it is intrinsically bright, meaning that it must be much farther than 10 pc, and vice versa, if the star appears bright but is actually dim, it must be much closer than 10 pc.
 This formula determines the exact values, and will also be useful ahead.
 
 ## Cepheid Variable Stars
@@ -137,7 +137,7 @@ These supernovae have very consistent intrinsic luminosities, making them excell
 Once again, since we know M, we can easily know everything else needed to use the distance modulus formula. 
 
 But by using the Type 1a supernovae as standard candles, our distance determination range increases to a whopping 1 Gpc, by using the James Webb Space Telescope. This is the equivalent to 3 billion LY.
-This upgrade means that the aliens would now see an Earth restricted only to unicellular, microbial life. This younger, 1.5 billion year old Earth was a lot hotter than today, with completely different continents, and a whole lot of volcanic activity and crater formations. It is believed that Mars had liquid water at around this time, though that is debatable.
+This upgrade means that the aliens would now see an Earth restricted only to unicellular, microbial life. This younger, 1.5-billion year old Earth was a lot hotter than today, with completely different continents, and a whole lot of volcanic activity and crater formations. It is believed that Mars had liquid water at around this time, though that is debatable.
 
 ## Cosmological Redshift
 
@@ -158,12 +158,12 @@ $$
 d = \frac{v}{H_0} = \frac{cz}{H_0}
 $$
 
-$c$ is the speed of light. This approximation works well for nearby galaxies (100 MLY). For more distant objects ($$z \geq 0.1$$), cosmological models must be used to relate redshift and distance accurately.
-At high redshifts, the universe’s expansion has changed over time, so the simple linear Hubble law is replaced with integrals over the expansion history. Redshift-based methods can measure distances to quasars and galaxies billions of light-years away.
+$c$ is the speed of light. This approximation works well for nearby galaxies (100 MLY). For more distant objects ($z \geq 0.1$), cosmological models must be used to relate redshift and distance accurately.
+At high redshifts, the universe’s expansion has changed over time, so the simple linear Hubble law is replaced by integrals over the expansion history. Redshift-based methods can measure distances to quasars and galaxies billions of light-years away.
 
 Combined with supernova observations, they have revealed that the universe’s expansion is accelerating. While the cosmological modeling is a complex topic that will be covered in future blogs, the surreal fact is that with the high z methods, we have been able to track the distance of objects that are almost as old as the universe, which is estimated to be around 13.8 billion years old.
 
-Viewing an object this far away, you're seeing so far back in time, that if you could see only a few thousand years more back in time, you would see the big bang. As a matter of fact, this is of primary interest to cosmologists who are motivated to learn about the big bang and early universe. This method of viewing back to the ancient universe is a cornerstone of observational High Energy Physics and, outside of large detectors and colliders, remains our only beacon of hope to understand the origin of the universe.
+Viewing an object this far away, you're seeing so far back in time, that if you could see only a few thousand years more back in time, you would see the big bang. As a matter of fact, this is of primary interest to cosmologists who are motivated to learn about the big bang and early universe. This method of viewing back to the ancient universe is a cornerstone of observational High Energy Physics and, outside of large detectors and colliders, remains our best beacon of hope to understand the origin of the universe.
 
 As for our alien friends looking in our direction, they would not see us and might never see us and we might never see them. Due to the expansion of the universe, we would recede from each other faster than the speed of light. Meaning that the photons trying to reach us are fighting for a lost cause. The ruthless expansion of the universe means that, despite being the fastest entity in the universe, their finish line is moving away from them faster than they can run. And this will continue to happen till the end of time.
 
