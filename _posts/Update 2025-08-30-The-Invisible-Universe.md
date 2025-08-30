@@ -119,6 +119,10 @@ $$
 
 where $M$ is the absolute magnitude, $P$ is the period in days, and $a$ and $b$ are calibration constants determined observationally.
 
+![Figure 2](/assets/images/B3P2.png)
+
+**Figure 2**: The Magnitude plotted as a function of the period of the star's brightness cycle.
+
 Once M is known, the task is the same. We determine m observationally and use the distance modulus formula again. By leveraging the best of today's technology, the James Webb Space Telescope, this method gives us readings of up to 20 Mpc. This translates to 60 million LY which is so insane, that if aliens that far away were to point their telescopes on Earth, they would see the event that wiped out the dinosaurs, or even the dinosaurs if they're lucky!.
 This upgrade easily increases our range from a fraction of our own galaxy to, comfortably, the local group and the Virgo supercluster.
 
