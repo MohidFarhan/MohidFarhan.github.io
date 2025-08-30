@@ -10,4 +10,10 @@ var store = [{
         "tags": [],
         "url": "/quantum%20field%20theory/relativistic%20quantum%20mechanics/particle%20physics/atomic%20and%20molecular%20physics/inside-the-atom-where-empty-space-teems-with-activity/",
         "teaser": null
+      },{
+        "title": "Measuring the Cosmos: From Parallax to the Edge of the Universe",
+        "excerpt":"Introduction Have you ever come across an enormous number with the words “light years” next to it? If yes, then naturally, one must wonder how we got to this number. Are these distances even real, or do scientists make them up and pull them out of nowhere? I mean, who...","categories": ["Cosmology","Astronomy","Particle Physics","Astrophysics"],
+        "tags": [],
+        "url": "/cosmology/astronomy/particle%20physics/astrophysics/Measuring-the-universe/",
+        "teaser": null
       }]
