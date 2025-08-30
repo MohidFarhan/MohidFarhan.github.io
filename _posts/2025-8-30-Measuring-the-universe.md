@@ -32,8 +32,7 @@ Unfortunately, your eyes are too close for this method to work on distant stars,
 The answer is surprisingly simple. You capture the star on your telescope. Then wait six months before doing the same again, having your telescope in the same location for maximum accuracy.
 The idea is to leverage the distance traveled by the Earth, in order to attain a large enough angle such that it is measurable. After 6 months, the Earth is on the other side of the Sun, implying that the "distance between our eyes" is 2 Astronomical Units (AU) in-between the stellar snapshots, where AU is the distance between the Earth and the Sun. This makes sense in the diagram shown below.
 
-Consider a nearby star observed from Earth at two opposite points in its orbit around the Sun, six months apart. The baseline of this observation is the diameter of Earth's orbit, which is 2 AU, giving a right triangle with a baseline of 1 AU, distance to the star (d), and Parallax angle (p), measured in arcseconds which is about
-\(\frac{1}{3600}\) of a degree.
+Consider a nearby star observed from Earth at two opposite points in its orbit around the Sun, six months apart. The baseline of this observation is the diameter of Earth's orbit, which is 2 AU, giving a right triangle with a baseline of 1 AU, distance to the star (d), and Parallax angle (p), measured in arcseconds which is about one of 3600 parts of a degree.
 
 ![Figure 1](/assets/images/ParallaxDiagram_ManimCE_v0.19.0.png)
 
@@ -69,7 +68,7 @@ $$
 d~(\text{parsecs}) = \frac{1}{p~(\text{arcsec})}
 $$
 
-where 1 pc = 206265 AU, and 1 arcsecond is $ \frac{1}{3600} $ of a degree.
+where 1 pc = 206265 AU.
 
 This proves to be a simple yet elegant method of determining stellar distances. By measuring the shift angle in arcseconds, we can immediately obtain a reasonable estimate of its distance from us.
 
@@ -131,9 +130,9 @@ This upgrade easily increases our range from a fraction of our own galaxy to, co
 60 Mpc is not bad but in cosmological scale, even calling it the tip of the iceberg would be generous. Let's keep going farther and farther. In the regime we are currently in, the distance modulus remains our only hope and so the challenge is to keep on coming up with methods of determining the absolute magnitude and the intrinsic brightness of the distant objects. I write "objects" and not stars because stars are not bright enough anymore, but supernovae sure are.
 Supernovae are violent explosions that occur due to the gravitational collapse of huge stars. They are known to be among the most energetic events in the known universe. You know it's serious when a single event outshines galaxies for weeks.
 
-Type Ia supernovae are thermonuclear explosions of white dwarfs in binary systems. When the white dwarf accretes enough mass from its companion star to approach the Chandrasekhar limit ( $\sim1.4~M_\odot$ ), it undergoes runaway nuclear fusion and explodes. These supernovae have very consistent intrinsic luminosities, making them excellent standard candles.
+Type Ia supernovae are thermonuclear explosions of white dwarfs in binary systems. When the white dwarf accretes enough mass from its companion star to approach the Chandrasekhar limit (about 1.4 solar masses), it undergoes runaway nuclear fusion and explodes. These supernovae have very consistent intrinsic luminosities, making them excellent standard candles.
 
-These supernovae have very consistent intrinsic luminosities, making them excellent standard candles. Their peak absolute magnitude is approximately $M\approx-19.3$. The light curve (brightness vs time) follows a predictable shape, which can be used to refine the intrinsic brightness even further. These supernovae were instrumental in determining that the universe's expansion was accelerating, leading to the concept of Dark Energy, which will be a discussion for a future blog.
+These supernovae have very consistent intrinsic luminosities, making them excellent standard candles. Their peak absolute magnitude is approximately around 19.3. The light curve (brightness vs time) follows a predictable shape, which can be used to refine the intrinsic brightness even further. These supernovae were instrumental in determining that the universe's expansion was accelerating, leading to the concept of Dark Energy, which will be a discussion for a future blog.
 Once again, since we know M, we can easily know everything else needed to use the distance modulus formula. 
 
 But by using the Type 1a supernovae as standard candles, our distance determination range increases to a whopping 1 Gpc, by using the James Webb Space Telescope. This is the equivalent to 3 billion LY.
@@ -144,21 +143,21 @@ This upgrade means that the aliens would now see an Earth restricted only to uni
 3 billion LY is almost a quarter of the observable universe. There's more than 3 quarters STILL left, which makes us realize the utter scale of the universe we are a part of. There are no events bright enough for us to reliably determine M and latch onto the distance modulus formula, so is this it?
 The answer is a resounding no thanks to the final boss: cosmological redshift. In this method, astronomers rely on the expansion of space itself to determine distances using redshift. As light travels through expanding space, its wavelength stretches. This effect is called redshift, denoted by z.
 
-The farther away a galaxy is, the more its light is redshifted. This relationship was first discovered by Edwin Hubble in 1929. For small redshifts ( $z\geq1$ ), the velocity at which a galaxy appears to be receding is:
+The farther away a galaxy is, the more its light is redshifted. This relationship was first discovered by Edwin Hubble in 1929. For small redshifts where z exceeds or is near 0.1, the velocity at which a galaxy appears to be receding is:
 
 $$
-v = H_0 d
+v = H d
 $$
 
-where v is the recession velocity, $H_0$ is the Hubble constant (units: km/s/Mpc), and d is the distance to the object in megaparsecs (Mpc).
+where v is the recession velocity, H is the Hubble constant (units: km/s/Mpc), and d is the distance to the object in megaparsecs (Mpc).
 
 Solving for distance:
 
 $$
-d = \frac{v}{H_0} = \frac{cz}{H_0}
+d = \frac{v}{H} = \frac{cz}{H}
 $$
 
-c is the speed of light. This approximation works well for nearby galaxies (100 MLY). For more distant objects ($z\geq 0.1$), cosmological models must be used to relate redshift and distance accurately.
+c is the speed of light. This approximation works well for nearby galaxies (100 MLY). For more distant objects where z exceeds 1, cosmological models must be used to relate redshift and distance accurately.
 At high redshifts, the universe’s expansion has changed over time, so the simple linear Hubble law is replaced by integrals over the expansion history. Redshift-based methods can measure distances to quasars and galaxies billions of light-years away.
 
 Combined with supernova observations, they have revealed that the universe’s expansion is accelerating. While the cosmological modeling is a complex topic that will be covered in future blogs, the surreal fact is that with the high z methods, we have been able to track the distance of objects that are almost as old as the universe, which is estimated to be around 13.8 billion years old.
@@ -264,4 +263,4 @@ $$
 
 ---
 
-**Sanity check:** At twice the distance (200 pc), flux drops by a factor of 4. Magnitude increases by 1.5. The star would look fainter $m \approx 11.5$, consistent with the magnitude definition.
+**Sanity check:** At twice the distance (200 pc), flux drops by a factor of 4. Magnitude increases by 1.5. The star would look fainter with an apparent magnitude of 11.5, consistent with the magnitude definition.
