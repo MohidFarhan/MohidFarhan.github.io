@@ -1,13 +1,16 @@
 ---
-title: "The Missing Universe: A First Look at Dark Matter and Dark Energy"
+
+title: "Measuring the Cosmos: From Parallax to the Edge of the Universe"
 date: 2025-08-30
-categories: ["cosmology", "astrophysics", "dark-matter", "dark-energy", "particle-physics"]
+categories: [Cosmology, Astronomy, Particle Physics, Astrophysics]
+use_math: true
 layout: single
 author_profile: true
 read_time: true
 comments: true
-mathjax: true
-excerpt: "Most of the universe is invisible. What we see is just a sliver, as the rest hides in the form of dark matter and dark energy. This post begins the journey into the unseen cosmos."
+excerpt: "How do we measure something we can’t touch? From the tiny wiggle of a nearby star against the night sky to the stretching fabric of space itself, astronomers have built a cosmic ruler that spans billions of light-years. Each step extends our reach deeper into the universe. We will dive into how we use a simple combination of eyepieces, lenses and gratings to peek into the edge of the universe."
+
+
 ---
 
 
