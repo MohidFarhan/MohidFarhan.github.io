@@ -2,7 +2,7 @@
 
 title: "The Missing Universe: A First Look at Dark Matter and Dark Energy"
 date: 2025-08-30
-categories: [cosmology, astrophysics, dark-matter, dark-energy, particle physics]
+categories: [cosmology, astrophysics, dark-matter, dark-energy, particle-physics]
 use_math: true
 layout: single
 author_profile: true
