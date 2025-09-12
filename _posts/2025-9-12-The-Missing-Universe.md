@@ -8,7 +8,7 @@ layout: single
 author_profile: true
 read_time: true
 comments: true
-excerpt: "Most of the universe is invisible. What we see is just a sliver, as the rest hides in the form of dark matter and dark energy. This post begins the journey into the unseen cosmos"
+excerpt: "Most of the universe is invisible. What we see is just a sliver, as the rest hides in the form of dark matter and dark energy. This post begins the journey into the unseen cosmos."
 
 ---
 
