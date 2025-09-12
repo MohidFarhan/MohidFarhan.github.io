@@ -28,7 +28,7 @@ $$
 E = mc^2
 $$
 
-And in natural units $\hbar = c = 1$, they are equivalent. So mass contents and energy contents are fundamentally the same thing, and if you divide this with the volume, you arrive at the energy density ($P$). Therefore, this elegant quantity accounts for many fundamental and easily visualizable parameters.  
+And in natural units  \\( \hbar = c = 1 \\), they are equivalent. So mass contents and energy contents are fundamentally the same thing, and if you divide this with the volume, you arrive at the energy density (P). Therefore, this elegant quantity accounts for many fundamental and easily visualizable parameters.  
 
 Now that we have a defined metric, we can quantify the percentages of the universe and definitively state how much of it is known to us and how much of it remains elusive. So how much of it can we see and detect?  
 
