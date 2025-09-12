@@ -154,7 +154,13 @@ $$
 H_0 \approx 70 \,\text{km/s/Mpc}
 $$
 
-So two objects separated by 1 Megaparsec move away from each other at a speed of 70 km every second. This velocity is attributed to the universal acceleration and is independent of the gravitational dynamics of the objects.  
+So two objects separated by 1 Megaparsec move away from each other at a speed of 70 km every second. This velocity is attributed to the universal acceleration and is independent of the gravitational dynamics of the objects. 
+
+<!-- Animation of Inflation -->
+<p align="center">
+  <img src="/assets/images/Adobe Express - ExpandingUniverse (1).gif" width="500" alt=""/>
+  <br><em>Simulation 1: The Effect of Cosmological Expansion on Distance. </em>
+</p>
 
 ## Evolution of Hubble's Law
 
