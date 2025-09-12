@@ -1,6 +1,6 @@
 ---
 
-title: "Measuring the Cosmos: From Parallax to the Edge of the Universe"
+title: "The Hidden Universe: An Introduction to the dark sector"
 date: 2025-08-30
 categories: [Cosmology, Astronomy, Particle Physics, Astrophysics]
 use_math: true
@@ -8,7 +8,7 @@ layout: single
 author_profile: true
 read_time: true
 comments: true
-excerpt: "How do we measure something we can’t touch? From the tiny wiggle of a nearby star against the night sky to the stretching fabric of space itself, astronomers have built a cosmic ruler that spans billions of light-years. Each step extends our reach deeper into the universe. We will dive into how we use a simple combination of eyepieces, lenses and gratings to peek into the edge of the universe."
+excerpt: "All the galaxies, stars, super-clusters, black hole and all other bodies that you see, only make up a laughable amount of the universe. We are oblivious to a vast majority of universe, which remains hidden from us to this day despite our best efforts."
 
 
 ---
