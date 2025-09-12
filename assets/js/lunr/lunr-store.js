@@ -17,9 +17,9 @@ var store = [{
         "url": "/cosmology/astronomy/particle%20physics/astrophysics/Measuring-the-universe/",
         "teaser": null
       },{
-        "title": "The Missing Universe: A First Look at Dark Matter and Dark Energy",
-        "excerpt":"Introduction Welcome back to my blog. Today we will discuss, arguably, the biggest mysteries in theoretical physics. The problem that faces us is interdisciplinary, and seeps into Cosmology, Particle Physics, Quantum Field Theory and even Special Relativity. There has not been a single topic that has divided the physics community...","categories": ["cosmology","astrophysics","dark-matter","dark-energy","particle-physics"],
+        "title": "Measuring the Cosmos: From Parallax to the Edge of the Universe",
+        "excerpt":"Introduction Welcome back to my blog. Today we will discuss, arguably, the biggest mysteries in theoretical physics. The problem that faces us is interdisciplinary, and seeps into Cosmology, Particle Physics, Quantum Field Theory and even Special Relativity. There has not been a single topic that has divided the physics community...","categories": ["Cosmology","Astronomy","Particle Physics","Astrophysics"],
         "tags": [],
-        "url": "/cosmology/astrophysics/dark-matter/dark-energy/particle-physics/Missing-Universe/",
+        "url": "/cosmology/astronomy/particle%20physics/astrophysics/Missing-Universe/",
         "teaser": null
       }]
