@@ -32,6 +32,7 @@ $$
 And in natural units $\hbar = c = 1$, they are equivalent. So mass contents and energy contents are fundamentally the same thing, and if you divide this with the volume, you arrive at the energy density ($P$). Therefore, this elegant quantity accounts for many fundamental and easily visualizable parameters.  
 
 
+
 Now that we have a defined metric, we can quantify the percentages of the universe and definitively state how much of it is known to us and how much of it remains elusive. So how much of it can we see and detect?  
 
 You might be tempted to think that detecting and seeing would be the same thing, but there's a slight difference. Stars, galaxies, dust, constellations and galactic clusters are all luminous and can be seen easily, but the same cannot be said for brown dwarfs and black holes, which are certainly matter but hard to see and only easy to detect via gravity. The same can be said for neutron stars due to their incredibly small size often of the scale of tens of kilometers in radius. Since all matter isn't necessarily luminous matter, we term it as **baryonic matter** in scientific terms.  
