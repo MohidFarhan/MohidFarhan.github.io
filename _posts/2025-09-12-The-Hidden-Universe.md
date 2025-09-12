@@ -112,13 +112,13 @@ There exist many particle candidates for dark matter such as:
 
 These theories are alternate and conflicting theories which modify laws instead of attempting to introduce new matter into the universe. However, this theory struggles to explain other evidence of dark matter.  
 
-MOND-based theories have a hard time replicating the large-scale structure of the universe, which is the cosmic web of galaxy filaments and voids. The standard cosmological model, Lambda-CDM ($\Lambda$CDM), uses dark matter to explain how these structures formed from tiny fluctuations in the early universe. Simulations based on MOND generally fail to produce a universe with the observed distribution of galaxies and clusters, often predicting a universe with either too much or too little structure.  
+MOND-based theories have a hard time replicating the large-scale structure of the universe, which is the cosmic web of galaxy filaments and voids. The standard cosmological model, Lambda-CDM ( \\(  \Lambda \\) CDM), uses dark matter to explain how these structures formed from tiny fluctuations in the early universe. Simulations based on MOND generally fail to produce a universe with the observed distribution of galaxies and clusters, often predicting a universe with either too much or too little structure.  
 
 Gravitational lensing, the bending of light by massive objects, provides some of the strongest evidence for dark matter. The effect depends on the total mass of an object, not just its visible matter. MOND, which modifies gravity, struggles to accurately predict the amount of lensing observed in galaxy clusters. Whether you want to be on team dark matter or team MOND is your choice but I prefer the former. 
 
 ## Problem Solved?
 
-So is that it? Should I end my blog here? Does dark matter account for the remaining energy density? The answer is a resounding *NO*. $\Lambda$CDM conclusively indicates that dark matter affiliated energy density is around 5 times more than that of normal matter.  
+So is that it? Should I end my blog here? Does dark matter account for the remaining energy density? The answer is a resounding *NO*. \(  \Lambda \)CDM conclusively indicates that dark matter affiliated energy density is around 5 times more than that of normal matter.  
 
 So that means around *27% of the universal energy density* is attributed to dark matter. So, what about the remaining energy density which, mind you, still makes up the majority? Where is that now?  
 
@@ -134,7 +134,7 @@ $$
 R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
 $$
 
-To prevent collapse, he inserted a term with the cosmological constant $\Lambda$ to introduce a repulsive term which avoids collapse and restores the static universe which agreed with Einstein's beliefs.  
+To prevent collapse, he inserted a term with the cosmological constant \(  \Lambda \) to introduce a repulsive term which avoids collapse and restores the static universe which agreed with Einstein's beliefs.  
 
 $$
 R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
@@ -142,13 +142,13 @@ $$
 
 ## The Birth of the Concept of Dark Energy
 
-$\Lambda$ was the first documented instance of a dark energy component. Later, in his famous 1929 paper, Hubble discovered that the universe was expanding, not static. This led Einstein to discard $\Lambda$ and, allegedly, term it as his "biggest blunder", since his field equations naturally allowed for an expanding universe. This expansion is characterized by Hubble's law:  
+\(  \Lambda \) was the first documented instance of a dark energy component. Later, in his famous 1929 paper, Hubble discovered that the universe was expanding, not static. This led Einstein to discard \(  \Lambda \) and, allegedly, term it as his "biggest blunder", since his field equations naturally allowed for an expanding universe. This expansion is characterized by Hubble's law:  
 
 $$
 v = H_0 d
 $$
 
-This law states that two objects in the universe, separated by a distance $d$, move away from each other with velocity $v$. $H_0$ is the Hubble expansion which, in the current epoch, is approximately:  
+This law states that two objects in the universe, separated by a distance d, move away from each other with velocity v. \( H_0 \) is the Hubble expansion which, in the current epoch, is approximately:  
 
 $$
 H_0 \approx 70 \,\text{km/s/Mpc}
@@ -160,7 +160,7 @@ So two objects separated by 1 Megaparsec move away from each other at a speed of
 
 A famous analogy of visualizing the effect of this expansion is by thinking of the universe like a balloon with bodies as dots on its surface. If someone were to blow into the balloon, the dots move away from each other. It's not because the dots move along the surface by magic, but it’s because the very fabric that defines their coordinates is expanding. Note that this implies that every body recesses from every other body and in the frame of every object, it appears to be at the center of this expansion, though all frames are equally relevant.  
 
-There was another twist in the tale following the rapid technological advancements. In the early 1990s, two separate teams using Type Ia supernovae as standard candles independently discovered that the expansion was not constant, but accelerating. This implied that $H_0$ increases with time:  
+There was another twist in the tale following the rapid technological advancements. In the early 1990s, two separate teams using Type Ia supernovae as standard candles independently discovered that the expansion was not constant, but accelerating. This implied that \\( H_0 \\) increases with time:  
 
 $$
 H_0 \rightarrow H_0(t)
@@ -170,9 +170,9 @@ Note that the Type Ia supernovae method is also discussed in Blog 3.
 
 ## Dark Energy as it stands.
 
-As a result, $\Lambda$ made a return, not to ensure a static universe, but to drive the accelerated expansion. This discovery opened up many possible outcomes of the universe's expansion and evolution dynamics, which deserve a blog post of their own.  
+As a result, \\(  \Lambda \\) made a return, not to ensure a static universe, but to drive the accelerated expansion. This discovery opened up many possible outcomes of the universe's expansion and evolution dynamics, which deserve a blog post of their own.  
 
-There exist many scalar field models surrounding dark energy, each with their unique scalar potentials and outcomes of the effects of expansion. Scalar field models like *Quintessence* and *k-phantom* are examples that establish dark energy models and mimic the cosmological constant in the current epoch, but allow for different values of $\Lambda$ in the early universe. So, in essence, they convert the cosmological constant to a cosmological function of sorts.  
+There exist many scalar field models surrounding dark energy, each with their unique scalar potentials and outcomes of the effects of expansion. Scalar field models like *Quintessence* and *k-phantom* are examples that establish dark energy models and mimic the cosmological constant in the current epoch, but allow for different values of \(  \Lambda \) in the early universe. So, in essence, they convert the cosmological constant to a cosmological function of sorts.  
 
 This mysterious form of energy accounts for the remaining *68% of the energy density* and its fundamental nature is shrouded in mystery. I have also conducted research on this entity, attempting to incorporate it into Particle Physics as well as trying to model it using open quantum systems, which will be discussed extensively once published.  
 
