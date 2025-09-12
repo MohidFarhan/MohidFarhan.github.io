@@ -2,7 +2,7 @@
 
 title: "The Hidden Universe: An Introduction to the dark sector"
 date: 2025-09-12
-categories: [Cosmology, Astronomy, Particle Physics, Astrophysics]
+categories: [Cosmology, Astronomy, Particle Physics, Astrophysics, Gravitation]
 use_math: true
 layout: single
 author_profile: true
