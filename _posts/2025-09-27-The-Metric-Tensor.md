@@ -232,5 +232,7 @@ To learn more about the procedure, visit my github repository where I have coded
 
 But for now, let's pause and look back at the journey we embarked on. Using grade 7 mathematics, we were able to devise a formalism that equips us to not only determine the distance for any geometrical coordinates nature can throw at us, but to also use that formalism to dive deep into cosmology and understand our universe from it's core.
 
+The metric tensor is more than mathematics; it is the grammar of spacetime. By encoding lengths, angles, and curvature, it shapes every law of physics we know. From here, the path naturally leads us to the FLRW metric, which lies at the very heart of cosmology.
+
 Good job on making it this far, and as always, keep on physicsing.
 
