@@ -85,7 +85,7 @@ So, with the help of the two-numbered metric, we can effectively map the rectang
 
 *Figure 4*: Completing the right-angled triangle.
 
-Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $$\overrightarrow{AC}$$, to better understand the components. The blue triangle shows a grid element cut diagonally, with the magnitude of $$\overrightarrow{AD}$$ bring x and that of $$\overrightarrow{BC}$$ being y on the oblique grid system. The x-component of the main vector $$\overrightarrow{AC}$$, notated by X is given by:
+Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $$\overrightarrow{AC}$$, to better understand the components. The blue triangle shows a grid element cut diagonally, with the magnitude of $$\overrightarrow{AD}$$ being x and that of $$\overrightarrow{BC}$$ being y on the oblique grid system. The x-component of the main vector $$\overrightarrow{AC}$$, notated by X is given by:
 
 $$
 X=|AD|+|DB|=x+|CD|Cos\theta
@@ -149,7 +149,7 @@ $$
 
 and THAT, my friends, is what we call a Rank-2 tensor. So now, we can calculate the magnitude by using elements taken from this tensor. Since this particular tensor encodes all the elements required for a coordinate transformation, we call it a metric tensor.
 
-Notice that if you take the case $\theta=90$, $$g_{xy}$$ and $$g_{yx}$$ vanish, and so you retain the case of rectangle grid (if $$g_{xx} \neq g_{yy}$$) and square grid (if $$g_{xx} = g_{yy}$$). This makes perfect sense when you realize that the square and rectangle grids are right-angled grids, so that is a useful intuitive picture. 
+Notice that if you take the case $$\theta=90$$, $$g_{xy}$$ and $$g_{yx}$$ vanish, and so you retain the case of rectangle grid (if $$g_{xx} \neq g_{yy}$$) and square grid (if $$g_{xx} = g_{yy}$$). This makes perfect sense when you realize that the square and rectangle grids are right-angled grids, so that is a useful intuitive picture. 
 
 This metric tensor can be further generalized to three dimensions: 
 
@@ -226,7 +226,7 @@ The simulation only had one dimension of space, but in reality, there are three 
 
 Earlier, we were trying to map a 3D object onto 2D, now it's 4D sapcetime that we are dealing with. The formalism remains the same but the complexity now goes up a notch. 
 
-The mathematical procedure involves computing Kristoffel symbols, Riemaan Tensors, Ricci Tensors and Ricci Scalar (R), with a non-zero Ricci scalar resulting in flat spacetime and the opposite is true if $R \neq 0$.
+The mathematical procedure involves computing Kristoffel symbols, Riemaan Tensors, Ricci Tensors and Ricci Scalar (R), with a non-zero Ricci scalar resulting in flat spacetime and the opposite is true if $$R \neq 0$$.
 
 To learn more about the procedure, visit my github repository where I have everything coded out in Mathematica. And maybe, we will dive into the details in a future blog if need be. 
 
