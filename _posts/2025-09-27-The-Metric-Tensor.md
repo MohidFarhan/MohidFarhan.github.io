@@ -85,7 +85,7 @@ So, with the help of the two-numbered metric, we can effectively map the rectang
 
 *Figure 4*: Completing the right-angled triangle.
 
-Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $$\overrightarrow{AC}$$, to better understand the components. The blue triangle shows a grid element cut diagonally, with $$|AD|$$ bring x and |CD| being y on the oblique grid system. The x-component of the main vector $$\overrightarrow{AC}$$, notated by X is given by:
+Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $$\overrightarrow{AC}$$, to better understand the components. The blue triangle shows a grid element cut diagonally, with $$|AD|$$ bring x and $$|CD|$$ being y on the oblique grid system. The x-component of the main vector $$\overrightarrow{AC}$$, notated by X is given by:
 
 $$
 X=|AD|+|DB|=x+|CD|Cos\theta
@@ -96,7 +96,7 @@ $$
 X=|AD|+|DB|=x+yCos\theta
 $$
 
-and the y-component of the main vector $\overrightarrow{AC}$, notated by Y is given by:
+and the y-component of the main vector $$\overrightarrow{AC}$$, notated by Y is given by:
 
 $$
 Y=|CD|Sin\theta = ySin\theta
@@ -137,7 +137,7 @@ $$
 |v|^2=g_{xx}x.x+g_{xy}x.y+g_{yx}y.x+g_{yy}y.y
 $$
 
-So, that's four scalars that we now need to know. The elements $$g_{xy}$$ and $$g_{yx}$$ absorb the Cos$\theta$ term and therefore now encode the "obtuseness" of the geometry involved. But wait, look at the way I have notated them. We can write this as a matrix! 
+So, that's four scalars that we now need to know. The elements $$g_{xy}$$ and $$g_{yx}$$ absorb the Cos$$\theta$$ term and therefore now encode the "obtuseness" of the geometry involved. But wait, look at the way I have notated them. We can write this as a matrix! 
 
 $$
 g=
