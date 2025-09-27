@@ -85,7 +85,7 @@ So, with the help of the two-numbered metric, we can effectively map the rectang
 
 *Figure 4*: Completing the right-angled triangle.
 
-Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $$\overrightarrow{AC}$$, to better understand the components. The blue triangle shows a grid element cut diagonally, with $$|AD|$$ bring x and $$|CD|$$ being y on the oblique grid system. The x-component of the main vector $$\overrightarrow{AC}$$, notated by X is given by:
+Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $$\overrightarrow{AC}$$, to better understand the components. The blue triangle shows a grid element cut diagonally, with the magnitude of $$\overrightarrow{AD}$$ bring x and that of $$\overrightarrow{BC}$$ being y on the oblique grid system. The x-component of the main vector $$\overrightarrow{AC}$$, notated by X is given by:
 
 $$
 X=|AD|+|DB|=x+|CD|Cos\theta
