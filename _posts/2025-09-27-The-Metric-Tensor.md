@@ -18,7 +18,7 @@ excerpt: "The metric tensor is the universe’s measuring tape, and dictates how
 
 Tensors are an overwhelming topic for most students, which is a problem since they are important if you want to get into the fun part of physics. Cosmology, general relativity, particle physics, and many more interesting fields rely on tensors. In today's blog, we'll get into a special type of tensor, gaining intuition about them along the way. Hopefully, by the end of it, you will be able to grasp what they are and how they can be used. We will go much deeper into tensors in future blogs, so stay tuned!
 
-To understand tensors, let's firstforget what we know and start from scratch. We can then go on a journey to rediscover them. The most fundamental tensor is the metric tensor. Once we understand that, we can generalize and deepen our understanding. The prerequisites are pretty simple: all you need to know are $7^{\text{th}}$ grade geometry concepts like the Pythagorean theorem and the area of a triangle. Yes, it's that simple. Buckle up and let's begin.
+To understand tensors, let's firstforget what we know and start from scratch. We can then go on a journey to rediscover them. The most fundamental tensor is the metric tensor. Once we understand that, we can generalize and deepen our understanding. The prerequisites are pretty simple: all you need to know are $$7^{\text{th}}$$ grade geometry concepts like the Pythagorean theorem and the area of a triangle. Yes, it's that simple. Buckle up and let's begin.
 
 
 ## A Vector in a Square Grid
@@ -70,7 +70,7 @@ $$
 |v|^2= g_{xx}x^2+g_{yy}y^2
 $$
 
-Here $g_{xx}$ and $g_{yy}$ are metric scalars for x and y axis respectively and have the "rectangleness" of the grid encoded in them. A critical point here is that x and y are displacements, not coordinates. Though, this convention might be a bit confusing right now, it has been intentionally kept this way as it will come in handy for a concept later on. 
+Here $$g_{xx}$$ and $$g_{yy}$$ are metric scalars for x and y axis respectively and have the "rectangleness" of the grid encoded in them. A critical point here is that x and y are displacements, not coordinates. Though, this convention might be a bit confusing right now, it has been intentionally kept this way as it will come in handy for a concept later on. 
 
 
 ## The Oblique Grid
@@ -85,7 +85,7 @@ So, with the help of the two-numbered metric, we can effectively map the rectang
 
 *Figure 4*: Completing the right-angled triangle.
 
-Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $\overrightarrow{AC}$, to better understand the components. The blue triangle shows a grid element cut diagonally, with $|AD|$ bring x and $|CD|$ being y on the oblique grid system. The x-component of the main vector $\overrightarrow{AC}$, notated by X is given by:
+Well, we can deal with the problem and make it compatible with a right angled triangle by completing the obtuse triangle to form a right angled triangle, as shown in figure 4. The main vector v is now being shown as the vector $$\overrightarrow{AC}$$, to better understand the components. The blue triangle shows a grid element cut diagonally, with $$|AD|$$ bring x and |CD| being y on the oblique grid system. The x-component of the main vector $$\overrightarrow{AC}$$, notated by X is given by:
 
 $$
 X=|AD|+|DB|=x+|CD|Cos\theta
@@ -137,7 +137,7 @@ $$
 |v|^2=g_{xx}x.x+g_{xy}x.y+g_{yx}y.x+g_{yy}y.y
 $$
 
-So, that's four scalars that we now need to know. The elements $g_{xy}$ and $g_{yx}$ absorb the Cos$\theta$ term and therefore now encode the "obtuseness" of the geometry involved. But wait, look at the way I have notated them. We can write this as a matrix! 
+So, that's four scalars that we now need to know. The elements $$g_{xy}$$ and $$g_{yx}$$ absorb the Cos$\theta$ term and therefore now encode the "obtuseness" of the geometry involved. But wait, look at the way I have notated them. We can write this as a matrix! 
 
 $$
 g=
@@ -149,7 +149,7 @@ $$
 
 and THAT, my friends, is what we call a Rank-2 tensor. So now, we can calculate the magnitude by using elements taken from this tensor. Since this particular tensor encodes all the elements required for a coordinate transformation, we call it a metric tensor.
 
-Notice that if you take the case $\theta=90$, $g_{xy}$ and $g_{yx}$ vanish, and so you retain the case of rectangle grid (if $g_{xx} \neq g_{yy}$) and square grid (if $g_{xx} = g_{yy}$). This makes perfect sense when you realize that the square and rectangle grids are right-angled grids, so that is a useful intuitive picture. 
+Notice that if you take the case $\theta=90$, $$g_{xy}$$ and $$g_{yx}$$ vanish, and so you retain the case of rectangle grid (if $$g_{xx} \neq g_{yy}$$) and square grid (if $$g_{xx} = g_{yy}$$). This makes perfect sense when you realize that the square and rectangle grids are right-angled grids, so that is a useful intuitive picture. 
 
 This metric tensor can be further generalized to three dimensions: 
 
@@ -178,7 +178,7 @@ $$
 
 ## The Final Form
 
-Let's unpack this. First of all $\mu$ and $\nu$ are indices which we will sum over. The metric tensor is notated by $g_{\mu \nu}$. It's indices on the bottom because it is a covariant tensor, since the elements of the tensor covaries with the length of the grids. Since, as you increase the grid length of the Euclidean space, the element's value of the metric tensor increases. The opposite is true for x (or the displacement), and so its indices are at the top and so it's a contravariant quantity. The x, y and z coordinates are notated by $x^1$, $x^2$ and $x^3$ respectively, and can be extended to N dimensions. 
+Let's unpack this. First of all $$\mu$$ and $$\nu$$ are indices which we will sum over. The metric tensor is notated by $$g_{\mu \nu}$$. It's indices on the bottom because it is a covariant tensor, since the elements of the tensor covaries with the length of the grids. Since, as you increase the grid length of the Euclidean space, the element's value of the metric tensor increases. The opposite is true for x (or the displacement), and so its indices are at the top and so it's a contravariant quantity. The x, y and z coordinates are notated by $$x^1$$, $$x^2$$ and $$x^3$$ respectively, and can be extended to N dimensions. 
 
 So, is this the most general form? Is this formula sufficient for converting any geometry into distance? 
 
