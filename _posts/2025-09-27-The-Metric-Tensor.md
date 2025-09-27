@@ -18,7 +18,7 @@ excerpt: "The metric tensor is the universe’s measuring tape, and dictates how
 
 Tensors are an overwhelming topic for most students, which is a problem since they are important if you want to get into the fun part of physics. Cosmology, general relativity, particle physics, and many more interesting fields rely on tensors. In today's blog, we'll get into a special type of tensor, gaining intuition about them along the way. Hopefully, by the end of it, you will be able to grasp what they are and how they can be used. We will go much deeper into tensors in future blogs, so stay tuned!
 
-To understand tensors, let's firstforget what we know and start from scratch. We can then go on a journey to rediscover them. The most fundamental tensor is the metric tensor. Once we understand that, we can generalize and deepen our understanding. The prerequisites are pretty simple: all you need to know are $$7^{\text{th}}$$ grade geometry concepts like the Pythagorean theorem and the area of a triangle. Yes, it's that simple. Buckle up and let's begin.
+To understand tensors, let's first forget what we know and start from scratch. We can then go on a journey to rediscover them. The most fundamental tensor is the metric tensor. Once we understand that, we can generalize and deepen our understanding. The prerequisites are pretty simple: all you need to know are $$7^{\text{th}}$$ grade geometry concepts like the Pythagorean theorem and the area of a triangle. Yes, it's that simple. Buckle up and let's begin.
 
 
 ## A Vector in a Square Grid
@@ -35,7 +35,7 @@ $$
 5^2=3^2+4^2
 $$
 
-But, we still do not know how far away they actually are to each other since we have not defined the unit. Once we define a unit to be a kilometer, we have our metric. In the simplest of words, a metric translates geometric coordinates into real distances (for the Euclidean space in this case). So, how many numbers need to included into the metric, for it to define and translate any scenario of points in a 2D case?  
+But, we still do not know how far away they actually are to each other since we have not defined the unit. Once we define a unit to be a kilometer, we have our metric. In the simplest of words, a metric translates geometric coordinates into real distances (for the Euclidean space in this case). So, how many numbers need to included in the metric, for it to define and translate any scenario of points in a 2D case?  
 
 ## A Vector in a Rectangular Grid
 
@@ -62,7 +62,7 @@ $$
 |v|^2 = 3^2 + 4^2 = 5^2
 $$
 
-We reproduce the same answer for magnitude as before, which makes sense since a change in the geometry of coordinates should not change the vector's magnitude. In other words, a vector's magnitude is invariant under a transformation of the geometry of coordinates. 
+We reproduce the same answer for magnitude as before, which makes sense since a change in the geometry of coordinates should not change the vector's magnitude. In other words, a vector's magnitude is invariant under a change in coordinate geometry. 
 
 Now, to determine the metric, we need two numbers, one for the x-axis and the other for the y-axis. We can write:
 
@@ -178,7 +178,7 @@ $$
 
 ## The Final Form
 
-Let's unpack this. First of all $$\mu$$ and $$\nu$$ are indices which we will sum over. The metric tensor is notated by $$g_{\mu \nu}$$. It's indices on the bottom because it is a covariant tensor, since the elements of the tensor covaries with the length of the grids. Since, as you increase the grid length of the Euclidean space, the element's value of the metric tensor increases. The opposite is true for x (or the displacement), and so its indices are at the top and so it's a contravariant quantity. The x, y and z coordinates are notated by $$x^1$$, $$x^2$$ and $$x^3$$ respectively, and can be extended to N dimensions. 
+Let's unpack this. First of all $$\mu$$ and $$\nu$$ are indices which we will sum over. The metric tensor is notated by $$g_{\mu \nu}$$. Its indices on the bottom because it is a covariant tensor, since the elements of the tensor covaries with the length of the grids. Since, as you increase the grid length of the Euclidean space, the element's value of the metric tensor increases. The opposite is true for x (or the displacement), and so its indices are at the top and so it's a contravariant quantity. The x, y and z coordinates are notated by $$x^1$$, $$x^2$$ and $$x^3$$ respectively, and can be extended to N dimensions. 
 
 So, is this the most general form? Is this formula sufficient for converting any geometry into distance? 
 
@@ -226,11 +226,11 @@ The simulation only had one dimension of space, but in reality, there are three 
 
 Earlier, we were trying to map a 3D object onto 2D, now it's 4D sapcetime that we are dealing with. The formalism remains the same but the complexity now goes up a notch. 
 
-The mathematical procedure involves computing Kristoffel symbols, Riemaan Tensors, Ricci Tensors and Ricci Scalar (R), with a non-zero Ricci scalar resulting in flat spacetime and the opposite is true if $$R \neq 0$$.
+The mathematical procedure involves computing Kristoffel symbols, Riemaan Tensors, Ricci Tensors and Ricci Scalar (R), with a non-zero Ricci scalar resulting in flat spacetime and conversely, if $$R \neq 0$$, spacetime is curved.
 
-To learn more about the procedure, visit my github repository where I have everything coded out in Mathematica. And maybe, we will dive into the details in a future blog if need be. 
+To learn more about the procedure, visit my github repository where I have coded everything in Mathematica, and perhaps we’ll dive into those details in a future blog. 
 
-But for now, let's pause and look back at the journey we embarked on. Using grade 7 mathematics, we were able to devise a formalism that equips us to not only determine the distance for any geometrical coordinates nature can thrown at us, nut to also use that formalism to dive deep into cosmology and understand our universe from it's core.
+But for now, let's pause and look back at the journey we embarked on. Using grade 7 mathematics, we were able to devise a formalism that equips us to not only determine the distance for any geometrical coordinates nature can throw at us, but to also use that formalism to dive deep into cosmology and understand our universe from it's core.
 
 Good job on making it this far, and as always, keep on physicsing.
 
