@@ -101,7 +101,11 @@ d = 10^{\frac{m - M + 5}{5}} \quad \text{(in parsecs)}
 $$
 
 The derivation of this formula, as well as how it can be used, is in the appendix. For now, all you need to know is that the formula leverages the fact that the larger the deficit in the apparent and absolute magnitude of a star, the greater the distance. If the apparent magnitude is equal to the absolute magnitude, the distance is 10 pc by definition. If the apparent magnitude is much smaller than the absolute magnitude, then the star appears dim although it is intrinsically bright, meaning that it must be much farther than 10 pc, and vice versa, if the star appears bright but is actually dim, it must be much closer than 10 pc.
-This formula determines the exact values, and will also be useful ahead.
+This formula determines the exact values, and will also be useful ahead. These exact values are shown through figure 2.
+
+![Figure 2](/assets/images/B2P1.png)
+
+**Figure 2**: The distance modulus as a function of distance from the observer, in logarithmic scale.
 
 ## Cepheid Variable Stars
 
@@ -117,9 +121,9 @@ $$
 
 where M is the absolute magnitude, P is the period in days, and a and b are calibration constants determined observationally.
 
-![Figure 2](/assets/images/B3P2.png)
+![Figure 3](/assets/images/B3P2.png)
 
-**Figure 2**: The Magnitude plotted as a function of the period of the star's brightness cycle.
+**Figure 3**: The Magnitude plotted as a function of the period of the star's brightness cycle.
 
 Once M is known, the task is the same. We determine m observationally and use the distance modulus formula again. By leveraging the best of today's technology, the James Webb Space Telescope, this method gives us readings of up to 20 Mpc. This translates to 60 million LY which is so insane, that if aliens that far away were to point their telescopes on Earth, they would see the event that wiped out the dinosaurs, or even the dinosaurs if they're lucky!.
 This upgrade easily increases our range from a fraction of our own galaxy to, comfortably, the local group and the Virgo supercluster.
