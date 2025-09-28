@@ -624,7 +624,7 @@ $$
 
 ## Covariant Form of the Dirac Equation
 
-We have obtained the time-dependent Dirac equation, but this form is not readily found in textbooks. To simplify, we assume **natural units** where $$\hbar = c = 1$$.
+We have obtained the time-dependent Dirac equation, but this form is not readily found in textbooks. To simplify, we assume natural units where $$\hbar = c = 1$$.
 
 Defining the gamma matrices as:
 
@@ -645,13 +645,13 @@ $$
 \left( i\hbar \sum_{\mu = 0}^3 \gamma^\mu \partial_\mu - m c \right) \psi = 0
 $$
 
-Using the **Einstein summation convention**, we drop the summation symbol:
+Using the Einstein summation convention, we drop the summation symbol:
 
 $$
 \boxed{(i\hbar \gamma^\mu \partial_\mu - m c)\psi = 0}
 $$
 
-which gives us the Dirac equation in its most minimal and elegant form. This equation solved everything as it was relativistically correct and therefore computes the energy levels of the Hydrogen atom better than the Schrodinger equation. It introduces no negative probability density anomalies and remarkably also predicts spin states and anti-particles. Since the derivative is a 4-vector so must be the wavefunction. Its four components allows for the elegant inclusion of both the spin states of, both, the particle and its anti-particle counterpart. I can go on with details since this is just the beginning of particle physics, but let's leave the Dirac wavefunction for another blog. This remains, to date, the most complete equation in all of quantum mechanics. Remarkably, the equation remains obscure to many due to the mathematical complexity involved. This elegant formalism allows interpretation of negative energy solutions as antiparticles, which were later explained by **Richard Feynman** as normal particles traveling **back in time**. BUT, the shortcomings never end...
+which gives us the Dirac equation in its most minimal and elegant form. This equation solved everything as it was relativistically correct and therefore computes the energy levels of the Hydrogen atom better than the Schrodinger equation. It introduces no negative probability density anomalies and remarkably also predicts spin states and anti-particles. Since the derivative is a 4-vector so must be the wavefunction. Its four components allows for the elegant inclusion of both the spin states of, both, the particle and its anti-particle counterpart. I can go on with details since this is just the beginning of particle physics, but let's leave the Dirac wavefunction for another blog. This remains, to date, the most complete equation in all of quantum mechanics. Remarkably, the equation remains obscure to many due to the mathematical complexity involved. This elegant formalism allows interpretation of negative energy solutions as antiparticles, which were later explained by Richard Feynman as normal particles traveling back in time. BUT, the shortcomings never end...
 
 
 ## The Strong Force Problem
@@ -682,4 +682,26 @@ So the next time you are part of a nuclear physics lecture, know that every sing
 And who knows, maybe if you can figure out a way to solve problems the same way Dirac did, you might be able to figure this out. At that point, you would have a realistic shot of being nominated as a Nobel Prize laureate. 
 
 Thank you for making it this far, and as always, keep on physicsing. 
+
+## References
+
+P.A.M. Dirac, The Principles of Quantum Mechanics, 4th Edition, Oxford University Press (1958).
+— Original reference for Dirac’s formulation of relativistic quantum mechanics.
+
+W. Greiner, Relativistic Quantum Mechanics: Wave Equations, Springer (2000).
+— A standard textbook covering the Klein–Gordon and Dirac equations in detail.
+
+J.J. Sakurai & J. Napolitano, Modern Quantum Mechanics, 2nd Edition, Addison-Wesley (2011).
+— Excellent introduction to the Schrödinger equation and its limitations.
+
+M.E. Peskin & D.V. Schroeder, An Introduction to Quantum Field Theory, Westview Press (1995).
+— A deeper look at field theory and how the Dirac equation fits into the bigger picture.
+
+F. Mandl & G. Shaw, Quantum Field Theory, Wiley (2010).
+— Another standard reference for the KG and Dirac equations.
+
+Bjorken, J.D. & Drell, S.D., Relativistic Quantum Mechanics, McGraw–Hill (1964).
+— Classic treatment of relativistic wave equations, including the Dirac formalism.
+
+Note: All figures and simulations is original content created by the author unless stated otherwise in the caption.
 
