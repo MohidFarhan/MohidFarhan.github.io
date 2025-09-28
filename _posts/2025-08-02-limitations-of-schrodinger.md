@@ -36,6 +36,17 @@ $$
 \rho(\mathbf{r}, t) = |\psi(\mathbf{r}, t)|^2
 $$&nbsp; -----------(3)
 
+With the radial probability being:
+
+$$
+P(r)=4\pi r^2 |\psi(\mathbf{r}, t)|^2
+$$
+
+This gives the probability of finding the electron at a distance r from the nucleus. Below is a plot showing how the wavefunction, probability density and radial probability for the groundstate hydrogen atom:the simplest atom with $$a_0$$ being the Bohr radius.
+
+![Figure 1](/assets/images/B1P1.png)  
+
+*Figure 1*: The wavefunction, probability density and radial probability for the groundstate hydrogen atom.
 ## The Continuity Equation for the Schrödinger Equation
 
 Let's do a simple analysis of this equation using the continuity equation. If you are familiar with electromagnetic theory, this equation governs how the movement of charge density (\\( \rho \\)) influences the divergence of current density (j). In EMT, this equation is responsible for the conservation of charge. 
@@ -118,7 +129,15 @@ $$
 \mathbf{j} = \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star)
 $$ &nbsp; -----------(13)
 
-In this case, we find that the equation that was used to conserve charge in a seemingly unrelated context of EMT also applies to Quantum Mechanics to conserve probability. An important takeaway here is the fact that probability density is always positive. This is the beauty of physics, where all different scenarios are fundamentally governed by conservation mechanisms. Such mechanisms will be extensively discussed in future blogs.
+In this case, we find that the equation that was used to conserve charge in a seemingly unrelated context of EMT also applies to Quantum Mechanics to conserve probability. 
+
+<!-- Animation of vacuum fluctuations -->
+<p align="center">
+  <img src="/assets/images/Adobe Express - ContinuityEquation.gif" width="500" alt="The Continuity Equation"/>
+  <br><em>Simulation 1: The Visualization of the Continuity Equation, with the magnitude of P (probability density) and J (probability current) for a wavepacket moving in the  x direction</em>
+</p>
+
+An important takeaway here is the fact that probability density is always positive. This is the beauty of physics, where all different scenarios are fundamentally governed by conservation mechanisms. Such mechanisms will be extensively discussed in future blogs.
 
 For the Schrodinger equation, the positive probability density is a physically viable result since we expect probability to not be negative. But as the title suggests, this equation has its shortcomings. While it describes the dynamics accurately at low velocities, it is inherently non-relativistic. This means that it does not do a great job when applied to particles moving close to the speed of light. This stems from the fact that it arises from a classical expression. Furthermore, there is no mention of anti-particles, and spin needs to be added "by hand". Keeping these limitations in mind, let's try a relativistic treatment of this equation.
 
