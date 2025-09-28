@@ -233,7 +233,7 @@ $$
 |\psi \frac{\partial \psi^\star}{\partial t}| > |\psi^\star \frac{\partial \psi}{\partial t}|
 $$  
 
-This is the case when a plane-wave solution of $$\psi$$ is applied. Note that this is an oversimplification, since the deep rooted cause of negative probability density were the negative energy solutions. Since both the causes lead to the same result, i.e. negative probabilities, I stuck to the simpler solution. One can see from (14) that negative energy solutions are not only allowed but necessary, and this equation fails to make sense of such solutions. Moreover, negative probability desnity violates the probabilistic interpretation of quantum mechanics, because probability density must always be non-negative. So, in trying to make our equation relativistically correct, we have introduced a fatal flaw: the Klein-Gordon equation allows negative probabilities. And not to mention all the other red-flags that we associated with this equation but a negative probability density is considered blasphemy in quantum mechanics. 
+This is the case when a plane-wave solution of $$\psi$$ is applied. Note that this is an oversimplification, since the deep rooted cause of negative probability density were the negative energy solutions. Since both the causes lead to the same result, i.e. negative probabilities, I stuck to the simpler solution. One can see from (14) that negative energy solutions are not only allowed but necessary, and this equation fails to make sense of such solutions. Moreover, negative probability density violates the probabilistic interpretation of quantum mechanics, because probability density must always be non-negative. So, in trying to make our equation relativistically correct, we have introduced a fatal flaw: the Klein-Gordon equation allows negative probabilities. And not to mention all the other red-flags that we associated with this equation but a negative probability density is considered blasphemy in quantum mechanics. 
 
 What now?
 ---
@@ -396,7 +396,7 @@ $$
 \end{bmatrix}
 $$
 
-This is the **null matrix**, which violates the constraint $$\beta^2 = 1$$. Hence, **no $$2 \times 2$$ matrix can satisfy all of Dirac's anticommutation relations**. A higher-dimensional structure is necessary.
+This is the null matrix, which violates the constraint $$\beta^2 = 1$$. Hence, no $$2 \times 2$$ matrix can satisfy all of Dirac's anticommutation relations. A higher-dimensional structure is necessary.
 
 ## 4×4 Matrix Solution to the Dirac Equation
 
@@ -651,17 +651,20 @@ $$
 \boxed{(i\hbar \gamma^\mu \partial_\mu - m c)\psi = 0}
 $$
 
-which gives us the Dirac equation in its most minimal and elegant form. This equation solved everything as it was relativistically correct and therefore computes the energy levels of the Hydrogen atom better than the Schrodinger equation. It introduces no negative probability density anomalies and remarkably also predicts spin states and anti-particles. Since the derivative is a 4-vector so must be the wavefunction. Its four components allows for the elegant inclusion of both the spin states of, both, the particle and its anti-particle counterpart. .I can go on with details since this is just the beginning of particle physics, but let's leave the Dirac wavefunction for another blog. This remains, to date, the most complete equation in all of quantum mechanics. Remarkably, the equation remains obscure to many due to the mathematical complexity involved. This elegant formalism allows interpretation of negative energy solutions as antiparticles, which were later explained by **Richard Feynman** as normal particles traveling **back in time**. BUT, the shortcomings never end...
+which gives us the Dirac equation in its most minimal and elegant form. This equation solved everything as it was relativistically correct and therefore computes the energy levels of the Hydrogen atom better than the Schrodinger equation. It introduces no negative probability density anomalies and remarkably also predicts spin states and anti-particles. Since the derivative is a 4-vector so must be the wavefunction. Its four components allows for the elegant inclusion of both the spin states of, both, the particle and its anti-particle counterpart. I can go on with details since this is just the beginning of particle physics, but let's leave the Dirac wavefunction for another blog. This remains, to date, the most complete equation in all of quantum mechanics. Remarkably, the equation remains obscure to many due to the mathematical complexity involved. This elegant formalism allows interpretation of negative energy solutions as antiparticles, which were later explained by **Richard Feynman** as normal particles traveling **back in time**. BUT, the shortcomings never end...
 
 
 ## The Strong Force Problem
 
 The Dirac equation still cannot be reliably applied to the **strong interaction**, the binding force at the core of the atomic nucleus. This challenge lies at the heart of **nuclear physics**. The strength of the electromagnetic force (otherwise known as the electromagnetic coupling constant) is
+
 $$
 \alpha_{\text{EM}} = \frac{e^2}{4\pi \epsilon_0 \hbar c} \approx \frac{1}{137}
 $$
 
-One may also recognise this term as the fine-structure constant. The Dirac equation works beautifully when this is the dominant force due to its low couplings strength. However, the strong force is MUCH stronger. So strong, in fact, that at low energies, the strong force coupling becomes dangerously close to 1. This presents a major issue for **perturbative methods**, which expand physical quantities as power series in the coupling constant.
+One may also recognise this term as the fine-structure constant. The Dirac equation works beautifully when this is the dominant force due to its low couplings strength. However, the strong force is MUCH stronger. So strong, in fact, that at low energies, the strong force coupling becomes dangerously close to 1. This presents a major issue for perturbative methods, which expand physical quantities as power series in the coupling constant.
+
+
 
 The general perturbative series looks like:
 
@@ -669,7 +672,13 @@ $$
 A(\alpha) = \sum_{i=0}^n \alpha^i A^{(i)} = A^{(0)} + \alpha A^{(1)} + \alpha^2 A^{(2)} + \cdots + \alpha^n A^{(n)}
 $$
 
-When $$\alpha \geq 1$$, the series diverges, rendering all of our known analytical treatments as useless. So the next time you are part of a nuclear physics lecture, know that every single potential and equation that involves the strong nuclear force is an approximation that fits experiments and has not be analytically derived. 
+When $$\alpha \geq 1$$, the series diverges, rendering all of our known analytical treatments as useless. Our fundamental understanding of any force relies on its coupling being comfortably below 1, but as show in figure 2, that is not the case.
+
+![Figure 2](/assets/images/B1P2.png)  
+
+*Figure 2*: The strong coupling as a function of energy (Q).
+
+So the next time you are part of a nuclear physics lecture, know that every single potential and equation that involves the strong nuclear force is an approximation that fits experiments and has not be analytically derived. 
 And who knows, maybe if you can figure out a way to solve problems the same way Dirac did, you might be able to figure this out. At that point, you would have a realistic shot of being nominated as a Nobel Prize laureate. 
 
 Thank you for making it this far, and as always, keep on physicsing. 
