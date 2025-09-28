@@ -144,9 +144,16 @@ This upgrade means that the aliens would now see an Earth restricted only to uni
 ## Cosmological Redshift
 
 3 billion LY is almost a quarter of the observable universe. There's more than 3 quarters STILL left, which makes us realize the utter scale of the universe we are a part of. There are no events bright enough for us to reliably determine M and latch onto the distance modulus formula, so is this it?
-The answer is a resounding no thanks to the final boss: cosmological redshift. In this method, astronomers rely on the expansion of space itself to determine distances using redshift. As light travels through expanding space, its wavelength stretches. This effect is called redshift, denoted by z.
+The answer is a resounding no thanks to the final boss: cosmological redshift. In this method, astronomers rely on the expansion of space itself to determine distances using redshift. As light travels through expanding space, its wavelength stretches. This effect is called redshift, denoted by z. This is because of the scale factor, denoted by a(t). This variable is responsible for stretching the fabric of spacetime itself and the fact that observations suggest that a increases with time makes for some interesting implications. Firstly, this suggests that lengths are not universal constants over a long enough time frame, and to accurately model the universe, this constant change in length due to the expansion of the universe should be accounted for. It also means that wavelength of a photon travelling in a particular direction does not stay the same, and evolves over time. Simulation 1 shows an intuitive depiction of this phenomenon. 
 
-The farther away a galaxy is, the more its light is redshifted. This relationship was first discovered by Edwin Hubble in 1929. For small redshifts where z exceeds or is near 0.1, the velocity at which a galaxy appears to be receding is:
+<!-- Animation of vacuum fluctuations -->
+<p align="center">
+  <img src="/assets/images/Adobe Express - PhotonRedshift.gif" width="500" alt="The Cosmological Redshift"/>
+  <br><em>Simulation 1: The wavelength of a photon changing with time, for a case where the scale factor increases linearly with time.</em>
+</p>
+
+
+It is therefore wasy to see that all photons travelling through billions of years have a measureable increase in wavelengths which is captured by spectrographs that are sensitive enough. It is this very increase that is termed as redshift, because if you increase the wavelength of a photon in the visible electromagnetic range, its spectrum shifts towards the infra-red region. The farther away a galaxy is, the more its light is redshifted. This relationship was first discovered by Edwin Hubble in 1929. For small redshifts where z exceeds or is near 0.1, the velocity at which a galaxy appears to be receding is:
 
 $$
 v = H d
@@ -160,7 +167,15 @@ $$
 d = \frac{v}{H} = \frac{cz}{H}
 $$
 
-c is the speed of light. This approximation works well for nearby galaxies (100 MLY). For more distant objects where z exceeds 1, cosmological models must be used to relate redshift and distance accurately.
+c is the speed of light. 
+
+![Figure 4](/assets/images/B2P4.png)
+
+**Figure 4**: The Hubble's law which does not account for redshift.
+
+
+
+This approximation works well for nearby galaxies (100 MLY), where there is little redshift. For more distant objects where z exceeds 1, cosmological models must be used to relate redshift and distance accurately.
 At high redshifts, the universe’s expansion has changed over time, so the simple linear Hubble law is replaced by integrals over the expansion history. Redshift-based methods can measure distances to quasars and galaxies billions of light-years away.
 
 Combined with supernova observations, they have revealed that the universe’s expansion is accelerating. While the cosmological modeling is a complex topic that will be covered in future blogs, the surreal fact is that with the high z methods, we have been able to track the distance of objects that are almost as old as the universe, which is estimated to be around 13.8 billion years old.
