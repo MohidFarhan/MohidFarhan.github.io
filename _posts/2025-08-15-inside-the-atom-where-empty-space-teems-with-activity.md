@@ -22,7 +22,7 @@ Our understanding of the atom was a hot topic for physicists in the early 1900s,
 <!-- Animation of vacuum fluctuations -->
 <p align="center">
   <img src="/assets/images/Adobe Express - VacuumThomson.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Simulation 1: The Fruitcake Model</em>
+  <br><em>Simulation 1: The Fruitcake Model of the atom. This model was later refined.</em>
 </p>
 
 
@@ -85,7 +85,7 @@ So this means that if I were to constrain anything within $$10^{-13}m$$, which i
 <!-- Animation of vacuum fluctuations -->
 <p align="center">
   <img src="/assets/images/Adobe Express - AtomicVacuumFluctuations.gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Simulation 3: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom</em>
+  <br><em>Simulation 3: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom. These fluctuations are not just a matter of theory since they have real, measureable fingerprints that can be picked up as we will see.</em>
 </p>
 
 It becomes apparent that $$10^{-13}m$$ is bigger than the radius of the nucleus but smaller than that of the atom, hence, making the "empty" space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). It is now easy to visualize that the idea of a constant number of particles breaks down, and therefore the pure Quantum Mechanical picture becomes blurry. To incorporate and account for the creation and annhilation of particles, we need a deeper theory which treat the number of particles as variables, unlike quantum mechanics. This is where Quantum Field Theory (QFT) shines. The name of this theory is actually very self explanatory. In the QFT, quantized fields are fundamental, not particles. Particles are just localized excitations within that field. The perpective shift from pure particles (classical mechanics), to waves (quantum mechanics) to, now, fields (QFT) proves fruitful in explaining the whole picture as I will show you shortly.
@@ -172,7 +172,7 @@ $$
 <!-- Animation of the Allowed Wavefunctions -->
 <p align="center">
   <img src="/assets/images/Adobe Express - PIAB.gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Simulation 4: A dynamic visualization of the allowed wavefunctions that disappear at boundaries resulting in modes</em>
+  <br><em>Simulation 4: A dynamic visualization of the allowed wavefunctions that disappear at boundaries resulting in modes. Do you notice a trend in frequency?</em>
 </p>
 
 
@@ -201,7 +201,7 @@ Quantum Field Theory pictures a field as infinite coupled modes, each acting as 
 <!-- Animation of the QFT Interpretation -->
 <p align="center">
   <img src="/assets/images/Adobe Express - QFTPlaneCoupled (1).gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Simulation 5: A visualization of a quantized fields comprised of coupled modes acting as harmonic oscillators</em>
+  <br><em>Simulation 5: A visualization of a quantized fields comprised of coupled modes acting as harmonic oscillators.</em>
 </p>
 
 
