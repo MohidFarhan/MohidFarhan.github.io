@@ -134,7 +134,7 @@ In this case, we find that the equation that was used to conserve charge in a se
 <!-- Animation of vacuum fluctuations -->
 <p align="center">
   <img src="/assets/images/Adobe Express - ContinuityEquation.gif" width="500" alt="The Continuity Equation"/>
-  <br><em>Simulation 1: The Visualization of the Continuity Equation, with the magnitude of P (probability density) and J (probability current) for a wavepacket moving in the  x direction</em>
+  <br><em>Simulation 1: The Visualization of the Continuity Equation, with the magnitude of P (probability density) and J (probability current) for a wavepacket along in the x direction. P and J are measured for an enclosed volume as shown.</em>
 </p>
 
 An important takeaway here is the fact that probability density is always positive. This is the beauty of physics, where all different scenarios are fundamentally governed by conservation mechanisms. Such mechanisms will be extensively discussed in future blogs.
