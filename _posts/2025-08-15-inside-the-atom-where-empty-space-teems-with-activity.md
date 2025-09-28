@@ -17,7 +17,22 @@ excerpt: "A subtle shift in hydrogen’s energy levels cracked open the door to 
 
 Today we will unravel the idea that in physics, there is no such thing as empty space. What we like to call "empty" is teeming with activity and fluctuations at the quantum scales. This is not just theory, but has measurable consequences, all of which we will get into as we go forward, so enjoy the adventure. You will need a grasp of basic quantum mechanics, electromagnetic theory and a bit of atomic and molecular physics to go with that. 
 
-Our understanding of the atom was a hot topic for physicists in the early 1900s, with J.J. Thompson's famous "fruitcake" model, where the atom was assumed to be a smooth and filled sphere of positive charge, with clumps of negative charges embedded in it.  In 1911, Ernest Rutherford devised the most accurate atomic model known to man, backed by an experiment, where a minority of alpha particles were observed to scatter off at large angles when targeted at a thin foil of gold. This showed that an atom was mostly empty space with a lot of its mass being concentrated at the center, leading to such dramatic scattering. This center with positive charge is known as a nucleus, with negative electrons orbiting around it.
+Our understanding of the atom was a hot topic for physicists in the early 1900s, with J.J. Thompson's famous "fruitcake" model, where the atom was assumed to be a smooth and filled sphere of positive charge, with clumps of negative charges embedded in it. 
+
+<!-- Animation of vacuum fluctuations -->
+<p align="center">
+  <img src="/assets/images/Adobe Express - VacuumThomson.gif" width="500" alt="J.J Thomson's model of the atom"/>
+  <br><em>Simulation 1: The Fruitcake Model</em>
+</p>
+
+
+In 1911, Ernest Rutherford devised the most accurate atomic model known to man, backed by an experiment, where a minority of alpha particles were observed to scatter off at large angles when targeted at a thin foil of gold. This showed that an atom was mostly empty space with a lot of its mass being concentrated at the center, leading to such dramatic scattering. This center with positive charge is known as a nucleus, with negative electrons orbiting around it.
+
+<!-- Animation of vacuum fluctuations -->
+<p align="center">
+  <img src="/assets/images/Adobe Express - HydrogenAtom.gif" width="500" alt="J.J Thomson's model of the atom"/>
+  <br><em>Simulation 2: A not-to-scale, oversimplified visualization of the most fundamental atom in the universe: Hydrogen. Here, the radius of the orbit is kept constant at the Bohr radius, but in reality, the Bohr radius is the most likely radius of an atom at any given point. In the literal sense, the atomic radius is not always constant but we will assume so, in this post, for simplification.</em>
+</p>
 
  
 
