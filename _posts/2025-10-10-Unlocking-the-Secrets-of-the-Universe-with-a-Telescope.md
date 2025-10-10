@@ -178,11 +178,11 @@ I pointed the 10-inch telescope, with attached grating,  to Saturn and using a s
 
 ![Figure 8](/assets/images/SaturnSS.png)
 
-What are these dips? To understand that, we also need simple O-levels physics knowledge (or A-levels physics at best). We need to interpret what a dip implies at first. \\
+What are these dips? To understand that, we also need simple O-levels physics knowledge (or A-levels physics at best). We need to interpret what a dip implies at first\
 
-A dip in this context is a sudden drop of intensity for a particular wavelength, meaning that for some reason, less photons of that particular wavelength reach the lens of our telescope. Let's keep this in the back of our minds and move to O-levels chemistry now. \\
+A dip in this context is a sudden drop of intensity for a particular wavelength, meaning that for some reason, less photons of that particular wavelength reach the lens of our telescope. Let's keep this in the back of our minds and move to O-levels chemistry now\
 
-Let's think of the simplest atom we know: the Hydrogen atom: an electron orbiting a proton. Now, we know that the ionization energy is the energy required to remove the electron, situated in the ground state. We know that the electrons reside in shells, and to move from one shell to the other, they must receive a very particular "push",and if the push is too hard or too small, and the electrons can't leap from one shell to the next. Shells can also be interpret as quantized energy levels, and the quantization implies that the energy absorbed by the electron must have an exact value to transition from one shell to the next. \\
+Let's think of the simplest atom we know: the Hydrogen atom: an electron orbiting a proton. Now, we know that the ionization energy is the energy required to remove the electron, situated in the ground state. We know that the electrons reside in shells, and to move from one shell to the other, they must receive a very particular "push",and if the push is too hard or too small, and the electrons can't leap from one shell to the next. Shells can also be interpret as quantized energy levels, and the quantization implies that the energy absorbed by the electron must have an exact value to transition from one shell to the next.
 
 Now, the change in energy between shells can be calculated from the Rydberg's relation.
 
@@ -192,7 +192,7 @@ $$
 
 where:
 
-$$\lambda$$ is the wavelength of the emitted or absorbed photon, $R_H$ is the \textbf{Rydberg constant} for hydrogen, with a value of approximately $1.097 \times 10^7 \text{ m}^{-1}$, $n_1$ is the integer representing the \textbf{final} energy level and $n_2$ is the integer representing the \textbf{initial} energy level, where $n_2 > n_1$.
+$$\lambda$$ is the wavelength of the emitted or absorbed photon, $$R_H$$ is the Rydberg constant for hydrogen, with a value of approximately $$1.097 \times 10^7 \text{ m}^{-1}$$, $$n_1$$ is the integer representing the final energy level and $$n_2$$ is the integer representing the initial energy level, where $$n_2 > n_1$$.
 
 So this implies that if the electron is to receive a photon of some highly specific wavelength $$\lambda$$, it would jump from shell $n_1$ to $n_2$, and the most crucial implication is that this wavelength is different from every transition and for every atom. And we can leverage this fact, and use it to develop fingerprints of atoms.
 
@@ -200,7 +200,7 @@ So this implies that if the electron is to receive a photon of some highly speci
 
 Now, back to the mystery of the missing photons, or the systematic absence of photons with a particular wavelengths. See how the pieces piece together?
 
-Those missing photons are not coincidence--but \textbf{fulfill the exact wavelength needed for transitions of electrons between shells!}, so instead of reaching the lends of our telescope, they get absorbed by the atoms comprising of the object that we are observing. 
+Those missing photons are not coincidence, but fulfill the exact wavelength needed for transitions of electrons between shells, so instead of reaching the lens of our telescope, they get absorbed by the atoms comprising of the object that we are observing. 
 
 And since this wavelength is different for every shell changes for every atom, it's an effective unique ID given to every single atom in the universe. One can look at the wavelength on which the dip occurs, enter it into the database and know what type of the atom is the culprit! 
 
