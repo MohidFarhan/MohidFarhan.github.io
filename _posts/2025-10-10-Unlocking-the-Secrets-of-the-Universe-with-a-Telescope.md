@@ -1,6 +1,6 @@
 ---
 
-title: "Unlocking the Secrets of the Universe with a Telescope"
+title: "Blog 6: Unlocking the Secrets of the Universe with a Telescope"
 date: 2025-10-10
 categories: [Astronomy, Cosmology, Astrophysics, Modern Physics, Atomic and Molecular Physics]
 use_math: true
@@ -15,20 +15,20 @@ excerpt: "A telescope is humanity’s window into the cosmos, transforming dista
 
 ## Introduction
 
-In today's blog, we will realize how powerful light is, and the ingenious methods astronomers use to decode anomalies, and the brilliant insights that come with them. Understanding this blog requires basic knowledge of the dual nature of light, processes like photon emission and absorption, and other introductory modern physics concepts. We will learn about the insane applications of a telescope, and how its lens serve as portals to knowledge that was long thought to be inaccessible irrespective of technological advancement, yet here we are...So buckle up and let's begin. 
+In today’s blog, we will explore how light carries the universe’s secrets, and the ingenious ways astronomers decode them. You will need a basic understanding of light’s dual nature, photon emission and absorption, and a few ideas from modern physics. Together, we will see how telescopes turn simple photons into profound knowledge once thought unreachable, even by the brightest minds.
 
 Let's first understand what "light" is. In most cases, "light" refers to an entity that illuminates our surroundings by reflecting from surfaces, into our eyes, which the brain pieces together to form the images that we see. We utilize this exact property through telescopes, when we point them towards celestial objects.
 
 ## What is light?
 
 Put simply, visible light is basically electromagnetic radiation, with a narrow range of wavelengths (400-700 nm). Our eyes are effective filters that dial out all radiation that does not adhere to this narrow window.  
-However, a telescope has no such constraints, as it can see all electromagnetic radiation. This radiation can be thought of as quantized packets of energies called photons, which is also a very useful definition for our purposes. These photons are massless and do not interact with each other, but can be emitted, absorbed or transferred. 
-But how useful can a collections of photons be? I mean sure, you can see stuff like stars and galaxies, but is that about it? We can't find the velocities, radii, temperature, and definitely not any information about the chemical composition, right? It's just photons bouncing off of stars that take forever to reach us...what information can they possibly carry?
+However, a telescope has no such constraints, as it can see all electromagnetic radiation. This radiation can be thought of as quantized packets of energy called photons, which is also a very useful definition for our purposes. These photons are massless and do not interact with each other, but can be emitted, absorbed or transferred. 
+But how useful can a collection of photons be? Sure, you can see stuff like stars and galaxies, but is that it? Is it possible to find the velocities, radii, temperature, chemical composition or anything of that sort? Or is it just photons bouncing off stars that take forever to reach us, and maybe lose all that information while doing so?
 
 ## The Miracles of a Telescope
 
 Well, by leveraging no more than a few lenses and a metallic structure, we can manipulate these pesky photons into confessing so many secrets of the universe.  
-I will not get into the structure of a telescopes and/or its types. The layman definition of "a telescope helps us see stuff that is far away by collecting a lot of light" is enough for this blog. So, you can think of it as a device which registers the falling of photons on its lens. I have had the opportunity of using telescopes during an internship in the National Center for GIS and Space Applications (NCGSA), where I had unrestricted access to their 10-inch telescope. I will tell you everything I learned.
+I will not get into the structure of a telescope and/or its types. The layman definition of "a telescope helps us see stuff that is far away by collecting a lot of light" is enough for this blog. So, you can think of it as a device which registers the falling of photons on its lens. I have had the opportunity of using telescopes during an internship in the National Center for GIS and Space Applications (NCGSA), where I had unrestricted access to their 10-inch telescope. I will tell you everything I learned.
 
 ## Astrophotography
 
@@ -128,7 +128,7 @@ This would be a continuous, uniformly bright line if it were pointed towards a h
 
 What is this about !?!
 
-Now, I will use two of the most trivial formulas in physics to give you a ball-park estimate of how wavelength can be connected with temperature The energy of a photon can be given by:
+Now, I will use two of the most simplest formulas in physics to give you a ball-park estimate of how wavelength can be connected with temperature The energy of a photon can be given by:
 
 $$
 E=\frac{hc}{\lambda}
@@ -153,7 +153,7 @@ $$
 T=\frac{hc}{\lambda k_B}
 $$
 
-This gives you a got back-of-the-envelope estimation of how temperature can be reinterpret as a function of temperature. 
+This gives you a good back-of-the-envelope estimation of how temperature can be reinterpreted as a function of temperature. 
 
 Now that you have an intuition, we can move to a precise method which is the Wien's displacement law:
 
@@ -178,7 +178,7 @@ I pointed the 10-inch telescope, with attached grating,  to Saturn and using a s
 
 ![Figure 8](/assets/images/SaturnSS.png)
 
-What are these dips? To understand that, we also need simple O-levels physics knowledge (or A-levels physics at best). We need to interpret what a dip implies at first.
+What are these dips? To understand that, we also need simple high-school-level physics knowledge (or A-levels physics at best). We need to interpret what a dip implies at first.
 
 A dip in this context is a sudden drop of intensity for a particular wavelength, meaning that for some reason, less photons of that particular wavelength reach the lens of our telescope. Let's keep this in the back of our minds and move to O-levels chemistry now.
 
@@ -212,7 +212,7 @@ We also obtained a spectrum of 68-Draconis, which is a star in the Draco constel
 
 Obviously, the same technique can be applied to study any celestial object and their chemical composition, making this one of the most powerful techniques in all of physics. 
 
-We can also determine recessional velocities of objects by using the same technique. We have discussed cosmological redshift in blog 4: it is a process in which the photons being emitted from distant objects have their wavelengths shifted towards the red region (increased) due to the recessional velocity of the objects from Earth. This means that the entire spectrum is shifted to the right, and by measuring the amount of this shift, we can determine that change in wavelength and, hence, the corresponding recessional velocity. However, one needs a very good telescope and/or noise pollution-free skies to see the incredibly shuttle shift in wavelength, and our humble  equipment fails us here, despite attempts. It remains a work in progress, and through this blog series, I will keep you updated. Until next time, keep on physicsing.
+We can also determine recessional velocities of objects by using the same technique. We have discussed cosmological redshift in blog 4: it is a process in which the photons being emitted from distant objects have their wavelengths shifted towards the red region (increased) due to the recessional velocity of the objects from Earth. The cause of this redshift is discussed in blog 3 so feel free to read through that if you haven't already. This means that the entire spectrum is shifted to the right, and by measuring the amount of this shift, we can determine that change in wavelength and, hence, the corresponding recessional velocity. However, one needs a very good telescope and/or noise pollution-free skies to see the incredibly shuttle shift in wavelength, and our humble  equipment fails us here, despite attempts. It remains a work in progress, and through this blog series, I will keep you updated. Until next time, keep on physicsing.
     
 
 
