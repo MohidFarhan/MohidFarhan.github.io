@@ -134,7 +134,7 @@ $$
 E=\frac{hc}{\lambda}
 $$
 
-where $\lambda$ is the wavelength,
+where $$\lambda$$ is the wavelength,
 and this energy can be related to temperature in a statistical relation:
 
 $$
@@ -166,7 +166,7 @@ $$
 b=2.898 \times 10^{-3} \hspace{0.1cm}m⋅K
 $$
 
-A very accurate spectrograph will give a value of $\lambda$ to be 1.06mm. With simple value-plugging you find that $T=2.7K$. Does that value ring a bell?
+A very accurate spectrograph will give a value of $$\lambda$$ to be 1.06mm. With simple value-plugging you find that $T=2.7K$. Does that value ring a bell?
 
 It should, because you have picked up the Cosmic Microwave Background, and this is the temperature of universe! Is that not insane? We have measured the temperature of the UNIVERSE using O levels physics. The same analysis can be done when you zoom into a star or any other object, that's how powerful the simplest formulas of physics are, now imagine the secrets that more complex formulas can bring. And we are not done yet...because I have not even started the bar-code part yet. 
 
@@ -192,9 +192,9 @@ $$
 
 where:
 
-$\lambda$ is the wavelength of the emitted or absorbed photon, $R_H$ is the \textbf{Rydberg constant} for hydrogen, with a value of approximately $1.097 \times 10^7 \text{ m}^{-1}$, $n_1$ is the integer representing the \textbf{final} energy level and $n_2$ is the integer representing the \textbf{initial} energy level, where $n_2 > n_1$.
+$$\lambda$$ is the wavelength of the emitted or absorbed photon, $R_H$ is the \textbf{Rydberg constant} for hydrogen, with a value of approximately $1.097 \times 10^7 \text{ m}^{-1}$, $n_1$ is the integer representing the \textbf{final} energy level and $n_2$ is the integer representing the \textbf{initial} energy level, where $n_2 > n_1$.
 
-So this implies that if the electron is to receive a photon of some highly specific wavelength $\lambda$, it would jump from shell $n_1$ to $n_2$, and the most crucial implication is that this wavelength is different from every transition and for every atom. And we can leverage this fact, and use it to develop fingerprints of atoms.
+So this implies that if the electron is to receive a photon of some highly specific wavelength $$\lambda$$, it would jump from shell $n_1$ to $n_2$, and the most crucial implication is that this wavelength is different from every transition and for every atom. And we can leverage this fact, and use it to develop fingerprints of atoms.
 
 ## Let's Back Track
 
