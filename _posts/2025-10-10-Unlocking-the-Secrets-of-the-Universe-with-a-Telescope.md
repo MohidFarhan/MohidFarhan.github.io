@@ -178,9 +178,9 @@ I pointed the 10-inch telescope, with attached grating,  to Saturn and using a s
 
 ![Figure 8](/assets/images/SaturnSS.png)
 
-What are these dips? To understand that, we also need simple O-levels physics knowledge (or A-levels physics at best). We need to interpret what a dip implies at first\
+What are these dips? To understand that, we also need simple O-levels physics knowledge (or A-levels physics at best). We need to interpret what a dip implies at first.
 
-A dip in this context is a sudden drop of intensity for a particular wavelength, meaning that for some reason, less photons of that particular wavelength reach the lens of our telescope. Let's keep this in the back of our minds and move to O-levels chemistry now\
+A dip in this context is a sudden drop of intensity for a particular wavelength, meaning that for some reason, less photons of that particular wavelength reach the lens of our telescope. Let's keep this in the back of our minds and move to O-levels chemistry now.
 
 Let's think of the simplest atom we know: the Hydrogen atom: an electron orbiting a proton. Now, we know that the ionization energy is the energy required to remove the electron, situated in the ground state. We know that the electrons reside in shells, and to move from one shell to the other, they must receive a very particular "push",and if the push is too hard or too small, and the electrons can't leap from one shell to the next. Shells can also be interpret as quantized energy levels, and the quantization implies that the energy absorbed by the electron must have an exact value to transition from one shell to the next.
 
@@ -208,7 +208,7 @@ I found this absolutely incredible and the fact that we never even touched colle
 
 ## Spectrum of 68 Draconis
 
-We also obtained a spectrum of 68-Draconis, which is a star in the Draco constellation. Now the graphs that I obtained begins to make sense, and you might notice a very prominent dip at $\lambda=656nm$. This wavelength exactly corresponds to the equivalent energy required for an electron in the hydrogen atom to move to shell n=2 to n=3. So while I took the readings, the hydrogen atoms of Saturn (with electrons in their second shell) absorbed some of the photons with wavelength of 656 nm, and the lens of the telescope felt this change, by registering fewer photons of that exact wavelength. Moreover, this magnitude of the dips also make it easy for us to estimate the composition of elements comprising of the Saturn. Most of it, understandably, is hydrogen and helium as they are the most abundant atoms in the universe and hydrogen's spectral lines are of particular interest to an astronomer.
+We also obtained a spectrum of 68-Draconis, which is a star in the Draco constellation. Now the graphs that I obtained begins to make sense, and you might notice a very prominent dip at $$\lambda=656nm$$. This wavelength exactly corresponds to the equivalent energy required for an electron in the hydrogen atom to move to shell n=2 to n=3. So while I took the readings, the hydrogen atoms of Saturn (with electrons in their second shell) absorbed some of the photons with wavelength of 656 nm, and the lens of the telescope felt this change, by registering fewer photons of that exact wavelength. Moreover, this magnitude of the dips also make it easy for us to estimate the composition of elements comprising of the Saturn. Most of it, understandably, is hydrogen and helium as they are the most abundant atoms in the universe and hydrogen's spectral lines are of particular interest to an astronomer.
 
 Obviously, the same technique can be applied to study any celestial object and their chemical composition, making this one of the most powerful techniques in all of physics. 
 
