@@ -92,6 +92,14 @@ tag_archive:
   type: liquid
   path: /tags/
 
+  # Navigation links (Minimal Mistakes)
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+
+
 
 
 
