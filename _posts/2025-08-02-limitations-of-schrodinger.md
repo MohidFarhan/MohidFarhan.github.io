@@ -1,5 +1,5 @@
 ---
-title: "Limitations of the Schrödinger Equation and the Birth of Particle Physics"
+title: "Blog 1:Limitations of the Schrödinger Equation and the Birth of Particle Physics"
 date: 2025-08-02
 categories: [Cosmology, Relativistic Quantum Mechanics, Particle Physics, Relativity]
 use_math: true
