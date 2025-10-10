@@ -1,6 +1,6 @@
 ---
 
-title: "Blog 5: The Metric Tensor—Self-Adapting Ruler"
+title: "Blog 5: The Metric Tensor—A Self-Adapting Ruler"
 date: 2025-09-27
 categories: [General Relativity, Cosmology, Spacetime, Astrophysics, Tensor Calculus]
 use_math: true
