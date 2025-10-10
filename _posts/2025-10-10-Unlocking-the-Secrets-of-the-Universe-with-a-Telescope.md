@@ -98,7 +98,7 @@ Be advised: you can use any software, but my recommendation is Siril due to its 
 
  Here are some of the photographs we took, with minimal editing:
 
- ## Jupiter
+## Jupiter
 
 ![Figure 6](/assets/images/Jupiter.png)
 
