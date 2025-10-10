@@ -62,6 +62,7 @@ footer:
       url: "mailto:mohidf35@gmail.com"
 
 # Defaults for posts and pages
+# Defaults for posts and pages
 defaults:
   - scope:
       path: ""
@@ -75,13 +76,14 @@ defaults:
       share: true
       related: true
 
- - scope:
-    path: "_pages"
-    type: pages
-  values:
-    layout: page
-    use_math: true
-    author_profile: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: page
+      use_math: true
+      author_profile: true
+
 
 # Archives
 category_archive:
