@@ -10,7 +10,6 @@ baseurl: "" # leave this empty since you’re using a user site
 
 repository: "MohidFarhan/MohidFarhan.github.io"
 
-
 # Math support
 mathjax: true
 
@@ -62,7 +61,6 @@ footer:
       url: "mailto:mohidf35@gmail.com"
 
 # Defaults for posts and pages
-# Defaults for posts and pages
 defaults:
   - scope:
       path: ""
@@ -84,7 +82,6 @@ defaults:
       use_math: true
       author_profile: true
 
-
 # Archives
 category_archive:
   type: liquid
@@ -100,10 +97,3 @@ nav:
     url: /
   - title: "About"
     url: /about/
-
-
-
-
-
-
-
