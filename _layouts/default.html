@@ -7,9 +7,11 @@ layout: null
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-  <body>
+   <body>
     {{ content }}
-
-    {% include comments.html %}
+    {% if page.comments %}
+      {% include comments.html %}
+    {% endif %}
   </body>
+
 </html>
