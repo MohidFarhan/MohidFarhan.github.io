@@ -1,8 +1,9 @@
 ---
 layout: home
-title: "Home"
+title: ""
 author_profile: true
 ---
+
 
 
 ## Welcome to My Physics Blog
