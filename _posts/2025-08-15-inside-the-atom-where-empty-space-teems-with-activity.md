@@ -1,6 +1,6 @@
 ---
 
-title: "Blog 2: Inside the Atom—Where ‘Empty Space’ Teems with Activity"
+title: "Blog 2—Inside the Atom: Where ‘Empty Space’ Teems with Activity"
 date: 2025-08-16
 categories: [Quantum Field Theory, Relativistic Quantum Mechanics, Particle Physics, Atomic and Molecular Physics]
 use_math: true
