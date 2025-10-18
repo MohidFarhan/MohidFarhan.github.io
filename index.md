@@ -2,6 +2,7 @@
 layout: home
 title: ""
 author_profile: true
+comments: false
 ---
 
 
