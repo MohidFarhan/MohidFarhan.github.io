@@ -6,7 +6,7 @@ author_profile: true
 
 
 
-## Welcome to My Physics Blog
+
 
 I'm **Mohid Farhan**, a **President’s Gold Medalist** in Physics with a deep interest in the frontiers of cosmology, particle physics and GUT.  
 I aim to make complex physics concepts more accessible by using intuition to connect ideas and reveal the bigger picture.  
