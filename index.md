@@ -1,6 +1,6 @@
 ---
 layout: home
-title: ""
+title: "Welcome to my Physics Blog"
 author_profile: true
 ---
 
