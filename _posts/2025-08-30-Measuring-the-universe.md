@@ -282,3 +282,23 @@ $$
 ---
 
 **Sanity check:** At twice the distance (200 pc), flux drops by a factor of 4. Magnitude increases by 1.5. The star would look fainter with an apparent magnitude of 11.5, consistent with the magnitude definition.
+
+## References
+
+References
+
+E. Hubble, A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae, Proc. Nat. Acad. Sci. 15, 168 (1929). — The classic paper establishing the linear relationship between galaxy distance and recession velocity — the foundation of modern cosmology.
+
+H. Leavitt, 1777 Variables in the Magellanic Clouds, Harvard College Observatory Circular 173 (1912). — Henrietta Swan Leavitt’s groundbreaking discovery of the period–luminosity relation for Cepheid variable stars.
+
+W. Baade, The Period–Luminosity Relation of the Cepheids, Astrophys. J. 112, 143 (1950). — Refinement of the Cepheid calibration that extended the cosmic distance ladder to other galaxies.
+
+A. G. Riess et al., Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant, Astron. J. 116, 1009 (1998). — Landmark paper using Type Ia supernovae to show the accelerating expansion of the universe.
+
+S. Perlmutter et al., Measurements of Ω and Λ from 42 High-Redshift Supernovae, Astrophys. J. 517, 565 (1999). — Independent confirmation of the accelerating universe through distant supernova observations.
+
+J. B. Hearnshaw, The Measurement of Starlight: Two Centuries of Astronomical Photometry, Cambridge University Press (1996). — Comprehensive history of how stellar brightness and distance measurements evolved.
+
+## For the Casual Reader
+
+https://www.youtube.com/watch?v=eVoh27gJgME
