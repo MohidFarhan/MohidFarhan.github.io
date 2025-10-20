@@ -436,3 +436,20 @@ Note that every single quantity in this expression is a known constant, and so p
 
 I hope you learned something new from today's blog, and I will be back soon with another interesting topic which is now, almost a century long mystery.
 
+## References
+
+W.E. Lamb Jr. & R.C. Retherford, Fine Structure of the Hydrogen Atom by a Microwave Method, Phys. Rev. 72, 241 (1947). — The original experimental discovery of the Lamb shift.
+
+H.A. Bethe, The Electromagnetic Shift of Energy Levels, Phys. Rev. 72, 339 (1947). — The first theoretical explanation of the Lamb shift using quantum electrodynamics (QED).
+
+R.P. Feynman, QED: The Strange Theory of Light and Matter, Princeton University Press (1985). — A lucid non-technical discussion of how quantum fluctuations and virtual photons cause effects like the Lamb shift.
+
+J.J. Sakurai & J. Napolitano, Modern Quantum Mechanics, 2nd Edition, Addison-Wesley (2011). — Explains atomic energy levels and radiative corrections in the quantum framework.
+
+M.E. Peskin & D.V. Schroeder, An Introduction to Quantum Field Theory, Westview Press (1995). — Covers vacuum polarization, self-energy corrections, and their connection to observable effects like the Lamb shift.
+
+C. Cohen-Tannoudji, B. Diu & F. Laloë, Quantum Mechanics, Vol. 2, Wiley-VCH (1977). — Standard text with detailed discussion on fine structure and radiative corrections in atoms
+
+## For the Casual Readers
+
+https://www.youtube.com/watch?v=21XuHLJkEeg&t=1862s
