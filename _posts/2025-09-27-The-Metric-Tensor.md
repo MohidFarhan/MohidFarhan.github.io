@@ -236,3 +236,21 @@ The metric tensor is more than mathematics; it is the grammar of spacetime. By e
 
 Good job on making it this far, and as always, keep on physicsing.
 
+## References
+
+A. Einstein, The Foundation of the General Theory of Relativity, Annalen der Physik 49, 769 (1916). — The original paper introducing the concept of spacetime curvature and the metric tensor as the mathematical fabric of gravity.
+
+C.W. Misner, K.S. Thorne & J.A. Wheeler, Gravitation, W.H. Freeman (1973). — A monumental text that develops the role of the metric tensor in describing distances, curvature, and geodesics.
+
+S. Carroll, Spacetime and Geometry: An Introduction to General Relativity, Addison-Wesley (2004). — A modern and accessible introduction to general relativity and the geometry of spacetime.
+
+B.F. Schutz, A First Course in General Relativity, Cambridge University Press (2009). — Offers a clear explanation of the metric, line element, and tensor calculus from first principles.
+
+W. Rindler, Essential Relativity: Special, General, and Cosmological, Springer (2006). — Discusses the geometric foundations of relativity with emphasis on the physical meaning of the metric.
+
+R.M. Wald, General Relativity, University of Chicago Press (1984). — A rigorous mathematical treatment of spacetime geometry and Einstein’s field equations.
+
+## For the Casual Reader
+
+https://www.youtube.com/watch?v=bV7KeKAPBQc&t=665s
+
