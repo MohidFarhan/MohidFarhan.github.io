@@ -214,8 +214,22 @@ Obviously, the same technique can be applied to study any celestial object and t
 
 We can also determine recessional velocities of objects by using the same technique. We have discussed cosmological redshift in blog 4: it is a process in which the photons being emitted from distant objects have their wavelengths shifted towards the red region (increased) due to the recessional velocity of the objects from Earth. The cause of this redshift is discussed in blog 3 so feel free to read through that if you haven't already. This means that the entire spectrum is shifted to the right, and by measuring the amount of this shift, we can determine that change in wavelength and, hence, the corresponding recessional velocity. However, one needs a very good telescope and/or noise pollution-free skies to see the incredibly shuttle shift in wavelength, and our humble  equipment fails us here, despite attempts. It remains a work in progress, and through this blog series, I will keep you updated. Until next time, keep on physicsing.
     
+## References
+C.R. Kitchin, Astrophysical Techniques, 5th Edition, CRC Press (2013). — A comprehensive overview of modern observational techniques, including telescopes, detectors, and spectroscopy methods.
 
+I.S. Glass, Handbook of Infrared Astronomy, Cambridge University Press (1999). — Explains how observations beyond visible light reveal new cosmic structures and temperatures.
 
+B.W. Carroll & D.A. Ostlie, An Introduction to Modern Astrophysics, 2nd Edition, Pearson (2017). — Excellent textbook covering the physics of light, telescopes, and stellar spectroscopy in approachable depth.
+
+M. Zeilik & S.A. Gregory, Introductory Astronomy and Astrophysics, Saunders College Publishing (1998). — Discusses how light from stars encodes physical information such as composition, temperature, and velocity.
+
+R. Freedman & W. Kaufmann, Universe, W.H. Freeman (2019). — A general introduction to observational astronomy and how telescopes decode cosmic signals from photons.
+
+A. Unsöld & B. Baschek, The New Cosmos: Introduction to Astronomy and Astrophysics, Springer (2001). — Classic reference on stellar spectra and the physics of radiation from astronomical objects.
+
+## For the Casual Reader
+
+https://www.youtube.com/watch?v=csIry_3pbDU
  
 
  
