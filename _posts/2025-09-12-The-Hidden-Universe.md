@@ -183,3 +183,27 @@ There exist many scalar field models surrounding dark energy, each with their un
 This mysterious form of energy accounts for the remaining *68% of the energy density* and its fundamental nature is shrouded in mystery. I have also conducted research on this entity, attempting to incorporate it into Particle Physics as well as trying to model it using open quantum systems, which will be discussed extensively once published.  
 
 I hope you learned something new from this journey and as always, keep on physicsing.
+
+## References
+
+F. Zwicky, On the Masses of Nebulae and of Clusters of Nebulae, Astrophys. J. 86, 217 (1937). — The first quantitative evidence for unseen mass in galaxy clusters, marking the birth of the dark matter concept.
+
+V. C. Rubin & W. K. Ford Jr., Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions, Astrophys. J. 159, 379 (1970). — Vera Rubin’s pioneering measurements of galactic rotation curves, providing the clearest early evidence for dark matter.
+
+M. Milgrom, A Modification of the Newtonian Dynamics as a Possible Alternative to the Hidden Mass Hypothesis, Astrophys. J. 270, 365 (1983). — The original paper proposing MOND (Modified Newtonian Dynamics) as an alternative to dark matter.
+
+A. G. Riess et al., Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant, Astron. J. 116, 1009 (1998). — The discovery that the universe’s expansion is accelerating, providing the first modern evidence for dark energy.
+
+S. Perlmutter et al., Measurements of Ω and Λ from 42 High-Redshift Supernovae, Astrophys. J. 517, 565 (1999). — Independent confirmation of cosmic acceleration and the revival of Einstein’s cosmological constant.
+
+A. Friedmann, On the Curvature of Space, Z. Phys. 10, 377 (1922). — Friedmann’s groundbreaking solution to Einstein’s field equations showing that the universe could expand or contract.
+
+A. Einstein, Kosmologische Betrachtungen zur allgemeinen Relativitätstheorie, Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften (1917). — The original paper introducing the cosmological constant (Λ) to maintain a static universe.
+
+Planck Collaboration, Planck 2018 Results. VI. Cosmological Parameters, Astron. Astrophys. 641, A6 (2020). — The most precise cosmological data to date, establishing that the universe consists of roughly 5% baryonic matter, 27% dark matter, and 68% dark energy.
+
+L. Amendola & S. Tsujikawa, Dark Energy: Theory and Observations, Cambridge University Press (2010). — A comprehensive reference on scalar field models of dark energy, including quintessence and k-essence.
+
+## For the Casual Reader
+
+https://www.youtube.com/watch?v=QAa2O_8wBUQ
