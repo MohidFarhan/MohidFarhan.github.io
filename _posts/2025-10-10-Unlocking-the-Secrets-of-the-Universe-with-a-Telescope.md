@@ -208,6 +208,8 @@ I found this absolutely incredible and the fact that we never even touched colle
 
 ## Spectrum of 68 Draconis
 
+![Figure 9](/assets/images/68.png)
+
 We also obtained a spectrum of 68-Draconis, which is a star in the Draco constellation. Now the graphs that I obtained begins to make sense, and you might notice a very prominent dip at $$\lambda=656nm$$. This wavelength exactly corresponds to the equivalent energy required for an electron in the hydrogen atom to move to shell n=2 to n=3. So while I took the readings, the hydrogen atoms of Saturn (with electrons in their second shell) absorbed some of the photons with wavelength of 656 nm, and the lens of the telescope felt this change, by registering fewer photons of that exact wavelength. Moreover, this magnitude of the dips also make it easy for us to estimate the composition of elements comprising of the Saturn. Most of it, understandably, is hydrogen and helium as they are the most abundant atoms in the universe and hydrogen's spectral lines are of particular interest to an astronomer.
 
 Obviously, the same technique can be applied to study any celestial object and their chemical composition, making this one of the most powerful techniques in all of physics. 
