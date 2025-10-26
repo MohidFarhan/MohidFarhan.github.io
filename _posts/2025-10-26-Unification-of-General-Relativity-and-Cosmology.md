@@ -21,7 +21,7 @@ In today’s blog, we’ll take a step-by-step look at how the FLRW metric is bu
 
 
 ## Case 1: The Flat Universe
-We begin by reminding ourselves that spacetime is inherently 4-dimensional, with 3 for space and 1 for time, and so it will be represented by a $4 \times 4$ matrix. The Minkowski metric lays out the basic structure for a flat universe:
+We begin by reminding ourselves that spacetime is inherently 4-dimensional, with 3 for space and 1 for time, and so it will be represented by a $$4 \times 4$$ matrix. The Minkowski metric lays out the basic structure for a flat universe:
     
 $$
 g_{\mu\nu} =
@@ -33,7 +33,7 @@ g_{\mu\nu} =
 \end{bmatrix}
 $$
 
-which you can treat as a baseline metric tensor for spacetime illustrations. The method of determining distance for any metric $g_{\mu\nu}$ has already been discussed in blog 5. This particular metric has the mostly positive convention, meaning that all space-related components are written with positive signs and time has a negative sign. This distinction is important in order to distinguish between time and space, mathematically. Similarly, one can also follow a mostly negative convention where the signs are inverted, but the mathematics remains the same. 
+which you can treat as a baseline metric tensor for spacetime illustrations. The method of determining distance for any metric $$g_{\mu\nu}$$ has already been discussed in blog 5. This particular metric has the mostly positive convention, meaning that all space-related components are written with positive signs and time has a negative sign. This distinction is important in order to distinguish between time and space, mathematically. Similarly, one can also follow a mostly negative convention where the signs are inverted, but the mathematics remains the same. 
 
 Following the assumptions, the most obvious choice of shape would be a flat universe. 
 
@@ -68,7 +68,7 @@ $$
 automatically qualifies as a sphere where $x_i$ is the basis parameter for a system and r is the radius of the sphere. Let's begin with the simplest case: a 1-Sphere, also referred to as a circle in 2 dimensions. Two dimensions imply that we will have 2 basis parameters where:
 $$x_i=x, \quad and \quad x_j=y$$
 
-Now it becomes a matter of selection x and y, as functions of r and $\theta$ to ensure that the condition of a sphere is satisfied. If we choose:
+Now it becomes a matter of selection x and y, as functions of r and $$\theta$$ to ensure that the condition of a sphere is satisfied. If we choose:
 
 $$ 
 x=r\cos{\theta} ,\quad y=r\sin{\theta}
@@ -82,7 +82,7 @@ x^2+y^2=(r\cos\theta)^2+(r\sin\theta)^2
 $$
   
 which satisfies the equation of a sphere. 
-Extending this concept to 3 dimensions gives us 3 parameters (x, y and z), which now need to be defined as functions of 3 polar coordinates (r,$\theta$ and $\varphi$). By letting 
+Extending this concept to 3 dimensions gives us 3 parameters (x, y and z), which now need to be defined as functions of 3 polar coordinates (r,$$\theta$$ and $$\varphi$$). By letting 
 
 $$ 
 x = r\cos\theta, \quad
@@ -105,7 +105,7 @@ $$
 
 This is a 3-dimensional sphere, which is the most popular shape in the universe, since everything from atoms to stars, planets and globular clusters are spheres. And under this case, it might be true that the universe itself might be a sphere.
 
-But, we need a 4-dimensional analogue to this sphere, which will now requires 4 Euclidean parameters (x,y,z and t) to be described as functions of 4 polar coordinate parameters (r, $\theta$, $\varphi$ and $\xi$). We can extend the pattern and select the Euclidean coordinates as:
+But, we need a 4-dimensional analogue to this sphere, which will now requires 4 Euclidean parameters (x,y,z and t) to be described as functions of 4 polar coordinate parameters (r, $$\theta$$, $$\varphi$$ and $$\xi$$). We can extend the pattern and select the Euclidean coordinates as:
 
 $$
 x = r\cos\theta 
@@ -149,7 +149,7 @@ which is the defining equation of the 3-sphere of radius r embedded in 4 dimensi
 
 <!-- The Sphereical Universe -->
 <p align="center">
-  <img src="/assets/images/Adobe Express - SphereicalUniversePicture.gif" width="500" alt="The Continuity Equation"/>
+  <img src="/assets/images/Adobe Express - SphericalUniversePicture.gif" width="500" alt="The Continuity Equation"/>
   <br><em>Figure 1: A Visualization of the Spherical Universe embedded in the aforementioned mathematics. It can be identified by 2 intersecting smiles or 2 intersecting frowns.</em>
 </p>
 
@@ -176,7 +176,7 @@ r\cos\theta\sin\varphi\sin\xi
 \end{pmatrix}
 $$
 
-The partial derivative with respect to $\varphi$ is given by:
+The partial derivative with respect to $$\varphi$$ is given by:
 
 $$
 \frac{\partial}{\partial\varphi}
@@ -195,7 +195,7 @@ r\sin\theta\cos\varphi\sin\xi
 \end{pmatrix}.
 $$
 
-The partial derivative with respect to $\xi$ is given by:
+The partial derivative with respect to $$\xi$$ is given by:
 
 $$
 \frac{\partial}{\partial\xi}
@@ -255,7 +255,7 @@ $$
 
 ### The Diagonal Components
 
-We compute the three diagonal metric components $g_{\theta\theta},g_{\varphi\varphi},g_{\xi\xi}$.
+We compute the three diagonal metric components $$g_{\theta\theta},g_{\varphi\varphi},g_{\xi\xi}$$.
 
 $$
 \begin{aligned}
@@ -349,7 +349,7 @@ The purpose was to  make the metric resemble to that of case 1 (flat universe) w
 
 ## Case 3: The Hyperbolic Universe
 
-The third case is of a hyperbolic or open universe, which is the geometrical opposite of a sphere since it is an open shape, and is therefore difficult to visualize. It's mathematics is exactly the same as that of the spherical universe which we just described, with the only different being that $r=\sinh{}{\xi}$ instead to $r=\sin{\xi}$, and so it's metric can be written as:
+The third case is of a hyperbolic or open universe, which is the geometrical opposite of a sphere since it is an open shape, and is therefore difficult to visualize. It's mathematics is exactly the same as that of the spherical universe which we just described, with the only different being that $$r=\sinh{\xi}$$ instead to $$r=\sin{\xi}$$, and so it's metric can be written as:
 
 $$
 g_{\mu\nu} =
@@ -385,9 +385,9 @@ $$
 
 where:
 
-+  $r=\xi$ for flat universe
-+  $r=\sin\xi$ for closed universe (spherical)
-+  $r=\sinh\xi$ for open universe (hyperbolic)
++  $$r=\xi$$ for flat universe
++  $$r=\sin\xi$$ for closed universe (spherical)
++  $$r=\sinh\xi$$ for open universe (hyperbolic)
 
 ### Introducing the Scale Factor
 
@@ -445,7 +445,7 @@ g_{tt} & 0 & 0 & 0 \\
 \end{bmatrix}.
 $$
 
-where $g_{\xi\xi}$ can be expressed in the form of r as written earlier. Now, let's actually express the metric purely as r. How can we do that? easy. 
+where $$g_{\xi\xi}$$ can be expressed in the form of r as written earlier. Now, let's actually express the metric purely as r. How can we do that? easy. 
 
 The aim is to perform a transformation such that:
 
@@ -475,12 +475,12 @@ $$
 
 
 
-+ For flat space, recall that $r=\xi$, therefore $(\frac{\partial r}{\partial{\xi}})^2=1$. So in this case, $g_{rr}=g_{\xi\xi}$.
-+ For spherical space, recall that $r=\sin\xi$, therefore $(\frac{\partial r}{\partial{\xi}})^2=\cos^2\xi=1-\sin^2\xi=1-r^2$. So, $g_{rr}=\frac{g_{\xi\xi}}{1-r^2}$.
-+ For hyperbolic space, recall that $r=\sinh\xi$, therefore $(\frac{\partial r}{\partial{\xi}})^2=\cosh^2\xi=1+\sinh^2\xi=1+r^2$. So, $g_{rr}=\frac{g_{\xi\xi}}{1+r^2}$.
++ For flat space, recall that $$r=\xi$$, therefore $$(\frac{\partial r}{\partial{\xi}})^2=1$$. So in this case, $$g_{rr}=g_{\xi\xi}$$.
++ For spherical space, recall that $$r=\sin\xi$$, therefore $$(\frac{\partial r}{\partial{\xi}})^2=\cos^2\xi=1-\sin^2\xi=1-r^2$$. So, $$g_{rr}=\frac{g_{\xi\xi}}{1-r^2}$$.
++ For hyperbolic space, recall that $$r=\sinh\xi$$, therefore $$(\frac{\partial r}{\partial{\xi}})^2=\cosh^2\xi=1+\sinh^2\xi=1+r^2$$. So, $$g_{rr}=\frac{g_{\xi\xi}}{1+r^2}$$.
 
 
-Now, because of the elegant final form $g_{rr}$ takes, we can compactly change $g_{\xi\xi}$, so that it takes the form:
+Now, because of the elegant final form $$g_{rr}$$ takes, we can compactly change $$g_{\xi\xi}$$, so that it takes the form:
 
 $$
 g_{rr}=\frac{g_{\xi\xi}}{1-kr^2}
