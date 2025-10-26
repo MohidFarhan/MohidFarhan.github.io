@@ -1,7 +1,7 @@
 ---
 
 title: "Blog 7—The Unification of General Relativity with Cosmology."
-date: 2025-25-10
+date: 2025-10-26
 categories: [Astrophysics, Cosmology, General Relativity, Spacetime Fabric, FLRW Metric]
 use_math: true
 layout: single
