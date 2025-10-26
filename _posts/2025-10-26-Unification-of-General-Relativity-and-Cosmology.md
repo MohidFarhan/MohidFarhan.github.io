@@ -65,7 +65,7 @@ $$
 \sum_{i=1}^{i>2} x_i^2=r^2
 $$
 
-automatically qualifies as a sphere where $x_i$ is the basis parameter for a system and r is the radius of the sphere. Let's begin with the simplest case: a 1-Sphere, also referred to as a circle in 2 dimensions. Two dimensions imply that we will have 2 basis parameters where:
+automatically qualifies as a sphere where $$x_i$$ is the basis parameter for a system and r is the radius of the sphere. Let's begin with the simplest case: a 1-Sphere, also referred to as a circle in 2 dimensions. Two dimensions imply that we will have 2 basis parameters where:
 $$x_i=x, \quad and \quad x_j=y$$
 
 Now it becomes a matter of selection x and y, as functions of r and $$\theta$$ to ensure that the condition of a sphere is satisfied. If we choose:
