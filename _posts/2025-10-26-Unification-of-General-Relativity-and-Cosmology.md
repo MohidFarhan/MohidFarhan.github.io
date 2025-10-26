@@ -15,7 +15,7 @@ excerpt: "One of the biggest triumphs of physics is the emergence of General Rel
 ## Introduction
 In modern cosmology, everything begins with a metric, which is a mathematical recipe for measuring distances and intervals in spacetime. Just as Pythagoras’ theorem tells us how to measure straight lines in flat space (see blog 5), general relativity tells us how to measure distances and times in a curved, evolving universe.
 
-One of the most powerful and widely used metrics in cosmology is the Friedmann–Lemaître–Robertson–Walker (FLRW) metric. It captures the most fundamental symmetries of our universe: that it looks the same everywhere (homogeneity) and in every direction (isotropy). These symmetries means that the universe is unchanged under rotation and translation. These assumptions may sound bold, but astonishingly, astronomical observations such as the cosmic microwave background (CMB) and the large-scale distribution of galaxies confirm them to remarkable precision. 
+One of the most powerful and widely used metrics in cosmology is the Friedmann–Lemaître–Robertson–Walker (FLRW) metric. It captures the most fundamental symmetries of our universe: that it looks the same everywhere (homogeneity) and in every direction (isotropy). These symmetries mean that the universe is unchanged under rotation and translation. These assumptions may sound bold, but astonishingly, astronomical observations such as the cosmic microwave background (CMB) and the large-scale distribution of galaxies confirm them to remarkable precision. 
 
 In today’s blog, we’ll take a step-by-step look at how the FLRW metric is built from symmetry arguments, and then attempt to calculate the curvature of the metric. This is a natural progression of blog 5, and unifies general relativity with cosmology. The satisfaction of our assumptions naturally give rise to 3 cases, which will be elegantly encompassed in the final form of the FLRW metric.
 
@@ -55,7 +55,7 @@ This is the polar coordinate form, which arises from a Jacobian matrix transform
 
 ## Case 2: The Spherical Universe
     
-The assumption of homogeneity and isotropy can also be applied to a spherical surface, which by design has rotational symmetry and can easily accommodate translational symmetry also. In order to describe it mathematically, we need to be able to draw spheres using just equations, which is an interesting journey to embark on.
+The assumption of homogeneity and isotropy can also be applied to a spherical surface. Such a surface already has rotational symmetry built-in to it. In order to describe it mathematically, we need to be able to draw spheres using just equations, which is an interesting journey to embark on.
 
 ### Constructing Higher-Dimensional Spheres
 
@@ -153,7 +153,7 @@ which is the defining equation of the 3-sphere of radius r embedded in 4 dimensi
   <br><em>Figure 1: A Visualization of the Spherical Universe embedded in the aforementioned mathematics. It can be identified by 2 intersecting smiles or 2 intersecting frowns.</em>
 </p>
 
-Technically, this pattern can be extended to whatever dimensions you want, but for our purposes, we can stop here. This encapsulates the beauty of mathematics, since it does not fail even where our sense do. There is no intuitive way we can visualize anything with 4 dimensions or more, but by following mathematical patterns, we see that mathematics has no limits.  Now, let's define the partial derivatives for all the Euclidean parameters with respect to the polar coordinate parameters as they will help us in constructing the matrix later on.
+Technically, this pattern can be extended to whatever dimensions you want, but for our purposes, we can stop here. This encapsulates the beauty of mathematics, since it does not fail even where our intuition does. There is no intuitive way we can visualize anything with 4 dimensions or more, but by following mathematical patterns, we see that mathematics has no limits.  Now, let's define the partial derivatives for all the Euclidean parameters with respect to the polar coordinate parameters as they will help us in constructing the matrix later on.
 
 ### Computing the Partial Derivatives
 
@@ -263,7 +263,7 @@ g_{\theta\theta}
 &= \partial_\theta\mathbf{X}\cdot\partial_\theta\mathbf{X} \\
 &= r^2\sin^2\theta + r^2\cos^2\theta\cos^2\varphi + r^2\cos^2\theta\sin^2\varphi(\cos^2\xi+\sin^2\xi) \\
 &= r^2\sin^2\theta + r^2\cos^2\theta\big(\cos^2\varphi+\sin^2\varphi\big) \\
-&= r^2\sin^2\theta+\cos^2\theta) 
+&= r^2(\sin^2\theta+\cos^2\theta) 
 = r^2.
 \end{aligned}
 $$
@@ -349,7 +349,7 @@ The purpose was to  make the metric resemble to that of case 1 (flat universe) w
 
 ## Case 3: The Hyperbolic Universe
 
-The third case is of a hyperbolic or open universe, which is the geometrical opposite of a sphere since it is an open shape, and is therefore difficult to visualize. It's mathematics is exactly the same as that of the spherical universe which we just described, with the only different being that $$r=\sinh{\xi}$$ instead to $$r=\sin{\xi}$$, and so it's metric can be written as:
+The third case is of a hyperbolic or open universe, which is the geometrical opposite of a sphere since it is an open shape, and is therefore difficult to visualize. It's mathematics is identical in form to the spherical universe which we just described, with the only different being that $$r=\sinh{\xi}$$ instead to $$r=\sin{\xi}$$, and so it's metric can be written as:
 
 $$
 g_{\mu\nu} =
@@ -509,7 +509,7 @@ $$
 where $$k=-1,0,1$$ corresponds to hyperbolic (open), flat and spherical (closed) geometries, respectively. It is important to note that everything else stays the same, because we transform $$\xi \to r$$,so r staying as is, is a matter of convention. The only difference is the change in the elements $$g_{\xi\xi} \to g_{rr}$$, which we have already incorporated. So, now you have a metric tensor that is highly relevant to cosmology, so much so that a cosmology course looks incomplete without at least mentioning this metric. Now that we have put in the hard yards, we can calculate everything from geodesics, to real distance, and curvature using straightforward but lengthy mathematics. 
 
 
-Luckily for us, we live in the age of computers, and we can easily code this without needing pen or paper. I have prepared a mathematica notebook code which calculates inputs the FLRW metric and calculates it's curvature using the Christoffel symbol, Riemann tensor, Ricci Tensor and Ricci scalar. They deserve their own code-oriented post which is left for a future blog.  
+Luckily for us, we live in the age of computers, and we can easily code this without needing pen or paper. I have prepared a mathematica notebook code which calculates inputs the FLRW metric and calculates its curvature using the Christoffel symbol, Riemann tensor, Ricci Tensor and Ricci scalar. They deserve their own code-oriented post which is left for a future blog.  
 
 The analytical calculation for a $$3 \times 3$$ metric's case:
 https://www.physics.mcgill.ca/~rhb/ph514/10sol6.pdf
