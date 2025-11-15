@@ -307,7 +307,7 @@ $$
 
 ## Why is it called a Spinor?
 
-The complex exponent always shows rotation. A complex exponent $$e^{i \theta}$$ being applied to vector $$\arrow{V}$$, rotates it by angle $$\theta$$. In the case of the Dirac spinor, the complex exponent is a function of time, meaning that as time goes on, the initial spin-state vector ($$\psi_n(0)$$) spins continuously along the complex plane, with frequency $$\frac{mc^2}{\hbar}$$, and so it's a "$$\textbf{spin}$$or". When the sign is inverted (charge operator is applied), the spin-state vector rotates in the opposite direction, or can be reinterpret as the former example moving back in time.
+The complex exponent always shows rotation. A complex exponent $$e^{i \theta}$$ being applied to vector V, rotates it by angle $$\theta$$. In the case of the Dirac spinor, the complex exponent is a function of time, meaning that as time goes on, the initial spin-state vector ($$\psi_n(0)$$) spins continuously along the complex plane, with frequency $$\frac{mc^2}{\hbar}$$, and so it's a "$$\textbf{spin}$$or". When the sign is inverted (charge operator is applied), the spin-state vector rotates in the opposite direction, or can be reinterpret as the former example moving back in time.
 
 ## Interpreting matter type using the complex plane
 
