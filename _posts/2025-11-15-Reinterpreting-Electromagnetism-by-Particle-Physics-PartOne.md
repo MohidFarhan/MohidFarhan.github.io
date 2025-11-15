@@ -67,7 +67,7 @@ $$
 ### Zero-momentum solution
 The four-gradient is written as:
  $$\partial_\mu = \frac{\partial}{\partial x^\mu}=[\frac{1}{c} \frac{\partial}{\partial t},  \frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}]$$.
- So, it accounts for all of the 4 dimensions of spacetime, which we have already tackled. Since the Dirac equation has $$4\times4$$ matrices with a 4-gradient, then the wavefunction $\psi$ also needs to be a matrix with 4 rows, in order to be dimensionally consistent.
+ So, it accounts for all of the 4 dimensions of spacetime, which we have already tackled. Since the Dirac equation has $$4\times4$$ matrices with a 4-gradient, then the wavefunction $$\psi$$ also needs to be a matrix with 4 rows, in order to be dimensionally consistent.
  
 $$
 \psi =
@@ -94,7 +94,7 @@ $$
  = - \frac{imc}{\hbar}  \psi.
 $$
 
-Now, let's assume a free particle with precisely zero momentum since it is, by far, the simplest solution. The first derivatives of $\psi$ with respect to the spatial coordinates go to zero since for $$p=0$$, we have:
+Now, let's assume a free particle with precisely zero momentum since it is, by far, the simplest solution. The first derivatives of $$\psi$$ with respect to the spatial coordinates go to zero since for $$p=0$$, we have:
 $$\hat{p}\psi=-i\hbar\nabla\psi=0$$
 therefore,
 
@@ -129,7 +129,7 @@ $$
 \end{pmatrix}, 
 $$
 
-We absorb $\gamma^0$, the equation is split into 2 parts.
+We absorb $$\gamma^0$$, the equation is split into 2 parts.
 
 $$
 \begin{pmatrix}
@@ -147,7 +147,7 @@ $$
 \end{pmatrix}
 $$
 
-Solving the first-order partial differential equation for $\psi$ gives us:
+Solving the first-order partial differential equation for $$\psi$$ gives us:
 
 $$
 \begin{pmatrix}
@@ -200,13 +200,13 @@ $$
 $$
 
 
-So, this 2-component wavefunction (also referred to as a Dirac bi-spinor) is the product of two states, $\psi_1(0)$ and $\psi_2(0)$ and an exponent. Dirac, very diligently, reimagined the states as spin-states, and the exponent as an indication of the "type" of matter. We will get into the latter later, but as for the spin-states, it makes perfect sense when you realize that normalization requires:
+So, this 2-component wavefunction (also referred to as a Dirac bi-spinor) is the product of two states, $$\psi_1(0)$$ and $$\psi_2(0)$$ and an exponent. Dirac, very diligently, reimagined the states as spin-states, and the exponent as an indication of the "type" of matter. We will get into the latter later, but as for the spin-states, it makes perfect sense when you realize that normalization requires:
  
 $$
 |\psi_1(0)|^2+|\psi_2(0)|^2=1
 $$
 
-If you ever took a quantum mechanics course, you will instantly be able to connect the dots by using this equation: $\psi_1(0)$ shows the spin-up state and $\psi_2(0)$ shows the spin-down state. The normalization condition ensures that the overall probability sums up to give 1, which as mentioned in blog 1  is hyper-important. The superposition of spin-up and spin-down in this case is written as:
+If you ever took a quantum mechanics course, you will instantly be able to connect the dots by using this equation: $$\psi_1(0)$$ shows the spin-up state and $$\psi_2(0)$$ shows the spin-down state. The normalization condition ensures that the overall probability sums up to give 1, which as mentioned in blog 1  is hyper-important. The superposition of spin-up and spin-down in this case is written as:
 
 $$
  \begin{pmatrix}
@@ -221,7 +221,7 @@ $$
 \end{pmatrix}
 $$
 
-So the probability of the free particle being measured spin-up and spin-down is given by taking the absolute square of $\psi_1(0)$ and $\psi_2(0)$, respectively. 
+So the probability of the free particle being measured spin-up and spin-down is given by taking the absolute square of $$\psi_1(0)$$ and $$\psi_2(0)$$, respectively. 
 So, the positive energy solution component of the Dirac spinor, written as:
 
 $$
@@ -275,7 +275,7 @@ e^{\frac{i m c^2}{\hbar}t}
 $$
  
      
-The spin-up and spin-down states are now associated with $\psi_3(0)$ and $\psi_4(0)$, and the exponent now has a positive sign. The sign of the exponent gives an indication of the nature of energy solutions. When one tries to extract the corresponding energy of a wavefunction containing a negative exponent, we get positive energy solutions, and vice versa. 
+The spin-up and spin-down states are now associated with $$\psi_3(0)$$ and $$\psi_4(0)$$, and the exponent now has a positive sign. The sign of the exponent gives an indication of the nature of energy solutions. When one tries to extract the corresponding energy of a wavefunction containing a negative exponent, we get positive energy solutions, and vice versa. 
 
 So, the previous equation shows us a bi-spinor containing wavefunctions with negative energies. That sounds unphysical and if it were up to us normal people, we would have removed these terms after branding them so. But Dirac saw through the subtlety and predicted an actual family of particles that actually yield negative energies called antiparticles. After experimental confirmation, their existence was confirmed.
 
