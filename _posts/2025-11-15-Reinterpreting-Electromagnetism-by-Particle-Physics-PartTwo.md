@@ -19,7 +19,7 @@ This blog post is a follow-up of the previous post. Today, we will look at the L
 
 ## What is a Lagrangian?
 
-The real question should be: \textbf{"What isn’t the Lagrangian?"}  
+The real question should be: "What isn’t the Lagrangian?"/ 
 
 In particle physics, the Lagrangian is everything. It’s a single equation that tells us everything we need to know about a system, its evolution, its interactions, and how symmetries shape the forces of nature.  
 
@@ -215,17 +215,10 @@ $$
 
 Following the same chain of thought as earlier, we clearly see that the transformed Lagrangian has an additional term as compared to the original Lagrangian. This means that the physics has changed and the Dirac Lagrangian itself does not have local gauge invariance. 
 
-\bigskip
-
 However, if we are adamant that local invariance is a given and try to necessitate it, how can we incorporate it? After all, mathematics never lies. 
 
 
-
-
-
-\end{frame}
-
-\begin{frame}{An Ad-Hoc Solution}
+## An Ad-Hoc Solution
 In a desperate bid to restore local gauge invariance let's add the exact same term back into the original Dirac Lagrangian to counter the deficit causing the variance.
 
 So, I will go ahead and write:
@@ -246,9 +239,6 @@ $$
 \mathcal{L}_d^{\prime}= \mathcal{L}_D^{\prime} - \bar\psi\gamma^\mu (\partial_\mu\alpha(x))\psi+ \bar\psi e^{-i\alpha(x)}\gamma^\mu (\partial_\mu\alpha(x))\psi e^{i\alpha(x)}
 $$
 
-\end{frame}
-
-\begin{frame}
 
 $$
 \mathcal{L}_d^{\prime}= \mathcal{L}_D^{\prime} - \bar\psi\gamma^\mu (\partial_\mu\alpha(x))\psi+ \bar\psi\gamma^\mu (\partial_\mu\alpha(x))\psi (e^{-i\alpha(x)}.e^{i\alpha(x)})
