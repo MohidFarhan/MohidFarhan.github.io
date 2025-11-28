@@ -19,7 +19,7 @@ This blog post is a follow-up of the previous post. Today, we will look at the L
 
 ## What is a Lagrangian?
 
-The real question should be: "What isn’t the Lagrangian?"/ 
+The real question should be: "What isn’t the Lagrangian?". 
 
 In particle physics, the Lagrangian is everything. It’s a single equation that tells us everything we need to know about a system, its evolution, its interactions, and how symmetries shape the forces of nature.  
 
@@ -57,7 +57,7 @@ $$
 
 which is simply Newton’s First Law for constant velocity motion.  
 
-So yes, the Lagrangian secretly encodes all of classical mechanics, and when generalized to fields, it will give us all of quantum field theory. Every particle, every force, every interaction — all born from this one quantity $L$. There are more fun exercises we can do with the Lagrangian mechanics, that we simply can't with Newtonian mechanics e.g. proving that the shortest distance between 2 points in a 2D plane is a straight line.
+So yes, the Lagrangian secretly encodes all of classical mechanics, and when generalized to fields, it will give us all of quantum field theory. Every particle, every force, every interaction — all born from this one quantity $\mathcal{L}$. There are more fun exercises we can do with the Lagrangian mechanics, that we simply can't with Newtonian mechanics e.g. proving that the shortest distance between 2 points in a 2D plane is a straight line.
 
 To learn more about its applications for beginners, refer to chapter 1 of "Introduction to Classical Mechanics" by Goldstein.
 
