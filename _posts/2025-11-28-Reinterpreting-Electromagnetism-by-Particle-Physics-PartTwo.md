@@ -57,7 +57,7 @@ $$
 
 which is simply Newton’s First Law for constant velocity motion.  
 
-So yes, the Lagrangian secretly encodes all of classical mechanics, and when generalized to fields, it will give us all of quantum field theory. Every particle, every force, every interaction — all born from this one quantity $\mathcal{L}$. There are more fun exercises we can do with the Lagrangian mechanics, that we simply can't with Newtonian mechanics e.g. proving that the shortest distance between 2 points in a 2D plane is a straight line.
+So yes, the Lagrangian secretly encodes all of classical mechanics, and when generalized to fields, it will give us all of quantum field theory. Every particle, every force, every interaction — all born from this one quantity $$\mathcal{L}$$. There are more fun exercises we can do with the Lagrangian mechanics, that we simply can't with Newtonian mechanics e.g. proving that the shortest distance between 2 points in a 2D plane is a straight line.
 
 To learn more about its applications for beginners, refer to chapter 1 of "Introduction to Classical Mechanics" by Goldstein.
 
@@ -127,15 +127,15 @@ $$
 $$
 
 $$
-\mathcal{L}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi e^{-i\alpha} e^{i\alpha}
+\mathcal}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi e^{-i\alpha} e^{i\alpha}
 $$
 
 $$
-\mathcal{L}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi  
+\mathcal}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi  
 $$
 
 $$
-\mathcal{L}_D^{\prime} =  \mathcal{L}_D
+\mathcal}_D^{\prime} =  \mathcal}_D
 $$
 
 Since the transformed Lagrangian is exactly the same as the original, the physics of our system is oblivious to the transformation. This is called global gauge invariance, and it’s a direct reflection of charge conservation which a deep result encoded in Noether’s theorem. Keep in mind that $$\psi$$ is no ordinary wavefunction, but a spinor whose phase factor did not depend on its position.
