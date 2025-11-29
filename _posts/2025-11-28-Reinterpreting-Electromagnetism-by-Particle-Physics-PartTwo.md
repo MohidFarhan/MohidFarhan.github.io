@@ -127,15 +127,15 @@ $$
 $$
 
 $$
-\mathcal}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi e^{-i\alpha} e^{i\alpha}
+\mathcal{L}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi e^{-i\alpha} e^{i\alpha}
 $$
 
 $$
-\mathcal}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi  
+\mathcal{L}_D^{\prime} = \bar\psi (i\gamma^\mu \partial_\mu - m)\psi  
 $$
 
 $$
-\mathcal}_D^{\prime} =  \mathcal}_D
+\mathcal{L}_D^{\prime} = \mathcal{L}_D
 $$
 
 Since the transformed Lagrangian is exactly the same as the original, the physics of our system is oblivious to the transformation. This is called global gauge invariance, and it’s a direct reflection of charge conservation which a deep result encoded in Noether’s theorem. Keep in mind that $$\psi$$ is no ordinary wavefunction, but a spinor whose phase factor did not depend on its position.
