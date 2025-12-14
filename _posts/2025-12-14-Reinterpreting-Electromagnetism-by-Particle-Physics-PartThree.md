@@ -28,7 +28,7 @@ $$
 \mathcal{L}_d = \mathcal{L}_D + \bar\psi\gamma^\mu (\partial_\mu\alpha(x))\psi
 $$
 
-where $$\mathcal{L}_d$$ and $$\mathcal{L}_D$$ notate the dream and Dirac Lagrangian respectively.
+where $$\mathcal{L}_d$$ and $$\mathcal{L}_D$$ denote the dream and Dirac Lagrangian respectively.
 
 
 Let's see what we can change, rearrange or simply just reinterpret. First of all, we can pull out the derivative of $$\alpha(x)$$.
@@ -78,7 +78,7 @@ $$
 j^\mu = \bar{\psi}\gamma^\mu \psi
 $$
 
-This current is the suspected naturally conserved property through Noether’s theorem, a direct consequence of global gauge invariance:
+This current is the naturally conserved quantity guaranteed by Noether’s theorem (which states that for every symmetry, there is a conserved quantity), which is a direct consequence of the initial global gauge invariance :
 
 $$
 \partial_\mu j^\mu = 0
@@ -119,7 +119,7 @@ $$
 \mathcal{L} = \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi + g\bar{\psi}\gamma^\mu A_\mu\psi
 $$
 
-Now, the interaction term is far from something we added out of desparation, and looks more like a stroke of genius.  
+Now, the interaction term is far from something we added out of desperation, and looks more like a stroke of genius.  
 
 But we’re not done yet. The rule for the Dirac field was:
 
@@ -304,12 +304,12 @@ $$
 \partial_{2}A_{3}-\partial_{3}A_{2}=\frac{\partial A_{z}}{\partial y}-\frac{\partial A_y}{\partial z}
 $$
 
-The trained eyes might be start to lit-up now. Anyone who has studied an electromagnetic theory course will now smell the blood in the water because the formulas that we have attained from space-time combination match the components of the electric field and those of the space-space components, match the expressions for the magnetic field.  
+The trained eyes might start to light up now. Anyone who has studied an electromagnetic theory course will now smell the blood in the water because the formulas that we have attained from space-time combination match the components of the electric field and those of the space-space components, match the expressions for the magnetic field.  
 
 We are no longer justifying sins, but we are now looking at the electric and magnetic fields naturally manifesting from the allowed degrees of freedom determined by the local gauge transformation. When I saw this for the first time, my mind was BLOWN. 
  
 
-We have just found out that the electromagnetic formulas are not first principles, and given their richness, this is nothing short of absolutely insane. The electric and magnetic fields are simply manifestations of the strict compliance of local gauge symmetry, so symmetry is fundamental, everything else is just consequences. Now, after studying the concept of the Faraday tensor, we can derive all of electromagnetism from scratch. Also note that earlier, we saw that the gauge field does not couple to itself, which predicts that photons do not interact with each other, which is consistent with observation.
+We have just found out that the electromagnetic formulas are not first principles, and given their richness, this is nothing short of absolutely insane. The electric and magnetic fields are simply manifestations of the strict compliance of local gauge symmetry, so symmetry is fundamental, everything else is just consequences. Now, after studying the concept of the Faraday tensor, we can derive all of electromagnetism from scratch.
 
 
 ## The Faraday Tensor
@@ -414,7 +414,7 @@ $$
 -\frac{1}{16\pi}F_{\mu\nu}F^{\mu\nu}
 $$
 
-The minus sign here is there to distinguish time from space. So, the Lagrangian for Quantum Electro-Dynamics, is the "dream" Lagrangian and this term, so we get:
+The minus sign is necessary to ensure the field's kinetic term is positive definite, making the photon a physical (non-tachyonic) particle. So, the Lagrangian for Quantum Electro-Dynamics, is the "dream" Lagrangian and this term, so we get:
 
 $$
 \mathcal{L}_{QED}=\bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi + \bar\psi\gamma^\mu A_{\mu}\psi-\frac{1}{16\pi}F_{\mu\nu}F^{\mu\nu}
