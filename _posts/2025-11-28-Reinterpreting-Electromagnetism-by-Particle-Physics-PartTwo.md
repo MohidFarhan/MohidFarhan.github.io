@@ -142,7 +142,7 @@ Since the transformed Lagrangian is exactly the same as the original, the physic
 
 <p align="center">
   <img src="/assets/images/GlobalGaugeInvariance.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Animation 1: The effect of the global phase transform on the wavefunction of a system. Here, the phase ($$\alpha$$) is not dependent on its position in the field.</em>
+  <br><em>Animation 1: The effect of the global phase transform on the wavefunction of a system. Here, the phase ($\alpha$) is not dependent on its position in the field.</em>
 </p>
 
 ## Local Gauge Invariance
