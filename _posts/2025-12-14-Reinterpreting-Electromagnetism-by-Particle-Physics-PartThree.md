@@ -162,7 +162,7 @@ $$
 D_\mu\psi \rightarrow e^{i\alpha(x)}\left[\partial_\mu + i(\partial_\mu\alpha) + igA_\mu\right]\psi
 $$
 
-For this to equal $$e^{i\alpha(x)}(\partial_\mu + igA'_\mu)\psi\$$, we must have:
+For this to equal $$e^{i\alpha(x)}(\partial_{\mu} + igA'_{\mu})\psi$$, we must have:
 
 $$
 A'_\mu = A_\mu - \frac{1}{g}\partial_\mu\alpha(x)
