@@ -140,9 +140,19 @@ $$
 
 Since the transformed Lagrangian is exactly the same as the original, the physics of our system is oblivious to the transformation. This is called global gauge invariance, and it’s a direct reflection of charge conservation which a deep result encoded in Noether’s theorem. Keep in mind that $$\psi$$ is no ordinary wavefunction, but a spinor whose phase factor did not depend on its position.
 
+<p align="center">
+  <img src="/assets/images/GlobalGaugeInvariance.gif" width="500" alt="J.J Thomson's model of the atom"/>
+  <br><em>Animation 1: The effect of the global phase transform on the wavefunction of a system. Here, the phase ($$\alpha$$) is not dependent on its position in the field.</em>
+</p>
+
 ## Local Gauge Invariance
 
 Global gauge invariance was cool, but let’s push our luck. What if the phase $$\alpha$$ wasn’t constant? What if it could change with position and time?
+
+<p align="center">
+  <img src="/assets/images/LocalGaugeInvariance.gif" width="500" alt="J.J Thomson's model of the atom"/>
+  <br><em>Animation 2: The effect of the local phase transform on the wavefunction of a system. Here, the phase ($$\alpha(x)$$) is dependent on its position in the field. Our mission is to find a transformation such that $$\psi$$ and $$\psi^{\prime}$$ are identical. In this random case, they aren't.</em>
+</p>
 
 $$
 \psi \rightarrow e^{i\alpha(x)}\psi
