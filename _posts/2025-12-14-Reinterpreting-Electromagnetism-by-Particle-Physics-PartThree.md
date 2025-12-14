@@ -31,7 +31,7 @@ $$
 where $$\mathcal{L}_d$$ and $$\mathcal{L}_D$$ notate the dream and Dirac Lagrangian respectively.
 
 
-Let's see what we can change, rearrange or simply just reinterpret. First of all, we can pull out the derivative of $\alpha(x)$.
+Let's see what we can change, rearrange or simply just reinterpret. First of all, we can pull out the derivative of $$\alpha(x)$$.
 
 $$
 \mathcal{L}_d = \mathcal{L}_D + \partial_\mu\alpha(x)\bar\psi\gamma^\mu \psi
@@ -57,6 +57,7 @@ $$
 The constant g is simply a coupling factor that tells us how strongly $$\psi$$ interacts with this new field.  
 
 With this change, the Lagrangian becomes:
+
 $$
 \mathcal{L} = \bar{\psi}(i\gamma^\mu\partial_\mu - m)\psi + g\bar{\psi}\gamma^\mu A_\mu\psi
 $$
@@ -71,7 +72,7 @@ $$
 \bar{\psi}\gamma^\mu \psi
 $$
 
-This combination is special as the mathematics is now starting to whisper. It’s not just any term, it represents the flow of charge in spacetime, known as the \textbf{Dirac current}:
+This combination is special as the mathematics is now starting to whisper. It’s not just any term, it represents the flow of charge in spacetime, known as the $$\textbf{Dirac current}$$:
 
 $$
 j^\mu = \bar{\psi}\gamma^\mu \psi
@@ -105,7 +106,7 @@ D_\mu = \partial_\mu + igA_\mu
 $$
 
 This new derivative “absorbs” the unwanted phase term, restoring perfect local gauge invariance.  
-When we rewrite our Lagrangian with $D_\mu$, we obtain:
+When we rewrite our Lagrangian with $$D_\mu$$, we obtain:
 
 $$
 \mathcal{L} = \bar{\psi}\left(i\gamma^\mu D_\mu - m\right)\psi
@@ -161,7 +162,7 @@ $$
 D_\mu\psi \rightarrow e^{i\alpha(x)}\left[\partial_\mu + i(\partial_\mu\alpha) + igA_\mu\right]\psi
 $$
 
-For this to equal \(e^{i\alpha(x)}(\partial_\mu + igA'_\mu)\psi\), we must have:
+For this to equal $$e^{i\alpha(x)}(\partial_\mu + igA'_\mu)\psi\$$, we must have:
 
 $$
 A'_\mu = A_\mu - \frac{1}{g}\partial_\mu\alpha(x)
@@ -196,7 +197,7 @@ And this reveals something very interesting.
 
 ## The Subtlety with Gauge Field
 
-Now, the implications of this transformation far outweigh all the others, since $D_{\mu}$ is simply a mathematical object, whereas $$A_{\mu}$$ is a literal 4-potential we have just invented. An implication of inventing this field should be its ability to exist on it's own, or the possibility to couple to itself. After all, we can not just bring a field into existence just for the sake of solving our problem. We need to study field in its totality and it should somehow energetically manifest itself. So first of all, let's try to have it couple to itself and once again, whether that is allowed or not depends on whether the same gauge transformation allows for invariance. So let's invent a term that looks like:
+Now, the implications of this transformation far outweigh all the others, since $$D_{\mu}$$ is simply a mathematical object, whereas $$A_{\mu}$$ is a literal 4-potential we have just invented. An implication of inventing this field should be its ability to exist on it's own, or the possibility to couple to itself. After all, we can not just bring a field into existence just for the sake of solving our problem. We need to study field in its totality and it should somehow energetically manifest itself. So first of all, let's try to have it couple to itself and once again, whether that is allowed or not depends on whether the same gauge transformation allows for invariance. So let's invent a term that looks like:
 
 $$gA^{\mu}A_{\mu}$$
 
