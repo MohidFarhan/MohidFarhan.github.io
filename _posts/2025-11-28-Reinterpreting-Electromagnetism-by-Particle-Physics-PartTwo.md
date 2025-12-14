@@ -142,7 +142,7 @@ Since the transformed Lagrangian is exactly the same as the original, the physic
 
 <p align="center">
   <img src="/assets/images/GlobalGaugeInvariance.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Animation 1: The effect of the global phase transform on the wavefunction of a system. Here, the phase ($\alpha$) is not dependent on its position in the field.</em>
+  <br><em>Animation 1: The effect of the global phase transform on the wavefunction of a system. Here, the phase field  (shown in the middle) is globally in the same orientation at the same time. As a result, the phase component is not dependent on its position in the field.</em>
 </p>
 
 ## Local Gauge Invariance
@@ -151,7 +151,7 @@ Global gauge invariance was cool, but let’s push our luck. What if the phase $
 
 <p align="center">
   <img src="/assets/images/LocalGaugeInvariance.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Animation 2: The effect of the local phase transform on the wavefunction of a system. Here, the phase ($$\alpha(x)$$) is dependent on its position in the field. Our mission is to find a transformation such that $$\psi$$ and $$\psi^{\prime}$$ are identical. In this random case, they aren't.</em>
+  <br><em>Animation 2: The effect of the local phase transform on the wavefunction of a system. Here, the phase field is locally in the same orientation, but globally they are no longer uniform. Therefore, the phase component is dependent on its position in the field. Our mission is to find a transformation such that systems shown on the left and right are identical. In this random case, they aren't.</em>
 </p>
 
 $$
