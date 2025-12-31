@@ -405,7 +405,7 @@ $$
 \partial_\nu(\partial_{\mu} F^{\mu\nu}) = 0, \quad \mu \neq \nu
 $$
 
-As for the diagonal terms ($\mu=\nu$), they are zero anyway. So there go the four remaining terms and what's left after it all? A big fat ZERO.
+As for the diagonal terms ($$\mu=\nu$$), they are zero anyway. So there go the four remaining terms and what's left after it all? A big fat ZERO.
 
 $$
  \partial_\nu J^\nu = 0.
