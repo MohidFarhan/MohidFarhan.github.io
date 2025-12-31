@@ -1,6 +1,6 @@
 ---
 
-title: "Blog 11—Walking through the Birth of Electromagnetism from Gauge Theory: Part 3"
+title: "Blog 11—Walking through the Birth of Electromagnetism from Gauge Theory: Part 4"
 date: 2025-12-31
 categories: [Particle Physics, Electromagnetism, Gauge Theory, Atomic and Molecular Physics, Fundamental Forces]
 use_math: true
