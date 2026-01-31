@@ -276,7 +276,7 @@ $$
 
 So the mass depends on the curvature of the potential at the resting value. In other words, the sharper the cliff, the more massive the particle. But as it turns out, most particles do not gain mass by virtue of the curvature of their corresponding potential.
 
-\begin{frame}{The True Mass Generating Mechanism}
+## The True Mass Generating Mechanism
 
 To understand that part of the picture, we must study a case where $$\phi$$ (a field with non-zero VEV) interacts with a field  $$\psi$$ , that has no VEV. The potential of a 2-field interacting system is given by:
 
