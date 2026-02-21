@@ -88,7 +88,7 @@ $$
 
 Because $$v \neq 0$$, the symmetry of the system is spontaneously broken, providing a mechanism for particles to acquire mass.
 
-The fact that the origin is at an unstable stationary point, with stable stationary points on either side--at a distance of v from the origin--sets the stage for \textbf{Spontaneous Symmetry Breaking}.
+The fact that the origin is at an unstable stationary point, with stable stationary points on either side--at a distance of v from the origin--sets the stage for $$\textbf{Spontaneous Symmetry Breaking}$$.
 
 ## Imprints of Spontaneous Symmetry Breaking
 
@@ -192,7 +192,7 @@ so the mass of the quanta for such a field would be:
 $$
 m=\frac{\hbar\omega_0}{c^2}
 $$
-Therefore, applying the same formalism to $h$, gives us:
+Therefore, applying the same formalism to $$h$$, gives us:
 $$m_h=\frac{\hbar \sqrt{2}\mu}{c^2}$$
 
 This can also be rewritten as:
