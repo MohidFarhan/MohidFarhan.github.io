@@ -212,7 +212,7 @@ All four components of $$\Phi_2$$ are physical and massive because there is no s
 
 Let us substitute these expansions into the potential and collect the quadratic terms in each field. This is the mass term generation.
 
-$$\textbf{For the CP-even neutral H}$$:
+#### For the CP-even neutral H:
 
 The terms involving $$\rho_2^2$$ in the potential come from:
 
@@ -236,7 +236,7 @@ $$
 \boxed{m_H^2 = \mu_2^2 + \frac{1}{2} \lambda_{345} v^2}
 $$
 
-$$\textbf{For the CP-odd neutral $$A$$:}$$
+#### For the CP-odd neutral A:
 
 The pseudoscalar $$\eta_2$$ appears differently in the $$\lambda_5$$ term. The combination $$(\Phi_1^\dagger \Phi_2)^2$$ contains $$\left( \frac{1}{\sqrt{2}}(v+h-iG^0) \cdot \frac{1}{\sqrt{2}}(\rho_2 - i\eta_2) \right)^2$$. The cross term gives $$-v\eta_2$$ inside the square, and when we expand, the $$\eta_2^2$$ term comes with the opposite sign from $$\lambda_5$$ compared to $$\rho_2^2$$:
 
@@ -244,7 +244,7 @@ $$
 \boxed{m_A^2 = \mu_2^2 + \frac{1}{2} (\lambda_3 + \lambda_4 - \lambda_5) v^2}
 $$
 
-$$\textbf{For the charged scalars $$H^\pm$$:}$$**
+#### For the charged scalars:
 
 The charged components $$\phi_2^+$$ appear in $$|\Phi_2|^2$$ and in the quartic terms. The $$\lambda_4$$ and $$\lambda_5$$ terms do not contribute to the charged scalar masses because of the structure of $$\Phi_1^\dagger \Phi_2$$ (the charged components are orthogonal to the VEV direction). We are left with:
 
@@ -272,9 +272,9 @@ $$m_{H^\pm}^2 - m_H^2 = -\frac{1}{2}(\lambda_4 + \lambda_5) v^2$$
 
 These splittings are crucial phenomenologically. They determine:
 
-- The dominant annihilation channels in the early universe
-- The cascade decays $$A \rightarrow HZ$$, $$H^\pm \rightarrow W^\pm H$$ or $$A W^\pm$$
-- The contribution to electroweak precision observables (particularly the $$T$$ parameter, which is sensitive to $$m_{H^\pm}^2 - m_H^2$$)
+- The dominant annihilation channels in the early universe.
+- The cascade decays $$A \rightarrow HZ$$, $$H^\pm \rightarrow W^\pm H$$ or $$A W^\pm$$.
+- The contribution to electroweak precision observables (particularly the $$T$$ parameter, which is sensitive to $$m_{H^\pm}^2 - m_H^2$$).
 
 The free parameters $$\lambda_4$$ and $$\lambda_5$$ control these splittings. We can adjust them, subject to the vacuum stability bounds, perturbativity limits ($$|\lambda_i| < 4\pi$$), and unitarity constraints on scattering amplitudes, to fit the observed dark matter relic density while evading direct detection limits.
 
@@ -304,19 +304,19 @@ This is not a coincidence. It is the "WIMP miracle"—the fact that weak-scale p
 
 The IDM is not a free-for-all. It faces stringent constraints from experiment:
 
-$$\textbf{Direct Detection:}$$ The H scatters off nuclei through Higgs exchange. The cross-section is proportional to $$\lambda_{345}^2$$. Experiments like XENON1T, LUX-ZEPLIN, and PandaX-4T place upper limits on this coupling. For $$m_H \sim 100$$ GeV, we require $$|\lambda_{345}| \lesssim 0.01$$.
+Direct Detection: The H scatters off nuclei through Higgs exchange. The cross-section is proportional to $$\lambda_{345}^2$$. Experiments like XENON1T, LUX-ZEPLIN, and PandaX-4T place upper limits on this coupling. For $$m_H \sim 100$$ GeV, we require $$|\lambda_{345}| \lesssim 0.01$$.
 
-$$\textbf{Indirect Detection:}$$ Pairs of H annihilate into Standard Model particles. If the annihilation produces gamma rays or cosmic antiparticles, telescopes like Fermi-LAT or AMS-02 might detect them. The null results constrain the parameter space.
+Indirect Detection: Pairs of H annihilate into Standard Model particles. If the annihilation produces gamma rays or cosmic antiparticles, telescopes like Fermi-LAT or AMS-02 might detect them. The null results constrain the parameter space.
 
-$$\textbf{Collider Searches:}$$ At the LHC, inert scalars can be produced in association with the Higgs, or through vector boson fusion. The decays $$H \rightarrow AA$$ or $$H \rightarrow H^+H^-$$, if kinematically allowed, produce distinctive signatures. Searches for disappearing tracks or soft leptons constrain the charged scalar mass.
+Collider Searches: At the LHC, inert scalars can be produced in association with the Higgs, or through vector boson fusion. The decays $$H \rightarrow AA$$ or $$H \rightarrow H^+H^-$$, if kinematically allowed, produce distinctive signatures. Searches for disappearing tracks or soft leptons constrain the charged scalar mass.
 
-$$\textbf{Perturbativity and Unitarity:}$$ The quartic couplings $$\lambda_i$$ must remain perturbative up to high energy scales. This bounds their magnitudes. Additionally, the potential must remain bounded from below, requiring:
+Perturbativity and Unitarity: The quartic couplings $$\lambda_i$$ must remain perturbative up to high energy scales. This bounds their magnitudes. Additionally, the potential must remain bounded from below, requiring:
 
 $$
 \lambda_1 &gt; 0, \quad \lambda_2 &gt; 0, \quad \lambda_3 + \sqrt{\lambda_1\lambda_2} &gt; 0, \quad \lambda_3 + \lambda_4 - |\lambda_5| + \sqrt{\lambda_1\lambda_2} &gt; 0
 $$
 
-$$\textbf{Electroweak Precision:}$$ The oblique parameters $$S, T, U$$ constrain mass splittings within the inert multiplet. Typically, we require $$m_{H^\pm} \approx m_H$$ to avoid large contributions to $$T$$.
+Electroweak Precision: The oblique parameters $$S, T, U$$ constrain mass splittings within the inert multiplet. Typically, we require $$m_{H^\pm} \approx m_H$$ to avoid large contributions to $$T$$.
 
 Surviving all these constraints requires finesse. The parameter space is not empty, but it is narrow. This is what makes the IDM a living research topic—we are actively mapping the allowed regions, calculating signals, and comparing to data.
 
