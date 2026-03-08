@@ -246,7 +246,7 @@ $$
 
 #### For the charged scalars:
 
-The charged components $$\phi_2^+$$ appear in $$|\Phi_2|^2$$ and in the quartic terms. The $$\lambda_4$$ and $$\lambda_5$$ terms do not contribute to the charged scalar masses because of the structure of $$\Phi_1^\dagger \Phi_2$$ (the charged components are orthogonal to the VEV direction). We are left with:
+The charged components $$\phi_2^+$$ appear in $$\Phi_2^2$$ and in the quartic terms. The $$\lambda_4$$ and $$\lambda_5$$ terms do not contribute to the charged scalar masses because of the structure of $$\Phi_1^\dagger \Phi_2$$ (the charged components are orthogonal to the VEV direction). We are left with:
 
 $$
 \boxed{m_{H^\pm}^2 = \mu_2^2 + \frac{1}{2} \lambda_3 v^2}
@@ -276,7 +276,7 @@ These splittings are crucial phenomenologically. They determine:
 - The cascade decays $$A \rightarrow HZ$$, $$H^\pm \rightarrow W^\pm H$$ or $$A W^\pm$$.
 - The contribution to electroweak precision observables (particularly the $$T$$ parameter, which is sensitive to $$m_{H^\pm}^2 - m_H^2$$).
 
-The free parameters $$\lambda_4$$ and $$\lambda_5$$ control these splittings. We can adjust them, subject to the vacuum stability bounds, perturbativity limits ($$|\lambda_i| < 4\pi$$), and unitarity constraints on scattering amplitudes, to fit the observed dark matter relic density while evading direct detection limits.
+The free parameters $$\lambda_4$$ and $$\lambda_5$$ control these splittings. We can adjust them, subject to the vacuum stability bounds, perturbativity limits ($$\lambda_i < 4\pi$$), and unitarity constraints on scattering amplitudes, to fit the observed dark matter relic density while evading direct detection limits.
 
 This is the power of the Inert Doublet Model: a minimal extension with rich phenomenology, all derived from a simple $$Z_2$$ symmetry and the structure of a two-doublet scalar potential. The mathematics is transparent. The predictions are testable. And the dark matter candidate emerges naturally, without contrivance, from the requirement that the vacuum respect the symmetry that protects it.
 
@@ -304,7 +304,7 @@ This is not a coincidence. It is the "WIMP miracle"—the fact that weak-scale p
 
 The IDM is not a free-for-all. It faces stringent constraints from experiment:
 
-Direct Detection: The H scatters off nuclei through Higgs exchange. The cross-section is proportional to $$\lambda_{345}^2$$. Experiments like XENON1T, LUX-ZEPLIN, and PandaX-4T place upper limits on this coupling. For $$m_H \sim 100$$ GeV, we require $$|\lambda_{345}| \lesssim 0.01$$.
+Direct Detection: The H scatters off nuclei through Higgs exchange. The cross-section is proportional to $$\lambda_{345}^2$$. Experiments like XENON1T, LUX-ZEPLIN, and PandaX-4T place upper limits on this coupling. For $$m_H \sim 100$$ GeV, we require $$\lambda_{345} \lesssim \pm 0.01$$.
 
 Indirect Detection: Pairs of H annihilate into Standard Model particles. If the annihilation produces gamma rays or cosmic antiparticles, telescopes like Fermi-LAT or AMS-02 might detect them. The null results constrain the parameter space.
 
