@@ -236,7 +236,7 @@ $$  
 This looks familiar — but there's a problem. The expression for $$\rho$$ yields a negative value if the second term dominates the first. That is:
 
 $$
-\rho &lt; 0 \quad \text{if} \quad |\psi \frac{\partial \psi^\star}{\partial t}| &gt; |\psi^\star \frac{\partial \psi}{\partial t}|
+\rho \leq 0 \quad \text{if} \quad |\psi \frac{\partial \psi^\star}{\partial t}| \geq |\psi^\star \frac{\partial \psi}{\partial t}|
 $$  
 
 This is the case when a plane-wave solution of $$\psi$$ is applied. Note that this is an oversimplification, since the deep-rooted cause of negative probability density were the negative energy solutions. Since both causes lead to the same result, i.e. negative probabilities, I have stuck to the simpler explanation. One can see from (14) that negative energy solutions are not only allowed but necessary, and this equation fails to make sense of such solutions. Moreover, negative probability density violates the probabilistic interpretation of quantum mechanics, because probability density must always be non-negative. So, in trying to make our equation relativistically correct, we have introduced a fatal flaw: the Klein-Gordon equation allows negative probabilities. And not to mention all the other red flags that we associated with this equation, but a negative probability density is considered blasphemy in quantum mechanics. 
