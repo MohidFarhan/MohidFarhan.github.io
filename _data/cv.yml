@@ -1,189 +1,125 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Mohid Farhan
+  label: Physicist | Cosmology, Dark Sector, and Particle Physics
+  email: mohidf35@gmail.com
+  location: Islamabad, Pakistan
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: President's Gold Medal-winning physicist working at the intersection of particle physics, cosmology, and dark-sector phenomenology. Author of peer-reviewed publications on interacting dark energy, BSM phenomenology, and the S8 tension.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
+    - network: Google Scholar
+      username: ieIff64AAAAJ
+    - network: ORCID
+      username: 0009-0004-0731-0527
     - network: GitHub
-      username: example
+      username: MohidFarhan
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: mohid-farhan-79101121a
+    - network: arXiv
+      username: farhan_m_1
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
+      - institution: Institute of Space Technology
+        location: Islamabad, Pakistan
         area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        studyType: BS Physics
+        start_date: 2021
+        end_date: 2025
+        score: "3.84/4.00"
         highlights:
-          - Description 1.
-          - Description 2.
+          - President's Gold Medal — highest academic honor awarded to the top physics graduate of the Class of 2025
+          - Graduated magna cum laude
+          - Awarded merit-based scholarships six times for the highest semester GPA in the cohort
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Research Experience:
+      - company: Independent Researcher
+        position: Multi-Component Dark Sector Frameworks
+        location: Islamabad, Pakistan
+        start_date: 2025-10
+        end_date: "present"
+        summary: Developing cosmological frameworks that resolve low-redshift tensions through structured dark-sector dynamics.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed the LDS-SF framework to resolve the S8 tension via scale-dependent growth from dark-sector perturbation matrices
+          - Implemented a Z4-symmetric Inert Doublet-Singlet Model in CLASS and micrOMEGAs, mapping microscopic interactions to an effective sound speed
+          - Derived two-loop Renormalization Group Equations for singlet mass parameters ensuring radiative stability of the dark energy scale
+          - Studied Momentum Exchange Dark Matter–Dark Energy interactions through CLASS
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Institute of Space Technology
+        position: Theoretical Physics Researcher (Final Year Project)
+        location: Islamabad, Pakistan
+        start_date: 2024-07
+        end_date: "present"
+        summary: Led an advanced theoretical investigation into dark matter and dark energy unification frameworks.
         highlights:
-          - Relativity
-          - Description 2.
+          - Explored extensions of the Standard Model including the Three-Higgs Doublet Model and the Inert Doublet plus Singlet Model
+          - Used SARAH, SPheno, micrOMEGAs, CalcRGE, and FeynCalc to compute observables, relic densities, and parameter dependencies
+          - Conducted comparative analysis of dark matter relic density topology across IDM, MSSM, and NMSSM
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+    Academic Service:
+      - company: Physica D - Nonlinear Phenomena (Elsevier)
+        position: Ad-hoc Reviewer
+        location: Remote
+        start_date: 2026-09
+        end_date: "present"
+        summary: Invited by the editorial board to referee a full-length manuscript on dark-energy reconstruction and multi-field dark-sector dynamics.
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Evaluation focused on cosmological perturbation theory, dark matter–dark energy interactions, and self-interacting dark matter frameworks
+          - Reviewed the mathematical formulation of the inverse reconstruction problem and consistency conditions for single-field vs multi-field realizations
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: University of Queensland Graduate School Scholarship (UQGSS / RTP)
+        date: 2026
+        awarder: University of Queensland
+        summary: Fully funded Master of Philosophy position including living stipend (AUD $39,200/year), full tuition fee offset, and Overseas Student Health Cover.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: KFUPM Direct PhD Awardee
+        date: 2026
+        awarder: King Fahd University of Petroleum and Minerals
+        summary: Fully funded PhD scholarship including 10,000 SAR/year stipend, furnished housing, tuition offset, and annual airfare.
+
+      - title: President's Gold Medal in Physics
+        date: 2025
+        awarder: Institute of Space Technology
+        summary: Highest academic honor awarded to the student with the best GPA of the cohort.
+
+
+      - title: Magna cum laude
+        date: 2025
+        awarder: Institute of Space Technology
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Symmetry-protected momentum exchange between dark matter and dark energy
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Mohid Farhan
+        publisher: Physica Scripta
+        releaseDate: 2026
+        url: https://doi.org/10.1088/1402-4896/ae6b13
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Layered dark structure with a structuring field - a Z4-symmetric inert doublet-singlet realization and implications for the S8 tension
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Marriam Naem
+          - Mohid Farhan
+        publisher: Physica Scripta
+        releaseDate: 2026
+        url: https://doi.org/10.1088/1402-4896/ae4e6e
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Physics Research Tools
+        keywords: "micrOMEGAs, SPheno, SARAH, CalcRGE, CLASS"
+
+      - name: Computational Tools
+        keywords: "Mathematica, Python, C++"
+
+      - name: Science Communication
+        keywords: "LaTeX, GitHub, Anaconda, Manim"
+
+      - name: Astronomy and Data
+        keywords: "AstroImageJ, BASS Project, Siril, PIPP, Registax, Stellarium, N.I.N.A."
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        summary: "Fluent (IELTS Band 7.5)"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Urdu
+        summary: "Native"
