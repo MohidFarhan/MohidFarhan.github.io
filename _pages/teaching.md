@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /Teaching/
+title: Teaching
 description: Courses taught, tutoring, and science outreach activities.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 ## Teaching Experience
