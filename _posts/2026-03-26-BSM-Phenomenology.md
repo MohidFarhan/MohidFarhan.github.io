@@ -3,10 +3,8 @@
 title: "Blog 15—The Gauntlet: How to Kill a Theory Before It Kills You"
 date: 2026-03-28
 categories: [Particle Physics, Dark Matter, Beyond the Standard Model, Phenomenology]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "We built a beautiful machine to explain the dark universe. But beautiful ideas are cheap. The question is: can it survive reality?"
 

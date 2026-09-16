@@ -3,10 +3,8 @@
 title: "Blog 3—Measuring the Cosmos: From Parallax to the Edge of the Universe"
 date: 2025-08-30
 categories: [Cosmology, Astronomy, Particle Physics, Astrophysics]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "How do we measure something we can’t touch? From the tiny wiggle of a nearby star against the night sky to the stretching fabric of space itself, astronomers have built a cosmic ruler that spans billions of light-years. Each step extends our reach deeper into the universe. We will dive into how we use a simple combination of eyepieces, lenses and gratings to peek into the edge of the universe."
 

@@ -3,10 +3,8 @@
 title: "Blog 8—Walking through the Birth of Electromagnetism from Gauge Theory: Part 1"
 date: 2025-11-15
 categories: [Particle Physics, Electromagnetism, Gauge Theory, Atomic and Molecular Physics, Fundamental Forces]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "Every law ever formulated in Electromagnetism arises naturally from Gauge theory, with Gauge theory rooted in Particle Physics. Let's dive into how Electromagnetism is a consequence of a seemingly unrelated symmetry."
 

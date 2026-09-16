@@ -3,10 +3,8 @@
 title: "Blog 6—Unlocking the Secrets of the Universe with a Telescope"
 date: 2025-10-10
 categories: [Astronomy, Cosmology, Astrophysics, Modern Physics, Atomic and Molecular Physics]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "A telescope is humanity’s window into the cosmos, transforming distant light into insight about the universe’s hidden structure and origin."
 

@@ -3,10 +3,8 @@
 title: "Blog 17—The Breath of Structure: Deriving the CDM Continuity Equation"
 date: "2026-04-05"
 categories: [Cosmology, Perturbation Theory, Dark Matter, Mathematical Methods]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "Before we can predict the cosmic web, we must learn how density breathes. This is the mathematics of how Cold Dark Matter conserves its mass as the universe expands and perturbs."
 

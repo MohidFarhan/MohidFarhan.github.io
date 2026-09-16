@@ -3,10 +3,8 @@
 title: "Blog 2—Inside the Atom: Where ‘Empty Space’ Teems with Activity"
 date: 2025-08-16
 categories: [Quantum Field Theory, Relativistic Quantum Mechanics, Particle Physics, Atomic and Molecular Physics]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "A subtle shift in hydrogen’s energy levels cracked open the door to quantum field theory which revealed the dynamic, buzzing vacuum inside every atom."
 

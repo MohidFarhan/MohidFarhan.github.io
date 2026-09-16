@@ -3,10 +3,8 @@
 title: "Blog 12—The Duel Between Particle Physics and Quantum Field Theory (Part 1)"
 date: 2026-01-31
 categories: [Particle Physics, Electromagnetism, Quantum Mechanics, Quantum Field Theory, Fundamental Forces]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "Physics is the art of settling down, and even fields want to find a stable 'couch' to rest on. But what happens when we nudge a field out of its comfort zone?"
 

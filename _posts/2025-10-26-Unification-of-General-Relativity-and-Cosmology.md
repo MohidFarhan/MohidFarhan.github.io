@@ -3,10 +3,8 @@
 title: "Blog 7—The Unification of General Relativity with Cosmology."
 date: 2025-10-26
 categories: [Astrophysics, Cosmology, General Relativity, Spacetime Fabric, FLRW Metric]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "One of the biggest triumphs of physics is the emergence of General Relativity. When it is tied with Cosmology, we can model the universe with unprecedented accuracy. Today, we discuss the metric that lies at the heart of it all."
 

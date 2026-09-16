@@ -3,10 +3,8 @@
 title: "Blog 9—Walking through the Birth of Electromagnetism from Gauge Theory: Part 2"
 date: 2025-11-28
 categories: [Particle Physics, Electromagnetism, Gauge Theory, Atomic and Molecular Physics, Fundamental Forces]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "We now delve into the mathematics of local U(1) symmetry and uncover how a Dirac field must be modified for its physics to remain invariant under this transformation."
 

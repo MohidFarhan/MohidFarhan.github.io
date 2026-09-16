@@ -3,10 +3,8 @@
 title: "Blog 5—The Metric Tensor: A Self-Adapting Ruler"
 date: 2025-09-27
 categories: [General Relativity, Cosmology, Spacetime, Astrophysics, Tensor Calculus]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "The metric tensor is the universe’s measuring tape, and dictates how distances, angles, and time itself changes for different spacetimes. And you can understand all this using basic math, as will be shown."
 

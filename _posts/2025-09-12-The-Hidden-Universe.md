@@ -3,10 +3,8 @@
 title: "Blog 4—The Hidden Universe: An Introduction to the dark sector"
 date: 2025-09-12
 categories: [Cosmology, Astronomy, Particle Physics, Astrophysics, Gravitation]
-use_math: true
-layout: single
-author_profile: true
-read_time: true
+layout: post
+math: true
 comments: true
 excerpt: "All the galaxies, stars, super-clusters, black hole and all other bodies that you see, only make up a laughable amount of the universe. We are oblivious to a vast majority of universe, which remains hidden from us to this day despite our best efforts."
 
