@@ -5,8 +5,8 @@
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: mohidf35@gmail.com
 github_username: MohidFarhan
-scholar_userid: # your Google Scholar ID (the number after "user=" in your Scholar profile URL)
-orcid_id: # your ORCID iD (format: XXXX-XXXX-XXXX-XXXX)
-arxiv_id: # your arXiv author ID (optional)
-linkedin_username: # your LinkedIn username (the part after linkedin.com/in/)
+scholar_userid: ieIff64AAAAJ
+orcid_id: 0009-0004-0731-0527
+arxiv_id: arxiv_id: farhan_m_1
+linkedin_username: mohid-farhan-79101121a
 rss_icon: true
