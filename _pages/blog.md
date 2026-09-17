@@ -28,7 +28,9 @@ pagination:
   </div>
 {% endif %}
 
-<p><em>This is a series, not a stream. Eighteen essays that build from the foundations of quantum mechanics and relativity up through my own research on the dark sector. Read in order for the full arc, or jump to whatever interests you.</em></p>
+<p><em>Hello there, and welcome to my blog. The articles here document the literature review behind my research, written as pedagogically as I can manage, prioritizing intuition and logical connections over formalism. Going through them will give you the context for my own work and the surrounding literature.</em></p>
+
+<p><em>If you're starting from the beginning, some introductory quantum mechanics will help, but you can also just follow the series in order and pick up what you need as you go. Each section brings you closer to the research frontier. Read straight through for the full arc, or jump to whatever interests you.</em></p>
 
 <div style="text-align: center; margin: 1.5rem 0 2.5rem 0;">
   <a href="/blog/2025/limitations-of-schrodinger/" class="btn btn-primary" style="padding: 0.6rem 1.8rem; font-size: 1.05em;">
@@ -130,13 +132,13 @@ pagination:
         <p><em>How demanding local U(1) symmetry forces the existence of the electromagnetic field, and from there, Maxwell's equations.</em></p>
       {% elsif post.series == "Particle Physics and QFT" %}
         <h2 id="particle-physics" style="margin-top: 2rem;">Part III — Particle Physics and Quantum Field Theory</h2>
-        <p><em>Fields, the Higgs mechanism, and how mass is generated through symmetry breaking.</em></p>
+        <p><em>The wave and particle perspectives: Fields, Higgs mechanism, and how mass is generated through symmetry breaking.</em></p>
       {% elsif post.series == "Dark Sector and BSM" %}
         <h2 id="dark-sector" style="margin-top: 2rem;">Part IV — The Dark Sector and Beyond the Standard Model</h2>
         <p><em>The Inert Doublet Model, its extensions, and the gauntlet of theoretical, collider, and cosmological constraints.</em></p>
       {% elsif post.series == "Cosmological Perturbation Theory" %}
         <h2 id="clpt" style="margin-top: 2rem;">Part V — Cosmological Perturbation Theory</h2>
-        <p><em>The machinery of structure formation — continuity, Euler, and the equations that connect dark-sector models to observables.</em></p>
+        <p><em>The machinery of structure formation, i.e. continuity, Euler, and the equations that connect dark-sector models to observables.</em></p>
       {% endif %}
       {% assign current_series = post.series %}
     {% endif %}
