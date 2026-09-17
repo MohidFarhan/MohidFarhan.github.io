@@ -75,7 +75,7 @@ cv:
           - Worked with BASS Project, Registax, PIPP, Siril, Stellarium, AstroImageJ, N.I.N.A and Astroplanner for calibration, reduction, and analysis of stellar and planetary data
           - Performed spectroscopic and photometric measurements to extract stellar parameters such as temperature and composition
 
-    Volunteer:
+    Academic Service:
       - company: Physica D - Nonlinear Phenomena (Elsevier)
         position: Ad-hoc Reviewer
         location: Remote
@@ -86,6 +86,7 @@ cv:
           - Evaluation focused on cosmological perturbation theory, dark matter-dark energy interactions, interacting dark energy, and self-interacting dark matter frameworks
           - Reviewed the mathematical formulation of the inverse reconstruction problem, consistency conditions for single-field vs multi-field realizations, numerical verification of analytical predictions, and connections to observational degeneracies in the dark sector
 
+    Conferences and Talks:
       - company: IEEE-ICAST Conference
         position: Author and Presenter
         location: Islamabad, Pakistan
@@ -94,13 +95,6 @@ cv:
         summary: 'Presented original research titled "Relic Density Topology as a Discriminatory Tool: A Comparative Analysis of IDM, MSSM, and NMSSM Dark Matter."'
         highlights:
           - Developed a topological mapping approach to distinguish between SUSY and non-SUSY dark matter candidates based on thermal relic abundance
-
-      - company: World Space Week (WSW)
-        position: Adjudicator
-        location: Islamabad, Pakistan
-        start_date: 2025-10
-        end_date: 2025-10
-        summary: Selected as a technical evaluator for the Scientific Debating Competition, assessing scientific arguments and communication clarity for high-school participants under the WSW global initiative.
 
       - company: 18th National Symposium on Frontiers in Physics
         position: Invited Speaker
@@ -120,6 +114,13 @@ cv:
         highlights:
           - Discussed Virial clouds as dark matter candidates with local senior scientists
 
+      - company: 1st Workshop on Cosmology
+        position: Co-organizer and Participant
+        location: Institute of Space Technology, Islamabad
+        start_date: 2024-12
+        end_date: 2024-12
+        summary: Helped organize the inaugural workshop, bringing a cosmology workshop to the Institute of Space Technology.
+
       - company: International School on Physics & Allied Disciplines (ISPAD)
         position: Participant
         location: ICTP & National Centre for Physics, Islamabad
@@ -127,13 +128,7 @@ cv:
         end_date: 2024-06
         summary: Attended the intensive school hosted by the ICTP and the National Centre for Physics (NCP), focusing on advanced topics in Particle Physics and High Energy Physics.
 
-      - company: 1st Workshop on Cosmology
-        position: Co-organizer and Participant
-        location: Institute of Space Technology, Islamabad
-        start_date: 2024-12
-        end_date: 2024-12
-        summary: Helped organize the inaugural workshop, along with the research group led by my supervisor, bringing a cosmology workshop to the Institute of Space Technology.
-
+    Teaching and Outreach:
       - company: The City School Educational Services
         position: Mathematics and Geography Teacher
         location: Islamabad, Pakistan
@@ -159,6 +154,8 @@ cv:
         start_date: 2022-07
         end_date: "present"
         summary: Engaged in public science outreach across multiple editions of World Space Week, promoting space science education and engagement.
+        highlights:
+          - Served as adjudicator for the English Debating Competition at World Space Week 2025
 
     Awards:
       - title: University of Queensland Graduate School Scholarship (UQGSS / RTP)
@@ -191,16 +188,6 @@ cv:
         awarder: Institute of Space Technology
         summary: Single-handedly represented cosmology in the External Selection Committee (ESC) evaluation for the best FYP.
 
-      - title: Adjudicator at World Space Week 2025
-        date: 2025
-        awarder: World Space Week
-        summary: Selected as evaluator and judged an English Debating Competition for high-schoolers.
-
-      - title: Author at International Conference on Applications of Science and Technology
-        date: 2025
-        awarder: ICAST
-        summary: Invited as author of a single-author manuscript in ICAST.
-
       - title: Laptop Awarded
         date: 2023
         awarder: Prime Minister Laptop Scheme Program
@@ -224,16 +211,16 @@ cv:
 
     Skills:
       - name: New Physics Research Tools
-        keywords: "micrOMEGAs, SPheno, SARAH, CalcRGE, CLASS — Development and implementation of Beyond the Standard Model (BSM) frameworks, with computation of dark matter related observables, mass spectra, CMB predictions and lensing data"
+        keywords: "micrOMEGAs, SPheno, SARAH, CalcRGE, CLASS -- Development and implementation of Beyond the Standard Model (BSM) frameworks, with computation of dark matter related observables, mass spectra, CMB predictions and lensing data"
 
       - name: Astronomy and Big Data Tools
-        keywords: "AstroImageJ, BASS Project, Siril, PIPP, Registax, Stellarium, N.I.N.A. — Data acquisition, calibration, and reduction of telescopic and CCD images for stellar and galactic photometry and spectroscopy"
+        keywords: "AstroImageJ, BASS Project, Siril, PIPP, Registax, Stellarium, N.I.N.A. -- Data acquisition, calibration, and reduction of telescopic and CCD images for stellar and galactic photometry and spectroscopy"
 
       - name: Computational Tools
-        keywords: "Mathematica, Python, C++ — Symbolic and numerical computation, automation of model analysis, and data visualization"
+        keywords: "Mathematica, Python, C++ -- Symbolic and numerical computation, automation of model analysis, and data visualization"
 
       - name: Science Communication Tools
-        keywords: "LaTeX, GitHub, Anaconda, Manim — Scientific writing and version control, environment management, and production of educational animations for physics outreach"
+        keywords: "LaTeX, GitHub, Anaconda, Manim -- Scientific writing and version control, environment management, and production of educational animations for physics outreach"
 
       - name: Analytical and Interpersonal
         keywords: "Advanced problem-solving and critical thinking developed through theoretical model design and independent research; scientific communication demonstrated through talks, publications, and outreach; leadership and collaboration strengthened through research and educational initiatives"
