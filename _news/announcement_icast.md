@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Presented My Single-Authored Preliminary Results at IEEE-ICAST Conference
-date: 2025-11-15 10:00:00
+date: 2025-10-15 10:00:00
 inline: false
 related_posts: false
 ---
