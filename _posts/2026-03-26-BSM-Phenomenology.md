@@ -1,5 +1,6 @@
 ---
 
+series: Dark Sector and BSM
 title: "Blog 15—The Gauntlet: How to Kill a Theory Before It Kills You"
 date: 2026-03-28
 categories: [Particle Physics, Dark Matter, Beyond the Standard Model, Phenomenology]

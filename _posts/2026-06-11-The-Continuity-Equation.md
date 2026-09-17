@@ -1,5 +1,6 @@
 ---
 
+series: Cosmological Perturbation Theory
 title: "Blog 17—The Breath of Structure: Deriving the CDM Continuity Equation"
 date: "2026-04-05"
 categories: [Cosmology, Perturbation Theory, Dark Matter, Mathematical Methods]

@@ -1,4 +1,5 @@
 ---
+series: Foundations
 title: "Blog 1—Limitations of the Schrödinger Equation and the Birth of Particle Physics"
 date: 2025-08-02
 categories: [Quantum Mechanics, Quantum Field Theory, Particle Physics]

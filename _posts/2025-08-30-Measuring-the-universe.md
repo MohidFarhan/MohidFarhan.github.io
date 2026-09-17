@@ -1,5 +1,6 @@
 ---
 
+series: Foundations
 title: "Blog 3—Measuring the Cosmos: From Parallax to the Edge of the Universe"
 date: 2025-08-30
 categories: [Cosmology, Astronomy, Particle Physics, Astrophysics]

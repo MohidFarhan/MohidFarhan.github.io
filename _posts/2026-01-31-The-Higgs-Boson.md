@@ -1,5 +1,6 @@
 ---
 
+series: Particle Physics and QFT
 title: "Blog 12—The Duel Between Particle Physics and Quantum Field Theory (Part 1)"
 date: 2026-01-31
 categories: [Particle Physics, Electromagnetism, Quantum Mechanics, Quantum Field Theory, Fundamental Forces]

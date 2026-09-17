@@ -1,5 +1,6 @@
 ---
 
+series: Foundations
 title: "Blog 4—The Hidden Universe: An Introduction to the dark sector"
 date: 2025-09-12
 categories: [Cosmology, Astronomy, Particle Physics, Astrophysics, Gravitation]

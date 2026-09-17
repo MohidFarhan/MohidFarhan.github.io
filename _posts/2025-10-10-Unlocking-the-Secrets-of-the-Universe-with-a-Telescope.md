@@ -1,5 +1,6 @@
 ---
 
+series: Foundations
 title: "Blog 6—Unlocking the Secrets of the Universe with a Telescope"
 date: 2025-10-10
 categories: [Astronomy, Cosmology, Astrophysics, Modern Physics, Atomic and Molecular Physics]
