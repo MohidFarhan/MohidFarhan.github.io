@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /research/
-title: research summary
+title: Research Summary
 description: Overview of my research in dark-sector physics and cosmology.
 nav: true
 nav_order: 1
+math: true
 ---
 
 ## Overview
