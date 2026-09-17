@@ -24,69 +24,187 @@ cv:
         location: Islamabad, Pakistan
         area: Physics
         studyType: BS Physics
-        start_date: 2021
-        end_date: 2025
+        start_date: 2021-09
+        end_date: 2025-09
         score: "3.84/4.00"
         highlights:
-          - President's Gold Medal — highest academic honor awarded to the top physics graduate of the Class of 2025
-          - Graduated magna cum laude
-          - Awarded merit-based scholarships six times for the highest semester GPA in the cohort
+          - President's Gold Medal (Top Physics Graduate, Class of 2025), graduating magna cum laude
+          - Research focused on Particle Physics, Cosmology, and Quantum Field Theory
 
     Experience:
-      - company: Independent Researcher
-        position: Multi-Component Dark Sector Frameworks
+      - company: Independent Researcher, Multi-Component Dark Sector Frameworks
+        position: Independent Researcher
         location: Islamabad, Pakistan
         start_date: 2025-10
         end_date: "present"
         summary: Developing cosmological frameworks that resolve low-redshift tensions through structured dark-sector dynamics.
         highlights:
-          - Developed the LDS-SF framework to resolve the S8 tension via scale-dependent growth from dark-sector perturbation matrices
-          - Implemented a Z4-symmetric Inert Doublet-Singlet Model in CLASS and micrOMEGAs, mapping microscopic interactions to an effective sound speed
-          - Derived two-loop Renormalization Group Equations for singlet mass parameters ensuring radiative stability of the dark energy scale
-          - Studied Momentum Exchange Dark Matter–Dark Energy interactions through CLASS
+          - Helped develop the LDS-SF framework to resolve the S8 tension through scale-dependent growth derived from dark sector perturbation matrices
+          - Provided the cosmological framework with a particle physics foundation by implementing a Z4-symmetric Inert Doublet Singlet Model (Z4-IDSM) in C-based software like CLASS and micrOMEGAs, mapping microscopic interactions to an effective sound speed (c_s^2)
+          - Derived up to two-loop Renormalization Group Equations (RGEs) for singlet mass parameters to ensure the radiative stability of the dark energy scale
+          - Mapped the model's cosmological effects in CLASS to study Momentum Exchange Dark Matter-Dark Energy Interactions
 
-      - company: Institute of Space Technology
-        position: Theoretical Physics Researcher (Final Year Project)
+      - company: Theoretical Physics Researcher, Final Year Project and Independent Extension
+        position: Theoretical Physics Researcher
         location: Islamabad, Pakistan
         start_date: 2024-07
         end_date: "present"
         summary: Led an advanced theoretical investigation into dark matter and dark energy unification frameworks.
         highlights:
-          - Explored extensions of the Standard Model including the Three-Higgs Doublet Model and the Inert Doublet plus Singlet Model
-          - Used SARAH, SPheno, micrOMEGAs, CalcRGE, and FeynCalc to compute observables, relic densities, and parameter dependencies
-          - Conducted comparative analysis of dark matter relic density topology across IDM, MSSM, and NMSSM
+          - Explored extensions of the Standard Model such as the Three-Higgs Doublet Model (3HDM) and the Inert Doublet plus Singlet Model (IDSM)
+          - Utilized computational and symbolic tools including SARAH, SPheno, micrOMEGAs, CalcRGE, and FeynCalc to compute observables, relic densities, and parameter dependencies
+          - Conducted comparative computational analysis of dark matter relic density topology across IDM, MSSM, and NMSSM
+
+      - company: National Centre for Physics (NCP)
+        position: Internee
+        location: Islamabad, Pakistan
+        start_date: 2023-07
+        end_date: 2023-09
+        summary: Worked on matter-radiation interactions on a project titled "Shielding Against Cosmic Rays and Solar Energetic Particles for Spacecrafts."
+        highlights:
+          - Analyzed particle flux models, attenuation behavior of shielding materials, and CMB photon interaction limits relevant to long-duration missions
+          - Contributed to simulations estimating dose deposition and evaluating mitigation strategies under varying orbital and interplanetary conditions
+
+      - company: National Center for GIS and Space Applications
+        position: Internee
+        location: Islamabad, Pakistan
+        start_date: 2024-07
+        end_date: 2024-09
+        summary: Acquired hands-on experience in astronomical data acquisition and analysis, focusing on telescopic observations and image processing.
+        highlights:
+          - Worked with BASS Project, Registax, PIPP, Siril, Stellarium, AstroImageJ, N.I.N.A and Astroplanner for calibration, reduction, and analysis of stellar and planetary data
+          - Performed spectroscopic and photometric measurements to extract stellar parameters such as temperature and composition
 
     Volunteer:
       - company: Physica D - Nonlinear Phenomena (Elsevier)
         position: Ad-hoc Reviewer
         location: Remote
-        start_date: 2026-09
+        start_date: 2026
         end_date: "present"
-        summary: Invited by the editorial board to referee a full-length manuscript on dark-energy reconstruction and multi-field dark-sector dynamics.
+        summary: Invited by the editorial board to referee a full-length manuscript on dark-energy potential reconstruction and multi-field dark-sector dynamics.
         highlights:
-          - Evaluation focused on cosmological perturbation theory, dark matter–dark energy interactions, and self-interacting dark matter frameworks
-          - Reviewed the mathematical formulation of the inverse reconstruction problem and consistency conditions for single-field vs multi-field realizations
+          - Evaluation focused on cosmological perturbation theory, dark matter-dark energy interactions, interacting dark energy, and self-interacting dark matter frameworks
+          - Reviewed the mathematical formulation of the inverse reconstruction problem, consistency conditions for single-field vs multi-field realizations, numerical verification of analytical predictions, and connections to observational degeneracies in the dark sector
+
+      - company: IEEE-ICAST Conference
+        position: Author and Presenter
+        location: Islamabad, Pakistan
+        start_date: 2025-11
+        end_date: 2025-11
+        summary: Presented original research titled "Relic Density Topology as a Discriminatory Tool: A Comparative Analysis of IDM, MSSM, and NMSSM Dark Matter."
+        highlights:
+          - Developed a topological mapping approach to distinguish between SUSY and non-SUSY dark matter candidates based on thermal relic abundance
+
+      - company: World Space Week (WSW)
+        position: Adjudicator
+        location: Islamabad, Pakistan
+        start_date: 2025-10
+        end_date: 2025-10
+        summary: Selected as a technical evaluator for the Scientific Debating Competition, assessing scientific arguments and communication clarity for high-school participants under the WSW global initiative.
+
+      - company: 18th National Symposium on Frontiers in Physics
+        position: Invited Speaker
+        location: National Centre for Physics, Islamabad
+        start_date: 2025-02
+        end_date: 2025-02
+        summary: Delivered a technical talk on "Unified Frameworks for Dark Matter and Dark Energy," presenting results from the 3HDM and IDSM phenomenological scans.
+        highlights:
+          - Engaged with the national physics community on the implications of multi-Higgs models for cosmological tensions
+
+      - company: 2nd Workshop on General Relativity, Cosmology, Astrophysics and Particle Physics
+        position: Co-organizer and Participant
+        location: Institute of Space Technology, Islamabad
+        start_date: 2024-12
+        end_date: 2024-12
+        summary: Helped organize the second edition, hosted by the National Centre for GIS and Space Applications and the Institute of Space Technology.
+        highlights:
+          - Discussed Virial clouds as dark matter candidates with local senior scientists
+
+      - company: International School on Physics & Allied Disciplines (ISPAD)
+        position: Participant
+        location: ICTP & National Centre for Physics, Islamabad
+        start_date: 2024-06
+        end_date: 2024-06
+        summary: Attended the intensive school hosted by the ICTP and the National Centre for Physics (NCP), focusing on advanced topics in Particle Physics and High Energy Physics.
+
+      - company: 1st Workshop on Cosmology
+        position: Co-organizer and Participant
+        location: Institute of Space Technology, Islamabad
+        start_date: 2024-12
+        end_date: 2024-12
+        summary: Helped organize the inaugural workshop, along with the research group led by my supervisor, bringing a cosmology workshop to the Institute of Space Technology.
+
+      - company: The City School Educational Services
+        position: Mathematics and Geography Teacher
+        location: Islamabad, Pakistan
+        start_date: 2025
+        end_date: "present"
+        summary: Designing and delivering engaging lectures in Mathematics and Geography for middle and high school levels.
+        highlights:
+          - Implementing conceptual and inquiry-based learning approaches aligned with The City School's curriculum
+          - Fostering critical thinking, problem-solving, and interdisciplinary understanding among the next generation of learners
+
+      - company: Science Communication and Blogging
+        position: Author
+        location: mohidfarhan.github.io
+        start_date: 2024-07
+        end_date: "present"
+        summary: Authoring explanatory essays and visual content that make complex physics and cosmology concepts accessible to broader audiences.
+        highlights:
+          - Using Manim and Python to illustrate key ideas in particle physics, nuclear physics, quantum field theory, dark matter, and general relativity
+
+      - company: World Space Week, National Center for GIS and Space Applications
+        position: Module Designer, Team Lead, and Adjudicator
+        location: Islamabad, Pakistan
+        start_date: 2022-07
+        end_date: "present"
+        summary: Engaged in public science outreach across multiple editions of World Space Week, promoting space science education and engagement.
 
     Awards:
       - title: University of Queensland Graduate School Scholarship (UQGSS / RTP)
         date: 2026
         awarder: University of Queensland
-        summary: Fully funded Master of Philosophy position including living stipend (AUD $39,200/year), full tuition fee offset, and Overseas Student Health Cover.
+        summary: Full scholarship for Master of Philosophy, including living stipend (AUD $37,500/year), full tuition fee offset, and Overseas Student Health Cover (OSHC). Competitive international merit-based award. (QS World Ranking 2026: 42)
 
       - title: KFUPM Direct PhD Awardee
         date: 2026
         awarder: King Fahd University of Petroleum and Minerals
-        summary: Fully funded PhD scholarship including 10,000 SAR/year stipend, furnished housing, tuition offset, and annual airfare.
+        summary: Fully funded PhD Scholarship at KFUPM, including 10,000 SAR/year stipend (extendable), air-conditioned and furnished housing, full tuition fee offset, annually reimbursed air tickets, and subsidized meals. (QS World Ranking 2026: 67)
 
-      - title: President's Gold Medal in Physics
+      - title: IST President's Gold Medalist in Physics 2025
         date: 2025
         awarder: Institute of Space Technology
         summary: Highest academic honor awarded to the student with the best GPA of the cohort.
 
-
       - title: Magna cum laude
         date: 2025
         awarder: Institute of Space Technology
+        summary: Awarded to high-performing students with a final CGPA of 3.7 or more.
+
+      - title: Merit-based scholarships
+        date: 2022-2025
+        awarder: Institute of Space Technology
+        summary: Awarded 6 times due to obtaining the highest GPA of the batch for the semester.
+
+      - title: Best Final Year Project for Cosmology
+        date: 2025
+        awarder: Institute of Space Technology
+        summary: Single-handedly represented cosmology in the External Selection Committee (ESC) evaluation for the best FYP.
+
+      - title: Adjudicator at World Space Week 2025
+        date: 2025
+        awarder: World Space Week
+        summary: Selected as evaluator and judged an English Debating Competition for high-schoolers.
+
+      - title: Author at International Conference on Applications of Science and Technology
+        date: 2025
+        awarder: ICAST
+        summary: Invited as author of a single-author manuscript in ICAST.
+
+      - title: Laptop Awarded
+        date: 2023
+        awarder: Prime Minister Laptop Scheme Program
+        summary: Awarded by merit-based selection under the Prime Minister Laptop Scheme Program.
 
     Publications:
       - title: Symmetry-protected momentum exchange between dark matter and dark energy
@@ -105,17 +223,20 @@ cv:
         url: https://doi.org/10.1088/1402-4896/ae4e6e
 
     Skills:
-      - name: Physics Research Tools
-        keywords: "micrOMEGAs, SPheno, SARAH, CalcRGE, CLASS"
+      - name: New Physics Research Tools
+        keywords: "micrOMEGAs, SPheno, SARAH, CalcRGE, CLASS — Development and implementation of Beyond the Standard Model (BSM) frameworks, with computation of dark matter related observables, mass spectra, CMB predictions and lensing data"
+
+      - name: Astronomy and Big Data Tools
+        keywords: "AstroImageJ, BASS Project, Siril, PIPP, Registax, Stellarium, N.I.N.A. — Data acquisition, calibration, and reduction of telescopic and CCD images for stellar and galactic photometry and spectroscopy"
 
       - name: Computational Tools
-        keywords: "Mathematica, Python, C++"
+        keywords: "Mathematica, Python, C++ — Symbolic and numerical computation, automation of model analysis, and data visualization"
 
-      - name: Science Communication
-        keywords: "LaTeX, GitHub, Anaconda, Manim"
+      - name: Science Communication Tools
+        keywords: "LaTeX, GitHub, Anaconda, Manim — Scientific writing and version control, environment management, and production of educational animations for physics outreach"
 
-      - name: Astronomy and Data
-        keywords: "AstroImageJ, BASS Project, Siril, PIPP, Registax, Stellarium, N.I.N.A."
+      - name: Analytical and Interpersonal
+        keywords: "Advanced problem-solving and critical thinking developed through theoretical model design and independent research; scientific communication demonstrated through talks, publications, and outreach; leadership and collaboration strengthened through research and educational initiatives"
 
     Languages:
       - name: English
