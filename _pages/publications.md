@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications and Preprints under review.
+description: Publications, Preprints and Pedagogical Reports.
 nav: true
 nav_order: 3
 ---
