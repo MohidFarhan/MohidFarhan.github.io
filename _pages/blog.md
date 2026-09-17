@@ -112,7 +112,7 @@ pagination:
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts reversed %}
+      {% assign postlist = site.posts | reverse %}
     {% endif %}
 
     {% assign current_series = "" %}
