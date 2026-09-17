@@ -5,15 +5,15 @@ title: Blog
 nav: true
 nav_order: 2
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
   sort_reverse: true
   trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
+    before: 1
+    after: 3
 ---
 
 <div class="post">
@@ -22,15 +22,21 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
-
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
-  {% endif %}
+{% endif %}
+
+<p><em>This is a series, not a stream. Eighteen essays that build from the foundations of quantum mechanics and relativity up through my own research on the dark sector. Read in order for the full arc, or jump to whatever interests you.</em></p>
+
+<div style="text-align: center; margin: 1.5rem 0 2.5rem 0;">
+  <a href="/blog/2025/limitations-of-schrodinger/" class="btn btn-primary" style="padding: 0.6rem 1.8rem; font-size: 1.05em;">
+    → Start Here (Blog 1)
+  </a>
+</div>
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
-
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
@@ -54,7 +60,7 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+{% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
@@ -106,10 +112,34 @@ pagination:
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
     {% else %}
-      {% assign postlist = site.posts %}
+      {% assign postlist = site.posts reversed %}
     {% endif %}
 
+    {% assign current_series = "" %}
     {% for post in postlist %}
+
+    {% if post.series != current_series %}
+      {% if current_series != "" %}
+        <hr style="margin: 2.5rem 0 1.5rem 0;">
+      {% endif %}
+      {% if post.series == "Foundations" %}
+        <h2 id="foundations" style="margin-top: 2rem;">Part I — Foundations</h2>
+        <p><em>Quantum mechanics, relativity, the metric tensor, and an introduction to the dark sector.</em></p>
+      {% elsif post.series == "Gauge Theory" %}
+        <h2 id="gauge-theory" style="margin-top: 2rem;">Part II — Gauge Theory and Electromagnetism</h2>
+        <p><em>How demanding local U(1) symmetry forces the existence of the electromagnetic field, and from there, Maxwell's equations.</em></p>
+      {% elsif post.series == "Particle Physics and QFT" %}
+        <h2 id="particle-physics" style="margin-top: 2rem;">Part III — Particle Physics and Quantum Field Theory</h2>
+        <p><em>Fields, the Higgs mechanism, and how mass is generated through symmetry breaking.</em></p>
+      {% elsif post.series == "Dark Sector and BSM" %}
+        <h2 id="dark-sector" style="margin-top: 2rem;">Part IV — The Dark Sector and Beyond the Standard Model</h2>
+        <p><em>The Inert Doublet Model, its extensions, and the gauntlet of theoretical, collider, and cosmological constraints.</em></p>
+      {% elsif post.series == "Cosmological Perturbation Theory" %}
+        <h2 id="clpt" style="margin-top: 2rem;">Part V — Cosmological Perturbation Theory</h2>
+        <p><em>The machinery of structure formation — continuity, Euler, and the equations that connect dark-sector models to observables.</em></p>
+      {% endif %}
+      {% assign current_series = post.series %}
+    {% endif %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
