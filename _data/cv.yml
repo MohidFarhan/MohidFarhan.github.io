@@ -24,8 +24,8 @@ cv:
         location: Islamabad, Pakistan
         area: Physics
         studyType: BS Physics
-        start_date: 2021-09
-        end_date: 2025-09
+        start_date: 2021-09-01
+        end_date: 2025-09-30
         score: "3.84/4.00"
         highlights:
           - President's Gold Medal (Top Physics Graduate, Class of 2025), graduating magna cum laude
@@ -35,7 +35,7 @@ cv:
       - company: Independent Researcher, Multi-Component Dark Sector Frameworks
         position: Independent Researcher
         location: Islamabad, Pakistan
-        start_date: 2025-10
+        start_date: 2025-10-01
         end_date: "present"
         summary: Developing cosmological frameworks that resolve low-redshift tensions through structured dark-sector dynamics.
         highlights:
@@ -47,7 +47,7 @@ cv:
       - company: Theoretical Physics Researcher, Final Year Project
         position: Theoretical Physics Researcher
         location: Islamabad, Pakistan
-        start_date: 2024-07
+        start_date: 2024-07-01
         end_date: "present"
         summary: Led an advanced theoretical investigation into dark matter and dark energy unification frameworks.
         highlights:
@@ -58,8 +58,8 @@ cv:
       - company: National Centre for Physics (NCP)
         position: Research Internee
         location: Islamabad, Pakistan
-        start_date: 2023-07
-        end_date: 2023-09
+        start_date: 2023-07-01
+        end_date: 2023-09-30
         summary: Worked on matter-radiation interactions on a project titled "Shielding Against Cosmic Rays and Solar Energetic Particles for Spacecrafts."
         highlights:
           - Analyzed particle flux models, attenuation behavior of shielding materials, and CMB photon interaction limits
@@ -68,8 +68,8 @@ cv:
       - company: National Center for GIS and Space Applications
         position: Research Internee
         location: Islamabad, Pakistan
-        start_date: 2024-07
-        end_date: 2024-09
+        start_date: 2024-07-01
+        end_date: 2024-09-30
         summary: Acquired hands-on experience in astronomical data acquisition and analysis.
         highlights:
           - Worked with BASS Project, Registax, PIPP, Siril, Stellarium, AstroImageJ, N.I.N.A and Astroplanner for calibration and reduction of telescopic data
@@ -79,7 +79,7 @@ cv:
       - company: Physica D - Nonlinear Phenomena (Elsevier)
         position: Ad-hoc Reviewer
         location: Remote
-        start_date: 2026
+        start_date: 2026-09-01
         end_date: "present"
         summary: Invited by the editorial board to referee a full-length manuscript on dark-energy potential reconstruction and multi-field dark-sector dynamics.
         highlights:
@@ -89,8 +89,8 @@ cv:
       - company: IEEE-ICAST Conference
         position: Author and Presenter
         location: Islamabad, Pakistan
-        start_date: 2025-11
-        end_date: 2025-11
+        start_date: 2025-11-01
+        end_date: 2025-11-30
         summary: 'Presented original research titled "Relic Density Topology as a Discriminatory Tool."'
         highlights:
           - Developed a topological mapping approach to distinguish between SUSY and non-SUSY dark matter candidates
@@ -98,42 +98,42 @@ cv:
       - company: World Space Week (WSW)
         position: Adjudicator
         location: Islamabad, Pakistan
-        start_date: 2025-10
-        end_date: 2025-10
+        start_date: 2025-10-01
+        end_date: 2025-10-31
         summary: Selected as a technical evaluator for the Scientific Debating Competition under the WSW global initiative.
 
       - company: 18th National Symposium on Frontiers in Physics
         position: Invited Speaker
         location: National Centre for Physics, Islamabad
-        start_date: 2025-02
-        end_date: 2025-02
+        start_date: 2025-02-01
+        end_date: 2025-02-28
         summary: Delivered a technical talk on "Unified Frameworks for Dark Matter and Dark Energy," presenting results from the 3HDM and IDSM phenomenological scans.
 
       - company: 2nd Workshop on General Relativity, Cosmology, Astrophysics and Particle Physics
         position: Co-organizer
         location: Institute of Space Technology, Islamabad
-        start_date: 2024-12
-        end_date: 2024-12
+        start_date: 2024-12-01
+        end_date: 2024-12-31
         summary: Co-organized the second edition, hosted by the National Centre for GIS and Space Applications and the Institute of Space Technology.
 
       - company: 1st Workshop on Cosmology
         position: Co-organizer
         location: Institute of Space Technology, Islamabad
-        start_date: 2024-12
-        end_date: 2024-12
+        start_date: 2024-12-01
+        end_date: 2024-12-31
         summary: Helped organize the inaugural workshop, bringing a cosmology workshop to the Institute of Space Technology.
 
       - company: International School on Physics & Allied Disciplines (ISPAD)
         position: Participant
         location: ICTP & National Centre for Physics, Islamabad
-        start_date: 2024-06
-        end_date: 2024-06
+        start_date: 2024-06-01
+        end_date: 2024-06-30
         summary: Attended the intensive school focusing on advanced topics in Particle Physics and High Energy Physics.
 
       - company: The City School Educational Services
         position: Mathematics and Geography Teacher
         location: Islamabad, Pakistan
-        start_date: 2025
+        start_date: 2025-07-01
         end_date: "present"
         summary: Designing and delivering lectures in Mathematics and Geography for middle and high school levels.
         highlights:
@@ -142,14 +142,14 @@ cv:
       - company: Science Communication and Blogging
         position: Author
         location: mohidfarhan.github.io
-        start_date: 2024-07
+        start_date: 2024-07-01
         end_date: "present"
         summary: Authoring explanatory essays and visual content that make complex physics concepts accessible to broader audiences.
 
       - company: World Space Week, National Center for GIS and Space Applications
         position: Module Designer, Team Lead, and Adjudicator
         location: Islamabad, Pakistan
-        start_date: 2022-07
+        start_date: 2022-07-01
         end_date: "present"
         summary: Engaged in public science outreach across multiple editions of World Space Week, promoting space science education.
 
@@ -175,9 +175,9 @@ cv:
         summary: Awarded to high-performing students with a final CGPA of 3.7 or more.
 
       - title: Merit-based scholarships
-        date: 2022-2025
+        date: 2022
         awarder: Institute of Space Technology
-        summary: Awarded 6 times for the highest GPA of the batch.
+        summary: Awarded 6 times (2022-2025) for the highest GPA of the batch.
 
       - title: Best Final Year Project for Cosmology
         date: 2025
