@@ -36,7 +36,7 @@ Authored open-access lecture notes on Quantum Electrodynamics ([DOI: 10.5281/zen
 ### World Space Week
 **National Center for GIS and Space Applications** · July 2022 – Present
 
-Engaged in public science outreach as module designer, team lead, and adjudicator across multiple editions of World Space Week, promoting space science education and engagement. Served as adjudicator for English debating modukes.
+Engaged in public science outreach as module designer, team lead, and adjudicator across multiple editions of World Space Week, promoting space science education and engagement. Served as adjudicator for English debating modules.
 
 ## Invited Talks and Presentations
 
