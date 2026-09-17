@@ -4,6 +4,12 @@ title: Featured in Institute of Space Technology's Youtube Channel
 date: 2025-10-10 10:00:00
 inline: false
 related_posts: false
+inline: false
+related_posts: false
+images:
+  - path: /assets/img/grad_ist.jpg
+    alt: "Graduation, Institute of Space Technology"
+    caption: "Graduation, Institute of Space Technology, September 2025"
 ---
 
 The Institute of Space Technology featured me in an official video titled *"Reaching for the Stars: Physics Gold Medalist Mohid Farhan Honored at IST"* after I graduated as the top physics student of the Class of 2025.
