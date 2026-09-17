@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-description: Curriculum vitae — physics research, publications, awards, and academic service.
+description: Curriculum vitae — physics research, publications, awards, and academic service. If it does not show up in your mobile browser, feel free to tap the download button!
 ---
 
 <div style="text-align: center; margin-bottom: 1.5rem;">
