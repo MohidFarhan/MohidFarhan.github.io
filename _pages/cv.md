@@ -8,11 +8,11 @@ description: Curriculum vitae — physics research, publications, awards, and ac
 ---
 
 <div style="text-align: center; margin-bottom: 1.5rem;">
-  <a href="/assets/pdf/cv.pdf" class="btn btn-outline-primary" target="_blank">
+  <a href="/assets/pdf/cv.pdf?v=2" class="btn btn-outline-primary" target="_blank">
     <i class="fa-solid fa-file-pdf"></i> Download CV (PDF)
   </a>
 </div>
 
-<iframe src="/assets/pdf/cv.pdf" width="100%" height="1200px" style="border: 1px solid #ddd; border-radius: 4px;">
-  <p>Your browser doesn't support embedded PDFs. <a href="/assets/pdf/cv.pdf">Click here to download the CV.</a></p>
+<iframe src="/assets/pdf/cv.pdf?v=2" width="100%" height="1200px" style="border: 1px solid #ddd; border-radius: 4px;">
+  <p>Your browser doesn't support embedded PDFs. <a href="/assets/pdf/cv.pdf?v=2">Click here to download the CV.</a></p>
 </iframe>
