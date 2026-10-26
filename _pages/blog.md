@@ -139,9 +139,11 @@ pagination:
       {% elsif post.series == "Cosmological Perturbation Theory" %}
         <h2 id="clpt" style="margin-top: 2rem;">Part V — Cosmological Perturbation Theory</h2>
         <p><em>The machinery of structure formation, i.e. continuity, Euler, and the equations that connect dark-sector models to observables.</em></p>
+      {% elsif post.series == "LDS-SF Paper" %}
+        <h2 id="lds-sf-paper" style="margin-top: 2rem;">Part VI — Explaining My First Publication</h2>
+        <p><em>A guided walkthrough of <strong>Layered dark structure with a structuring field</strong> (<em>Physica Scripta</em>, 2026) — from the $$S_8$$ tension, through the LDS-SF framework and its $$Z_4$$-IDSM realization, to the nine benchmark points that resolve it.</em></p>
       {% endif %}
       {% assign current_series = post.series %}
-    {% endif %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
