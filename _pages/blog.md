@@ -144,6 +144,7 @@ pagination:
         <p><em>A guided walkthrough of <strong>Layered dark structure with a structuring field</strong> (<em>Physica Scripta</em>, 2026) — from the $$S_8$$ tension, through the LDS-SF framework and its $$Z_4$$-IDSM realization, to the nine benchmark points that resolve it.</em></p>
       {% endif %}
       {% assign current_series = post.series %}
+    {% endif %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
