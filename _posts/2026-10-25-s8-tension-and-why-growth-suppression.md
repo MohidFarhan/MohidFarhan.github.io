@@ -1,6 +1,6 @@
 ---
 series: "LDS-SF Paper"
-title: "Blog 20—The $$S_8$$ Tension: Why Suppressing Growth Is the Answer"
+title: "Blog 20—The S<sub>8</sub> Tension: Why Suppressing Growth Is the Answer"
 date: "2026-10-25"
 categories: [Cosmology, Dark Matter, Structure Formation, S8 Tension]
 layout: post
@@ -43,7 +43,7 @@ $$
 \tag{1}
 $$
 
-![The S8 tension between Planck and weak lensing surveys](/assets/img/s8_tension.png)
+<img src="/assets/img/s8_tension.png" alt="The S8 tension between Planck and weak lensing surveys" style="width: 60%; display: block; margin: 2rem auto;">
 *Figure 1: The $$S_8$$ tension. The Planck 2018 value (dark blue square) sits visibly to the right of the three weak-lensing measurements (KiDS-1000, DES Y3, HSC Y3). The shaded band is the Planck $$1\sigma$$ interval, and the dashed line marks its central value. The gap between Planck and the lensing mean is roughly $$3\sigma$$ — small enough that it could be a statistical fluke, but large enough that, in a model where $$\sigma_8$$ is predicted rather than fit, it demands an explanation. The top axis converts $$S_8$$ to $$\sigma_8$$ at $$\Omega_m = 0.3$$.*
 
 The Planck satellite represents the $$\Lambda$$CDM fit to the early universe: its six baseline parameters are inferred from the CMB, and $$\sigma_8$$ is a *prediction* of that fit. Weak lensing surveys like KiDS and DES measure late-time shear correlations, and they fit those correlations to the same $$\Lambda$$CDM template, extracting a value of $$\sigma_8$$ from the fit. So one can think of the tension as two $$\Lambda$$CDM fits to two different datasets or the same model running on two different cosmic epochs. Neither side measures $$\sigma_8$$ directly; both report the value that $$\Lambda$$CDM assigns to their respective datasets (and epochs). And the central values differ by roughly $$3\sigma$$.
@@ -122,7 +122,7 @@ $$
 \tag{7}
 $$
 
-![The matter power spectrum and the top-hat filter](/assets/img/pk_and_filter.png)
+<img src="/assets/img/pk_and_filter.png" alt="The matter power spectrum and the top-hat filter" style="width: 60%; display: block; margin: 2rem auto;">
 *Figure 2: The matter power spectrum $$P(k)$$ (top panel) and the squared top-hat filter $$\tilde{W}^2(kR_8)$$ (bottom panel), sharing the same wavenumber axis. The spectrum rises as $$k$$ at large scales (the primordial shape), turns over near the horizon scale at matter–radiation equality, and falls as $$k^{-3}$$ at small scales (transfer-function suppression). The filter peaks at $$k=0$$, where $$\tilde{W}=1$$, and oscillates to zero at $$kR_8 \approx 4.49$$. The shaded band marks the range of modes that contribute most to the $$\sigma_8$$ integral in equation (20): small-scale modes carry most of the power, but only the ones in the band survive the smoothing, and large-scale modes survive but carry little power. The $$\sigma_8$$ integral is dominated by this overlap region.*
 
 This function peaks at $$kR = 0$$ and oscillates with decreasing amplitude at large $$kR$$. Physically, it is a filter: modes whose wavelength is much larger than $$R$$ vary slowly across the sphere and survive the average, while modes whose wavelength is much smaller than $$R$$ average to zero inside it and are suppressed. In other words, smoothing with a sphere of radius $$R$$ keeps only the modes with $$k \lesssim 1/R$$.
@@ -221,7 +221,7 @@ $$
 
 The bracketed quantity $$k^3 P(k) / (2\pi)^2$$ is conventionally denoted $$\Delta^2(k)$$, which is the **dimensionless power per logarithmic interval**. It is the natural way to ask "how much variance is contributed per decade of scale?" and it is what appears on the vertical axis of every plot of the matter power spectrum in the literature.
 
-![The dimensionless power spectrum Delta^2(k)](/assets/img/delta2_k.png)
+<img src="/assets/img/delta2_k.png" alt="The dimensionless power spectrum" style="width: 60%; display: block; margin: 2rem auto;">
 *Figure 3: The dimensionless power per logarithmic interval, $$\Delta^2(k) \equiv k^3 P(k)/(2\pi)^2$$, with its peak normalized to 1 so that the shape is the focus. This is the quantity that appears on the vertical axis of every matter power spectrum plot, and it is the integrand of the $$\sigma_8$$ variance in equation (20). It rises as $$k^4$$ at large scales (primordial spectrum plus the $$k^3$$ weight), peaks near the horizon scale at matter–radiation equality ($$k \approx 0.02\,h/\text{Mpc}$$), and is roughly flat at small scales where transfer-function suppression cancels the $$k^3$$ growth. The shaded band marks the modes where the top-hat filter $$\tilde{W}^2(kR_8)$$ is non-negligible. The $$\sigma_8$$ integral in equation (20) is dominated by this overlap region — the peak of $$\Delta^2(k)$$ and the filter band coincide, which is exactly why $$R_8 = 8\,h^{-1}\text{Mpc}$$ was chosen. The absolute normalization is arbitrary; only the shape, the peak position, and the overlap with the filter matter for this discussion.*
 
 So the final expression is:
@@ -262,7 +262,7 @@ $$
 
 where primes denote derivatives with respect to $$\ln a$$. Solving this equation with the $$\Lambda$$CDM background gives the growth history that, combined with the transfer function, produces the power spectrum and the value of $$\sigma_8$$.
 
-![The linear growth factor and growth rate in LambdaCDM](/assets/img/growth_factor.png)
+<img src="/assets/img/growth_factor.png" alt="The linear growth factor" style="width: 60%; display: block; margin: 2rem auto;">
 *Figure 4: The linear growth factor $$D(z)$$ (top) and the growth rate $$f(z) = d\ln D / d\ln a$$ (bottom) in $$\Lambda$$CDM. Shaded bands mark the three cosmological regimes: radiation domination (yellow, left), matter domination (green, middle) where $$D \propto a$$ and $$f=1$$, and dark energy domination (purple, right) where growth stalls. The solid blue curves are the physical $$\Lambda$$CDM prediction, obtained by solving equation (22). The dashed red curves are a schematic illustration of what a *suppressed*-growth model would look like — not the LDS-SF prediction, which is derived in Blog 22, but a visual stand-in for the shape any resolution of the $$S_8$$ tension must have: identical to $$\Lambda$$CDM at high redshift, suppressed at $$z \lesssim 1$$. The bottom panel is the quantity that redshift-space distortion (RSD) measurements actually constrain — and the gap between blue and red at low $$z$$ is the observational signature of the tension.*
 
 ### Putting it together

@@ -141,7 +141,7 @@ pagination:
         <p><em>The machinery of structure formation, i.e. continuity, Euler, and the equations that connect dark-sector models to observables.</em></p>
       {% elsif post.series == "LDS-SF Paper" %}
         <h2 id="lds-sf-paper" style="margin-top: 2rem;">Part VI — Explaining My First Publication</h2>
-        <p><em>A guided walkthrough of <strong>Layered dark structure with a structuring field</strong> (<em>Physica Scripta</em>, 2026) — from the $$S_8$$ tension, through the LDS-SF framework and its $$Z_4$$-IDSM realization, to the nine benchmark points that resolve it.</em></p>
+        <p><em>A guided walkthrough of <strong>Layered dark structure with a structuring field</strong> (Physica Scripta, 2026) — from the S<sub>8</sub> tension, through the LDS-SF framework and its Z<sub>4</sub>-IDSM realization, and benchmark points that resolve it.</em></p>
       {% endif %}
       {% assign current_series = post.series %}
     {% endif %}
