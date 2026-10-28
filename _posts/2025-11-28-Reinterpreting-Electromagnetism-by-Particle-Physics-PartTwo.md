@@ -68,7 +68,7 @@ $$
 \mathcal{L}_D = \bar{\psi}\left(i\gamma^\mu \partial_\mu - m\right)\psi,
 $$
 
-In fact, this resemblance is not a coincidence. The Dirac Lagrangian is constructed so that when you apply the Euler–Lagrange equations to it, you recover the Dirac equation itself. In other words, the Lagrangian is the compact, elegant parent equation from which the entire dynamics of the Dirac field can be derived. The readers can prove this for themselves, but what's new is the $$\bar{\psi}$$ known as the adjoint. If,
+In fact, this resemblance is not a coincidence. The Dirac Lagrangian is constructed so that when you apply the Euler–Lagrange equations to it, you recover the Dirac equation itself. In other words, the Lagrangian is the compact, elegant parent equation from which the entire dynamics of the Dirac field can be derived. You can prove this for yourselves, but what's new is the $$\bar{\psi}$$ known as the adjoint. If,
 
  $$
  \psi =
@@ -139,19 +139,17 @@ $$
 
 Since the transformed Lagrangian is exactly the same as the original, the physics of our system is oblivious to the transformation. This is called global gauge invariance, and it’s a direct reflection of charge conservation which a deep result encoded in Noether’s theorem. Keep in mind that $$\psi$$ is no ordinary wavefunction, but a spinor whose phase factor did not depend on its position.
 
-<p align="center">
-  <img src="/assets/images/GlobalGaugeInvariance.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Animation 1: The effect of the global phase transformation on the wavefunction of a system. Here, the phase field  (shown in the middle) is globally in the same orientation at the same time. As a result, the orientation of any arbitrary phase component is not dependent on its position in the field.</em>
-</p>
+<img src="/assets/images/GlobalGaugeInvariance.gif" alt="J.J Thomson's model of the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Animation 1: The effect of the global phase transformation on the wavefunction of a system. Here, the phase field  (shown in the middle) is globally in the same orientation at the same time. As a result, the orientation of any arbitrary phase component is not dependent on its position in the field.*
 
 ## Local Gauge Invariance
 
 Global gauge invariance was cool, but let’s push our luck. What if the phase $$\alpha$$ wasn’t constant? What if it could change with position and time?
 
-<p align="center">
-  <img src="/assets/images/LocalGaugeInvariance.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Animation 2: The effect of the local phase transform on the wavefunction of a system. Here, the phase field is locally in the same orientation, but globally the phase field is no longer uniform. Therefore, the orientation of any arbitrary phase component is dependent on its position in the field. Our mission is to find a transformation such that systems shown on the left and right are identical. In this random case, they obviously aren't.</em>
-</p>
+<img src="/assets/images/LocalGaugeInvariance.gif" alt="J.J Thomson's model of the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Animation 2: The effect of the local phase transform on the wavefunction of a system. Here, the phase field is locally in the same orientation, but globally the phase field is no longer uniform. Therefore, the orientation of any arbitrary phase component is dependent on its position in the field. Our mission is to find a transformation such that systems shown on the left and right are identical. In this random case, they obviously aren't.*
 
 $$
 \psi \rightarrow e^{i\alpha(x)}\psi
@@ -215,7 +213,7 @@ $$
 - \bar\psi\gamma^\mu (\partial_\mu\alpha(x))\psi 
 $$
 
-Therefore, the relationship between the Dirac Lagrangian and it's transformed counterpart is:
+Therefore, the relationship between the Dirac Lagrangian and its transformed counterpart is:
 
 $$
 \mathcal{L}_D^{\prime} = \mathcal{L}_D
