@@ -32,9 +32,9 @@ The idea is to leverage the distance traveled by the Earth, in order to attain a
 
 Consider a nearby star observed from Earth at two opposite points in its orbit around the Sun, six months apart. The baseline of this observation is the diameter of Earth's orbit, which is 2 AU, giving a right triangle with a baseline of 1 AU, distance to the star (d), and Parallax angle (p), measured in arcseconds which is one of 3600 parts of a degree.
 
-![Figure 1](/assets/images/ParallaxDiagram_ManimCE_v0.19.0.png)
+<img src="/assets/images/ParallaxDiagram_ManimCE_v0.19.0.png" alt="Figure 1" style="width: 100%; display: block; margin: 2rem auto;">
 
-**Figure 1**: A visualization of the trigonometry involved with stellar parallax (very very not to scale).
+*Figure 1*: A visualization of the trigonometry involved with stellar parallax (very very not to scale).
 
 Using basic trigonometry:
 
@@ -102,9 +102,9 @@ $$
 The derivation of this formula, as well as how it can be used, is in the appendix. For now, all you need to know is that the formula leverages the fact that the larger the deficit in the apparent and absolute magnitude of a star, the greater the distance. If the apparent magnitude is equal to the absolute magnitude, the distance is 10 pc by definition. If the apparent magnitude is much smaller than the absolute magnitude, then the star appears dim although it is intrinsically bright, meaning that it must be much farther than 10 pc, and vice versa, if the star appears bright but is actually dim, it must be much closer than 10 pc.
 This formula determines the exact values, and will also be useful ahead. These exact values are shown through figure 2.
 
-![Figure 2](/assets/images/B2P1.png)
+<img src="/assets/images/B2P1.png" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;">
 
-**Figure 2**: The distance modulus as a function of distance from the observer, in logarithmic scale.
+*Figure 2*: The distance modulus as a function of distance from the observer, in logarithmic scale.
 
 ## Cepheid Variable Stars
 
@@ -120,9 +120,9 @@ $$
 
 where M is the absolute magnitude, P is the period in days, and a and b are calibration constants determined observationally.
 
-![Figure 3](/assets/images/B3P2.png)
+<img src="/assets/images/B3P2.png" alt="Figure 3" style="width: 100%; display: block; margin: 2rem auto;">
 
-**Figure 3**: The Magnitude plotted as a function of the period of the star's brightness cycle.
+*Figure 3*: The Magnitude plotted as a function of the period of the star's brightness cycle.
 
 Once M is known, the task is the same. We determine m observationally and use the distance modulus formula again. By leveraging the best of today's technology, the James Webb Space Telescope, this method gives us readings of up to 20 Mpc. This translates to 60 million LY which is so insane, that if aliens that far away were to point their telescopes on Earth, they would see the event that wiped out the dinosaurs, or even the dinosaurs if they're lucky!.
 This upgrade easily increases our range from a fraction of our own galaxy to, comfortably, the local group and the Virgo supercluster.
@@ -146,13 +146,12 @@ This upgrade means that the aliens would now see an Earth restricted only to uni
 The answer is a resounding no thanks to the final boss: cosmological redshift. In this method, astronomers rely on the expansion of space itself to determine distances using redshift. As light travels through expanding space, its wavelength stretches. This effect is called redshift, denoted by z. This is because of the scale factor, denoted by a(t). This variable is responsible for stretching the fabric of spacetime itself and the fact that observations suggest that a increases with time makes for some interesting implications. Firstly, this suggests that lengths are not universal constants over a long enough time frame, and to accurately model the universe, this constant change in length due to the expansion of the universe should be accounted for. It also means that wavelength of a photon travelling in a particular direction does not stay the same, and evolves over time. Simulation 1 shows an intuitive depiction of this phenomenon. 
 
 <!-- Animation of vacuum fluctuations -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - PhotonRedshift.gif" width="500" alt="The Cosmological Redshift"/>
-  <br><em>Simulation 1: The wavelength of a photon changing with time, for a case where the scale factor increases linearly with time.</em>
-</p>
+<img src="/assets/images/Adobe Express - PhotonRedshift.gif" alt="The Cosmological Redshift" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 1: The wavelength of a photon changing with time, for a case where the scale factor increases linearly with time.*
 
 
-It is therefore wasy to see that all photons travelling through billions of years have a measureable increase in wavelengths which is captured by spectrographs that are sensitive enough. It is this very increase that is termed as redshift, because if you increase the wavelength of a photon in the visible electromagnetic range, its spectrum shifts towards the infra-red region. The farther away a galaxy is, the more its light is redshifted. This relationship was first discovered by Edwin Hubble in 1929. For small redshifts where z exceeds or is near 0.1, the velocity at which a galaxy appears to be receding is:
+It is therefore wasy to see that all photons travelling through billions of years have a measurable increase in wavelengths which is captured by spectrographs that are sensitive enough. It is this very increase that is termed as redshift, because if you increase the wavelength of a photon in the visible electromagnetic range, its spectrum shifts towards the infra-red region. The farther away a galaxy is, the more its light is redshifted. This relationship was first discovered by Edwin Hubble in 1929. For small redshifts where z exceeds or is near 0.1, the velocity at which a galaxy appears to be receding is:
 
 $$
 v = H d
@@ -168,9 +167,9 @@ $$
 
 c is the speed of light. 
 
-![Figure 4](/assets/images/B2P4.png)
+<img src="/assets/images/B2P4.png" alt="Figure 4" style="width: 100%; display: block; margin: 2rem auto;">
 
-**Figure 4**: The Hubble's law which does not account for redshift.
+*Figure 4*: The Hubble's law which does not account for redshift.
 
 
 
