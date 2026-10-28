@@ -82,7 +82,7 @@ $$
 v = \pm\sqrt{\frac{\mu^2}{\lambda}}
 $$
 
-![Figure 1](/assets/images/B13P1.jpg)
+<img src="/assets/images/B13P1.jpg" alt="Figure 1" style="width: 100%; display: block; margin: 2rem auto;">
 **Figure 1**: The Higgs field in its uniform vacuum state, showing the constant Vacuum Expectation Value (VEV) $$v \approx 1.41$$ that permeates all of space.
 
 Because $$v \neq 0$$, the symmetry of the system is spontaneously broken, providing a mechanism for particles to acquire mass.
@@ -100,9 +100,6 @@ $$
 
 And with the Higgs potential, it becomes:
 
-Let us revisit the equation of motion of the field $$\phi$$,
-
-
 $$
 \frac{\partial^2 \phi}{\partial t^2} - c^2 \frac{\partial^2 \phi}{\partial x^2} +\phi \left( -\mu^2 + \lambda\phi^2 \right) + g^2 \psi^2 \phi = 0.
 $$
@@ -116,7 +113,7 @@ $$
 
 where $$v$$ is the constant VEV and $$h(x,t)$$ is the physical Higgs field.
 
-![Figure 2](/assets/images/B13P2.jpg)
+<img src="/assets/images/B13P2.jpg" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;">
 **Figure 2**: A perturbation $$h(x,t)$$  propagating through the Higgs field, representing the excited state that we detect as the Higgs boson particle.
 
 Substituting $$\phi = v + h$$ into the Equation of Motion:
@@ -164,9 +161,9 @@ $$
 
 We can neglect the interaction terms since we are retaining only the linear terms under the assumption of small h. I will provide a disclaimer that this is an approximation, and the picture it will describe is an oversimplified one. 
 
-![Figure 3](/assets/images/B13P3.jpg)
+<img src="/assets/images/B13P3.jpg" alt="Figure 3" style="width: 100%; display: block; margin: 2rem auto;">
 **Figure 3**: The "ball rolling down the hill" analogy for spontaneous symmetry breaking, showing the field settling into a stable minimum and oscillating around it—these oscillations correspond to the Higgs boson.
-![Figure 4](/assets/images/B13P4.jpg)
+<img src="/assets/images/B13P4.jpg" alt="Figure 4" style="width: 100%; display: block; margin: 2rem auto;">
 **Figure 4**: Mass generation via coupling to the Higgs field, illustrating how different particles (photon, electron, quark) acquire mass proportional to their interaction strength with the omnipresent Higgs field.
 
 Once the dust settles, we are left with:
@@ -176,7 +173,7 @@ $$
 $$
 
 What we have just written down is the equation of motion of the Higgs field, which is the field responsible for giving mass to other fields. If this field interacts strongly with you, you attain a mass, and if it doesn't, you will forever be massless. And this was just theory until 2012, when the LHC detected the quantum excitation of this field, and it was termed the Higgs boson. This was named after Peter Higgs, the genius physicist who devised this mechanism from first principles. Let's zero in on this field and quantize it, to find the Higgs boson.
-![Figure 5](/assets/images/B13P7.jpg)
+<img src="/assets/images/B13P7.jpg" alt="Figure 5" style="width: 100%; display: block; margin: 2rem auto;">
 **Figure 5**: The discovery of the Higgs boson at CERN in 2012, showing the proton-proton collision process, the energy scale peak at 125 GeV, the 5σ statistical significance required for discovery, and the 50-year timeline from theoretical proposal to experimental confirmation.
 
 
@@ -208,9 +205,9 @@ $$
 $$
 
 So the mass of this particle, the Higgs boson, is dependent on how steep the potential is on its resting value.
-![Figure 6](/assets/images/B13P5.jpg)
+<img src="/assets/images/B13P5.jpg" alt="Figure 6" style="width: 100%; display: block; margin: 2rem auto;">
 **Figure 6**: Wave propagation comparison showing the dispersion relation for massless photons ($$\omega=ck$$) versus massive Higgs bosons ($$\omega^2=c^2k^2+(m_h c^2)^2$$), and the connection between potential curvature at the minimum and particle mass.
 
-![Figure 7](/assets/images/B13P6.jpg)
+<img src="/assets/images/B13P6.jpg" alt="Figure 7" style="width: 100%; display: block; margin: 2rem auto;">
 **Figure 7**: Left: The universe cooling from high temperature (symmetric phase with $$\phi=0$$ ) through the critical temperature to the low temperature broken-symmetry phase where the field acquires a non-zero VEV.
 Right: Quantum fluctuations around the vacuum minimum, where small oscillations correspond to the physical Higgs boson excitation.
