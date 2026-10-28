@@ -26,7 +26,7 @@ Modern cosmology rests on a bold simplification called the **Cosmological Princi
 
 On sufficiently large scales (hundreds of millions of light-years), the universe is homogeneous (the same everywhere) and isotropic (the same in all directions).
 
-This is not a wild guess as the afterglow of the Big Bang, commonly referred to as the Cosmic Microwave Background, is uniform to one part in $$100,000$$ across the entire sky. But hidden within that one part per thousand variation lies the seed of all structure. 
+This is not a wild guess, as the afterglow of the Big Bang, commonly referred to as the Cosmic Microwave Background, is uniform to one part in $$100,000$$ across the entire sky. But hidden within that one part per thousand variation lies the seed of all structure. 
 
 Mathematically, we split the universe into two parts:
 
