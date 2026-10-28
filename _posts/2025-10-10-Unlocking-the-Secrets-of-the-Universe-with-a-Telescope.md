@@ -120,26 +120,37 @@ What is this about!?!
 
 Now, I will use two of the most simplest formulas in physics to give you a ball-park estimate of how wavelength can be connected with temperature The energy of a photon can be given by:
 
+$$
 E=\frac{hc}{\lambda}
-
+$$
 and this energy can be related to temperature in a statistical relation:
 
-E=k_BT
+$$
+E=k_{B}T
+$$
 
+$$
 \frac{hc}{\lambda}=k_BT
+$$
 
 and solving for Temperature:
 
+$$
 T=\frac{hc}{\lambda k_B}
+$$
 
 This gives you a good back-of-the-envelope estimation of how temperature can be reinterpreted as a function of temperature. 
 
 Now that you have an intuition, we can move to a precise method which is the Wien's displacement law:
 
+$$
 T = \frac{b}{\lambda_{\text{max}}}
-
+$$
 which is basically the same thing, but the constant b absorbs all the constants in the previous estimation in a manner that is more consistent with experiment, with the emergent value being:
-b=2.898 \times 10^{-3} \hspace{0.1cm}m⋅K
+
+$$
+b=2.898 \times 10^{-3} \hspace{0.1cm}m⋅K.
+$$
 
 It should, because you have picked up the Cosmic Microwave Background, and this is the temperature of universe! Is that not insane? We have measured the temperature of the UNIVERSE using O levels physics. The same analysis can be done when you zoom into a star or any other object, that's how powerful the simplest formulas of physics are, now imagine the secrets that more complex formulas can bring. And we are not done yet...because I have not even started the bar-code part yet. 
 
@@ -159,7 +170,9 @@ Let's think of the simplest atom we know: the Hydrogen atom: an electron orbitin
 
 Now, the change in energy between shells can be calculated from the Rydberg's relation.
 
+$$
 \frac{1}{\lambda} = R_H \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)
+$$
 
 where:
 
