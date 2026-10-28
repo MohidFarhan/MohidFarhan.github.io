@@ -49,14 +49,7 @@ Now that we have all the ingredients, it's time to "bake" the perfect image in s
 
 The general process is a series of subtractions and divisions. Siril first creates "master" frames by averaging all of your darks, biases, and flats. This averaging removes random noise from the calibration frames themselves, giving you a very precise map of the unwanted signals.
 
-Then, Siril performs the magic with this equation:
-
-1256k_B12561256k_B1256
-Calibrated \hspace{0.1cm}Light=\frac{
-(Light\hspace{0.1cm}Frame -  Master\hspace{0.1cm}Dark) − Master\hspace{0.1cm}Bias}{(Master\hspace{0.1cm}Flat − Master\hspace{0.1cm}Bias)}
-1256k_B12561256k_B1256
-
-It sounds complex, but it's just commands through code, directing the software to:
+Then, Siril performs the magic using its inbuilt algorhithm, directing the software to:
 
 Remove the thermal noise: Subtract the Master Dark from each Light Frame. This gets rid of the heat noise and hot pixels.
 
