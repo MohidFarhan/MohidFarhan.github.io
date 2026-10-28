@@ -619,7 +619,7 @@ $$
 
 When $$\alpha \geq 1$$, the series diverges, rendering all of our known analytical treatments useless. Our fundamental understanding of any force relies on its coupling being comfortably below 1, but as shown in Figure 3, that is not the case.
 
-<img src="/assets/images/B1P11.png" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;"> 
+<img src="/assets/images/B1P11.jpg" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;"> 
 *Figure 3: The running of the strong coupling constant $$\alpha_s(Q)$$. At energy scales below $$\Lambda_{QCD} \approx 250$$ MeV (red shaded region), the coupling exceeds unity and perturbation theory fails (confinement). At high energies (green region), the coupling weakens (asymptotic freedom), allowing perturbative calculations. The divergence at $$Q \to \Lambda_{QCD}$$ is the "Landau Pole" where the theory becomes strongly coupled.*
 
 So the next time you are part of a nuclear physics lecture, know that every single potential and equation that involves the strong nuclear force is an approximation that fits experiments and has not been analytically derived. 
