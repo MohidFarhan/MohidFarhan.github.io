@@ -9,7 +9,6 @@ math: true
 comments: true
 excerpt: "A telescope is humanity’s window into the cosmos, transforming distant light into insight about the universe’s hidden structure and origin."
 
-
 ---
 
 ## Introduction
@@ -81,7 +80,6 @@ Be advised: you can use any software, but my recommendation is Siril due to its 
 
 <img src="/assets/images/M13.png" alt="Figure 5" style="width: 100%; display: block; margin: 2rem auto;">
 
-
 ## Close Range Astrophotography
 
  While taking pictures of relatively closer bodies, like planets in our solar system, we used more specialized software like PIPP and Registax. PIPP is a program we used to stack images to, in our case, be processed by registax. You can convert a video of an object moving through space, to a set of frames where the planets is aligned in a place of your choosing. This is a free and effective way of ensuring maximum results with minimum noise. 
@@ -122,43 +120,26 @@ What is this about!?!
 
 Now, I will use two of the most simplest formulas in physics to give you a ball-park estimate of how wavelength can be connected with temperature The energy of a photon can be given by:
 
-1256k_B12561256k_B1256
 E=\frac{hc}{\lambda}
-1256k_B12561256k_B1256
 
-where 1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256 is the wavelength,
 and this energy can be related to temperature in a statistical relation:
 
-1256k_B12561256k_B1256
 E=k_BT
-1256k_B12561256k_B1256
 
-where 1256k_B1256k_B1256k_B1256 is the Boltzmann constant. Equating the two above equations gives us:
-
-1256k_B12561256k_B1256
 \frac{hc}{\lambda}=k_BT
-1256k_B12561256k_B1256
 
 and solving for Temperature:
 
-1256k_B12561256k_B1256
 T=\frac{hc}{\lambda k_B}
-1256k_B12561256k_B1256
 
 This gives you a good back-of-the-envelope estimation of how temperature can be reinterpreted as a function of temperature. 
 
 Now that you have an intuition, we can move to a precise method which is the Wien's displacement law:
 
-1256k_B12561256k_B1256
 T = \frac{b}{\lambda_{\text{max}}}
-1256k_B12561256k_B1256
 
 which is basically the same thing, but the constant b absorbs all the constants in the previous estimation in a manner that is more consistent with experiment, with the emergent value being:
-1256k_B12561256k_B1256
 b=2.898 \times 10^{-3} \hspace{0.1cm}m⋅K
-1256k_B12561256k_B1256
-
-A very accurate spectrograph will give a value of 1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256 to be 1.06mm. With simple value-plugging you find that 1256k_B1256T=2.7K1256k_B1256. Does that value ring a bell?
 
 It should, because you have picked up the Cosmic Microwave Background, and this is the temperature of universe! Is that not insane? We have measured the temperature of the UNIVERSE using O levels physics. The same analysis can be done when you zoom into a star or any other object, that's how powerful the simplest formulas of physics are, now imagine the secrets that more complex formulas can bring. And we are not done yet...because I have not even started the bar-code part yet. 
 
@@ -178,15 +159,9 @@ Let's think of the simplest atom we know: the Hydrogen atom: an electron orbitin
 
 Now, the change in energy between shells can be calculated from the Rydberg's relation.
 
-1256k_B12561256k_B1256
 \frac{1}{\lambda} = R_H \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)
-1256k_B12561256k_B1256
 
 where:
-
-1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256 is the wavelength of the emitted or absorbed photon, 1256k_B12561256k_B1256R_H1256k_B12561256k_B1256 is the Rydberg constant for hydrogen, with a value of approximately 1256k_B12561256k_B12561.097 \times 10^7 \text{ m}^{-1}1256k_B12561256k_B1256, 1256k_B12561256k_B1256n_11256k_B12561256k_B1256 is the integer representing the final energy level and 1256k_B12561256k_B1256n_21256k_B12561256k_B1256 is the integer representing the initial energy level, where 1256k_B12561256k_B1256n_2 > n_11256k_B12561256k_B1256.
-
-So this implies that if the electron is to receive a photon of some highly specific wavelength 1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256, it would jump from shell 1256k_B1256n_11256k_B1256 to 1256k_B1256n_21256k_B1256, and the most crucial implication is that this wavelength is different from every transition and for every atom. And we can leverage this fact, and use it to develop fingerprints of atoms.
 
 ## Let's Back Track
 
@@ -201,8 +176,6 @@ I found this absolutely incredible and the fact that we never even touched colle
 ## Spectrum of 68 Draconis
 
 <img src="/assets/images/68.png" alt="Figure 9" style="width: 100%; display: block; margin: 2rem auto;">
-
-We also obtained a spectrum of 68-Draconis, which is a star in the Draco constellation. Now the graphs that I obtained begins to make sense, and you might notice a very prominent dip at 1256k_B12561256k_B1256\lambda=656nm1256k_B12561256k_B1256. This wavelength exactly corresponds to the equivalent energy required for an electron in the hydrogen atom to move to shell n=2 to n=3. So while I took the readings, the hydrogen atoms of Saturn (with electrons in their second shell) absorbed some of the photons with wavelength of 656 nm, and the lens of the telescope felt this change, by registering fewer photons of that exact wavelength. Moreover, this magnitude of the dips also make it easy for us to estimate the composition of elements comprising of the Saturn. Most of it, understandably, is hydrogen and helium as they are the most abundant atoms in the universe and hydrogen's spectral lines are of particular interest to an astronomer.
 
 Obviously, the same technique can be applied to study any celestial object and their chemical composition, making this one of the most powerful techniques in all of physics. 
 
