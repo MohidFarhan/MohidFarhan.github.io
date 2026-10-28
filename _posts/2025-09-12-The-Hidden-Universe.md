@@ -78,13 +78,13 @@ So that is a relatively straightforward prediction, that assumes a system made o
 
 However, the data reveals a different story:  
 
-![Figure 1](/assets/images/GRC.png)  
+<img src="/assets/images/GRC.png" alt="Figure 1" style="width: 100%; display: block; margin: 2rem auto;">  
 
 *Figure 1*: Galactic Rotation Curves (adapted from the work of Vera Rubin and Kent Ford).
 
 ## Observation vs. Theory
 
-![Figure 2](/assets/images/grc_curve.jpg) 
+<img src="/assets/images/grc_curve.jpg" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;"> 
 
 *Figure 2*: Predicted curve (A) compared to observations (B).
 
@@ -147,7 +147,7 @@ $$
 v = H_0 d
 $$
 
-This law states that two objects in the universe, separated by a distance d, move away from each other with velocity v. \( H_0 \) is the Hubble expansion which, in the current epoch, is approximately:  
+This law states that two objects in the universe, separated by a distance d, move away from each other with velocity v. 1256H_01256 is the Hubble expansion which, in the current epoch, is approximately:  
 
 $$
 H_0 \approx 70 \,\text{km/s/Mpc}
@@ -156,10 +156,9 @@ $$
 So two objects separated by 1 Megaparsec move away from each other at a speed of 70 km every second. This velocity is attributed to the universal acceleration and is independent of the gravitational dynamics of the objects. 
 
 <!-- Animation of Inflation -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - ExpandingUniverse (1).gif" width="500" alt=""/>
-  <br><em>Simulation 1: The Effect of Cosmological Expansion on Distance. </em>
-</p>
+<img src="/assets/images/Adobe Express - ExpandingUniverse (1).gif" alt="" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 1: The Effect of Cosmological Expansion on Distance. *
 
 ## Evolution of Hubble's Law
 
