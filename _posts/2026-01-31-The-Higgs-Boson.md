@@ -111,7 +111,7 @@ meaning that as k approaches 0, the field can settle into a point of zero freque
 
 ### The Massive Quanta
 
-The same can not be said when you follow the dispersion relation for massive quanta, where the minimum frequency approaches $$\omega=\omega_0$$ as $$k\rightarrow0$$
+The same cannot be said when you follow the dispersion relation for massive quanta, where the minimum frequency approaches $$\omega=\omega_0$$ as $$k\rightarrow0$$
 
 In this case, we can say:
 
@@ -133,11 +133,10 @@ $$
 
 which is a simple yet elegant way of combining relativity with quantum mechanics. The dispersion relations for both cases are given in Figure 1.
 
-!<!-- Animation of vacuum fluctuations -->
-<p align="center">
-  <img src="/assets/images/DispersionComparison.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Simulation 1: The Dispersion Relations for massive and massless quanta.</em>
-</p>
+<!-- Animation of vacuum fluctuations -->
+<img src="/assets/images/DispersionComparison.gif" alt="J.J Thomson's model of the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 1: The Dispersion Relations for massive and massless quanta.*
 
 
 
@@ -184,19 +183,18 @@ $$
 So, the potential is another fundamental property of a field which dictates how particles behave under its influence. 
 
 
-The incorporation  of potential introduces another feature of the framework, which is referred to as stability. Any object left to itself, wants to settle into a position where its energy is minimized. Picture a ball in a hilly area: given enough of a push, it would settle into the lowest point of the area and stay there. Mathematically:
+The incorporation of potential introduces another feature of the framework, which is referred to as stability. Any object left to itself, wants to settle into a position where its energy is minimized. Picture a ball in a hilly area: given enough of a push, it would settle into the lowest point of the area and stay there. Mathematically:
 
 $$
 \left.\frac{\partial V}{\partial \phi}\right|_{\phi = v} = 0   
 $$
 
-This resting value v is known as the $$\textbf{Vacuum Expectation Value}$$ and is the minimum of the field where every particle that left to itself, wants to settle on. Think of it like a couch on a Sunday. Now, let's see what happens when this field is nudged from its stable configuration.
+This resting value v is known as the $$\textbf{Vacuum Expectation Value}$$ and is the minimum of the field where every particle, left to itself, wants to settle. Think of it like a couch on a Sunday. Now, let's see what happens when this field is nudged from its stable configuration.
 
 <!-- Animation of vacuum fluctuations -->
-<p align="center">
-  <img src="/assets/images/RightTextPotentialVisualization.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Simulation 2: The significance of the minima.</em>
-</p>
+<img src="/assets/images/RightTextPotentialVisualization.gif" alt="J.J Thomson's model of the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 2: The significance of the minima.*
 
 
 ## Perturbing a Field from its Resting State
@@ -343,7 +341,7 @@ $$
 = 0.
 $$
 
-It is apparent that $$\omega_o^2=g^2v^2$$, and therefore we can say that:
+It is apparent that $$\omega_0^2=g^2v^2$$, and therefore we can say that:
 
 $$
 m_\psi=\frac{\hbar gv}{c^2}
