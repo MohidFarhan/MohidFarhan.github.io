@@ -19,25 +19,23 @@ Today we will unravel the idea that in physics, there is no such thing as empty 
 Our understanding of the atom was a hot topic for physicists in the early 1900s, with J.J. Thompson's famous "fruitcake" model, where the atom was assumed to be a smooth and filled sphere of positive charge, with clumps of negative charges embedded in it. 
 
 <!-- Animation of vacuum fluctuations -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - VacuumThomson.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Simulation 1: The Fruitcake Model of the atom. This model was later refined.</em>
-</p>
+<img src="/assets/images/Adobe Express - VacuumThomson.gif" alt="J.J Thomson's model of the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 1: The Fruitcake Model of the atom. This model was later refined.*
 
 
 In 1911, Ernest Rutherford devised the most accurate atomic model known to man, backed by an experiment, where a minority of alpha particles were observed to scatter off at large angles when targeted at a thin foil of gold. This showed that an atom was mostly empty space with a lot of its mass being concentrated at the center, leading to such dramatic scattering. This center with positive charge is known as a nucleus, with negative electrons orbiting around it.
 
 <!-- Animation of vacuum fluctuations -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - HydrogenAtom.gif" width="500" alt="J.J Thomson's model of the atom"/>
-  <br><em>Simulation 2: A not-to-scale, oversimplified visualization of the most fundamental atom in the universe: Hydrogen. Here, the radius of the orbit is kept constant at the Bohr radius, but in reality, the Bohr radius is the most likely radius of an atom at any given point. In the literal sense, the atomic radius is not always constant but we will assume so, in this post, for simplification.</em>
-</p>
+<img src="/assets/images/Adobe Express - HydrogenAtom.gif" alt="J.J Thomson's model of the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 2: A not-to-scale, oversimplified visualization of the most fundamental atom in the universe: Hydrogen. Here, the radius of the orbit is kept constant at the Bohr radius, but in reality, the Bohr radius is the most likely radius of an atom at any given point. In the literal sense, the atomic radius is not always constant but we will assume so, in this post, for simplification.*
 
  
 
 ## The Empty Space in an Atom
 
-Now that we objectively know that most of the atom is empty space, lets make estimations to quantify this emptiness. The Rutherford model predicts the radius of the atom to be of the order $$r_a \approx 10^{-10}m$$ and of the nucleus to be $$r_n \approx 10^{-15}m$$. Comparing the ratios of their volumes gives:
+Now that we objectively know that most of the atom is empty space, let's make estimations to quantify this emptiness. The Rutherford model predicts the radius of the atom to be of the order $$r_a \approx 10^{-10}m$$ and of the nucleus to be $$r_n \approx 10^{-15}m$$. Comparing the ratios of their volumes gives:
 
 $$
 \frac{\frac{4 \pi (r_a)^3}{3}}{\frac{4 \pi (r_n)^3}{3}}=\frac{r_a^3}{r_n^3} \approx (\frac{10^{-10}}{10^{-15}})^3 \approx 10^{15}
@@ -59,7 +57,7 @@ This $$\psi$$ acts like a probability that is distributed throughout empty space
 
 ## Particles in a Contracting Box
 
-One can intuitively picture the atom as a small sphere, which contrains the particles confined within it. To understand the dominance of quantum effects, let's analyze the example of a particle in a contracting box.  The Heisenberg Uncertainty Principle says that the smaller the uncertainty in position, the larger the uncertainty in momentum and vice versa. 
+One can intuitively picture the atom as a small sphere, which constrains the particles confined within it. To understand the dominance of quantum effects, let's analyze the example of a particle in a contracting box.  The Heisenberg Uncertainty Principle says that the smaller the uncertainty in position, the larger the uncertainty in momentum and vice versa. 
 
 $$
 \Delta p \Delta x \geq \frac{\hbar}{2}
@@ -82,10 +80,9 @@ $$
 So this means that if I were to constrain anything within $$10^{-13}m$$, which is the case in an atom, the correct characteristic energy can match a critical value of 1.02 MeV, which is the energy required to produce the positron-electron pair, setting the stage for jitters within the atom.
 
 <!-- Animation of vacuum fluctuations -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - AtomicVacuumFluctuations.gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Simulation 3: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom. These fluctuations are not just a matter of theory since they have real, measureable fingerprints that can be picked up as we will see.</em>
-</p>
+<img src="/assets/images/Adobe Express - AtomicVacuumFluctuations.gif" alt="Vacuum fluctuations inside the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 3: Vacuum fluctuations appearing and disappearing within the “empty” region of the atom. These fluctuations are not just a matter of theory since they have real, measurable fingerprints that can be picked up as we will see.*
 
 It becomes apparent that $$10^{-13}m$$ is bigger than the radius of the nucleus but smaller than that of the atom, hence, making the "empty" space inside the atom an ideal environment for effects to occur, as shown in the figure. The nucleus is not drawn to scale; the scale that was mentioned earlier (Cherry to a football field). It is now easy to visualize that the idea of a constant number of particles breaks down, and therefore the pure Quantum Mechanical picture becomes blurry. To incorporate and account for the creation and annhilation of particles, we need a deeper theory which treat the number of particles as variables, unlike quantum mechanics. This is where Quantum Field Theory (QFT) shines. The name of this theory is actually very self explanatory. In the QFT, quantized fields are fundamental, not particles. Particles are just localized excitations within that field. The perpective shift from pure particles (classical mechanics), to waves (quantum mechanics) to, now, fields (QFT) proves fruitful in explaining the whole picture as I will show you shortly.
 
@@ -134,9 +131,9 @@ $$
 
 To find the equilibrium (minimum) energy, differentiate with respect to $$\Delta x$$ and set it to zero. For the untrained reader, this might seem like an operation that came out of nowhere, and let's try to make it make sense. All particles (or waves or fields depending upon which side you are on) in the universe have the same mission: to achieve stability. Every single particle like to lose energy and settle comfortably to the lowest energy possible and not an ounce more than that. In this case, that particle so happens to be the electron, and it is no different. It wants to orbit the nucleus such that its energy is minimized. The best way to that is to plot the energy as a function of $$\Delta x$$ and look for the value of $$\Delta x$$ where the energy is at its minimum. This would be the distnce from the nucleus that the electron would be most comfortable in being and, therefore, you are most likely to find the electron at this distance.
 
-![Figure 1](/assets/images/HAGS.png)
+<img src="/assets/images/HAGS.png" alt="Figure 1" style="width: 100%; display: block; margin: 2rem auto;">
 
-**Figure 1**: The energy as a function of distance for the hydrogen atom.
+*Figure 1*: The energy as a function of distance for the hydrogen atom.
 
 
 $$
@@ -169,10 +166,9 @@ $$
 
 
 <!-- Animation of the Allowed Wavefunctions -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - PIAB.gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Simulation 4: A dynamic visualization of the allowed wavefunctions that disappear at boundaries resulting in modes. Do you notice a trend in frequency?</em>
-</p>
+<img src="/assets/images/Adobe Express - PIAB.gif" alt="Vacuum fluctuations inside the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 4: A dynamic visualization of the allowed wavefunctions that disappear at boundaries resulting in modes. Do you notice a trend in frequency?*
 
 
 The edges (where probability disappears) are called nodes, which have distinct spatial and temporal frequencies. n is an integer value and L is the length of the constraining box. The wavenumber k (spatial frequency) is given by $$k=\frac{2 \pi}{\lambda}$$, which results in: 
@@ -198,10 +194,9 @@ $$
 Quantum Field Theory pictures a field as infinite coupled modes, each acting as harmonic oscillators. 
 
 <!-- Animation of the QFT Interpretation -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - QFTPlaneCoupled (1).gif" width="500" alt="Vacuum fluctuations inside the atom"/>
-  <br><em>Simulation 5: A visualization of a quantized fields comprised of coupled modes acting as harmonic oscillators.</em>
-</p>
+<img src="/assets/images/Adobe Express - QFTPlaneCoupled (1).gif" alt="Vacuum fluctuations inside the atom" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 5: A visualization of a quantized fields comprised of coupled modes acting as harmonic oscillators.*
 
 
 One can think of simulation 3 above as a 3D extension of simulation 2. The minimum energy of a quantum harmonic oscillator is, unlike classical oscillators, non zero due to the Heisenberg Uncertainty Principle. Why am I blaming HUP for this? Well, picture this...
@@ -229,9 +224,9 @@ E \approx \frac{(\Delta p)^2}{2m} + \frac{1}{2} m \omega^2 (\Delta x)^2
 = \frac{\hbar^2}{8 m (\Delta x)^2} + \frac{1}{2} m \omega^2 (\Delta x)^2.
 $$
 
-![Figure 2](/assets/images/QHOGS.png)
+<img src="/assets/images/QHOGS.png" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;">
 
-**Figure 2**: The energy as a function of distance for the quantum harmonic oscillator.
+*Figure 2*: The energy as a function of distance for the quantum harmonic oscillator.
 
 
 
@@ -392,7 +387,7 @@ $$
 \alpha=\frac{e^2}{4\pi \epsilon_0\hbar c}\approx\frac{1}{137}
 $$
 
-which is the strength of the electromagnetic interaction. This constant is baked into nature and thecfact that it pops up here also, is a very encouraging sign that we are on the right track. This is the beauty of physics, where the mathematics magically leads you to the most fundamental constants in nature. The average displacement registered by the electron can be computationally derived through simulations, the details of which we will not get into in this blog, and it turns out to be:
+which is the strength of the electromagnetic interaction. This constant is baked into nature and the fact that it pops up here also, is a very encouraging sign that we are on the right track. This is the beauty of physics, where the mathematics magically leads you to the most fundamental constants in nature. The average displacement registered by the electron can be computationally derived through simulations, the details of which we will not get into in this blog, and it turns out to be:
 
 $$
 \bar{s}=\frac{s^2}{3a_0}
