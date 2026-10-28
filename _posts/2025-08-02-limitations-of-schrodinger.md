@@ -139,9 +139,10 @@ $$
 
 In this case, we find that the equation that was used to conserve charge in a seemingly unrelated context of electromagnetic theory also applies to Quantum Mechanics to conserve probability. 
 
-<p align="center">
-  <img src="/assets/images/Adobe Express - ContinuityEquation.gif" width="500" alt="The Continuity Equation"/>
+<img src="/assets/images/Adobe Express - ContinuityEquation.gif" alt="The Continuity Equation" style="width: 100%; display: block; margin: 2rem auto;">
+
 *Simulation 1: The Visualization of the Continuity Equation, with the magnitude of P (probability density) and J (probability current) for a wavepacket along in the x direction. P and J are measured for an enclosed volume as shown.*
+
 
 An important takeaway here is the fact that probability density is always positive. This is the beauty of physics, where all different scenarios are fundamentally governed by conservation mechanisms. Such unifying principles will be extensively discussed in future blogs.
 
