@@ -51,10 +51,10 @@ The general process is a series of subtractions and divisions. Siril first creat
 
 Then, Siril performs the magic with this equation:
 
-$$
+1256k_B12561256k_B1256
 Calibrated \hspace{0.1cm}Light=\frac{
 (Light\hspace{0.1cm}Frame -  Master\hspace{0.1cm}Dark) − Master\hspace{0.1cm}Bias}{(Master\hspace{0.1cm}Flat − Master\hspace{0.1cm}Bias)}
-$$
+1256k_B12561256k_B1256
 
 It sounds complex, but it's just commands through code, directing the software to:
 
@@ -70,23 +70,23 @@ Be advised: you can use any software, but my recommendation is Siril due to its 
 
 ## The Seahorse Nebula (1200 light-years away)
 
-![Figure 1](/assets/images/Fireworks.PNG)
+<img src="/assets/images/Fireworks.PNG" alt="Figure 1" style="width: 100%; display: block; margin: 2rem auto;">
 
 ## The Dumbbell Nebula (1360 light-years away)
 
-![Figure 2](/assets/images/dumbell.PNG)
+<img src="/assets/images/dumbell.PNG" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;">
 
 ## The Eagle Nebula (7000 light-years away)
 
-![Figure 3](/assets/images/EN.png)
+<img src="/assets/images/EN.png" alt="Figure 3" style="width: 100%; display: block; margin: 2rem auto;">
 
 ## The Trifid Nebula (5200 light-years away)
 
-![Figure 4](/assets/images/Capture.PNG)
+<img src="/assets/images/Capture.PNG" alt="Figure 4" style="width: 100%; display: block; margin: 2rem auto;">
 
 ## The M13 Globular Cluster
 
-![Figure 5](/assets/images/M13.png)
+<img src="/assets/images/M13.png" alt="Figure 5" style="width: 100%; display: block; margin: 2rem auto;">
 
 
 ## Close Range Astrophotography
@@ -99,11 +99,11 @@ Be advised: you can use any software, but my recommendation is Siril due to its 
 
 ## Jupiter
 
-![Figure 6](/assets/images/Jupiter.png)
+<img src="/assets/images/Jupiter.png" alt="Figure 6" style="width: 100%; display: block; margin: 2rem auto;">
 
 ## Saturn
 
-![Figure 7](/assets/images/Saturn.png)
+<img src="/assets/images/Saturn.png" alt="Figure 7" style="width: 100%; display: block; margin: 2rem auto;">
 
 ## What else can we know?
 
@@ -117,55 +117,55 @@ This bar-code is essentially photon intensity as a function of wavelength. So it
 
 This bar-code is a plot of the intensity (photon population) on the y-axis with wavelength on the x-axis. Let's understand how that is useful.
 
-![Figure 7](/assets/images/HD.png)
+<img src="/assets/images/HD.png" alt="Figure 7" style="width: 100%; display: block; margin: 2rem auto;">
 
-This is what ypu get when you point it towards something hot, dense and luminous. But, point it towards empty space in the universe, with a sensitive enough spectrograph and you would obtain a Planck distribution that peaks at a particular wavelength. 
+This is what you get when you point it towards something hot, dense and luminous. But, point it towards empty space in the universe, with a sensitive enough spectrograph and you would obtain a Planck distribution that peaks at a particular wavelength. 
 
 This would be a continuous, uniformly bright line if it were pointed towards a hot and dense object. We call this a continuous spectrum. A continuous spectrum is produced by a hot, dense object, such as the filament in an incandescent light bulb or the core of a star. In these environments, atoms are packed so tightly that their energy levels overlap and smear out. As a result, they emit light at all wavelengths, creating a smooth, continuous band of colors without any specific lines or dips.
 
-![Figure 8](/assets/images/CMB.png)
+<img src="/assets/images/CMB.png" alt="Figure 8" style="width: 100%; display: block; margin: 2rem auto;">
 
-What is this about !?!
+What is this about!?!
 
 Now, I will use two of the most simplest formulas in physics to give you a ball-park estimate of how wavelength can be connected with temperature The energy of a photon can be given by:
 
-$$
+1256k_B12561256k_B1256
 E=\frac{hc}{\lambda}
-$$
+1256k_B12561256k_B1256
 
-where $$\lambda$$ is the wavelength,
+where 1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256 is the wavelength,
 and this energy can be related to temperature in a statistical relation:
 
-$$
+1256k_B12561256k_B1256
 E=k_BT
-$$
+1256k_B12561256k_B1256
 
-where $k_B$ is the Boltzmann constant. Equating the two above equations gives us:
+where 1256k_B1256k_B1256k_B1256 is the Boltzmann constant. Equating the two above equations gives us:
 
-$$
+1256k_B12561256k_B1256
 \frac{hc}{\lambda}=k_BT
-$$
+1256k_B12561256k_B1256
 
 and solving for Temperature:
 
-$$
+1256k_B12561256k_B1256
 T=\frac{hc}{\lambda k_B}
-$$
+1256k_B12561256k_B1256
 
 This gives you a good back-of-the-envelope estimation of how temperature can be reinterpreted as a function of temperature. 
 
 Now that you have an intuition, we can move to a precise method which is the Wien's displacement law:
 
-$$
+1256k_B12561256k_B1256
 T = \frac{b}{\lambda_{\text{max}}}
-$$
+1256k_B12561256k_B1256
 
 which is basically the same thing, but the constant b absorbs all the constants in the previous estimation in a manner that is more consistent with experiment, with the emergent value being:
-$$
+1256k_B12561256k_B1256
 b=2.898 \times 10^{-3} \hspace{0.1cm}m⋅K
-$$
+1256k_B12561256k_B1256
 
-A very accurate spectrograph will give a value of $$\lambda$$ to be 1.06mm. With simple value-plugging you find that $T=2.7K$. Does that value ring a bell?
+A very accurate spectrograph will give a value of 1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256 to be 1.06mm. With simple value-plugging you find that 1256k_B1256T=2.7K1256k_B1256. Does that value ring a bell?
 
 It should, because you have picked up the Cosmic Microwave Background, and this is the temperature of universe! Is that not insane? We have measured the temperature of the UNIVERSE using O levels physics. The same analysis can be done when you zoom into a star or any other object, that's how powerful the simplest formulas of physics are, now imagine the secrets that more complex formulas can bring. And we are not done yet...because I have not even started the bar-code part yet. 
 
@@ -175,7 +175,7 @@ This argument should also make it clear as to why all stars of the same spectral
 
 I pointed the 10-inch telescope, with attached grating,  to Saturn and using a software called BASS Spectrum, I obtained the following graph. 
 
-![Figure 8](/assets/images/SaturnSS.png)
+<img src="/assets/images/SaturnSS.png" alt="Figure 8" style="width: 100%; display: block; margin: 2rem auto;">
 
 What are these dips? To understand that, we also need simple high-school-level physics knowledge (or A-levels physics at best). We need to interpret what a dip implies at first.
 
@@ -185,15 +185,15 @@ Let's think of the simplest atom we know: the Hydrogen atom: an electron orbitin
 
 Now, the change in energy between shells can be calculated from the Rydberg's relation.
 
-$$
+1256k_B12561256k_B1256
 \frac{1}{\lambda} = R_H \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)
-$$
+1256k_B12561256k_B1256
 
 where:
 
-$$\lambda$$ is the wavelength of the emitted or absorbed photon, $$R_H$$ is the Rydberg constant for hydrogen, with a value of approximately $$1.097 \times 10^7 \text{ m}^{-1}$$, $$n_1$$ is the integer representing the final energy level and $$n_2$$ is the integer representing the initial energy level, where $$n_2 > n_1$$.
+1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256 is the wavelength of the emitted or absorbed photon, 1256k_B12561256k_B1256R_H1256k_B12561256k_B1256 is the Rydberg constant for hydrogen, with a value of approximately 1256k_B12561256k_B12561.097 \times 10^7 \text{ m}^{-1}1256k_B12561256k_B1256, 1256k_B12561256k_B1256n_11256k_B12561256k_B1256 is the integer representing the final energy level and 1256k_B12561256k_B1256n_21256k_B12561256k_B1256 is the integer representing the initial energy level, where 1256k_B12561256k_B1256n_2 > n_11256k_B12561256k_B1256.
 
-So this implies that if the electron is to receive a photon of some highly specific wavelength $$\lambda$$, it would jump from shell $n_1$ to $n_2$, and the most crucial implication is that this wavelength is different from every transition and for every atom. And we can leverage this fact, and use it to develop fingerprints of atoms.
+So this implies that if the electron is to receive a photon of some highly specific wavelength 1256k_B12561256k_B1256\lambda1256k_B12561256k_B1256, it would jump from shell 1256k_B1256n_11256k_B1256 to 1256k_B1256n_21256k_B1256, and the most crucial implication is that this wavelength is different from every transition and for every atom. And we can leverage this fact, and use it to develop fingerprints of atoms.
 
 ## Let's Back Track
 
@@ -207,13 +207,13 @@ I found this absolutely incredible and the fact that we never even touched colle
 
 ## Spectrum of 68 Draconis
 
-![Figure 9](/assets/images/68.png)
+<img src="/assets/images/68.png" alt="Figure 9" style="width: 100%; display: block; margin: 2rem auto;">
 
-We also obtained a spectrum of 68-Draconis, which is a star in the Draco constellation. Now the graphs that I obtained begins to make sense, and you might notice a very prominent dip at $$\lambda=656nm$$. This wavelength exactly corresponds to the equivalent energy required for an electron in the hydrogen atom to move to shell n=2 to n=3. So while I took the readings, the hydrogen atoms of Saturn (with electrons in their second shell) absorbed some of the photons with wavelength of 656 nm, and the lens of the telescope felt this change, by registering fewer photons of that exact wavelength. Moreover, this magnitude of the dips also make it easy for us to estimate the composition of elements comprising of the Saturn. Most of it, understandably, is hydrogen and helium as they are the most abundant atoms in the universe and hydrogen's spectral lines are of particular interest to an astronomer.
+We also obtained a spectrum of 68-Draconis, which is a star in the Draco constellation. Now the graphs that I obtained begins to make sense, and you might notice a very prominent dip at 1256k_B12561256k_B1256\lambda=656nm1256k_B12561256k_B1256. This wavelength exactly corresponds to the equivalent energy required for an electron in the hydrogen atom to move to shell n=2 to n=3. So while I took the readings, the hydrogen atoms of Saturn (with electrons in their second shell) absorbed some of the photons with wavelength of 656 nm, and the lens of the telescope felt this change, by registering fewer photons of that exact wavelength. Moreover, this magnitude of the dips also make it easy for us to estimate the composition of elements comprising of the Saturn. Most of it, understandably, is hydrogen and helium as they are the most abundant atoms in the universe and hydrogen's spectral lines are of particular interest to an astronomer.
 
 Obviously, the same technique can be applied to study any celestial object and their chemical composition, making this one of the most powerful techniques in all of physics. 
 
-We can also determine recessional velocities of objects by using the same technique. We have discussed cosmological redshift in blog 4: it is a process in which the photons being emitted from distant objects have their wavelengths shifted towards the red region (increased) due to the recessional velocity of the objects from Earth. The cause of this redshift is discussed in blog 3 so feel free to read through that if you haven't already. This means that the entire spectrum is shifted to the right, and by measuring the amount of this shift, we can determine that change in wavelength and, hence, the corresponding recessional velocity. However, one needs a very good telescope and/or noise pollution-free skies to see the incredibly shuttle shift in wavelength, and our humble  equipment fails us here, despite attempts. It remains a work in progress, and through this blog series, I will keep you updated. Until next time, keep on physicsing.
+We can also determine recessional velocities of objects by using the same technique. We have discussed cosmological redshift in blog 4: it is a process in which the photons being emitted from distant objects have their wavelengths shifted towards the red region (increased) due to the recessional velocity of the objects from Earth. The cause of this redshift is discussed in blog 3 so feel free to read through that if you haven't already. This means that the entire spectrum is shifted to the right, and by measuring the amount of this shift, we can determine that change in wavelength and, hence, the corresponding recessional velocity. However, one needs a very good telescope and/or noise pollution-free skies to see the incredibly subtle shift in wavelength, and our humble  equipment fails us here, despite attempts. It remains a work in progress, and through this blog series, I will keep you updated. Until next time, keep on physicsing.
     
 ## References
 C.R. Kitchin, Astrophysical Techniques, 5th Edition, CRC Press (2013). — A comprehensive overview of modern observational techniques, including telescopes, detectors, and spectroscopy methods.
