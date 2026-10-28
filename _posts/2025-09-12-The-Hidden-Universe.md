@@ -147,7 +147,7 @@ $$
 v = H_0 d
 $$
 
-This law states that two objects in the universe, separated by a distance d, move away from each other with velocity v. 1256H_01256 is the Hubble expansion which, in the current epoch, is approximately:  
+This law states that two objects in the universe, separated by a distance d, move away from each other with velocity v. $$H_0$$ is the Hubble expansion which, in the current epoch, is approximately:  
 
 $$
 H_0 \approx 70 \,\text{km/s/Mpc}
@@ -164,7 +164,7 @@ So two objects separated by 1 Megaparsec move away from each other at a speed of
 
 A famous analogy of visualizing the effect of this expansion is by thinking of the universe like a balloon with bodies as dots on its surface. If someone were to blow into the balloon, the dots move away from each other. It's not because the dots move along the surface by magic, but it’s because the very fabric that defines their coordinates is expanding. Note that this implies that every body recesses from every other body and in the frame of every object, it appears to be at the center of this expansion, though all frames are equally relevant.  
 
-There was another twist in the tale following the rapid technological advancements. In the early 1990s, two separate teams using Type Ia supernovae as standard candles independently discovered that the expansion was not constant, but accelerating. This implied that \\( H_0 \\) increases with time:  
+There was another twist in the tale following the rapid technological advancements. In the early 1990s, two separate teams using Type Ia supernovae as standard candles independently discovered that the expansion was not constant, but accelerating. This implied that $$H_0$$ increases with time:  
 
 $$
 H_0 \rightarrow H_0(t)
