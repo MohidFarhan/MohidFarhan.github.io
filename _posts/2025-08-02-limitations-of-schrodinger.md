@@ -16,21 +16,22 @@ The well-known Schrödinger equation is given by:
 
 $$
 i\hbar \frac{\partial}{\partial t} \psi(\mathbf{r}, t) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\mathbf{r}, t) \right] \psi(\mathbf{r}, t)
-$$&nbsp; -----------(1)  
-
+\tag{1}
+$$
 
 This equation is a cornerstone of Quantum Mechanics. It provides accurate predictions for many atomic and molecular systems. In essence, it is an energy conservation equation which states the total energy operator of a particle is the sum of its kinetic energy operator and potential energy operator. The first term on the left-hand side arises from the time-dependent Schrödinger equation which captures the evolution of the state. It is a first-order partial differential equation, which means that once the wavefunction $$\psi(\mathbf{r}, t)$$ is known, we can determine the evolution of the particle with, for time-independent potential, using:
 
 $$
 \psi(\mathbf{r}, t) = \psi(\mathbf{r}, 0) e^{-\frac{iHt}{\hbar}}
-$$&nbsp; -----------(2)
-
+\tag{2}
+$$
 
 The probability density associated with the wavefunction is given by:
 
 $$
 \rho(\mathbf{r}, t) = |\psi(\mathbf{r}, t)|^2
-$$&nbsp; -----------(3)
+\tag{3}
+$$
 
 With the radial probability being:
 
@@ -40,8 +41,7 @@ $$
 
 This gives the probability of finding the electron at a distance $$r$$ from the nucleus. Below is a plot showing how the wavefunction, probability density, and radial probability behave for the ground-state hydrogen atom—the simplest atom—with $$a_0$$ being the Bohr radius.
 
-![Figure 1](/assets/images/B1P1.png)  
-
+<img src="/assets/images/B1P1.png" alt="Figure 1" style="width: 100%; display: block; margin: 2rem auto;">
 *Figure 1*: The wavefunction, probability density, and radial probability for the ground-state hydrogen atom.
 
 ## The Continuity Equation for the Schrödinger Equation
@@ -68,71 +68,80 @@ Remarkably, the same treatment can be applied to the Schrödinger equation to co
 
 $$
 i\hbar \frac{\partial \psi}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi
-$$&nbsp; -----------(4)
+\tag{4}
+$$
 
 And taking the complex conjugate of both sides, we get:
 
 $$
 -i\hbar \frac{\partial \psi^\star}{\partial t} = \left(-\frac{\hbar^2}{2m} \nabla^2 + V \right)\psi^\star
-$$&nbsp; -----------(5)
+\tag{5}
+$$
 
 Now multiply Eq. (4) by $$\psi^\star$$ and Eq. (5) by $$\psi$$:
 
 $$
 \psi^\star i\hbar \frac{\partial \psi}{\partial t} = \psi^\star \left( -\frac{\hbar^2}{2m} \nabla^2 \psi + V\psi \right)
-$$&nbsp; -----------(6)
+\tag{6}
+$$
 
 $$
 \psi (-i\hbar) \frac{\partial \psi^\star}{\partial t} = \psi \left( -\frac{\hbar^2}{2m} \nabla^2 \psi^\star + V\psi^\star \right)
-$$&nbsp; --------(7)
+\tag{7}
+$$
 
 Subtracting the two equations:
 
 $$
 i\hbar \left( \psi^\star \frac{\partial \psi}{\partial t} + \psi \frac{\partial \psi^\star}{\partial t} \right) = -\frac{\hbar^2}{2m} \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right)
-$$&nbsp; -----------(8)
+\tag{8}
+$$
 
 Note that the terms containing the potential $$V$$ cancel out. We now divide by $$i\hbar$$:
 
 $$
 \frac{\partial}{\partial t} (\psi^\star \psi) - \nabla \cdot \left[ \frac{-i\hbar}{2m} \left( \psi^\star \nabla \psi - \psi \nabla \psi^\star \right) \right] = 0
-$$ ----------(8b)
+\tag{8b}
+$$
 
 Recognizing the first term on the left-hand side as the time derivative of the probability density:
 
 $$
 \frac{\partial}{\partial t} (\psi^\star \psi) = \frac{\partial \rho}{\partial t}
-$$ &nbsp; -----------(9)
+\tag{9}
+$$
 
 The second left-hand side term becomes the divergence of current density $$\mathbf{j}$$:
 
 $$
 \nabla \cdot \left( \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star) \right)
-$$ &nbsp; -----------(10)
+\tag{10}
+$$
 
 Substituting (9) and (10) into (8b), we obtain the continuity equation:
 
 $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0
-$$ &nbsp; -----------(11)
+\tag{11}
+$$
 
 Where:
 
 $$
 \rho = \psi^\star \psi
-$$ &nbsp; -----------(12)
+\tag{12}
+$$
 
 $$
 \mathbf{j} = \frac{\hbar}{2mi} (\psi^\star \nabla \psi - \psi \nabla \psi^\star)
-$$ &nbsp; -----------(13)
+\tag{13}
+$$
 
 In this case, we find that the equation that was used to conserve charge in a seemingly unrelated context of electromagnetic theory also applies to Quantum Mechanics to conserve probability. 
 
-<!-- Animation of vacuum fluctuations -->
 <p align="center">
   <img src="/assets/images/Adobe Express - ContinuityEquation.gif" width="500" alt="The Continuity Equation"/>
-  <br><em>Simulation 1: The Visualization of the Continuity Equation, with the magnitude of P (probability density) and J (probability current) for a wavepacket along in the x direction. P and J are measured for an enclosed volume as shown.</em>
-</p>
+*Simulation 1: The Visualization of the Continuity Equation, with the magnitude of P (probability density) and J (probability current) for a wavepacket along in the x direction. P and J are measured for an enclosed volume as shown.*
 
 An important takeaway here is the fact that probability density is always positive. This is the beauty of physics, where all different scenarios are fundamentally governed by conservation mechanisms. Such unifying principles will be extensively discussed in future blogs.
 
@@ -144,31 +153,34 @@ We begin with the relativistic energy-momentum relation:
 
 $$
 E^2 = p^2c^2 + m^2c^4
-$$   -----------(14)
+\tag{14}
+$$
 
 Now we promote energy and momentum to operators in quantum mechanics:
 
 $$
 E \rightarrow i\hbar \frac{\partial}{\partial t}, \quad \mathbf{p} \rightarrow -i\hbar \nabla
-$$   -----------(15)
+\tag{15}
+$$
 
 Applying the operators in (15) and a wavefunction $$\psi$$ onto (14), we get:
 
 $$
 (i\hbar \frac{\partial}{\partial t})^2 \psi = \left[ (-i\hbar \nabla)^2 c^2 + m^2 c^4 \right] \psi
-$$   
+$$ 
 
 This simplifies to:
 
 $$
 -\hbar^2 \frac{\partial^2 \psi}{\partial t^2} = \left[ -\hbar^2 c^2 \nabla^2 + m^2 c^4 \right] \psi
-$$   
+$$ 
 
 Rearranging terms gives:
 
 $$
 \frac{\partial^2 \psi}{\partial t^2} - c^2 \nabla^2 \psi + \left( \frac{m^2 c^4}{\hbar^2} \right) \psi = 0
-$$ --------(16) 
+\tag{16}
+$$
 
 This is the Klein-Gordon equation in its expanded form.
 
@@ -176,7 +188,7 @@ We can now write it in a more compact and relativistically manifest form:
 
 $$
 \left( \frac{1}{c^2} \frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{m^2 c^2}{\hbar^2} \right) \psi = 0
-$$  
+$$ 
 
 This equation, developed by Oskar Klein and Walter Gordon, is Lorentz invariant and thus compatible with special relativity. However, in doing so, we have introduced other glaring issues. First of all, it is second-order in time, meaning that the wavefunction $$\psi(\mathbf{r}, t)$$ alone is not sufficient to determine the system's evolution. This violates a fundamental postulate of quantum mechanics, which states that the dynamics of a system can be determined if its wavefunction is known. But here, especially for a relativistically relevant case, we require complete information about the wavefunction and its first-order derivative to determine dynamics. Also, this equation does not mention spin or predict antiparticles, painting an incomplete picture. Among its flaws is the failure to accurately reproduce the energy levels of hydrogen and the fine-structure constant. It might, at this point, appear that I have personal issues with this equation, though I assure you that is not the case. And unfortunately, its problems do not stop here either, as deriving the continuity equation from the Klein-Gordon equation reveals another critical discrepancy.
 
@@ -184,7 +196,7 @@ This equation, developed by Oskar Klein and Walter Gordon, is Lorentz invariant 
 
 To visualize why the Klein-Gordon equation leads to interpretational difficulties, consider the energy-momentum relation:
 
-![Figure 2: Energy dispersion comparison](/assets/images/B1P10.png)
+<img src="/assets/images/B1P10.png" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;">
 
 *Figure 2*: **Energy dispersion relations for relativistic wave equations.** Left: The non-relativistic Schrödinger parabola ($$E = p^2/2m + mc^2$$) remains positive-definite. Center: The Klein-Gordon hyperbola ($$E^2 = p^2c^2 + m^2c^4$$) necessarily includes negative-energy solutions (red shaded region), which caused the probability interpretation to fail. Right: Dirac's linearization preserves the same dispersion but interprets negative states via the "Dirac Sea."
 
@@ -205,49 +217,52 @@ Now multiply the former equation with $$\psi^\star$$ and the latter with $$\psi$
 
 $$
 \psi^\star \frac{\partial^2 \psi}{\partial t^2} - \psi \frac{\partial^2 \psi^\star}{\partial t^2} - c^2 \left( \psi^\star \nabla^2 \psi - \psi \nabla^2 \psi^\star \right) = 0
-$$  
+$$ 
 
 Using the product rule identities, this becomes:
 
 $$
 \frac{\partial}{\partial t} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right) + c^2 \nabla \cdot \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right) = 0
-$$   
+$$ 
 
 To make the dimensions consistent with the continuity equation, we define the probability density and current as:
 
 $$
 \rho = \frac{i\hbar}{2mc^2} \left( \psi^\star \frac{\partial \psi}{\partial t} - \psi \frac{\partial \psi^\star}{\partial t} \right)
-$$   
+$$ 
 
 $$
 \mathbf{j} = \frac{i\hbar}{2m} \left( \psi \nabla \psi^\star - \psi^\star \nabla \psi \right)
-$$   
+$$ 
 
 We now obtain the continuity equation in the usual form:
 
 $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{j} = 0
-$$  
+$$ 
 
 This looks familiar — but there's a problem. The expression for $$\rho$$ yields a negative value if the second term dominates the first. That is:
 
 $$
 \rho \leq 0 \quad \text{if} \quad |\psi \frac{\partial \psi^\star}{\partial t}| \geq |\psi^\star \frac{\partial \psi}{\partial t}|
-$$  
+$$ 
 
 This is the case when a plane-wave solution of $$\psi$$ is applied. Note that this is an oversimplification, since the deep-rooted cause of negative probability density were the negative energy solutions. Since both causes lead to the same result, i.e. negative probabilities, I have stuck to the simpler explanation. One can see from (14) that negative energy solutions are not only allowed but necessary, and this equation fails to make sense of such solutions. Moreover, negative probability density violates the probabilistic interpretation of quantum mechanics, because probability density must always be non-negative. So, in trying to make our equation relativistically correct, we have introduced a fatal flaw: the Klein-Gordon equation allows negative probabilities. And not to mention all the other red flags that we associated with this equation, but a negative probability density is considered blasphemy in quantum mechanics. 
 
 What now?
----
 
 ## Dirac's Ingenious Insight 
 Paul Dirac, a brilliant British physicist, tackled the problems of the Klein-Gordon equation by proposing a linear form of the energy equation:
 
-$$E = (\alpha_x p_x + \alpha_y p_y + \alpha_z p_z)c + \beta mc^2$$
+$$
+E = (\alpha_x p_x + \alpha_y p_y + \alpha_z p_z)c + \beta mc^2
+$$
 
 Now, squaring both sides:
 
-$$E^2 = \left((\alpha_x p_x + \alpha_y p_y + \alpha_z p_z)c + \beta mc^2\right)^2$$
+$$
+E^2 = \left((\alpha_x p_x + \alpha_y p_y + \alpha_z p_z)c + \beta mc^2\right)^2
+$$
 
 Expanding the square:
 
@@ -259,7 +274,6 @@ E^2 &= \alpha_x^2 p_x^2 c^2 + \alpha_y^2 p_y^2 c^2 + \alpha_z^2 p_z^2 c^2 + \bet
 &\quad + (\alpha_y \beta + \beta \alpha_y) p_y m c^3 + (\alpha_z \beta + \beta \alpha_z) p_z m c^3
 \end{aligned}
 $$
-
 
 In order for this expression to reduce to the relativistic energy relation $$E^2 = p^2 c^2 + m^2 c^4$$, a number of constraints must be satisfied, as the last six terms must vanish.
 Dirac imposed the following constraints:
@@ -554,8 +568,6 @@ $$
 i\hbar \frac{\partial \psi}{\partial t} = -i\hbar c \left( \alpha_x \frac{\partial \psi}{\partial x} + \alpha_y \frac{\partial \psi}{\partial y} + \alpha_z \frac{\partial \psi}{\partial z} \right) + \beta m c^2 \psi
 $$
 
----
-
 ## Covariant Form of the Dirac Equation
 
 We have obtained the time-dependent Dirac equation, but this form is not readily found in textbooks. To simplify, we assume natural units where $$\hbar = c = 1$$.
@@ -604,11 +616,10 @@ $$
 A(\alpha) = \sum_{i=0}^n \alpha^i A^{(i)} = A^{(0)} + \alpha A^{(1)} + \alpha^2 A^{(2)} + \cdots + \alpha^n A^{(n)}
 $$
 
-When $$\alpha \geq 1$$, the series diverges, rendering all of our known analytical treatments useless. Our fundamental understanding of any force relies on its coupling being comfortably below 1, but as shown in Figure 4, that is not the case.
+When $$\alpha \geq 1$$, the series diverges, rendering all of our known analytical treatments useless. Our fundamental understanding of any force relies on its coupling being comfortably below 1, but as shown in Figure 3, that is not the case.
 
-![Figure 3](/assets/images/B1P11.jpg)  
-
-Figure 3: The running of the strong coupling constant $$\alpha_s(Q)$$. At energy scales below $$\Lambda_{QCD} \approx 250$$ MeV (red shaded region), the coupling exceeds unity and perturbation theory fails (confinement). At high energies (green region), the coupling weakens (asymptotic freedom), allowing perturbative calculations. The divergence at $$Q \to \Lambda_{QCD}$$ is the "Landau Pole" where the theory becomes strongly coupled.
+<img src="/assets/images/B1P11.png" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;"> 
+*Figure 3: The running of the strong coupling constant $$\alpha_s(Q)$$. At energy scales below $$\Lambda_{QCD} \approx 250$$ MeV (red shaded region), the coupling exceeds unity and perturbation theory fails (confinement). At high energies (green region), the coupling weakens (asymptotic freedom), allowing perturbative calculations. The divergence at $$Q \to \Lambda_{QCD}$$ is the "Landau Pole" where the theory becomes strongly coupled.*
 
 So the next time you are part of a nuclear physics lecture, know that every single potential and equation that involves the strong nuclear force is an approximation that fits experiments and has not been analytically derived. 
 And who knows? Maybe if you can figure out a way to solve problems the same way Dirac did, you might be able to figure this out. At that point, you would have a realistic shot of being nominated as a Nobel Prize laureate. 
