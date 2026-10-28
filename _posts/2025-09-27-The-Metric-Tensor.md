@@ -24,7 +24,7 @@ To understand tensors, let's first forget what we know and start from scratch. W
 
 Let's begin with a simple 2D map where you have to go from one point to another, as shown in figure 1.
 
-![Figure 1](/assets/images/B5P1.png)  
+<img src="/assets/images/B5P1.png" alt="Figure 1" style="width: 100%; display: block; margin: 2rem auto;">  
 
 *Figure 1*: A vector in a Square Grid.
 
@@ -38,7 +38,7 @@ But, we still do not know how far away they actually are to each other since we 
 
 ## A Vector in a Rectangular Grid
 
-![Figure 2](/assets/images/B5P2.png)  
+<img src="/assets/images/B5P2.png" alt="Figure 2" style="width: 100%; display: block; margin: 2rem auto;">  
 
 *Figure 2*: A vector in a Rectangular Grid.
 
@@ -74,13 +74,13 @@ Here $$g_{xx}$$ and $$g_{yy}$$ are metric scalars for x and y axis respectively 
 
 ## The Oblique Grid
 
-![Figure 3](/assets/images/B5P3.png) 
+<img src="/assets/images/B5P3.png" alt="Figure 3" style="width: 100%; display: block; margin: 2rem auto;"> 
 
 *Figure 3*: A vector in an Oblique Grid.
 
-So, with the help of the two-numbered metric, we can effectively map the rectangular grid onto the square grid. But, now, let's take things up another notch, and assume the geometry of the grid to be as shown in figure 3. Well, a lot has changed now. Since we no longer have a right-angle between x and y axis, we not longer have a right angled triangle, on which we can apply the Pythagorean theorem. So, what now? Moreover, how many metric scalars do you, now, need to know?
+So, with the help of the two-numbered metric, we can effectively map the rectangular grid onto the square grid. But, now, let's take things up another notch, and assume the geometry of the grid to be as shown in figure 3. Well, a lot has changed now. Since we no longer have a right-angle between x and y axis, we no longer have a right angled triangle, on which we can apply the Pythagorean theorem. So, what now? Moreover, how many metric scalars do you, now, need to know?
 
-![Figure 4](/assets/images/B5P4.png) 
+<img src="/assets/images/B5P4.png" alt="Figure 4" style="width: 100%; display: block; margin: 2rem auto;"> 
 
 *Figure 4*: Completing the right-angled triangle.
 
@@ -181,7 +181,7 @@ Let's unpack this. First of all $$\mu$$ and $$\nu$$ are indices which we will su
 
 So, is this the most general form? Is this formula sufficient for converting any geometry into distance? 
 
-![Figure 5](/assets/images/B5P5.png) 
+<img src="/assets/images/B5P5.png" alt="Figure 5" style="width: 100%; display: block; margin: 2rem auto;"> 
 
 *Figure 5*: A Chaotic Grid.
 
@@ -205,7 +205,7 @@ Now that the mystery surrounding the tensor and matrix tensor is cleared, let's 
 
 We are now equipped to discuss curvature in space. Firstly, why should we bother? Can we not look at an object and know it's curvature. Not really, the human brain is pretty bad at deducing curvature. Let's look at the Earth as an example. How do we know that the surface of the Earth is curved? It's because we can not map it onto a 2D plane with a uniform metric. So most world maps lie to you. 
 
-![Figure 6](/assets/images/B5P6.png) 
+<img src="/assets/images/B5P6.png" alt="Figure 6" style="width: 100%; display: block; margin: 2rem auto;"> 
 
 *Figure 6*: The World Map (adapted from Vecteezy). 
 
@@ -223,9 +223,9 @@ The simulation only had one dimension of space, but in reality, there are three 
 
 ## Application to Cosmology
 
-Earlier, we were trying to map a 3D object onto 2D, now it's 4D sapcetime that we are dealing with. The formalism remains the same but the complexity now goes up a notch. 
+Earlier, we were trying to map a 3D object onto 2D, now it's 4D spacetime that we are dealing with. The formalism remains the same but the complexity now goes up a notch. 
 
-The mathematical procedure involves computing Kristoffel symbols, Riemaan Tensors, Ricci Tensors and Ricci Scalar (R), with a non-zero Ricci scalar resulting in flat spacetime and conversely, if $$R \neq 0$$, spacetime is curved.
+The mathematical procedure involves computing Christoffel symbols, Riemann Tensors, Ricci Tensors and Ricci Scalar (R), with a non-zero Ricci scalar resulting in flat spacetime and conversely, if $$R \neq 0$$, spacetime is curved.
 
 To learn more about the procedure, visit my github repository where I have coded everything in Mathematica, and perhaps we’ll dive into those details in a future blog. 
 
