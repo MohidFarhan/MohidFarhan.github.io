@@ -147,10 +147,9 @@ $$
 which is the defining equation of the 3-sphere of radius r embedded in 4 dimensions.
 
 <!-- The Sphereical Universe -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - SphericalUniversePicture.gif" width="500" alt="The Continuity Equation"/>
-  <br><em>Figure 1: A Visualization of the Spherical Universe embedded in the aforementioned mathematics. It can be identified by 2 intersecting smiles or 2 intersecting frowns.</em>
-</p>
+<img src="/assets/images/Adobe Express - SphericalUniversePicture.gif" alt="The Continuity Equation" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Figure 1: A Visualization of the Spherical Universe embedded in the aforementioned mathematics. It can be identified by 2 intersecting arcs curving inwards or 2 intersecting arcs curving outwards.*
 
 Technically, this pattern can be extended to whatever dimensions you want, but for our purposes, we can stop here. This encapsulates the beauty of mathematics, since it does not fail even where our intuition does. There is no intuitive way we can visualize anything with 4 dimensions or more, but by following mathematical patterns, we see that mathematics has no limits.  Now, let's define the partial derivatives for all the Euclidean parameters with respect to the polar coordinate parameters as they will help us in constructing the matrix later on.
 
@@ -361,10 +360,9 @@ g_{\mu\nu} =
 $$
 
 <!-- The Hyperbolic Universe -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - HyperbolicUniversePicture.gif" width="500" alt="The Continuity Equation"/>
-  <br><em>Figure 2: The Hyperbolic Universe can be identified by an intersecting frown and smile.</em>
-</p>
+<img src="/assets/images/Adobe Express - HyperbolicUniversePicture.gif" alt="The Continuity Equation" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Figure 2: The Hyperbolic Universe can be identified by two arcs intersecting at a saddle point.*
 
 The underlying geometry for a hyperbolic universe is the mathematical dual of the spherical case, and the derivation is left to the reader.
 
@@ -417,10 +415,9 @@ $$
 Now, we need and all-encompassing form of the metric that includes all 3 geometries.
 
 <!-- Animation of vacuum fluctuations -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - FlatUniverse.gif" width="500" alt="The Continuity Equation"/>
-  <br><em>Simulation 1: The effect of the scale factor on the proper distance between two points in flat space. Remarkably, this simulation applies to all three curvature cases, because any expanding universe, when viewed closely enough, can be approximated as flat. This illustrates how the scale factor locally shapes the geometry of any universe.</em>
-</p>
+<img src="/assets/images/Adobe Express - FlatUniverse.gif" alt="The Continuity Equation" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 1: The effect of the scale factor on the proper distance between two points in flat space. Remarkably, this simulation applies to all three curvature cases, because any expanding universe, when viewed closely enough, can be approximated as flat. This illustrates how the scale factor locally shapes the geometry of any universe.*
 
 ### Coordinate Transformation and the Final FLRW Metric
 
