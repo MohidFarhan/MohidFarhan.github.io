@@ -168,7 +168,7 @@ $$
 e^{\Big(+\frac{i m c^2}{\hbar}t\Big)}.
 $$
 
-Recombining into the full Dirac spinor, we the time-evolved form of the Dirac spinor:
+Recombining into the full Dirac spinor, we get the time-evolved form of the Dirac spinor:
 
 $$
 \psi(t)=
@@ -182,7 +182,7 @@ $$
 
 ## Splitting the Dirac Spinor
 
-This recombined form looks nice mathematically, but fails to encapsulate a crucial subtlety. For us to not miss that subtlely, we need to keep the top 2 components (positive energy solutions) separated from the bottom 2 (negative energy solutions). Let's start with the positive energy solution, which can be written as:
+This recombined form looks nice mathematically, but fails to encapsulate a crucial subtlety. For us to not miss that subtlety, we need to keep the top 2 components (positive energy solutions) separated from the bottom 2 (negative energy solutions). Let's start with the positive energy solution, which can be written as:
 
 $$
 \psi=\begin{pmatrix}
@@ -283,10 +283,9 @@ It also now makes sense to interpret antiparticles as particles going back in ti
 In quantum field theory, the charge operator does exactly this: it converts a particle to its antiparticle by reversing its charge. 
 
 <!-- The Famous Feynman Interpretation of antiparticles -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - B8A1.gif" width="500" alt="The Cosmological Redshift"/>
-  <br><em>Simulation 1: The famous Feynman interpretation of antimatter as matter traveling back in time.</em>
-</p>
+<img src="/assets/images/Adobe Express - B8A1.gif" alt="The Cosmological Redshift" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 1: The famous Feynman interpretation of antimatter as matter traveling back in time.*
 
 $$
 \hat{C}\psi=\bar{\psi}
@@ -311,25 +310,22 @@ The complex exponent always shows rotation. A complex exponent $$e^{i \theta}$$ 
 ## Interpreting matter type using the complex plane
 
 <!-- The Famous Feynman Interpretation of antiparticles -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - B8A2.gif" width="500" alt="The Cosmological Redshift"/>
-  <br><em>Simulation 2: The essence of a spinor, which is a rapidly spinning entity in the complex plane. As implied, anti-clockwise rotations (antimatter) can be interpret as clockwise rotations (matter) going back in time.</em>
-</p>
+<img src="/assets/images/Adobe Express - B8A2.gif" alt="The Cosmological Redshift" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 2: The essence of a spinor, which is a rapidly spinning entity in the complex plane. As implied, anti-clockwise rotations (antimatter) can be interpret as clockwise rotations (matter) going back in time.*
 
 ## Interpreting spin configuration using flagpoles
 
 <!-- The Famous Feynman Interpretation of antiparticles -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - B8P3.gif" width="500" alt="The Cosmological Redshift"/>
-  <br><em>Simulation 3: The flag poles show spin configurations. Here the two basis states are shown. These basis can mix in any proportion to give any spin configuration.</em>
-</p>
+<img src="/assets/images/Adobe Express - B8P3.gif" alt="The Cosmological Redshift" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 3: The flag poles show spin configurations. Here the two basis states are shown. These basis can mix in any proportion to give any spin configuration.*
 
 ## Interpreting all components of the Dirac Spinor
 
 <!-- The Famous Feynman Interpretation of antiparticles -->
-<p align="center">
-  <img src="/assets/images/Adobe Express - DiracSpinorFlags.gif" width="500" alt="The Cosmological Redshift"/>
-  <br><em>Simulation 4: Leveraging the flagpoles analogy to visualize all 4 components of a dirac spinor in a complex plane. Simulation 3 shows that the poles give insights about the spin configuration and here it is shown that the flag rotation distinguishes matter from antimatter. Therefore, this powerful analogy helps us to visualize all components of a Dirac Spinor.</em>
-</p>
+<img src="/assets/images/Adobe Express - DiracSpinorFlags.gif" alt="The Cosmological Redshift" style="width: 100%; display: block; margin: 2rem auto;">
+
+*Simulation 4: Leveraging the flagpoles analogy to visualize all 4 components of a dirac spinor in a complex plane. Simulation 3 shows that the poles give insights about the spin configuration and here it is shown that the flag rotation distinguishes matter from antimatter. Therefore, this powerful analogy helps us to visualize all components of a Dirac Spinor.*
 
 So, this was just a refresher on the implications of the Dirac equation. In part 2, we will dive into the Lagrangian of this Dirac field and play with it for a bit. Until then, keep on physicsing
